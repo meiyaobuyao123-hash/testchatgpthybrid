@@ -1,0 +1,291 @@
+{
+  "as_of": "2026-07-08",
+  "source": "https://gamma-api.polymarket.com/events",
+  "params": {
+    "limit": 20,
+    "offset": "0..1980",
+    "order": "volume1mo",
+    "ascending": "false"
+  },
+  "rows_fetched": 2000,
+  "sum_volume1mo": 18607532901.657818,
+  "last_event_volume1mo": 2269681.5268410016,
+  "topics": [
+    {
+      "date": "2026-07-08",
+      "topic": "Sports",
+      "volume1mo": 6988118485.783855,
+      "share_pct": 37.55531978751066,
+      "event_count": 1219,
+      "example": {
+        "title": "World Cup Winner ",
+        "volume1mo": 909679381.6176229,
+        "tags": [
+          [
+            "Sports",
+            "sports"
+          ],
+          [
+            "Soccer",
+            "soccer"
+          ],
+          [
+            "FIFA World Cup",
+            "fifa-world-cup"
+          ],
+          [
+            "2026 FIFA World Cup",
+            "2026-fifa-world-cup"
+          ],
+          [
+            "Hide From New",
+            "hide-from-new"
+          ],
+          [
+            "Tournament Futures",
+            "wc-tournament-futures"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Politics",
+      "volume1mo": 3956880301.391687,
+      "share_pct": 21.264937820097327,
+      "event_count": 228,
+      "example": {
+        "title": "New York City Mayoral Election",
+        "volume1mo": 304055908.8795998,
+        "tags": [
+          [
+            "nyc",
+            "nyc"
+          ],
+          [
+            "NYC Mayor",
+            "nyc-mayor"
+          ],
+          [
+            "Macro Election 2",
+            "macro-election-2"
+          ],
+          [
+            "World Elections",
+            "world-elections"
+          ],
+          [
+            "mayor",
+            "mayor"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "US Election",
+            "us-presidential-election"
+          ],
+          [
+            "Mayoral Elections",
+            "mayoral-elections"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Crypto",
+      "volume1mo": 2403369254.308203,
+      "share_pct": 12.916109121022043,
+      "event_count": 299,
+      "example": {
+        "title": "What price will Bitcoin hit in 2025?",
+        "volume1mo": 118546584.85059871,
+        "tags": [
+          [
+            "Crypto",
+            "crypto"
+          ],
+          [
+            "Crypto Prices",
+            "crypto-prices"
+          ],
+          [
+            "Bitcoin",
+            "bitcoin"
+          ],
+          [
+            "Hit Price",
+            "hit-price"
+          ],
+          [
+            "Yearly",
+            "yearly"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Business/Economy",
+      "volume1mo": 2194396498.0344768,
+      "share_pct": 11.793054509869867,
+      "event_count": 48,
+      "example": {
+        "title": "Fed decision in January?",
+        "volume1mo": 581627249.1208935,
+        "tags": [
+          [
+            "fomc",
+            "fomc"
+          ],
+          [
+            "Fed Rates",
+            "fed-rates"
+          ],
+          [
+            "Economy",
+            "economy"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "Economic Policy",
+            "economic-policy"
+          ],
+          [
+            "Jerome Powell",
+            "jerome-powell"
+          ],
+          [
+            "Fed",
+            "fed"
+          ],
+          [
+            "Finance",
+            "finance"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Geopolitics",
+      "volume1mo": 1966208914.0428681,
+      "share_pct": 10.566736194606921,
+      "event_count": 133,
+      "example": {
+        "title": "US strikes Iran by...?",
+        "volume1mo": 516640404.2881326,
+        "tags": [
+          [
+            "Parent For Derivative",
+            "parent-for-derivative"
+          ],
+          [
+            "HFC",
+            "hfc"
+          ],
+          [
+            "Iran",
+            "iran"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "Middle East",
+            "middle-east"
+          ],
+          [
+            "World",
+            "world"
+          ],
+          [
+            "Geopolitics",
+            "geopolitics"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Culture",
+      "volume1mo": 644592144.233728,
+      "share_pct": 3.464146201650939,
+      "event_count": 44,
+      "example": {
+        "title": "Who will die in Stranger Things: Season 5?",
+        "volume1mo": 83673427.37034264,
+        "tags": [
+          [
+            "Movies",
+            "movies"
+          ],
+          [
+            "Culture",
+            "pop-culture"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Unclassified",
+      "volume1mo": 278066655.16817707,
+      "share_pct": 1.4943768023293569,
+      "event_count": 8,
+      "example": {
+        "title": "Will Zelenskyy wear a suit before July?",
+        "volume1mo": 241831335.91530207,
+        "tags": [
+          [
+            "Celebrities",
+            "celebrities"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Tech & Science",
+      "volume1mo": 175900648.6948009,
+      "share_pct": 0.9453195629127666,
+      "event_count": 21,
+      "example": {
+        "title": "Which company has the best AI model end of January?",
+        "volume1mo": 28071074.73501301,
+        "tags": [
+          [
+            "Tech",
+            "tech"
+          ],
+          [
+            "Grok",
+            "grok"
+          ],
+          [
+            "AI",
+            "ai"
+          ],
+          [
+            "Gemini 3",
+            "gemini-3"
+          ],
+          [
+            "Big Tech",
+            "big-tech"
+          ],
+          [
+            "OpenAI",
+            "openai"
+          ]
+        ]
+      }
+    }
+  ]
+}
