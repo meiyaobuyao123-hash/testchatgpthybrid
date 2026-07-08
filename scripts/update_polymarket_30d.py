@@ -274,22 +274,25 @@ def write_current(summary: dict) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     current_csv = DATA_DIR / "current.csv"
     current_json = DATA_DIR / "current.json"
+    rows = current_rows_from_summary(summary, include_total=True)
 
     with current_csv.open("w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["date", "topic", "volume1mo", "share_pct", "event_count"])
-        for row in summary["topics"]:
+        for row in rows:
             writer.writerow(
                 [
                     row["date"],
                     row["topic"],
-                    f"{row['volume1mo']:.8f}",
-                    f"{row['share_pct']:.8f}",
+                    row["volume1mo"],
+                    row["share_pct"],
                     row["event_count"],
                 ]
             )
 
-    current_json.write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    current_payload = dict(summary)
+    current_payload["topics_with_total"] = rows
+    current_json.write_text(json.dumps(current_payload, indent=2), encoding="utf-8")
 
 
 def update_history(summary: dict) -> list[dict]:
@@ -323,6 +326,30 @@ def update_history(summary: dict) -> list[dict]:
     return existing
 
 
+def current_rows_from_summary(summary: dict, include_total: bool = False) -> list[dict]:
+    rows = [
+        {
+            "date": row["date"],
+            "topic": row["topic"],
+            "volume1mo": f"{row['volume1mo']:.8f}",
+            "share_pct": f"{row['share_pct']:.8f}",
+            "event_count": str(row["event_count"]),
+        }
+        for row in summary["topics"]
+    ]
+    if include_total:
+        rows.append(
+            {
+                "date": summary["as_of"],
+                "topic": "Total",
+                "volume1mo": f"{summary['sum_volume1mo']:.8f}",
+                "share_pct": "100.00000000",
+                "event_count": str(sum(int(row["event_count"]) for row in rows)),
+            }
+        )
+    return rows
+
+
 def write_workbook(current_rows: list[dict], history_rows: list[dict]) -> None:
     workbook = Workbook()
     current_sheet = workbook.active
@@ -351,6 +378,11 @@ def write_workbook(current_rows: list[dict], history_rows: list[dict]) -> None:
         for row in sheet.iter_rows(min_row=2, min_col=3, max_col=4):
             row[0].number_format = '#,##0.00'
             row[1].number_format = '0.00'
+        for row_idx in range(2, sheet.max_row + 1):
+            if sheet.cell(row=row_idx, column=2).value == "Total":
+                for cell in sheet[row_idx]:
+                    cell.font = Font(bold=True)
+                    cell.fill = PatternFill("solid", fgColor="EAF2F8")
 
     workbook.save(DATA_DIR / "polymarket_30d_topic_share.xlsx")
 
@@ -372,6 +404,8 @@ def main() -> None:
         summary = json.loads(args.from_json.read_text(encoding="utf-8"))
         summary["as_of"] = as_of
         for row in summary.get("categories", []):
+            row["date"] = as_of
+        for row in summary.get("topics", []):
             row["date"] = as_of
         if "topics" not in summary:
             summary = {
@@ -399,16 +433,7 @@ def main() -> None:
 
     write_current(summary)
     history_rows = update_history(summary)
-    current_rows = [
-        {
-            "date": row["date"],
-            "topic": row["topic"],
-            "volume1mo": f"{row['volume1mo']:.8f}",
-            "share_pct": f"{row['share_pct']:.8f}",
-            "event_count": str(row["event_count"]),
-        }
-        for row in summary["topics"]
-    ]
+    current_rows = current_rows_from_summary(summary, include_total=True)
     write_workbook(current_rows, history_rows)
 
     metadata = {

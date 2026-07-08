@@ -299,5 +299,70 @@
         ]
       }
     }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-07-08",
+      "topic": "Sports",
+      "volume1mo": "6989362721.12003517",
+      "share_pct": "37.56122812",
+      "event_count": "1219"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Politics",
+      "volume1mo": "3956941070.67113066",
+      "share_pct": "21.26482373",
+      "event_count": "228"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Crypto",
+      "volume1mo": "2403368774.97980070",
+      "share_pct": "12.91583889",
+      "event_count": "299"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Business/Economy",
+      "volume1mo": "2194416383.78223324",
+      "share_pct": "11.79291699",
+      "event_count": "48"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Geopolitics",
+      "volume1mo": "1965282807.52485943",
+      "share_pct": "10.56154027",
+      "event_count": "133"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Culture",
+      "volume1mo": "886408371.94422209",
+      "share_pct": "4.76360841",
+      "event_count": "45"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Tech & Science",
+      "volume1mo": "175903061.89481091",
+      "share_pct": "0.94531294",
+      "event_count": "21"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Unclassified",
+      "volume1mo": "36235319.25287500",
+      "share_pct": "0.19473064",
+      "event_count": "7"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "Total",
+      "volume1mo": "18607918511.16996765",
+      "share_pct": "100.00000000",
+      "event_count": "2000"
+    }
   ]
 }
