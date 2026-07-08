@@ -1,6 +1,13 @@
 name: Update Polymarket dashboard
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/polymarket-dashboard.yml"
   schedule:
     - cron: "15 1 * * *"
   workflow_dispatch:
