@@ -8,18 +8,18 @@
     "offset": "0..1980"
   },
   "rows_fetched": 2000,
-  "sum_volume1mo": 18609037228.02489,
+  "sum_volume1mo": 18607918511.169968,
   "last_event_volume1mo": 2269896.806934001,
   "topics": [
     {
       "date": "2026-07-08",
       "topic": "Sports",
-      "volume1mo": 6989294430.159245,
-      "share_pct": 37.55860308363233,
+      "volume1mo": 6989362721.120035,
+      "share_pct": 37.56122812406158,
       "event_count": 1219,
       "example": {
         "title": "World Cup Winner ",
-        "volume1mo": 909852410.2704438,
+        "volume1mo": 909927769.0612807,
         "tags": [
           [
             "Sports",
@@ -51,8 +51,8 @@
     {
       "date": "2026-07-08",
       "topic": "Politics",
-      "volume1mo": 3956961085.2270875,
-      "share_pct": 21.2636529055247,
+      "volume1mo": 3956941070.6711307,
+      "share_pct": 21.2648237270378,
       "event_count": 228,
       "example": {
         "title": "New York City Mayoral Election",
@@ -96,8 +96,8 @@
     {
       "date": "2026-07-08",
       "topic": "Crypto",
-      "volume1mo": 2403369332.5690646,
-      "share_pct": 12.915065422888356,
+      "volume1mo": 2403368774.9798007,
+      "share_pct": 12.915838886209146,
       "event_count": 299,
       "example": {
         "title": "What price will Bitcoin hit in 2025?",
@@ -129,8 +129,8 @@
     {
       "date": "2026-07-08",
       "topic": "Business/Economy",
-      "volume1mo": 2194418461.59156,
-      "share_pct": 11.79221920351045,
+      "volume1mo": 2194416383.782233,
+      "share_pct": 11.79291699103781,
       "event_count": 48,
       "example": {
         "title": "Fed decision in January?",
@@ -174,8 +174,8 @@
     {
       "date": "2026-07-08",
       "topic": "Geopolitics",
-      "volume1mo": 1966445348.3008366,
-      "share_pct": 10.567152530273859,
+      "volume1mo": 1965282807.5248594,
+      "share_pct": 10.56154027300334,
       "event_count": 133,
       "example": {
         "title": "US strikes Iran by...?",
@@ -215,8 +215,8 @@
     {
       "date": "2026-07-08",
       "topic": "Culture",
-      "volume1mo": 886410189.0294122,
-      "share_pct": 4.763331805766359,
+      "volume1mo": 886408371.9442221,
+      "share_pct": 4.763608414407708,
       "event_count": 45,
       "example": {
         "title": "Will Zelenskyy wear a suit before July?",
@@ -233,7 +233,7 @@
       "date": "2026-07-08",
       "topic": "Tech & Science",
       "volume1mo": 175903061.89481091,
-      "share_pct": 0.9452561126048151,
+      "share_pct": 0.9453129418490294,
       "event_count": 21,
       "example": {
         "title": "Which company has the best AI model end of January?",
@@ -270,7 +270,7 @@
       "date": "2026-07-08",
       "topic": "Unclassified",
       "volume1mo": 36235319.252875,
-      "share_pct": 0.19471893579913543,
+      "share_pct": 0.19473064239357912,
       "event_count": 7,
       "example": {
         "title": "Next Prime Minister of the Netherlands",
