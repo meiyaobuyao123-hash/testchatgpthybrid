@@ -42,6 +42,17 @@ jobs:
           commit_message: "Update Polymarket 30-day dashboard data"
           file_pattern: "docs/data/*.csv docs/data/*.json docs/data/*.xlsx"
 
+      - name: Ensure GitHub Pages is enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body --silent --show-error --request POST \
+            --url "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data '{"build_type":"workflow"}' || true
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
