@@ -9,60 +9,60 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 457,
-  "sample_rows": 457,
-  "sum_volume1mo": 443383.91000000003,
-  "last_event_volume1mo": 0.5,
+  "positive_rows": 416,
+  "sample_rows": 416,
+  "sum_volume1mo": 308255.1000000001,
+  "last_event_volume1mo": 1.0,
   "topics": [
     {
       "date": "2026-07-15",
       "topic": "Sports",
-      "volume1mo": 412447.74000000005,
-      "share_pct": 93.02271252919395,
-      "event_count": 383,
+      "volume1mo": 267605.81000000006,
+      "share_pct": 86.81310057806017,
+      "event_count": 340,
       "example": {
-        "title": "yes Philadelphia,yes Tampa Bay,yes New York Y,yes Reg Time: Bissen,yes Reg Time: Uni Craiova,yes Reg Time: Petrocub Hincesti,yes Reg Time: Kairat,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored",
-        "volume": 33636.36,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20268179F5EC50A",
+        "title": "yes Luciano Darderi,yes Alejandro Tabilo,yes Mariano Navone,yes Philadelphia,yes Milwaukee,yes Chicago C,yes Scottie Scheffler,yes Alden Coria,yes Dione Barbosa,yes Argentina advances,yes Minnesota,yes Chicago,yes Washington",
+        "volume": 9846.15,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202612080F3EB25",
         "category": "Exotics"
       }
     },
     {
       "date": "2026-07-15",
       "topic": "Unclassified",
-      "volume1mo": 28521.449999999997,
-      "share_pct": 6.432675917355684,
-      "event_count": 72,
+      "volume1mo": 39275.92000000001,
+      "share_pct": 12.74136908034936,
+      "event_count": 71,
       "example": {
-        "title": "yes Hugo Dellien,yes Daniel Elahi Galan,yes Kimmer Coppejans,yes Matteo Arnaldi,yes Stefanos Tsitsipas,yes Mariano Navone,yes Alejandro Davidovich Fokina,yes Veronika Erjavec,yes Julia Grabher,yes Lanlana Tararudee,yes Aliona Falei,yes Hanne Vandewinkel,yes Elizara Yaneva,yes Maria Sakkari,yes Qinwen Zheng",
-        "volume": 5648.49,
-        "event_ticker": "KXMVECROSSCATEGORY-S202674E95B7E8EF",
+        "title": "yes Bernard Tomic,yes Hugo Dellien,yes Liam Draxl,yes Trevor Svajda,yes Aleksandar Vukic,yes Kimmer Coppejans,yes Luciano Darderi,yes Nuno Borges,yes Flavio Cobolli,yes Matteo Arnaldi,yes Stefanos Tsitsipas,yes Mariano Navone,yes Alejandro Davidovich Fokina,yes Lanlana Tararudee,yes Aliona Falei,yes Hanne Vandewinkel,yes Maria Sakkari,yes Qinwen Zheng",
+        "volume": 7999.99,
+        "event_ticker": "KXMVECROSSCATEGORY-S202679BCFF92E13",
         "category": "Exotics"
       }
     },
     {
       "date": "2026-07-15",
-      "topic": "Business/Economy",
-      "volume1mo": 2272.72,
-      "share_pct": 0.512585131923258,
-      "event_count": 1,
+      "topic": "Geopolitics",
+      "volume1mo": 894.31,
+      "share_pct": 0.29012009858068843,
+      "event_count": 3,
       "example": {
-        "title": "yes Federico Bondioli,yes Filippo Romano,yes Gonzalo Villanueva,yes Louis Wessels,yes Clement Tabur,yes Lorenzo Sonego,yes Botic Van de Zandschulp,yes Ekaterina Perelygina",
-        "volume": 2272.72,
-        "event_ticker": "KXMVECROSSCATEGORY-S202614333AF9B9C",
+        "title": "yes Bernard Tomic,yes Guido Ivan Justo,yes Daniel Elahi Galan,yes Luciano Darderi,yes Thiago Agustin Tirante,yes Nuno Borges,yes Andrey Rublev,yes Alejandro Tabilo,yes Mariano Navone,no Indiana wins by over 3.5 points,no Minnesota wins by over 12.5 points,no Chicago wins by over 1.5 points,yes Washington wins by over 3.5 points",
+        "volume": 697.67,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026D3A5CB1A996",
         "category": "Exotics"
       }
     },
     {
       "date": "2026-07-15",
       "topic": "Tech & Science",
-      "volume1mo": 142.0,
-      "share_pct": 0.032026421527114046,
-      "event_count": 1,
+      "volume1mo": 479.05999999999995,
+      "share_pct": 0.15541024300976686,
+      "event_count": 2,
       "example": {
-        "title": "yes Daniel Altmaier,yes Nikoloz Basilashvili,yes Nuno Borges,yes Andrea Pellegrino,yes Alejandro Tabilo,yes Mariano Navone,yes Botic Van de Zandschulp",
-        "volume": 142.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C9434012EAC",
+        "title": "yes $53,600 or above,no Goal Diff Reg Time: Uni Craiova wins by more than 2.5 goals,no Reg Time: Over 2.5 goals scored",
+        "volume": 304.78,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262F2AAF8FECE",
         "category": "Exotics"
       }
     }
@@ -71,37 +71,37 @@
     {
       "date": "2026-07-15",
       "topic": "Sports",
-      "volume1mo": "412447.74000000",
-      "share_pct": "93.02271253",
-      "event_count": "383"
+      "volume1mo": "267605.81000000",
+      "share_pct": "86.81310058",
+      "event_count": "340"
     },
     {
       "date": "2026-07-15",
       "topic": "Unclassified",
-      "volume1mo": "28521.45000000",
-      "share_pct": "6.43267592",
-      "event_count": "72"
+      "volume1mo": "39275.92000000",
+      "share_pct": "12.74136908",
+      "event_count": "71"
     },
     {
       "date": "2026-07-15",
-      "topic": "Business/Economy",
-      "volume1mo": "2272.72000000",
-      "share_pct": "0.51258513",
-      "event_count": "1"
+      "topic": "Geopolitics",
+      "volume1mo": "894.31000000",
+      "share_pct": "0.29012010",
+      "event_count": "3"
     },
     {
       "date": "2026-07-15",
       "topic": "Tech & Science",
-      "volume1mo": "142.00000000",
-      "share_pct": "0.03202642",
-      "event_count": "1"
+      "volume1mo": "479.06000000",
+      "share_pct": "0.15541024",
+      "event_count": "2"
     },
     {
       "date": "2026-07-15",
       "topic": "Total",
-      "volume1mo": "443383.91000000",
+      "volume1mo": "308255.10000000",
       "share_pct": "100.00000000",
-      "event_count": "457"
+      "event_count": "416"
     }
   ]
 }
