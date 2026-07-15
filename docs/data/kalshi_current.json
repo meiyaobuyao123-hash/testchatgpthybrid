@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-07-15",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 457,
+  "sample_rows": 457,
+  "sum_volume1mo": 443383.91000000003,
+  "last_event_volume1mo": 0.5,
+  "topics": [
+    {
+      "date": "2026-07-15",
+      "topic": "Sports",
+      "volume1mo": 412447.74000000005,
+      "share_pct": 93.02271252919395,
+      "event_count": 383,
+      "example": {
+        "title": "yes Philadelphia,yes Tampa Bay,yes New York Y,yes Reg Time: Bissen,yes Reg Time: Uni Craiova,yes Reg Time: Petrocub Hincesti,yes Reg Time: Kairat,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored,yes Reg Time: Over 2.5 goals scored",
+        "volume": 33636.36,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20268179F5EC50A",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Unclassified",
+      "volume1mo": 28521.449999999997,
+      "share_pct": 6.432675917355684,
+      "event_count": 72,
+      "example": {
+        "title": "yes Hugo Dellien,yes Daniel Elahi Galan,yes Kimmer Coppejans,yes Matteo Arnaldi,yes Stefanos Tsitsipas,yes Mariano Navone,yes Alejandro Davidovich Fokina,yes Veronika Erjavec,yes Julia Grabher,yes Lanlana Tararudee,yes Aliona Falei,yes Hanne Vandewinkel,yes Elizara Yaneva,yes Maria Sakkari,yes Qinwen Zheng",
+        "volume": 5648.49,
+        "event_ticker": "KXMVECROSSCATEGORY-S202674E95B7E8EF",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Business/Economy",
+      "volume1mo": 2272.72,
+      "share_pct": 0.512585131923258,
+      "event_count": 1,
+      "example": {
+        "title": "yes Federico Bondioli,yes Filippo Romano,yes Gonzalo Villanueva,yes Louis Wessels,yes Clement Tabur,yes Lorenzo Sonego,yes Botic Van de Zandschulp,yes Ekaterina Perelygina",
+        "volume": 2272.72,
+        "event_ticker": "KXMVECROSSCATEGORY-S202614333AF9B9C",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Tech & Science",
+      "volume1mo": 142.0,
+      "share_pct": 0.032026421527114046,
+      "event_count": 1,
+      "example": {
+        "title": "yes Daniel Altmaier,yes Nikoloz Basilashvili,yes Nuno Borges,yes Andrea Pellegrino,yes Alejandro Tabilo,yes Mariano Navone,yes Botic Van de Zandschulp",
+        "volume": 142.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C9434012EAC",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-07-15",
+      "topic": "Sports",
+      "volume1mo": "412447.74000000",
+      "share_pct": "93.02271253",
+      "event_count": "383"
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Unclassified",
+      "volume1mo": "28521.45000000",
+      "share_pct": "6.43267592",
+      "event_count": "72"
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Business/Economy",
+      "volume1mo": "2272.72000000",
+      "share_pct": "0.51258513",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Tech & Science",
+      "volume1mo": "142.00000000",
+      "share_pct": "0.03202642",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "Total",
+      "volume1mo": "443383.91000000",
+      "share_pct": "100.00000000",
+      "event_count": "457"
+    }
+  ]
+}

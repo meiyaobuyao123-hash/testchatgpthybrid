@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Polymarket 30D Topic Volume Share</title>
+    <title>Prediction Market Topic Volume Share</title>
     <style>
       :root {
         color-scheme: light;
@@ -165,7 +165,7 @@
         font-size: 13px;
       }
 
-      #chart {
+      .chart {
         display: block;
         width: 100%;
         min-height: 420px;
@@ -270,50 +270,58 @@
       <header>
         <div>
           <div class="kicker"><span class="status-dot"></span>Daily Market Dashboard</div>
-          <h1>Polymarket 近 30 天市场类型成交量占比</h1>
+          <h1>预测市场类型成交量占比 Dashboard</h1>
           <p class="subhead">
-            数据来自 Polymarket Gamma API 的 event 级 <code>volume1mo</code> 字段，按近 30 天成交量排序取公开 offset 窗口内前 2000 个市场事件，并按主题 tag 聚合。
+            同时跟踪 Polymarket 与 Kalshi 的公开 API 数据，并按 Sports、Politics、Crypto 等同一套主题维度聚合。Polymarket 使用近 30 天成交量；Kalshi 公开 API 当前使用累计成交量。
           </p>
         </div>
         <div class="toolbar">
-          <a class="button primary" href="data/polymarket_30d_topic_share.xlsx">下载 Excel</a>
-          <a class="button" href="data/current.csv">当前 CSV</a>
-          <a class="button" href="data/history.csv">历史 CSV</a>
+          <a class="button primary" href="data/polymarket_30d_topic_share.xlsx">Polymarket Excel</a>
+          <a class="button primary" href="data/kalshi_cumulative_topic_share.xlsx">Kalshi Excel</a>
+          <a class="button" href="data/current.csv">Polymarket CSV</a>
+          <a class="button" href="data/kalshi_current.csv">Kalshi CSV</a>
           <a class="button" href="https://gamma-api.polymarket.com/docs">API 文档</a>
         </div>
       </header>
 
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Polymarket · 近 30 天成交量</h2>
+          <div class="note">字段：Gamma API event <code>volume1mo</code>，取公开 offset 窗口前 2000 个事件。</div>
+        </div>
+      </section>
+
       <section class="stats">
         <div class="stat">
           <div class="label">更新日期</div>
-          <div class="value" id="asOf">-</div>
+          <div class="value" id="polyAsOf">-</div>
         </div>
         <div class="stat">
           <div class="label">样本成交量</div>
-          <div class="value" id="totalVolume">-</div>
+          <div class="value" id="polyTotalVolume">-</div>
         </div>
         <div class="stat">
           <div class="label">样本 Events</div>
-          <div class="value" id="rowsFetched">-</div>
+          <div class="value" id="polyRowsFetched">-</div>
         </div>
         <div class="stat">
           <div class="label">第 2000 名成交量</div>
-          <div class="value" id="tailVolume">-</div>
+          <div class="value" id="polyTailVolume">-</div>
         </div>
       </section>
 
       <section class="panel">
         <div class="panel-head">
-          <h2>各市场类型占比趋势</h2>
+          <h2>Polymarket 各市场类型占比趋势</h2>
           <div class="note">横轴为日期，纵轴为该类型在样本中的近 30 天成交量占比。</div>
         </div>
-        <svg id="chart" role="img" aria-label="Polymarket topic share line chart"></svg>
-        <div class="legend" id="legend"></div>
+        <svg id="polyChart" class="chart" role="img" aria-label="Polymarket topic share line chart"></svg>
+        <div class="legend" id="polyLegend"></div>
       </section>
 
       <section class="panel">
         <div class="panel-head">
-          <h2>当前 Excel 数据预览</h2>
+          <h2>Polymarket 当前 Excel 数据预览</h2>
           <div class="note">完整工作簿包含 current 与 history 两个 sheet。</div>
         </div>
         <div class="table-wrap">
@@ -327,7 +335,63 @@
                 <th>Events</th>
               </tr>
             </thead>
-            <tbody id="currentRows"></tbody>
+            <tbody id="polyRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Kalshi · 累计成交量</h2>
+          <div class="note">字段：Kalshi public markets <code>volume_fp</code>。公开接口未提供 30 天成交量，因此单独标注累计口径。</div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat">
+          <div class="label">更新日期</div>
+          <div class="value" id="kalshiAsOf">-</div>
+        </div>
+        <div class="stat">
+          <div class="label">样本累计成交量</div>
+          <div class="value" id="kalshiTotalVolume">-</div>
+        </div>
+        <div class="stat">
+          <div class="label">扫描 Markets</div>
+          <div class="value" id="kalshiRowsFetched">-</div>
+        </div>
+        <div class="stat">
+          <div class="label">样本 Markets</div>
+          <div class="value" id="kalshiSampleRows">-</div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Kalshi 各市场类型占比趋势</h2>
+          <div class="note">横轴为日期，纵轴为该类型在 Kalshi 累计成交量样本中的占比。</div>
+        </div>
+        <svg id="kalshiChart" class="chart" role="img" aria-label="Kalshi topic share line chart"></svg>
+        <div class="legend" id="kalshiLegend"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Kalshi 当前 Excel 数据预览</h2>
+          <div class="note">完整工作簿包含 current 与 history 两个 sheet。</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>市场类型</th>
+                <th>累计成交量</th>
+                <th>占比</th>
+                <th>Markets</th>
+              </tr>
+            </thead>
+            <tbody id="kalshiRows"></tbody>
           </table>
         </div>
       </section>
@@ -366,8 +430,8 @@
         return `${Number(value).toFixed(2)}%`;
       }
 
-      function drawChart(rows) {
-        const svg = document.getElementById("chart");
+      function drawChart(rows, chartId, legendId) {
+        const svg = document.getElementById(chartId);
         const width = svg.clientWidth || 1000;
         const height = Math.max(420, Math.floor(width * 0.42));
         const margin = { top: 24, right: 24, bottom: 54, left: 58 };
@@ -446,25 +510,14 @@
           });
         });
 
-        const legend = document.getElementById("legend");
+        const legend = document.getElementById(legendId);
         legend.innerHTML = topics.map((topic) => `
           <span class="legend-item"><span class="swatch" style="background:${colors[topic] || "#6d7480"}"></span>${topic}</span>
         `).join("");
       }
 
-      async function init() {
-        const [current, history, metadata] = await Promise.all([
-          fetch("data/current.csv").then((response) => response.text()).then(parseCsv),
-          fetch("data/history.csv").then((response) => response.text()).then(parseCsv),
-          fetch("data/metadata.json").then((response) => response.json())
-        ]);
-
-        document.getElementById("asOf").textContent = metadata.as_of;
-        document.getElementById("totalVolume").textContent = money.format(metadata.sum_volume1mo);
-        document.getElementById("rowsFetched").textContent = metadata.rows_fetched;
-        document.getElementById("tailVolume").textContent = money.format(metadata.last_event_volume1mo);
-
-        document.getElementById("currentRows").innerHTML = current
+      function renderRows(rows, targetId) {
+        document.getElementById(targetId).innerHTML = rows
           .sort((a, b) => {
             if (a.topic === "Total") return 1;
             if (b.topic === "Total") return -1;
@@ -479,9 +532,36 @@
               <td>${Number(row.event_count).toLocaleString("en-US")}</td>
             </tr>
           `).join("");
+      }
 
-        drawChart(history);
-        window.addEventListener("resize", () => drawChart(history), { passive: true });
+      async function init() {
+        const [current, history, metadata, kalshiCurrent, kalshiHistory, kalshiMetadata] = await Promise.all([
+          fetch("data/current.csv").then((response) => response.text()).then(parseCsv),
+          fetch("data/history.csv").then((response) => response.text()).then(parseCsv),
+          fetch("data/metadata.json").then((response) => response.json()),
+          fetch("data/kalshi_current.csv").then((response) => response.text()).then(parseCsv),
+          fetch("data/kalshi_history.csv").then((response) => response.text()).then(parseCsv),
+          fetch("data/kalshi_metadata.json").then((response) => response.json())
+        ]);
+
+        document.getElementById("polyAsOf").textContent = metadata.as_of;
+        document.getElementById("polyTotalVolume").textContent = money.format(metadata.sum_volume1mo);
+        document.getElementById("polyRowsFetched").textContent = metadata.rows_fetched;
+        document.getElementById("polyTailVolume").textContent = money.format(metadata.last_event_volume1mo);
+
+        document.getElementById("kalshiAsOf").textContent = kalshiMetadata.as_of;
+        document.getElementById("kalshiTotalVolume").textContent = money.format(kalshiMetadata.sum_volume1mo);
+        document.getElementById("kalshiRowsFetched").textContent = Number(kalshiMetadata.rows_fetched).toLocaleString("en-US");
+        document.getElementById("kalshiSampleRows").textContent = Number(kalshiMetadata.sample_rows).toLocaleString("en-US");
+
+        renderRows(current, "polyRows");
+        renderRows(kalshiCurrent, "kalshiRows");
+        drawChart(history, "polyChart", "polyLegend");
+        drawChart(kalshiHistory, "kalshiChart", "kalshiLegend");
+        window.addEventListener("resize", () => {
+          drawChart(history, "polyChart", "polyLegend");
+          drawChart(kalshiHistory, "kalshiChart", "kalshiLegend");
+        }, { passive: true });
       }
 
       init().catch((error) => {

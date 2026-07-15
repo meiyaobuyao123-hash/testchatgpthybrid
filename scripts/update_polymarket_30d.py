@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import csv
 import json
 import time
@@ -21,6 +22,8 @@ from openpyxl.utils import get_column_letter
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "docs" / "data"
 EVENTS_URL = "https://gamma-api.polymarket.com/events"
+KALSHI_MARKETS_URL = "https://api.elections.kalshi.com/trade-api/v2/markets"
+KALSHI_EVENTS_URL = "https://api.elections.kalshi.com/trade-api/v2/events"
 HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
 
 TOPICS = {
@@ -158,6 +161,24 @@ IGNORE_TAGS = {
     "hfc",
 }
 
+KALSHI_CATEGORY_TOPICS = {
+    "elections": "Politics",
+    "politics": "Politics",
+    "sports": "Sports",
+    "crypto": "Crypto",
+    "cryptocurrency": "Crypto",
+    "economics": "Business/Economy",
+    "financials": "Business/Economy",
+    "companies": "Business/Economy",
+    "business": "Business/Economy",
+    "world": "Geopolitics",
+    "climate and weather": "Health",
+    "weather": "Health",
+    "entertainment": "Culture",
+    "science and technology": "Tech & Science",
+    "technology": "Tech & Science",
+}
+
 
 def fetch_events(limit: int, max_rows: int) -> list[dict]:
     events: list[dict] = []
@@ -186,6 +207,12 @@ def fetch_events(limit: int, max_rows: int) -> list[dict]:
             break
         time.sleep(0.02)
     return events
+
+
+def fetch_json(url: str, timeout: int = 90) -> dict:
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.load(response)
 
 
 def classify_event(event: dict) -> str:
@@ -256,6 +283,8 @@ def summarize(events: list[dict], as_of: str) -> dict:
 
     return {
         "as_of": as_of,
+        "platform": "Polymarket",
+        "metric_label": "近 30 天成交量",
         "source": EVENTS_URL,
         "params": {
             "order": "volume1mo",
@@ -270,10 +299,153 @@ def summarize(events: list[dict], as_of: str) -> dict:
     }
 
 
+def fetch_kalshi_markets(limit: int, max_pages: int) -> list[dict]:
+    markets: list[dict] = []
+    cursor = ""
+    for page in range(max_pages):
+        params = {"limit": limit}
+        if cursor:
+            params["cursor"] = cursor
+        url = f"{KALSHI_MARKETS_URL}?{urllib.parse.urlencode(params)}"
+        for attempt in range(4):
+            try:
+                data = fetch_json(url, timeout=90)
+                break
+            except Exception:
+                if attempt == 3:
+                    raise
+                time.sleep(1.5 * (attempt + 1))
+        batch = data.get("markets") or []
+        markets.extend(batch)
+        cursor = data.get("cursor") or ""
+        if not cursor or len(batch) < limit:
+            break
+        time.sleep(0.02)
+    return markets
+
+
+def fetch_kalshi_event_categories(event_tickers: set[str]) -> dict[str, str]:
+    def fetch_category(ticker: str) -> tuple[str, str]:
+        if not ticker:
+            return ticker, ""
+        url = f"{KALSHI_EVENTS_URL}/{urllib.parse.quote(ticker)}"
+        for attempt in range(3):
+            try:
+                data = fetch_json(url, timeout=45)
+                event = data.get("event") or {}
+                return ticker, event.get("category") or ""
+            except Exception:
+                if attempt == 2:
+                    return ticker, ""
+                else:
+                    time.sleep(0.8 * (attempt + 1))
+        return ticker, ""
+
+    categories: dict[str, str] = {}
+    tickers = sorted(ticker for ticker in event_tickers if ticker)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
+        for ticker, category in executor.map(fetch_category, tickers):
+            categories[ticker] = category
+    return categories
+
+
+def classify_kalshi_market(market: dict, event_category: str) -> str:
+    category = (event_category or "").strip().lower()
+    if category in KALSHI_CATEGORY_TOPICS:
+        return KALSHI_CATEGORY_TOPICS[category]
+
+    ticker = f"{market.get('event_ticker') or ''} {market.get('ticker') or ''}".lower()
+    title = (market.get("title") or "").lower()
+    haystack = f"{ticker} {title}"
+    if any(token in haystack for token in ["nba", "nfl", "mlb", "nhl", "wnba", "atp", "ufc", "sports", "soccer", "tennis", "fifa"]):
+        return "Sports"
+    if any(token in haystack for token in ["bitcoin", "ethereum", "crypto", "solana", "xrp", "doge"]):
+        return "Crypto"
+    if any(token in haystack for token in ["fed", "cpi", "inflation", "rate", "gdp", "earnings", "ipo", "stock"]):
+        return "Business/Economy"
+    if any(token in haystack for token in ["election", "trump", "biden", "senate", "congress", "president", "governor"]):
+        return "Politics"
+    if any(token in haystack for token in ["iran", "israel", "ukraine", "russia", "china", "nato", "war"]):
+        return "Geopolitics"
+    if any(token in haystack for token in ["movie", "music", "oscar", "grammy", "celebrity"]):
+        return "Culture"
+    if any(token in haystack for token in ["ai", "openai", "spacex", "tesla", "technology"]):
+        return "Tech & Science"
+    return "Unclassified"
+
+
+def summarize_kalshi(markets: list[dict], as_of: str, top_rows: int) -> dict:
+    positive_markets = [
+        market for market in markets if float(market.get("volume_fp") or 0) > 0
+    ]
+    positive_markets.sort(key=lambda market: float(market.get("volume_fp") or 0), reverse=True)
+    selected = positive_markets[:top_rows]
+    event_categories = fetch_kalshi_event_categories(
+        {market.get("event_ticker") or "" for market in selected}
+    )
+
+    volume_by_topic: dict[str, float] = defaultdict(float)
+    count_by_topic: dict[str, int] = defaultdict(int)
+    examples: dict[str, dict] = {}
+    for market in selected:
+        volume = float(market.get("volume_fp") or 0)
+        event_ticker = market.get("event_ticker") or ""
+        category = event_categories.get(event_ticker, "")
+        topic = classify_kalshi_market(market, category)
+        volume_by_topic[topic] += volume
+        count_by_topic[topic] += 1
+        examples.setdefault(
+            topic,
+            {
+                "title": market.get("title"),
+                "volume": volume,
+                "event_ticker": event_ticker,
+                "category": category,
+            },
+        )
+
+    total = sum(volume_by_topic.values())
+    rows = []
+    for topic in sorted(volume_by_topic, key=volume_by_topic.get, reverse=True):
+        volume = volume_by_topic[topic]
+        rows.append(
+            {
+                "date": as_of,
+                "topic": topic,
+                "volume1mo": volume,
+                "share_pct": (volume / total * 100) if total else 0,
+                "event_count": count_by_topic[topic],
+                "example": examples.get(topic),
+            }
+        )
+
+    return {
+        "as_of": as_of,
+        "platform": "Kalshi",
+        "metric_label": "累计成交量",
+        "source": KALSHI_MARKETS_URL,
+        "params": {
+            "limit": 500,
+            "cursor": "paginated",
+            "metric": "volume_fp",
+        },
+        "rows_fetched": len(markets),
+        "positive_rows": len(positive_markets),
+        "sample_rows": len(selected),
+        "sum_volume1mo": total,
+        "last_event_volume1mo": float(selected[-1].get("volume_fp") or 0) if selected else 0,
+        "topics": rows,
+    }
+
+
 def write_current(summary: dict) -> None:
+    write_platform_current(summary, "current", "current")
+
+
+def write_platform_current(summary: dict, csv_stem: str, json_stem: str) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    current_csv = DATA_DIR / "current.csv"
-    current_json = DATA_DIR / "current.json"
+    current_csv = DATA_DIR / f"{csv_stem}.csv"
+    current_json = DATA_DIR / f"{json_stem}.json"
     rows = current_rows_from_summary(summary, include_total=True)
 
     with current_csv.open("w", newline="") as file:
@@ -296,7 +468,11 @@ def write_current(summary: dict) -> None:
 
 
 def update_history(summary: dict) -> list[dict]:
-    history_csv = DATA_DIR / "history.csv"
+    return update_platform_history(summary, "history")
+
+
+def update_platform_history(summary: dict, csv_stem: str) -> list[dict]:
+    history_csv = DATA_DIR / f"{csv_stem}.csv"
     existing: list[dict] = []
     if history_csv.exists():
         with history_csv.open(newline="") as file:
@@ -351,6 +527,18 @@ def current_rows_from_summary(summary: dict, include_total: bool = False) -> lis
 
 
 def write_workbook(current_rows: list[dict], history_rows: list[dict]) -> None:
+    write_platform_workbook(
+        current_rows,
+        history_rows,
+        "polymarket_30d_topic_share.xlsx",
+    )
+
+
+def write_platform_workbook(
+    current_rows: list[dict],
+    history_rows: list[dict],
+    workbook_name: str,
+) -> None:
     workbook = Workbook()
     current_sheet = workbook.active
     current_sheet.title = "current"
@@ -384,7 +572,7 @@ def write_workbook(current_rows: list[dict], history_rows: list[dict]) -> None:
                     cell.font = Font(bold=True)
                     cell.fill = PatternFill("solid", fgColor="EAF2F8")
 
-    workbook.save(DATA_DIR / "polymarket_30d_topic_share.xlsx")
+    workbook.save(DATA_DIR / workbook_name)
 
 
 def main() -> None:
@@ -392,6 +580,10 @@ def main() -> None:
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--limit", type=int, default=20)
     parser.add_argument("--max-rows", type=int, default=2000)
+    parser.add_argument("--skip-kalshi", action="store_true")
+    parser.add_argument("--kalshi-limit", type=int, default=500)
+    parser.add_argument("--kalshi-max-pages", type=int, default=10)
+    parser.add_argument("--kalshi-top-rows", type=int, default=2000)
     parser.add_argument(
         "--from-json",
         type=Path,
@@ -444,7 +636,37 @@ def main() -> None:
         "last_event_volume1mo": summary["last_event_volume1mo"],
     }
     (DATA_DIR / "metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
-    print(json.dumps(metadata, indent=2))
+
+    output = {"polymarket": metadata}
+
+    if not args.skip_kalshi:
+        kalshi_markets = fetch_kalshi_markets(args.kalshi_limit, args.kalshi_max_pages)
+        kalshi_summary = summarize_kalshi(kalshi_markets, as_of, args.kalshi_top_rows)
+        write_platform_current(kalshi_summary, "kalshi_current", "kalshi_current")
+        kalshi_history_rows = update_platform_history(kalshi_summary, "kalshi_history")
+        kalshi_current_rows = current_rows_from_summary(kalshi_summary, include_total=True)
+        write_platform_workbook(
+            kalshi_current_rows,
+            kalshi_history_rows,
+            "kalshi_cumulative_topic_share.xlsx",
+        )
+        kalshi_metadata = {
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "as_of": as_of,
+            "rows_fetched": kalshi_summary["rows_fetched"],
+            "positive_rows": kalshi_summary["positive_rows"],
+            "sample_rows": kalshi_summary["sample_rows"],
+            "sum_volume1mo": kalshi_summary["sum_volume1mo"],
+            "last_event_volume1mo": kalshi_summary["last_event_volume1mo"],
+            "metric_label": kalshi_summary["metric_label"],
+        }
+        (DATA_DIR / "kalshi_metadata.json").write_text(
+            json.dumps(kalshi_metadata, indent=2),
+            encoding="utf-8",
+        )
+        output["kalshi"] = kalshi_metadata
+
+    print(json.dumps(output, indent=2))
 
 
 if __name__ == "__main__":
