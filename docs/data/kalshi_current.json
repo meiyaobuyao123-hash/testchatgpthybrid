@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-15",
+  "as_of": "2026-07-16",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 444,
-  "sample_rows": 444,
-  "sum_volume1mo": 496086.55,
-  "last_event_volume1mo": 1.39,
+  "positive_rows": 399,
+  "sample_rows": 399,
+  "sum_volume1mo": 415915.22999999975,
+  "last_event_volume1mo": 1.58,
   "topics": [
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Sports",
-      "volume1mo": 461123.2,
-      "share_pct": 92.95216731838427,
-      "event_count": 377,
+      "volume1mo": 316928.33999999973,
+      "share_pct": 76.20022474291214,
+      "event_count": 339,
       "example": {
-        "title": "yes Justin Rose,yes Robert MacIntyre,yes Sam Burns,yes Viktor Hovland,yes Matt Fitzpatrick,yes Rory McIlroy,yes Tommy Fleetwood",
-        "volume": 76923.07,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026EE5CEA85669",
+        "title": "yes Max Alcala Gurri,yes Hugo Dellien,yes Thiago Agustin Tirante,yes Alexander Bublik,yes Andrey Rublev,yes Alejandro Tabilo,yes Matteo Arnaldi,yes Casper Ruud,yes Daniel Merida,yes Alejandro Davidovich Fokina,yes Marina Bassols Ribera,yes Sinja Kraus,yes Laura Samson,yes Jeline Vandromme,yes Tatiana Prozorova,yes Paula Badosa,yes Barbora Krejcikova,yes Maiar Sherif Ahmed Abdelaziz,yes Clara Tauson,yes Tereza Valentova",
+        "volume": 22790.69,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026FEAF1D2018C",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Unclassified",
-      "volume1mo": 33681.490000000005,
-      "share_pct": 6.789438254272366,
-      "event_count": 62,
+      "volume1mo": 66159.12999999999,
+      "share_pct": 15.906878428087385,
+      "event_count": 45,
       "example": {
-        "title": "yes 10+ corners,yes Lionel Messi: 1+,yes Elliot Anderson: 1+,yes Jude Bellingham: 1+,yes Goal Diff Reg Time: Argentina wins by more than 1.5 goals,yes Reg Time: Over 3.5 goals scored",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C634063EB8C",
+        "title": "yes New York M,yes Houston,yes Dallas,yes New York,yes Chicago,yes Memphis,yes Portland,yes Miami",
+        "volume": 30303.03,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026345C2BB6E6F",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-15",
-      "topic": "Business/Economy",
-      "volume1mo": 948.86,
-      "share_pct": 0.19126904367796305,
-      "event_count": 4,
-      "example": {
-        "title": "no Target Price: $64,785.61,no Target Price: $0.0740210,no Target Price: $1,875.82,no Target Price: $77.6875,no Target Price: $1.1046",
-        "volume": 732.27,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DFEDF5575DC",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Tech & Science",
-      "volume1mo": 333.0,
-      "share_pct": 0.0671253836654108,
-      "event_count": 1,
+      "volume1mo": 28879.81,
+      "share_pct": 6.943676960326751,
+      "event_count": 7,
       "example": {
-        "title": "yes Clement Tabur,yes Daniel Altmaier,yes Alexander Bublik,yes Juan Manuel Cerundolo,yes Lorenzo Sonego,yes Botic Van de Zandschulp",
-        "volume": 333.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026143B53E38E3",
+        "title": "yes Spain,no Reg Time: Both Teams To Score,yes Reg Time: Both Teams To Score",
+        "volume": 24305.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026AA5C5CDADC7",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "topic": "Geopolitics",
+      "volume1mo": 3947.95,
+      "share_pct": 0.9492198686737204,
+      "event_count": 8,
+      "example": {
+        "title": "yes Max Alcala Gurri,yes Hugo Dellien,yes Thiago Agustin Tirante,yes Alexander Bublik,yes Andrey Rublev,yes Alejandro Tabilo,yes Matteo Arnaldi,yes Casper Ruud,yes Daniel Merida,yes Marina Bassols Ribera,yes Sinja Kraus,yes Laura Samson,yes Jeline Vandromme,yes Tatiana Prozorova,yes Julia Riera,yes Paula Badosa,yes Barbora Krejcikova,yes Maiar Sherif Ahmed Abdelaziz,yes Clara Tauson",
+        "volume": 1851.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S202669B0627B28F",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Sports",
-      "volume1mo": "461123.20000000",
-      "share_pct": "92.95216732",
-      "event_count": "377"
+      "volume1mo": "316928.34000000",
+      "share_pct": "76.20022474",
+      "event_count": "339"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Unclassified",
-      "volume1mo": "33681.49000000",
-      "share_pct": "6.78943825",
-      "event_count": "62"
+      "volume1mo": "66159.13000000",
+      "share_pct": "15.90687843",
+      "event_count": "45"
     },
     {
-      "date": "2026-07-15",
-      "topic": "Business/Economy",
-      "volume1mo": "948.86000000",
-      "share_pct": "0.19126904",
-      "event_count": "4"
-    },
-    {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "topic": "Tech & Science",
-      "volume1mo": "333.00000000",
-      "share_pct": "0.06712538",
-      "event_count": "1"
+      "volume1mo": "28879.81000000",
+      "share_pct": "6.94367696",
+      "event_count": "7"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
+      "topic": "Geopolitics",
+      "volume1mo": "3947.95000000",
+      "share_pct": "0.94921987",
+      "event_count": "8"
+    },
+    {
+      "date": "2026-07-16",
       "topic": "Total",
-      "volume1mo": "496086.55000000",
+      "volume1mo": "415915.23000000",
       "share_pct": "100.00000000",
-      "event_count": "444"
+      "event_count": "399"
     }
   ]
 }
