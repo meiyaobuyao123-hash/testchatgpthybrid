@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-17",
+  "as_of": "2026-07-18",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 362,
-  "sample_rows": 362,
-  "sum_volume1mo": 552876.98,
-  "last_event_volume1mo": 0.1,
+  "positive_rows": 398,
+  "sample_rows": 398,
+  "sum_volume1mo": 264429.28000000014,
+  "last_event_volume1mo": 0.29,
   "topics": [
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Sports",
-      "volume1mo": 506109.57999999996,
-      "share_pct": 91.54108387728496,
-      "event_count": 302,
+      "volume1mo": 229609.87000000017,
+      "share_pct": 86.83224111944034,
+      "event_count": 322,
       "example": {
-        "title": "yes Los Angeles D,yes Cleveland,yes Toronto,yes Atlanta,yes Milwaukee,yes Chicago C,yes Cleveland,yes Dallas,yes Detroit,yes Los Angeles C,yes Utah,yes Atlanta,yes Indiana,yes Dallas wins by over 1.5 points,yes Phoenix wins by over 4.5 points",
-        "volume": 90909.09,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20269504ABB0B53",
-        "category": ""
+        "title": "yes Cleveland,yes Chicago C,yes Toronto,yes Colorado,yes Philadelphia,yes Baltimore,yes Miami,yes San Diego,yes St. Louis,yes Boston,yes Atlanta",
+        "volume": 13636.36,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026FBC89F5BA56",
+        "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Unclassified",
-      "volume1mo": 32950.07000000001,
-      "share_pct": 5.959747139408844,
-      "event_count": 54,
+      "volume1mo": 30122.92,
+      "share_pct": 11.391673418314333,
+      "event_count": 71,
       "example": {
-        "title": "yes Tampa Bay,yes Los Angeles D,yes Cleveland,yes Tampa Bay,yes Chicago WS,yes Atlanta,yes Milwaukee,yes Chicago C,yes Baltimore,yes San Diego",
-        "volume": 9125.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026FCBC47D9A0F",
+        "title": "yes Cleveland,yes Los Angeles A,yes St. Louis,yes Chicago C,yes Chicago WS,yes Cincinnati,yes Arizona",
+        "volume": 8830.12,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026D55A124FEE5",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-17",
-      "topic": "Tech & Science",
-      "volume1mo": 13144.61,
-      "share_pct": 2.3774927290335004,
-      "event_count": 5,
-      "example": {
-        "title": "yes Tigres,yes Cruz Azul,yes Atlas,yes Guadalajara,yes Monterrey,yes Pumas UNAM,yes America,yes Reg Time: France,yes Reg Time: Spain",
-        "volume": 11818.17,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ACA8BAA2DE3",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Geopolitics",
-      "volume1mo": 672.72,
-      "share_pct": 0.12167625427269553,
+      "volume1mo": 3803.45,
+      "share_pct": 1.4383618939627252,
       "event_count": 1,
       "example": {
-        "title": "yes Daniel Elahi Galan,yes Thijs Boogaard,yes Nuno Borges,yes Juan Manuel Cerundolo,yes Valentin Vacherot,yes Sebastian Baez,yes Thiago Agustin Tirante",
-        "volume": 672.72,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263F095144B07",
+        "title": "no Kyle Schwarber: 3+,yes Over 8.5 runs scored",
+        "volume": 3803.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026A74435F65D2",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "topic": "Tech & Science",
+      "volume1mo": 884.0400000000001,
+      "share_pct": 0.33432001176269116,
+      "event_count": 3,
+      "example": {
+        "title": "yes Spain,yes Christian Duncan,yes Dricus Du Plessis,yes Dione Barbosa,yes Fatima Kline,yes Reg Time: Both Teams To Score,yes Reg Time: France,yes Reg Time: Tie,yes Reg Time: Over 1.5 goals scored",
+        "volume": 805.08,
+        "event_ticker": "KXMVECROSSCATEGORY-S202639935D20030",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "topic": "Business/Economy",
+      "volume1mo": 9.0,
+      "share_pct": 0.0034035565199133752,
+      "event_count": 1,
+      "example": {
+        "title": "yes Federico Cina,yes Hugo Dellien,yes Rebeka Masarova",
+        "volume": 9.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C85CAF3270F",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Sports",
-      "volume1mo": "506109.58000000",
-      "share_pct": "91.54108388",
-      "event_count": "302"
+      "volume1mo": "229609.87000000",
+      "share_pct": "86.83224112",
+      "event_count": "322"
     },
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Unclassified",
-      "volume1mo": "32950.07000000",
-      "share_pct": "5.95974714",
-      "event_count": "54"
+      "volume1mo": "30122.92000000",
+      "share_pct": "11.39167342",
+      "event_count": "71"
     },
     {
-      "date": "2026-07-17",
-      "topic": "Tech & Science",
-      "volume1mo": "13144.61000000",
-      "share_pct": "2.37749273",
-      "event_count": "5"
-    },
-    {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "topic": "Geopolitics",
-      "volume1mo": "672.72000000",
-      "share_pct": "0.12167625",
+      "volume1mo": "3803.45000000",
+      "share_pct": "1.43836189",
       "event_count": "1"
     },
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
+      "topic": "Tech & Science",
+      "volume1mo": "884.04000000",
+      "share_pct": "0.33432001",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-07-18",
+      "topic": "Business/Economy",
+      "volume1mo": "9.00000000",
+      "share_pct": "0.00340356",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-07-18",
       "topic": "Total",
-      "volume1mo": "552876.98000000",
+      "volume1mo": "264429.28000000",
       "share_pct": "100.00000000",
-      "event_count": "362"
+      "event_count": "398"
     }
   ]
 }
