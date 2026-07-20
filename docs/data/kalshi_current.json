@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-19",
+  "as_of": "2026-07-20",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 333,
-  "sample_rows": 333,
-  "sum_volume1mo": 557823.7500000003,
-  "last_event_volume1mo": 1.08,
+  "positive_rows": 382,
+  "sample_rows": 382,
+  "sum_volume1mo": 355224.0500000003,
+  "last_event_volume1mo": 1.99,
   "topics": [
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "topic": "Sports",
-      "volume1mo": 451338.1500000003,
-      "share_pct": 80.91052953553879,
-      "event_count": 274,
+      "volume1mo": 341584.75000000023,
+      "share_pct": 96.1603669571359,
+      "event_count": 324,
       "example": {
-        "title": "yes Los Angeles D,yes Toronto,yes Philadelphia,yes Boston,yes Texas,yes Cleveland,yes Houston,yes San Diego,yes Washington,yes Detroit,yes Los Angeles D",
-        "volume": 181818.18,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026BD288F29067",
+        "title": "yes New York Y,yes Toronto,yes Philadelphia,yes Milwaukee,yes Texas,yes Houston,yes Washington,yes Seattle,yes Joe Ryan: 4+,yes Dylan Cease: 4+,yes Freddy Peralta: 3+,yes Jacob deGrom: 4+,yes George Kirby: 4+,yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Over 4.5 runs scored,yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Minnesota,yes New York,no Over 184.5 points scored,yes Over 163.5 points scored",
+        "volume": 45454.54,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026EFF3C371C30",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "topic": "Unclassified",
-      "volume1mo": 62988.0,
-      "share_pct": 11.291738654010333,
-      "event_count": 45,
+      "volume1mo": 13253.080000000002,
+      "share_pct": 3.7309072963950474,
+      "event_count": 55,
       "example": {
-        "title": "yes Houston,yes Milwaukee,yes Washington,yes St. Louis,yes Los Angeles D",
-        "volume": 43572.98,
-        "event_ticker": "KXMVECROSSCATEGORY-S202663BC47E1A7A",
+        "title": "yes Cleveland,yes Pittsburgh,yes Tampa Bay,yes Baltimore,yes Los Angeles D,yes Atlanta,yes New York M,yes San Francisco,yes Chicago WS,yes Detroit,yes Miami,yes Washington,yes Arizona,yes Cincinnati,yes St. Louis",
+        "volume": 1818.18,
+        "event_ticker": "KXMVECROSSCATEGORY-S202627957700176",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
+      "topic": "Geopolitics",
+      "volume1mo": 283.13,
+      "share_pct": 0.07970462585514684,
+      "event_count": 2,
+      "example": {
+        "title": "yes Sebastian Gorzny,yes Darian King,yes Stefan Kozlov,yes Aidan Mayo,yes Dhakshineswar Suresh,yes Patrick Maloney",
+        "volume": 253.9,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266864DAB27E2",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-20",
       "topic": "Business/Economy",
-      "volume1mo": 23268.18,
-      "share_pct": 4.171242260660287,
+      "volume1mo": 103.09,
+      "share_pct": 0.029021120613877332,
       "event_count": 1,
       "example": {
-        "title": "yes Federico Arnaboldi,yes Max Alcala Gurri,yes Sergio Callejon Hernando,yes Anton Matusevich,yes Marko ToPo,yes Massimo Giunta,yes John Echeverria,yes Dimitar Kuzmanov,yes Takuya Kumasaka,yes Thiago Monteiro,yes Genaro Alberto Olivieri,yes Leonardo Rossi,yes Mika Petkovic,yes Mili Poljicak,yes Louis Wessels,yes Juan Bautista Torres,yes Giorgio Tabacco,yes Niels Visker,yes Dominic Stricker,yes Federico Cina,yes Kilian Feldbausch,yes Luca Van Assche,yes Pablo Carreno Busta,yes Andrea Pellegrino,yes Andrey Rublev,yes Nikoloz Basilashvili,yes Carol Young Suh Lee,yes Elina Avanesyan,yes Varvara Lepchenko,yes Lisa Zaar,yes Carole Monnet,yes Veronika Podrez,yes Arantxa Rus",
-        "volume": 23268.18,
-        "event_ticker": "KXMVECROSSCATEGORY-S202610B6D611720",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-19",
-      "topic": "Tech & Science",
-      "volume1mo": 20229.420000000002,
-      "share_pct": 3.6264895497905902,
-      "event_count": 13,
-      "example": {
-        "title": "yes Argentina,yes Spain wins 1st Half,yes 1st Half: Both Teams To Score,yes Reg Time: Both Teams To Score,yes 8+ corners,yes Lionel Messi: 2+,yes Mikel Oyarzabal: 1+",
-        "volume": 7136.36,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262542CD26FEB",
+        "title": "yes Sergio Callejon Hernando,yes Massimo Giunta,yes Dimitar Kuzmanov,yes Aidan Mayo,yes Patrick Maloney,yes Yannick Hanfmann,yes Nikoloz Basilashvili,yes Facundo Diaz Acosta,yes Federico Cina,yes Jurij Rodionov,yes Erika Andreeva,yes Alisa Oktiabreva,yes Maria Carle,yes Daria Snigur",
+        "volume": 103.09,
+        "event_ticker": "KXMVECROSSCATEGORY-S20267D996884D57",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "topic": "Sports",
-      "volume1mo": "451338.15000000",
-      "share_pct": "80.91052954",
-      "event_count": "274"
+      "volume1mo": "341584.75000000",
+      "share_pct": "96.16036696",
+      "event_count": "324"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "topic": "Unclassified",
-      "volume1mo": "62988.00000000",
-      "share_pct": "11.29173865",
-      "event_count": "45"
+      "volume1mo": "13253.08000000",
+      "share_pct": "3.73090730",
+      "event_count": "55"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
+      "topic": "Geopolitics",
+      "volume1mo": "283.13000000",
+      "share_pct": "0.07970463",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-07-20",
       "topic": "Business/Economy",
-      "volume1mo": "23268.18000000",
-      "share_pct": "4.17124226",
+      "volume1mo": "103.09000000",
+      "share_pct": "0.02902112",
       "event_count": "1"
     },
     {
-      "date": "2026-07-19",
-      "topic": "Tech & Science",
-      "volume1mo": "20229.42000000",
-      "share_pct": "3.62648955",
-      "event_count": "13"
-    },
-    {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "topic": "Total",
-      "volume1mo": "557823.75000000",
+      "volume1mo": "355224.05000000",
       "share_pct": "100.00000000",
-      "event_count": "333"
+      "event_count": "382"
     }
   ]
 }
