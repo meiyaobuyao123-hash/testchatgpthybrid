@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-22",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 344,
-  "sample_rows": 344,
-  "sum_volume1mo": 412548.3,
-  "last_event_volume1mo": 0.19,
+  "positive_rows": 447,
+  "sample_rows": 447,
+  "sum_volume1mo": 526779.4199999999,
+  "last_event_volume1mo": 0.34,
   "topics": [
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Sports",
-      "volume1mo": 366675.1,
-      "share_pct": 88.88052623171639,
-      "event_count": 283,
+      "volume1mo": 431085.80999999994,
+      "share_pct": 81.83421630252754,
+      "event_count": 371,
       "example": {
-        "title": "yes Philadelphia,yes Cleveland,yes New York Y,yes Milwaukee,yes Seattle,yes New York Y,yes Milwaukee,yes Seattle,yes Cleveland,yes Atlanta,yes Atlanta,yes Cleveland,yes Detroit",
-        "volume": 45000.0,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202682DB28248DD",
+        "title": "yes Florent Bax,yes Zsombor Piros,yes Thiago Seyboth Wild,yes Michael Zheng,yes Alejandro Tabilo,yes Alexander Bublik,yes Tomas Martin Etcheverry,yes Ignacio Buse,yes Valentin Vacherot,yes Alexander Blockx,yes Alex Molcan,yes Yannick Hanfmann,yes Lola Radivojevic,yes Daria Snigur,yes Anna Bondar,yes Marie Bouzkova,yes Anhelina Kalinina,yes Tereza Valentova,yes Tamara Korpatsch,yes Dominika Salkova",
+        "volume": 113636.36,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266EC6158B3FD",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Unclassified",
-      "volume1mo": 34905.37000000001,
-      "share_pct": 8.460917182303263,
-      "event_count": 58,
+      "volume1mo": 94060.15999999997,
+      "share_pct": 17.855701348393602,
+      "event_count": 73,
       "example": {
-        "title": "yes Otto Virtanen,yes Max Hans Rehberg,yes Maks Kasnikowski,yes Diego Dedura-Palomero,yes Oliver Crawford,yes Max Basing,yes Franco Roncadelli,yes Nikolas Sanchez Izquierdo,yes Keegan Smith,yes Juan Manuel Cerundolo,yes Nuno Borges,yes Gonzalo Bueno,yes Daniel Merida,yes Nikola Bartunkova,yes Barbora Krejcikova,yes Lilli Tagger,yes Lanlana Tararudee,yes Oleksandra Oliynykova,yes Sinja Kraus,yes Noma Noha Akugue,yes Yulia Putintseva,yes Tereza Valentova",
-        "volume": 6549.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026AE6F13D4F22",
+        "title": "yes Chicago,yes Portland,yes Los Angeles,no Minnesota wins by over 9.5 points,yes Over 179.5 points scored,no Over 178.5 points scored,no Over 164.5 points scored,no Over 178.5 points scored,yes Over 177.5 points scored",
+        "volume": 45454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266EFAB441608",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Tech & Science",
-      "volume1mo": 10967.83,
-      "share_pct": 2.6585565859803566,
+      "volume1mo": 1633.45,
+      "share_pct": 0.3100823490788612,
       "event_count": 3,
       "example": {
-        "title": "yes Keegan Rice,yes Cezar Cretu (b. 2001),yes Zhizhen Zhang,yes Max Alcala Gurri,yes Alex Barrena,yes Tom Gentzsch,yes Otto Virtanen,yes Nicolai Budkov Kjaer,yes Charles Broom,yes Miguel Damas,yes Marcelo Tomas Barrios Vera,yes Max Hans Rehberg,yes Thiago Monteiro,yes Norbert Gombos,yes Maks Kasnikowski,yes Diego Dedura-Palomero,yes Igor Marcondes,yes Raul Brancaccio,yes Sumit Nagal,yes Guido Ivan Justo,yes Franco Roncadelli,yes Dimitar Kuzmanov,yes Nikolas Sanchez Izquierdo,yes Henri Squire,yes Francesco Passaro,yes Henry Bernet,yes James Kent Trotter",
-        "volume": 9259.25,
-        "event_ticker": "KXMVECROSSCATEGORY-S20267BC92C5C104",
+        "title": "yes Sebastian Baez,yes Alexander Bublik,yes Titouan Droguet,yes Luciano Darderi,yes Daniel Altmaier,yes Jan-Lennard Struff,yes Yannick Hanfmann,yes Paula Badosa",
+        "volume": 847.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026589FDA29CBE",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Sports",
-      "volume1mo": "366675.10000000",
-      "share_pct": "88.88052623",
-      "event_count": "283"
+      "volume1mo": "431085.81000000",
+      "share_pct": "81.83421630",
+      "event_count": "371"
     },
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Unclassified",
-      "volume1mo": "34905.37000000",
-      "share_pct": "8.46091718",
-      "event_count": "58"
+      "volume1mo": "94060.16000000",
+      "share_pct": "17.85570135",
+      "event_count": "73"
     },
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Tech & Science",
-      "volume1mo": "10967.83000000",
-      "share_pct": "2.65855659",
+      "volume1mo": "1633.45000000",
+      "share_pct": "0.31008235",
       "event_count": "3"
     },
     {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "topic": "Total",
-      "volume1mo": "412548.30000000",
+      "volume1mo": "526779.42000000",
       "share_pct": "100.00000000",
-      "event_count": "344"
+      "event_count": "447"
     }
   ]
 }
