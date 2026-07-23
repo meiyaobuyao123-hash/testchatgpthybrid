@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 447,
-  "sample_rows": 447,
-  "sum_volume1mo": 526779.4199999999,
-  "last_event_volume1mo": 0.34,
+  "positive_rows": 378,
+  "sample_rows": 378,
+  "sum_volume1mo": 409734.90999999986,
+  "last_event_volume1mo": 0.39,
   "topics": [
     {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "topic": "Sports",
-      "volume1mo": 431085.80999999994,
-      "share_pct": 81.83421630252754,
-      "event_count": 371,
+      "volume1mo": 321805.15999999986,
+      "share_pct": 78.53984421293269,
+      "event_count": 327,
       "example": {
-        "title": "yes Florent Bax,yes Zsombor Piros,yes Thiago Seyboth Wild,yes Michael Zheng,yes Alejandro Tabilo,yes Alexander Bublik,yes Tomas Martin Etcheverry,yes Ignacio Buse,yes Valentin Vacherot,yes Alexander Blockx,yes Alex Molcan,yes Yannick Hanfmann,yes Lola Radivojevic,yes Daria Snigur,yes Anna Bondar,yes Marie Bouzkova,yes Anhelina Kalinina,yes Tereza Valentova,yes Tamara Korpatsch,yes Dominika Salkova",
-        "volume": 113636.36,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266EC6158B3FD",
+        "title": "yes Atlanta,yes Detroit,yes Milwaukee,yes Detroit,yes Los Angeles D,yes St. Louis,yes San Diego,yes Minnesota,yes Milwaukee",
+        "volume": 49019.6,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026156EB120333",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-22",
-      "topic": "Unclassified",
-      "volume1mo": 94060.15999999997,
-      "share_pct": 17.855701348393602,
-      "event_count": 73,
-      "example": {
-        "title": "yes Chicago,yes Portland,yes Los Angeles,no Minnesota wins by over 9.5 points,yes Over 179.5 points scored,no Over 178.5 points scored,no Over 164.5 points scored,no Over 178.5 points scored,yes Over 177.5 points scored",
-        "volume": 45454.54,
-        "event_ticker": "KXMVECROSSCATEGORY-S20266EFAB441608",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "topic": "Tech & Science",
-      "volume1mo": 1633.45,
-      "share_pct": 0.3100823490788612,
-      "event_count": 3,
+      "volume1mo": 81063.47999999998,
+      "share_pct": 19.78437229085508,
+      "event_count": 10,
       "example": {
-        "title": "yes Sebastian Baez,yes Alexander Bublik,yes Titouan Droguet,yes Luciano Darderi,yes Daniel Altmaier,yes Jan-Lennard Struff,yes Yannick Hanfmann,yes Paula Badosa",
-        "volume": 847.45,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026589FDA29CBE",
+        "title": "yes Los Angeles F,yes Saint Louis,yes Dallas,yes Orlando,yes Columbus,yes DC United,yes Houston,yes Los Angeles F,yes Vancouver,yes Miami,yes New England,yes New York City,yes Nashville,yes Philadelphia,yes San Diego FC,yes San Jose,yes Saint Louis",
+        "volume": 73136.34,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026259DAF4D359",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "topic": "Unclassified",
+      "volume1mo": 6866.27,
+      "share_pct": 1.6757834962122224,
+      "event_count": 41,
+      "example": {
+        "title": "yes Pablo Carreno Busta,yes Alexander Bublik,yes Tomas Martin Etcheverry,yes Lanlana Tararudee,yes Maria Timofeeva,yes Paula Badosa,yes Oleksandra Oliynykova",
+        "volume": 882.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DF78BE32EF9",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "topic": "Sports",
-      "volume1mo": "431085.81000000",
-      "share_pct": "81.83421630",
-      "event_count": "371"
+      "volume1mo": "321805.16000000",
+      "share_pct": "78.53984421",
+      "event_count": "327"
     },
     {
-      "date": "2026-07-22",
-      "topic": "Unclassified",
-      "volume1mo": "94060.16000000",
-      "share_pct": "17.85570135",
-      "event_count": "73"
-    },
-    {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "topic": "Tech & Science",
-      "volume1mo": "1633.45000000",
-      "share_pct": "0.31008235",
-      "event_count": "3"
+      "volume1mo": "81063.48000000",
+      "share_pct": "19.78437229",
+      "event_count": "10"
     },
     {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
+      "topic": "Unclassified",
+      "volume1mo": "6866.27000000",
+      "share_pct": "1.67578350",
+      "event_count": "41"
+    },
+    {
+      "date": "2026-07-23",
       "topic": "Total",
-      "volume1mo": "526779.42000000",
+      "volume1mo": "409734.91000000",
       "share_pct": "100.00000000",
-      "event_count": "447"
+      "event_count": "378"
     }
   ]
 }
