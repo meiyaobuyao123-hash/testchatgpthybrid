@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-07-24",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 401,
+  "sample_rows": 401,
+  "sum_volume1mo": 374756.6300000002,
+  "last_event_volume1mo": 0.35,
+  "topics": [
+    {
+      "date": "2026-07-24",
+      "topic": "Sports",
+      "volume1mo": 352851.1400000002,
+      "share_pct": 94.15474250582305,
+      "event_count": 343,
+      "example": {
+        "title": "yes San Luis,yes Juarez,yes Atlas,yes Necaxa,yes America wins by more than 1.5 goals,yes Tijuana de Caliente wins by more than 1.5 goals,yes Pachuca wins by more than 1.5 goals",
+        "volume": 44809.09,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20260690B650797",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "topic": "Unclassified",
+      "volume1mo": 21329.000000000004,
+      "share_pct": 5.691426993566464,
+      "event_count": 56,
+      "example": {
+        "title": "yes Milwaukee,yes Pittsburgh,yes Detroit,yes Arizona,yes New York Y,yes Atlanta,yes Tampa Bay,yes Los Angeles D,yes San Diego,yes Toronto,yes Chicago WS,yes Seattle,yes A's,yes Cincinnati,yes San Francisco",
+        "volume": 4545.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026950C2F41F33",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "topic": "Tech & Science",
+      "volume1mo": 576.49,
+      "share_pct": 0.15383050061048947,
+      "event_count": 2,
+      "example": {
+        "title": "yes Target Price: $65,349.84,yes Milwaukee,yes Detroit,yes Columbus,yes DC United,yes Houston,yes Los Angeles F,yes Vancouver,yes Miami,yes Chicago Fire,yes New York RB,yes Nashville,yes Saint Louis",
+        "volume": 454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026998FC151D62",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-07-24",
+      "topic": "Sports",
+      "volume1mo": "352851.14000000",
+      "share_pct": "94.15474251",
+      "event_count": "343"
+    },
+    {
+      "date": "2026-07-24",
+      "topic": "Unclassified",
+      "volume1mo": "21329.00000000",
+      "share_pct": "5.69142699",
+      "event_count": "56"
+    },
+    {
+      "date": "2026-07-24",
+      "topic": "Tech & Science",
+      "volume1mo": "576.49000000",
+      "share_pct": "0.15383050",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-07-24",
+      "topic": "Total",
+      "volume1mo": "374756.63000000",
+      "share_pct": "100.00000000",
+      "event_count": "401"
+    }
+  ]
+}
