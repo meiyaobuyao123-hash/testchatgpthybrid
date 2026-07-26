@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25",
+  "as_of": "2026-07-26",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 409,
-  "sample_rows": 409,
-  "sum_volume1mo": 569434.3799999999,
-  "last_event_volume1mo": 1.13,
+  "positive_rows": 345,
+  "sample_rows": 345,
+  "sum_volume1mo": 573384.2500000002,
+  "last_event_volume1mo": 2.85,
   "topics": [
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "topic": "Sports",
-      "volume1mo": 509873.12999999995,
-      "share_pct": 89.54027854798652,
-      "event_count": 341,
+      "volume1mo": 510341.61000000016,
+      "share_pct": 89.00516712832625,
+      "event_count": 286,
       "example": {
-        "title": "yes Cincinnati,yes DC United,yes Houston,yes Los Angeles F,yes Vancouver,yes Miami,yes New England,yes Chicago Fire,yes Nashville,yes Seattle,yes Dallas,yes San Jose,yes Saint Louis",
-        "volume": 89090.9,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026236F29EA708",
+        "title": "yes Cleveland,yes Pittsburgh wins by over 1.5 runs,yes Miami wins by over 1.5 runs,yes Over 6.5 runs scored,yes Over 8.5 runs scored,yes Over 8.5 runs scored",
+        "volume": 71942.44,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026AF0209462DA",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "topic": "Unclassified",
-      "volume1mo": 50957.5,
-      "share_pct": 8.948792308606308,
-      "event_count": 62,
+      "volume1mo": 51199.450000000004,
+      "share_pct": 8.929343629511969,
+      "event_count": 53,
       "example": {
-        "title": "no Alex Bregman: 2+,no Shota Imanaga: 6+",
-        "volume": 10862.48,
-        "event_ticker": "KXMVECROSSCATEGORY-S202688352B2F07F",
+        "title": "no Yes,no Yes,no Yes,no Yes,no Yes,no Yes",
+        "volume": 20325.2,
+        "event_ticker": "KXMVECROSSCATEGORY-S20264F1EBBB3EF7",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
+      "topic": "Business/Economy",
+      "volume1mo": 9326.15,
+      "share_pct": 1.6265096224739337,
+      "event_count": 3,
+      "example": {
+        "title": "yes Hunter Heck,yes Tommaso Compagnucci,yes Mirza Basic,yes Mert Naci Turker,yes Dali Blanch,yes Federico Bondioli,yes Enrico Dalla Valle,yes Miguel Damas,yes Mika Brunold,yes Sergey Fomin,yes Daniel Elahi Galan,yes Norbert Gombos,yes Tomasz Berkieta,yes Nicolas Kicker,yes Alec Beckley,yes Andrej Martin,yes Maxwell McKennon,yes Kenta Miyoshi (b. 2004),yes Rudolf Molleker,yes Thiago Monteiro,yes Mili Poljicak,yes Khumoyun Sultanov,yes Toufik Sahtali,yes Matthew William Donald,yes Juan Pablo Varillas,yes Francesco Forti,yes Tristan Boyer,yes Aidan Mayo,yes Soonwoo Kwon,yes Alex Hernandez,yes Colton Smith,yes Martin Damm Jr,yes Marcos Giron,yes Grigor Dimitrov,yes Mackenzie McDonald,yes Zachary Svajda,yes Adam Walton,yes Deborah Chiesa,yes Gina Feistel,yes Margaux Rouvroy,yes Julieta Pareja",
+        "volume": 9090.9,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026FB385ADFFF5",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-26",
       "topic": "Tech & Science",
-      "volume1mo": 8520.23,
-      "share_pct": 1.4962619573479214,
-      "event_count": 4,
+      "volume1mo": 2517.04,
+      "share_pct": 0.4389796196878444,
+      "event_count": 3,
       "example": {
-        "title": "yes Chandler Phillips,yes Emiliano Grillo,yes Hideki Matsuyama,yes Jackson Koivun,yes Denny McCarthy,yes Jesper Svensson,yes Scottie Scheffler,yes Zac Blair,yes Ben Kohles,yes Michael Kim",
-        "volume": 2877.69,
-        "event_ticker": "KXMVECROSSCATEGORY-S20266AD13A6CE08",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-25",
-      "topic": "Geopolitics",
-      "volume1mo": 83.52,
-      "share_pct": 0.014667186059261124,
-      "event_count": 2,
-      "example": {
-        "title": "yes Edward Winter,yes Tristan Boyer,yes Marcos Giron,yes Moez Echargui,yes Nicolas Mejia,yes Bernard Tomic,yes Aleksandar Vukic,yes America,yes Guadalajara,yes Barbora Krejcikova",
-        "volume": 64.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C5C2B098F2F",
+        "title": "yes Parker Messick: 3+,yes Drew Rasmussen: 3+,yes Reynaldo L\u00f3pez: 3+,yes Shane Baz: 3+,yes Jameson Taillon: 3+,yes Braxton Ashcraft: 3+,yes Ranger Su\u00e1rez: 2+,yes Kevin Gausman: 3+,yes Framber Valdez: 2+,yes Luinder Avila: 2+,yes Emmet Sheehan: 3+,yes Freddy Peralta: 3+,yes Jeffrey Springs: 2+,yes Connor Prielipp: 2+,yes Junior Caminero: 1+,yes Byron Buxton: 1+,yes Over 6.5 runs scored,yes Over 8.5 runs scored,yes Over 8.5 runs scored,yes Over 9.5 runs scored",
+        "volume": 2222.22,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026379A6FDCB31",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "topic": "Sports",
-      "volume1mo": "509873.13000000",
-      "share_pct": "89.54027855",
-      "event_count": "341"
+      "volume1mo": "510341.61000000",
+      "share_pct": "89.00516713",
+      "event_count": "286"
     },
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "topic": "Unclassified",
-      "volume1mo": "50957.50000000",
-      "share_pct": "8.94879231",
-      "event_count": "62"
+      "volume1mo": "51199.45000000",
+      "share_pct": "8.92934363",
+      "event_count": "53"
     },
     {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
+      "topic": "Business/Economy",
+      "volume1mo": "9326.15000000",
+      "share_pct": "1.62650962",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-07-26",
       "topic": "Tech & Science",
-      "volume1mo": "8520.23000000",
-      "share_pct": "1.49626196",
-      "event_count": "4"
+      "volume1mo": "2517.04000000",
+      "share_pct": "0.43897962",
+      "event_count": "3"
     },
     {
-      "date": "2026-07-25",
-      "topic": "Geopolitics",
-      "volume1mo": "83.52000000",
-      "share_pct": "0.01466719",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "topic": "Total",
-      "volume1mo": "569434.38000000",
+      "volume1mo": "573384.25000000",
       "share_pct": "100.00000000",
-      "event_count": "409"
+      "event_count": "345"
     }
   ]
 }
