@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27",
+  "as_of": "2026-07-28",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 346,
-  "sample_rows": 346,
-  "sum_volume1mo": 335932.47000000003,
-  "last_event_volume1mo": 0.51,
+  "positive_rows": 353,
+  "sample_rows": 353,
+  "sum_volume1mo": 609938.9800000001,
+  "last_event_volume1mo": 0.16,
   "topics": [
     {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "topic": "Sports",
-      "volume1mo": 270843.56,
-      "share_pct": 80.62440644692667,
-      "event_count": 294,
+      "volume1mo": 555930.41,
+      "share_pct": 91.14525030028413,
+      "event_count": 302,
       "example": {
-        "title": "yes Cincinnati,yes Nashville,yes Miami,yes Orlando,yes Philadelphia,yes Saint Louis,yes Los Angeles F,yes New York City",
-        "volume": 18933.33,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266AC17693191",
+        "title": "yes Cincinnati,yes Arizona,yes Detroit,yes Philadelphia,yes Tampa Bay,yes Washington,yes Atlanta,yes Minnesota,yes New York Y,yes Boston,yes San Diego,yes Los Angeles D,no Milwaukee wins by over 1.5 runs",
+        "volume": 227272.72,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026C0CB0C37A79",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "topic": "Unclassified",
-      "volume1mo": 62402.91000000001,
-      "share_pct": 18.576028092789006,
-      "event_count": 44,
+      "volume1mo": 52417.66999999999,
+      "share_pct": 8.593920329538536,
+      "event_count": 50,
       "example": {
-        "title": "yes Trea Turner: 1+,no Yordan Alvarez: 3+",
-        "volume": 24727.99,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261EBA81BECA4",
+        "title": "yes Pittsburgh,yes Washington,yes Chicago C,yes Boston",
+        "volume": 16731.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202636D6BDA7EAF",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-27",
-      "topic": "Geopolitics",
-      "volume1mo": 1223.36,
-      "share_pct": 0.3641684294465491,
-      "event_count": 3,
-      "example": {
-        "title": "yes Julio Rodr\u00edguez: 1+,yes Corbin Carroll: 1+,yes Ketel Marte: 1+,yes Gunnar Henderson: 1+,yes Pete Alonso: 1+,yes Kyle Schwarber: 1+,yes Trea Turner: 1+,yes Vladimir Guerrero Jr.: 1+,yes CJ Abrams: 1+,yes James Wood: 1+,yes Matt Olson: 1+,yes Ronald Acu\u00f1a Jr.: 1+,yes Francisco Lindor: 1+,yes Steven Kwan: 1+,yes Yordan Alvarez: 1+",
-        "volume": 925.92,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265767F8B8C4A",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Crypto",
-      "volume1mo": 850.0,
-      "share_pct": 0.25302704439377355,
+      "date": "2026-07-28",
+      "topic": "Tech & Science",
+      "volume1mo": 1590.9,
+      "share_pct": 0.26082937017732494,
       "event_count": 1,
       "example": {
-        "title": "yes Grigor Dimitrov,yes Denis Shapovalov,yes Lorenzo Musetti,yes Taylor Fritz,yes Frances Tiafoe,yes Maya Joint,yes Clara Tauson,yes Camila Osorio,yes Madison Keys,yes Solana Sierra,yes Janice Tjen",
-        "volume": 850.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262DC8195C661",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Tech & Science",
-      "volume1mo": 612.64,
-      "share_pct": 0.18236998644400165,
-      "event_count": 4,
-      "example": {
-        "title": "yes James Kent Trotter,yes Justin Boulais,yes Jay Friend,yes Christian Langmo,yes Hayato Matsuoka,yes Braden Shick,yes Mirza Basic,yes Jurij Rodionov,yes Khumoyun Sultanov,yes Dimitar Kuzmanov,yes Samuele Pieri,yes Andrej Martin,yes Kenta Miyoshi (b. 2004),yes Thiago Monteiro,yes Matheus Pucinelli de Almeida,yes Toufik Sahtali,yes Alex Marti Pujolras,yes Daniel Siniakov,yes Marko ToPo,yes Alex Hernandez,yes Maya Joint,yes Clara Tauson,yes Emma Navarro,yes Madison Keys,yes Janice Tjen",
-        "volume": 303.03,
-        "event_ticker": "KXMVECROSSCATEGORY-S20268B1528839CE",
+        "title": "yes Chicago Fire,yes Cincinnati,yes Colorado,yes Nashville,yes Los Angeles G,yes Miami,yes Minnesota,yes Montreal,yes Orlando,yes Philadelphia,yes Portland,yes Houston,yes Saint Louis,yes Vancouver,yes New York City",
+        "volume": 1590.9,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265406F7190E0",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "topic": "Sports",
-      "volume1mo": "270843.56000000",
-      "share_pct": "80.62440645",
-      "event_count": "294"
+      "volume1mo": "555930.41000000",
+      "share_pct": "91.14525030",
+      "event_count": "302"
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "topic": "Unclassified",
-      "volume1mo": "62402.91000000",
-      "share_pct": "18.57602809",
-      "event_count": "44"
+      "volume1mo": "52417.67000000",
+      "share_pct": "8.59392033",
+      "event_count": "50"
     },
     {
-      "date": "2026-07-27",
-      "topic": "Geopolitics",
-      "volume1mo": "1223.36000000",
-      "share_pct": "0.36416843",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Crypto",
-      "volume1mo": "850.00000000",
-      "share_pct": "0.25302704",
+      "date": "2026-07-28",
+      "topic": "Tech & Science",
+      "volume1mo": "1590.90000000",
+      "share_pct": "0.26082937",
       "event_count": "1"
     },
     {
-      "date": "2026-07-27",
-      "topic": "Tech & Science",
-      "volume1mo": "612.64000000",
-      "share_pct": "0.18236999",
-      "event_count": "4"
-    },
-    {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "topic": "Total",
-      "volume1mo": "335932.47000000",
+      "volume1mo": "609938.98000000",
       "share_pct": "100.00000000",
-      "event_count": "346"
+      "event_count": "353"
     }
   ]
 }
