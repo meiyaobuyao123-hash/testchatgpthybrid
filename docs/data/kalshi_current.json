@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28",
+  "as_of": "2026-07-29",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 353,
-  "sample_rows": 353,
-  "sum_volume1mo": 609938.9800000001,
-  "last_event_volume1mo": 0.16,
+  "positive_rows": 475,
+  "sample_rows": 475,
+  "sum_volume1mo": 367463.62000000034,
+  "last_event_volume1mo": 0.52,
   "topics": [
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Sports",
-      "volume1mo": 555930.41,
-      "share_pct": 91.14525030028413,
-      "event_count": 302,
+      "volume1mo": 319888.32000000036,
+      "share_pct": 87.05305847691808,
+      "event_count": 376,
       "example": {
-        "title": "yes Cincinnati,yes Arizona,yes Detroit,yes Philadelphia,yes Tampa Bay,yes Washington,yes Atlanta,yes Minnesota,yes New York Y,yes Boston,yes San Diego,yes Los Angeles D,no Milwaukee wins by over 1.5 runs",
-        "volume": 227272.72,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026C0CB0C37A79",
-        "category": "Exotics"
+        "title": "yes Rinky Hijikata,yes Milwaukee wins by over 7.5 runs,no Over 14.5 runs scored,no Over 13.5 runs scored",
+        "volume": 13762.64,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20269DAE4BCE13A",
+        "category": ""
       }
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Unclassified",
-      "volume1mo": 52417.66999999999,
-      "share_pct": 8.593920329538536,
-      "event_count": 50,
+      "volume1mo": 46286.579999999994,
+      "share_pct": 12.596234696648324,
+      "event_count": 95,
       "example": {
-        "title": "yes Pittsburgh,yes Washington,yes Chicago C,yes Boston",
-        "volume": 16731.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S202636D6BDA7EAF",
+        "title": "yes Dustin May: 9+,yes Over 2.5 runs scored",
+        "volume": 8714.58,
+        "event_ticker": "KXMVECROSSCATEGORY-S20267973FB95DDE",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Tech & Science",
-      "volume1mo": 1590.9,
-      "share_pct": 0.26082937017732494,
+      "volume1mo": 1278.17,
+      "share_pct": 0.3478357939215857,
+      "event_count": 3,
+      "example": {
+        "title": "yes Dortmund,yes Cremonese,yes SGB Kanchanaburi FC,yes Frosinone,yes Leverkusen,yes Palermo,yes Hoffenheim,yes Reg Time: Kairat,yes Reg Time: Uni Craiova,yes Reg Time: Crvena Zvezda,yes Reg Time: Fenerbahce,yes Reg Time: Be`er Sheva,yes Reg Time: Kauno,yes Reg Time: Lech Poznan,yes Reg Time: Slovan Bratislava",
+        "volume": 1212.12,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026A96E184C41C",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "topic": "Business/Economy",
+      "volume1mo": 10.55,
+      "share_pct": 0.002871032512007581,
       "event_count": 1,
       "example": {
-        "title": "yes Chicago Fire,yes Cincinnati,yes Colorado,yes Nashville,yes Los Angeles G,yes Miami,yes Minnesota,yes Montreal,yes Orlando,yes Philadelphia,yes Portland,yes Houston,yes Saint Louis,yes Vancouver,yes New York City",
-        "volume": 1590.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265406F7190E0",
+        "title": "yes Atlanta,yes Houston,yes Colorado,yes Detroit,yes Boston,yes Milwaukee wins by over 5.5 runs,yes Seattle wins by over 1.5 runs",
+        "volume": 10.55,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266FF841AE5CF",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Sports",
-      "volume1mo": "555930.41000000",
-      "share_pct": "91.14525030",
-      "event_count": "302"
+      "volume1mo": "319888.32000000",
+      "share_pct": "87.05305848",
+      "event_count": "376"
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Unclassified",
-      "volume1mo": "52417.67000000",
-      "share_pct": "8.59392033",
-      "event_count": "50"
+      "volume1mo": "46286.58000000",
+      "share_pct": "12.59623470",
+      "event_count": "95"
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Tech & Science",
-      "volume1mo": "1590.90000000",
-      "share_pct": "0.26082937",
+      "volume1mo": "1278.17000000",
+      "share_pct": "0.34783579",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-07-29",
+      "topic": "Business/Economy",
+      "volume1mo": "10.55000000",
+      "share_pct": "0.00287103",
       "event_count": "1"
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "topic": "Total",
-      "volume1mo": "609938.98000000",
+      "volume1mo": "367463.62000000",
       "share_pct": "100.00000000",
-      "event_count": "353"
+      "event_count": "475"
     }
   ]
 }
