@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30",
+  "as_of": "2026-07-31",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 449,
-  "sample_rows": 449,
-  "sum_volume1mo": 302482.33999999985,
-  "last_event_volume1mo": 1.09,
+  "positive_rows": 387,
+  "sample_rows": 387,
+  "sum_volume1mo": 366441.3700000002,
+  "last_event_volume1mo": 0.7,
   "topics": [
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Sports",
-      "volume1mo": 264522.2999999999,
-      "share_pct": 87.45049380403498,
-      "event_count": 366,
+      "volume1mo": 284866.12000000017,
+      "share_pct": 77.73852608399537,
+      "event_count": 319,
       "example": {
-        "title": "yes Kenta Miyoshi (b. 2004),yes Kilian Feldbausch,yes Hynek Barton,yes Max Basing,yes Tom Gentzsch,yes Manas Dhamne,yes Federico Agustin Gomez,yes Denis Yevseyev,yes Cameron Norrie,yes Denis Shapovalov,yes Luciano Darderi,yes Houston,yes Los Angeles D,yes Tampa Bay,yes Kansas City,yes Chicago WS,yes Chicago C,no Over 12.5 runs scored,yes Washington",
-        "volume": 15151.51,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266913C29EEAE",
+        "title": "yes SINNERS Esports,yes Tijuana de Caliente,yes Pumas UNAM,yes Baltimore,yes Cleveland,yes Tampa Bay,yes Washington,yes New York City,yes Dallas,yes Atlanta",
+        "volume": 26851.16,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026C92D69A7CBF",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Unclassified",
-      "volume1mo": 36334.48999999999,
-      "share_pct": 12.01210292144659,
-      "event_count": 76,
+      "volume1mo": 74564.85000000002,
+      "share_pct": 20.348371145976223,
+      "event_count": 57,
       "example": {
-        "title": "yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Over 7.5 runs scored",
-        "volume": 4564.86,
-        "event_ticker": "KXMVECROSSCATEGORY-S20264FB31BFA63D",
+        "title": "yes Pittsburgh wins by over 1.5 runs,yes Colorado wins by over 2.5 runs,yes Milwaukee wins by over 1.5 runs",
+        "volume": 18210.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202665C7820E9D0",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-30",
-      "topic": "Tech & Science",
-      "volume1mo": 1149.77,
-      "share_pct": 0.38011144716746126,
-      "event_count": 3,
-      "example": {
-        "title": "yes Denis Shapovalov,yes Bernard Tomic,yes Jenson Brooksby,yes Maya Joint,yes Magdalena Frech,yes Peyton Stearns,yes Diana Shnaider,yes Caty McNally",
-        "volume": 1078.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026F1C543329FB",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Business/Economy",
-      "volume1mo": 354.28999999999996,
-      "share_pct": 0.11712749907978103,
-      "event_count": 3,
-      "example": {
-        "title": "yes Kenta Miyoshi (b. 2004),yes Hynek Barton,yes Max Basing,yes Tom Gentzsch,yes Manas Dhamne,yes Federico Agustin Gomez,yes Denis Yevseyev,yes Lucia Bronzetti,yes Francesca Jones,yes Caty McNally",
-        "volume": 161.29,
-        "event_ticker": "KXMVECROSSCATEGORY-S202643684BBE117",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "topic": "Culture",
-      "volume1mo": 121.49,
-      "share_pct": 0.040164328271197605,
+      "volume1mo": 4545.45,
+      "share_pct": 1.2404303586137113,
       "event_count": 1,
       "example": {
-        "title": "yes Houston,yes Los Angeles D,yes Andy Pages: 1+,yes Freddie Freeman: 2+,yes Max Muncy (LAD): 1+,yes Shohei Ohtani: 1+,yes Teoscar Hern\u00e1ndez: 1+,yes Eric Lauer: 5+,yes Emerson Hancock: 4+",
-        "volume": 121.49,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026989AE678F50",
+        "title": "yes New York Y,yes Pittsburgh,yes Philadelphia,yes St. Louis,yes Cleveland,yes Chicago WS,yes New York M,yes Atlanta,yes Houston,yes Kansas City",
+        "volume": 4545.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S20268E6254BB5BA",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "topic": "Tech & Science",
+      "volume1mo": 1590.9499999999998,
+      "share_pct": 0.43416222355025,
+      "event_count": 9,
+      "example": {
+        "title": "yes Jan Choinski,yes Jurij Rodionov,yes Kaitlin Quevedo",
+        "volume": 782.64,
+        "event_ticker": "KXMVECROSSCATEGORY-S20263C15254BB53",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "topic": "Geopolitics",
+      "volume1mo": 874.0,
+      "share_pct": 0.2385101878644323,
+      "event_count": 1,
+      "example": {
+        "title": "yes New York Y,yes Shota Imanaga: 7+,yes Will Warren: 6+,no Over 9.5 runs scored",
+        "volume": 874.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20263F435792DD3",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Sports",
-      "volume1mo": "264522.30000000",
-      "share_pct": "87.45049380",
-      "event_count": "366"
+      "volume1mo": "284866.12000000",
+      "share_pct": "77.73852608",
+      "event_count": "319"
     },
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Unclassified",
-      "volume1mo": "36334.49000000",
-      "share_pct": "12.01210292",
-      "event_count": "76"
+      "volume1mo": "74564.85000000",
+      "share_pct": "20.34837115",
+      "event_count": "57"
     },
     {
-      "date": "2026-07-30",
-      "topic": "Tech & Science",
-      "volume1mo": "1149.77000000",
-      "share_pct": "0.38011145",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "topic": "Business/Economy",
-      "volume1mo": "354.29000000",
-      "share_pct": "0.11712750",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-07-30",
-      "topic": "Culture",
-      "volume1mo": "121.49000000",
-      "share_pct": "0.04016433",
+      "volume1mo": "4545.45000000",
+      "share_pct": "1.24043036",
       "event_count": "1"
     },
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
+      "topic": "Tech & Science",
+      "volume1mo": "1590.95000000",
+      "share_pct": "0.43416222",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-07-31",
+      "topic": "Geopolitics",
+      "volume1mo": "874.00000000",
+      "share_pct": "0.23851019",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-07-31",
       "topic": "Total",
-      "volume1mo": "302482.34000000",
+      "volume1mo": "366441.37000000",
       "share_pct": "100.00000000",
-      "event_count": "449"
+      "event_count": "387"
     }
   ]
 }
