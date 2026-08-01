@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31",
+  "as_of": "2026-08-01",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 387,
-  "sample_rows": 387,
-  "sum_volume1mo": 366441.3700000002,
-  "last_event_volume1mo": 0.7,
+  "positive_rows": 405,
+  "sample_rows": 405,
+  "sum_volume1mo": 550160.18,
+  "last_event_volume1mo": 0.53,
   "topics": [
     {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Sports",
-      "volume1mo": 284866.12000000017,
-      "share_pct": 77.73852608399537,
-      "event_count": 319,
+      "volume1mo": 442814.15,
+      "share_pct": 80.48822253911578,
+      "event_count": 344,
       "example": {
-        "title": "yes SINNERS Esports,yes Tijuana de Caliente,yes Pumas UNAM,yes Baltimore,yes Cleveland,yes Tampa Bay,yes Washington,yes New York City,yes Dallas,yes Atlanta",
-        "volume": 26851.16,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026C92D69A7CBF",
+        "title": "yes Jan Choinski,yes Tampa Bay,yes New York M,yes Seattle,yes Pittsburgh,yes Philadelphia,yes Cleveland,yes Los Angeles D,yes Boston,yes Minnesota,yes Navajo Stirling,yes Vlasto Cepo,yes Michael Oliveira,yes Jovan Leka,yes Uros Medic,yes Nina Milosevic,yes Aleksandar Rakic,yes Mateusz Rebecki,yes Stephanie Bruna Luciano,yes Las Vegas,yes Dallas,yes Minnesota,yes Golden State,yes Renata Zarazua",
+        "volume": 45454.54,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266F2DBE281A4",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Unclassified",
-      "volume1mo": 74564.85000000002,
-      "share_pct": 20.348371145976223,
-      "event_count": 57,
+      "volume1mo": 106431.63999999998,
+      "share_pct": 19.34557313835399,
+      "event_count": 58,
       "example": {
-        "title": "yes Pittsburgh wins by over 1.5 runs,yes Colorado wins by over 2.5 runs,yes Milwaukee wins by over 1.5 runs",
-        "volume": 18210.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S202665C7820E9D0",
+        "title": "yes St. Louis,yes Tampa Bay,yes New York M,yes Minnesota,yes Pittsburgh,yes Philadelphia,yes Arizona",
+        "volume": 49953.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C2A662F0EE6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-07-31",
-      "topic": "Business/Economy",
-      "volume1mo": 4545.45,
-      "share_pct": 1.2404303586137113,
-      "event_count": 1,
-      "example": {
-        "title": "yes New York Y,yes Pittsburgh,yes Philadelphia,yes St. Louis,yes Cleveland,yes Chicago WS,yes New York M,yes Atlanta,yes Houston,yes Kansas City",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-S20268E6254BB5BA",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Tech & Science",
-      "volume1mo": 1590.9499999999998,
-      "share_pct": 0.43416222355025,
-      "event_count": 9,
+      "volume1mo": 914.39,
+      "share_pct": 0.16620432253021292,
+      "event_count": 3,
       "example": {
-        "title": "yes Jan Choinski,yes Jurij Rodionov,yes Kaitlin Quevedo",
-        "volume": 782.64,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263C15254BB53",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-07-31",
-      "topic": "Geopolitics",
-      "volume1mo": 874.0,
-      "share_pct": 0.2385101878644323,
-      "event_count": 1,
-      "example": {
-        "title": "yes New York Y,yes Shota Imanaga: 7+,yes Will Warren: 6+,no Over 9.5 runs scored",
-        "volume": 874.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263F435792DD3",
+        "title": "yes Navajo Stirling,yes Michael Oliveira,yes Daniel Rodriguez,yes Hailey Cowan",
+        "volume": 500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20263E26D8B60E2",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Sports",
-      "volume1mo": "284866.12000000",
-      "share_pct": "77.73852608",
-      "event_count": "319"
+      "volume1mo": "442814.15000000",
+      "share_pct": "80.48822254",
+      "event_count": "344"
     },
     {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Unclassified",
-      "volume1mo": "74564.85000000",
-      "share_pct": "20.34837115",
-      "event_count": "57"
+      "volume1mo": "106431.64000000",
+      "share_pct": "19.34557314",
+      "event_count": "58"
     },
     {
-      "date": "2026-07-31",
-      "topic": "Business/Economy",
-      "volume1mo": "4545.45000000",
-      "share_pct": "1.24043036",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Tech & Science",
-      "volume1mo": "1590.95000000",
-      "share_pct": "0.43416222",
-      "event_count": "9"
+      "volume1mo": "914.39000000",
+      "share_pct": "0.16620432",
+      "event_count": "3"
     },
     {
-      "date": "2026-07-31",
-      "topic": "Geopolitics",
-      "volume1mo": "874.00000000",
-      "share_pct": "0.23851019",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "topic": "Total",
-      "volume1mo": "366441.37000000",
+      "volume1mo": "550160.18000000",
       "share_pct": "100.00000000",
-      "event_count": "387"
+      "event_count": "405"
     }
   ]
 }
