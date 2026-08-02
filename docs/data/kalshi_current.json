@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-01",
+  "as_of": "2026-08-02",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 405,
-  "sample_rows": 405,
-  "sum_volume1mo": 550160.18,
-  "last_event_volume1mo": 0.53,
+  "positive_rows": 420,
+  "sample_rows": 420,
+  "sum_volume1mo": 576757.56,
+  "last_event_volume1mo": 0.51,
   "topics": [
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Sports",
-      "volume1mo": 442814.15,
-      "share_pct": 80.48822253911578,
-      "event_count": 344,
+      "volume1mo": 528120.3300000002,
+      "share_pct": 91.5671274425948,
+      "event_count": 331,
       "example": {
-        "title": "yes Jan Choinski,yes Tampa Bay,yes New York M,yes Seattle,yes Pittsburgh,yes Philadelphia,yes Cleveland,yes Los Angeles D,yes Boston,yes Minnesota,yes Navajo Stirling,yes Vlasto Cepo,yes Michael Oliveira,yes Jovan Leka,yes Uros Medic,yes Nina Milosevic,yes Aleksandar Rakic,yes Mateusz Rebecki,yes Stephanie Bruna Luciano,yes Las Vegas,yes Dallas,yes Minnesota,yes Golden State,yes Renata Zarazua",
-        "volume": 45454.54,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20266F2DBE281A4",
+        "title": "yes Arthur Gea,yes Nuno Borges,yes Juncheng Shang,yes Miomir Kecmanovic,yes Both Teams To Score,yes Both Teams To Score,yes Atlante,yes America,yes Toluca,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score",
+        "volume": 145334.83,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20265EF540AD198",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Unclassified",
-      "volume1mo": 106431.63999999998,
-      "share_pct": 19.34557313835399,
-      "event_count": 58,
+      "volume1mo": 47822.08,
+      "share_pct": 8.291539342804626,
+      "event_count": 82,
       "example": {
-        "title": "yes St. Louis,yes Tampa Bay,yes New York M,yes Minnesota,yes Pittsburgh,yes Philadelphia,yes Arizona",
-        "volume": 49953.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C2A662F0EE6",
+        "title": "yes Philadelphia wins by over 1.5 runs,yes Atlanta wins by over 1.5 runs,yes Houston wins by over 1.5 runs",
+        "volume": 5961.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20269E48D2E6E30",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Tech & Science",
-      "volume1mo": 914.39,
-      "share_pct": 0.16620432253021292,
-      "event_count": 3,
+      "volume1mo": 567.3199999999999,
+      "share_pct": 0.0983636868149591,
+      "event_count": 5,
       "example": {
-        "title": "yes Navajo Stirling,yes Michael Oliveira,yes Daniel Rodriguez,yes Hailey Cowan",
-        "volume": 500.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263E26D8B60E2",
+        "title": "yes Matteo Berrettini,yes James Duckworth,yes Luca Van Assche,yes Daniel Altmaier,no Arizona wins by over 2.5 runs,no Over 10.5 runs scored,no Over 10.5 runs scored,no Over 9.5 runs scored",
+        "volume": 242.32,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026281D851ACC3",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "topic": "Culture",
+      "volume1mo": 166.0,
+      "share_pct": 0.02878159065656634,
+      "event_count": 1,
+      "example": {
+        "title": "yes Nikolai Barsukov,yes Dali Blanch,yes Tommaso Compagnucci,yes Oscar Jose Gutierrez,yes Daniel Siniakov,yes Oleksii Krutykh,yes Thiago Monteiro,yes Maxim Mrva,yes Filippo Romano,yes Juan Bautista Torres",
+        "volume": 166.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DDEDD39A9A3",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "topic": "Geopolitics",
+      "volume1mo": 81.83,
+      "share_pct": 0.014187937129077248,
+      "event_count": 1,
+      "example": {
+        "title": "yes Mirza Basic,yes Alexander Binda,yes Aziz Dougaz,yes Luca Castagnola,yes Jan Choinski,yes S D Prajwal Dev,yes Matej Dodig,yes Alec Deckers,yes Marko ToPo,yes Ilya Ivashka,yes Soonwoo Kwon,yes Thiago Monteiro,yes Maxim Mrva,yes Dhakshineswar Suresh,yes Amit Vales,yes Dragos Nicolae Cazacu,yes Juan Bautista Torres,yes Lia Karatancheva,yes Alana Smith",
+        "volume": 81.83,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026FF6A80A5A27",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Sports",
-      "volume1mo": "442814.15000000",
-      "share_pct": "80.48822254",
-      "event_count": "344"
+      "volume1mo": "528120.33000000",
+      "share_pct": "91.56712744",
+      "event_count": "331"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Unclassified",
-      "volume1mo": "106431.64000000",
-      "share_pct": "19.34557314",
-      "event_count": "58"
+      "volume1mo": "47822.08000000",
+      "share_pct": "8.29153934",
+      "event_count": "82"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "topic": "Tech & Science",
-      "volume1mo": "914.39000000",
-      "share_pct": "0.16620432",
-      "event_count": "3"
+      "volume1mo": "567.32000000",
+      "share_pct": "0.09836369",
+      "event_count": "5"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
+      "topic": "Culture",
+      "volume1mo": "166.00000000",
+      "share_pct": "0.02878159",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-02",
+      "topic": "Geopolitics",
+      "volume1mo": "81.83000000",
+      "share_pct": "0.01418794",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-02",
       "topic": "Total",
-      "volume1mo": "550160.18000000",
+      "volume1mo": "576757.56000000",
       "share_pct": "100.00000000",
-      "event_count": "405"
+      "event_count": "420"
     }
   ]
 }
