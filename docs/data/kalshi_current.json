@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-05",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,139 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 367,
-  "sample_rows": 367,
-  "sum_volume1mo": 309766.02999999974,
-  "last_event_volume1mo": 2.0,
+  "positive_rows": 337,
+  "sample_rows": 337,
+  "sum_volume1mo": 359788.36000000004,
+  "last_event_volume1mo": 0.27,
   "topics": [
     {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Sports",
-      "volume1mo": 214416.19999999972,
-      "share_pct": 69.21875842874053,
-      "event_count": 259,
+      "volume1mo": 260988.37000000002,
+      "share_pct": 72.53941456027093,
+      "event_count": 208,
       "example": {
-        "title": "yes Tsung-Hao Huang,yes Charles Josshua Kinaadman,yes Suk Ann,yes Eric Jr Olivarez,yes Dong Ju Kim,yes Seongwoo Cho,yes Yuki Mochizuki,yes Martin Borisiouk,yes Chirag Duhan,yes Saki TANGE,yes Yu Tanaka,yes Nikola Jovic,yes William Mirarchi,yes Freddy Murray,yes Evgeny Philippov,yes Savva Rybkin,yes Jang / Naklo,yes Jialan Cai,yes Anna Bazderova,yes Saoirse Breen,yes Alexandra Biot,yes Denislava Glushkova,yes Yuka Hosoki,yes Yashaswini Panwar,yes Xi Luo,yes Varvara Panshina,yes Alice Soulie,yes Nina Sozaonova,yes Bianca Elena Barbulescu,yes Junhan Zhang,yes JiaYi Wang",
-        "volume": 14848.48,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20263375EEF90A3",
+        "title": "yes Houston,yes Los Angeles D,yes San Francisco,yes Tampa Bay,yes Cleveland,yes Philadelphia,yes New York Y,yes Boston,yes Dallas,yes Los Angeles,yes Atlanta,yes New York",
+        "volume": 45454.54,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20260E2C0D4E4B2",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Unclassified",
-      "volume1mo": 64397.95,
-      "share_pct": 20.78922275628482,
-      "event_count": 85,
+      "volume1mo": 90209.80999999997,
+      "share_pct": 25.07302070583939,
+      "event_count": 110,
       "example": {
-        "title": "yes Milwaukee,yes Tampa Bay,yes Arizona,yes Los Angeles D wins by over 1.5 runs",
-        "volume": 12716.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026CF2C4812596",
+        "title": "yes Houston,yes Baltimore,yes Washington,yes St. Louis,yes Milwaukee,yes Detroit",
+        "volume": 20250.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DE88B06C2A2",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-04",
-      "topic": "Geopolitics",
-      "volume1mo": 21771.31,
-      "share_pct": 7.028307784426853,
-      "event_count": 6,
-      "example": {
-        "title": "yes Terence Atmane,yes Mattia Bellucci,yes Pablo Carreno Busta,yes Thiago Agustin Tirante,yes Stefanos Tsitsipas,yes Adrian Mannarino,yes Alexander Blockx,yes Alex de Minaur,yes Lorenzo Musetti,yes Brandon Nakashima",
-        "volume": 12790.69,
-        "event_ticker": "KXMVECROSSCATEGORY-S202699C9C1750A6",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Tech & Science",
-      "volume1mo": 9060.450000000003,
-      "share_pct": 2.9249333763292285,
-      "event_count": 15,
+      "volume1mo": 7522.28,
+      "share_pct": 2.0907513517113223,
+      "event_count": 17,
       "example": {
-        "title": "yes Viktor Durasovic,yes Saki TANGE,yes Yu Tanaka,yes Evgeny Philippov,yes Samsung Lions,yes Lotte Giants,yes Kia Tigers,yes Cincinnati,yes Atlanta,yes Milwaukee,yes Hanshin Tigers,yes Saitama Seibu Lions,yes Atlanta,yes Carol Young Suh Lee,yes Talia Gibson",
-        "volume": 2268.18,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026F2BAFD278FF",
+        "title": "yes Felix Auger-Aliassime,yes Lorenzo Musetti,yes Ben Shelton,yes Cameron Norrie,yes Tommy Paul,yes Arthur Fils,yes Taylor Fritz,yes Alexander Zverev,yes Donghyun Hwang,yes Seonyong Han,yes Reda Bennani,yes Cezar Gabriel Papoe,yes Dusan Obradovic,yes Carles Rojas,yes Luka Ceramilac,yes Chengyiyi Yuan,yes Anna Pushkareva,yes Elena Korokozidi,yes Felitsata Dorofeeva-Rybas,yes Edda Mamedova,yes Irem Kurt,yes Kira Bataikina,yes New York,yes Over 171.5 points scored,yes Ann Li,yes Coco Gauff,yes Jessica Pegula,yes Elena Rybakina,yes Alexandra Eala,yes Belinda Bencic,yes Naomi Osaka",
+        "volume": 2000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C3E23C2D111",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-04",
-      "topic": "Culture",
-      "volume1mo": 66.0,
-      "share_pct": 0.021306403416798174,
-      "event_count": 1,
+      "date": "2026-08-05",
+      "topic": "Geopolitics",
+      "volume1mo": 1067.9,
+      "share_pct": 0.2968133821783451,
+      "event_count": 2,
       "example": {
-        "title": "yes Pyotr Nesterov,yes Pedro Boscardin Dias,yes Gerard Campana Lee,yes Hernan Casanova,yes Murkel Dellien,yes Ognjen Milic,yes Franco Agamenone,yes Carlo Alberto Caniato,yes Eduardo Ribeiro,yes Radu Mihai Papoe",
-        "volume": 66.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20260D6B0C366ED",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "topic": "Business/Economy",
-      "volume1mo": 54.12,
-      "share_pct": 0.0174712508017745,
-      "event_count": 1,
-      "example": {
-        "title": "yes Target Price: $63,780.06,yes Target Price: $1,864.86",
-        "volume": 54.12,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026827350E0588",
+        "title": "yes Alejandro Moro Canas,yes Daniil Glinka,yes Gradus Kraus,yes Joseph Ward,yes Teremoana Teremoana,yes Michael Zerafa,yes Just_Players,yes Martin Borisiouk,yes Ivan Gretskiy,yes Amir Omarkhanov,no Target Price: $73.6632,yes Alexia Thainara,yes Ty Cole Miller,yes Juliana Miller,yes Manoel Sousa,yes Katarzyna Kawa,yes Vendula Valdmannova,yes Ann Li,yes Coco Gauff",
+        "volume": 934.57,
+        "event_ticker": "KXMVECROSSCATEGORY-S20268740EC5ED7C",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Sports",
-      "volume1mo": "214416.20000000",
-      "share_pct": "69.21875843",
-      "event_count": "259"
+      "volume1mo": "260988.37000000",
+      "share_pct": "72.53941456",
+      "event_count": "208"
     },
     {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Unclassified",
-      "volume1mo": "64397.95000000",
-      "share_pct": "20.78922276",
-      "event_count": "85"
+      "volume1mo": "90209.81000000",
+      "share_pct": "25.07302071",
+      "event_count": "110"
     },
     {
-      "date": "2026-08-04",
-      "topic": "Geopolitics",
-      "volume1mo": "21771.31000000",
-      "share_pct": "7.02830778",
-      "event_count": "6"
-    },
-    {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Tech & Science",
-      "volume1mo": "9060.45000000",
-      "share_pct": "2.92493338",
-      "event_count": "15"
+      "volume1mo": "7522.28000000",
+      "share_pct": "2.09075135",
+      "event_count": "17"
     },
     {
-      "date": "2026-08-04",
-      "topic": "Culture",
-      "volume1mo": "66.00000000",
-      "share_pct": "0.02130640",
-      "event_count": "1"
+      "date": "2026-08-05",
+      "topic": "Geopolitics",
+      "volume1mo": "1067.90000000",
+      "share_pct": "0.29681338",
+      "event_count": "2"
     },
     {
-      "date": "2026-08-04",
-      "topic": "Business/Economy",
-      "volume1mo": "54.12000000",
-      "share_pct": "0.01747125",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "topic": "Total",
-      "volume1mo": "309766.03000000",
+      "volume1mo": "359788.36000000",
       "share_pct": "100.00000000",
-      "event_count": "367"
+      "event_count": "337"
     }
   ]
 }
