@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06",
+  "as_of": "2026-08-07",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 396,
-  "sample_rows": 396,
-  "sum_volume1mo": 331976.92000000004,
-  "last_event_volume1mo": 1.4,
+  "positive_rows": 402,
+  "sample_rows": 402,
+  "sum_volume1mo": 326656.45999999985,
+  "last_event_volume1mo": 0.28,
   "topics": [
     {
-      "date": "2026-08-06",
-      "topic": "Sports",
-      "volume1mo": 201888.41000000006,
-      "share_pct": 60.8139897195263,
-      "event_count": 201,
-      "example": {
-        "title": "yes Tie,yes America,yes Chicago Fire,yes New York City,yes Baltimore,yes Chicago C,yes Philadelphia,yes Boston,yes Atlanta,yes Kansas City,yes San Diego,yes Minnesota,yes Indiana",
-        "volume": 30303.03,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202605F4E505CAD",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "topic": "Unclassified",
-      "volume1mo": 103460.15,
-      "share_pct": 31.164862304283076,
-      "event_count": 163,
+      "volume1mo": 173800.98,
+      "share_pct": 53.20604405007025,
+      "event_count": 196,
       "example": {
-        "title": "yes Los Angeles A,yes Cincinnati,yes Cleveland,yes Pittsburgh,yes Chicago C,yes Seattle,yes Philadelphia,yes Boston,yes Atlanta,yes Minnesota,yes San Diego",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262D69E0E05F1",
+        "title": "yes Miami,yes Chicago C,yes St. Louis,yes San Diego,yes Los Angeles D,yes Tampa Bay,no Over 8.5 runs scored,no Over 7.5 runs scored,no Over 8.5 runs scored",
+        "volume": 30678.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026E38716E9E28",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
+      "topic": "Sports",
+      "volume1mo": 126297.97999999985,
+      "share_pct": 38.66385498697926,
+      "event_count": 185,
+      "example": {
+        "title": "yes Pittsburgh,yes Philadelphia,yes Boston,yes Miami,yes St. Louis,yes Los Angeles D",
+        "volume": 21093.75,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026CFA1F1BC507",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-07",
       "topic": "Tech & Science",
-      "volume1mo": 15503.869999999997,
-      "share_pct": 4.670165022315405,
-      "event_count": 26,
+      "volume1mo": 23680.090000000004,
+      "share_pct": 7.24923364442265,
+      "event_count": 17,
       "example": {
-        "title": "yes Black Phoenix,yes SPARTA,yes Walczaki,yes Martin Borisiouk,yes Arnav Paparkar,yes Shunsuke Mitsui,yes Diablos Rojos Del Mexico,yes Abejas de Leon,yes Gambusinos De Fresnillo,yes Lobos de Puebla,yes DRX,yes Ground Zero Gaming,yes Anyone's Legend,yes Justin Allgaier,yes Ryan Blaney,yes Carolina,yes Afghanistan,yes Cameron Young,yes Minnesota,yes Indiana,yes Portland",
-        "volume": 2727.27,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DECA7D23DAE",
+        "title": "yes New York M,yes Philadelphia,yes Boston,yes Miami,yes Cleveland,yes Milwaukee,yes Chicago C,yes Texas,yes San Diego,yes Arizona,yes Seattle,yes Detroit,yes Yokohama DeNA BayStars,yes Hokkaido Nippon-Ham Fighters",
+        "volume": 9090.9,
+        "event_ticker": "KXMVECROSSCATEGORY-S20261BB555DA380",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "topic": "Geopolitics",
-      "volume1mo": 11124.489999999998,
-      "share_pct": 3.3509829538752265,
-      "event_count": 6,
+      "volume1mo": 1848.0,
+      "share_pct": 0.5657319619517094,
+      "event_count": 3,
       "example": {
-        "title": "yes Ben Shelton,yes Jiri Lehecka,yes Brandon Nakashima,yes Arthur Fils,yes Alex de Minaur,yes Thiago Agustin Tirante,yes Frances Tiafoe,yes Chicago WS,yes Minnesota,yes Steven Asplund,yes Caroline Foro Antunes,yes Yadier Delvalle,yes Alexia Thainara,yes Ty Cole Miller,yes Juliana Miller,yes Manoel Sousa",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026798F1EB8C7F",
+        "title": "yes Ben Shelton,yes Thiago Agustin Tirante,yes Jakub Mensik,yes Matteo Arnaldi,yes Hubert Hurkacz",
+        "volume": 1334.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026756F36CBB93",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "topic": "Business/Economy",
+      "volume1mo": 1029.41,
+      "share_pct": 0.31513535657614133,
+      "event_count": 1,
+      "example": {
+        "title": "yes Alexia Thainara,yes Ty Cole Miller,yes Steven Asplund by KO/TKO/DQ,yes Quillan Salkilld by KO/TKO/DQ,yes Juliana Miller by Submission,yes Fight ends before round 3",
+        "volume": 1029.41,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DFDBFED1EA8",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-06",
-      "topic": "Sports",
-      "volume1mo": "201888.41000000",
-      "share_pct": "60.81398972",
-      "event_count": "201"
-    },
-    {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "topic": "Unclassified",
-      "volume1mo": "103460.15000000",
-      "share_pct": "31.16486230",
-      "event_count": "163"
+      "volume1mo": "173800.98000000",
+      "share_pct": "53.20604405",
+      "event_count": "196"
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
+      "topic": "Sports",
+      "volume1mo": "126297.98000000",
+      "share_pct": "38.66385499",
+      "event_count": "185"
+    },
+    {
+      "date": "2026-08-07",
       "topic": "Tech & Science",
-      "volume1mo": "15503.87000000",
-      "share_pct": "4.67016502",
-      "event_count": "26"
+      "volume1mo": "23680.09000000",
+      "share_pct": "7.24923364",
+      "event_count": "17"
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "topic": "Geopolitics",
-      "volume1mo": "11124.49000000",
-      "share_pct": "3.35098295",
-      "event_count": "6"
+      "volume1mo": "1848.00000000",
+      "share_pct": "0.56573196",
+      "event_count": "3"
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
+      "topic": "Business/Economy",
+      "volume1mo": "1029.41000000",
+      "share_pct": "0.31513536",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-07",
       "topic": "Total",
-      "volume1mo": "331976.92000000",
+      "volume1mo": "326656.46000000",
       "share_pct": "100.00000000",
-      "event_count": "396"
+      "event_count": "402"
     }
   ]
 }
