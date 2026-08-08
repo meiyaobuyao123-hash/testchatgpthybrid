@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-08-08",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 534,
+  "sample_rows": 534,
+  "sum_volume1mo": 376358.4800000006,
+  "last_event_volume1mo": 0.56,
+  "topics": [
+    {
+      "date": "2026-08-08",
+      "topic": "Sports",
+      "volume1mo": 296012.7900000006,
+      "share_pct": 78.65181887226245,
+      "event_count": 428,
+      "example": {
+        "title": "yes Houston,no Toronto wins by over 1.5 runs,no Atlanta wins by over 2.5 runs,no Houston wins by over 2.5 runs,yes Arizona wins by over 1.5 runs,yes San Francisco wins by over 1.5 runs,yes Over 8.5 runs scored,yes Over 10.5 runs scored,yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Golden State wins by over 6.5 points",
+        "volume": 18518.51,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026BF432DA6AB2",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Unclassified",
+      "volume1mo": 75770.74999999999,
+      "share_pct": 20.132600705582576,
+      "event_count": 94,
+      "example": {
+        "title": "yes Nuno Borges,yes Arthur Fils,yes Brandon Nakashima,yes Toronto,yes Houston,yes Arizona,yes Tampa Bay,yes San Francisco,yes Chicago C,yes Los Angeles D,yes Golden State,yes Indiana,yes Minnesota,yes Portland,yes Belinda Bencic,yes Alexandra Eala,yes Jessica Pegula,yes Aryna Sabalenka",
+        "volume": 38023.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265D500381180",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Tech & Science",
+      "volume1mo": 3709.1500000000005,
+      "share_pct": 0.9855364491853603,
+      "event_count": 9,
+      "example": {
+        "title": "yes Tie,yes Tie,yes Tie,yes Tie,yes Inter,yes Leipzig,yes Leverkusen,yes Tie,yes Stade Rennais,yes Frankfurt,yes Tottenham",
+        "volume": 1333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S20261FECB7ED8C4",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Business/Economy",
+      "volume1mo": 856.11,
+      "share_pct": 0.2274719570554113,
+      "event_count": 2,
+      "example": {
+        "title": "yes Minnesota,yes Tie,yes Universitario",
+        "volume": 465.11,
+        "event_ticker": "KXMVECROSSCATEGORY-S202628DDDB6A82A",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Geopolitics",
+      "volume1mo": 9.68,
+      "share_pct": 0.002572015914189042,
+      "event_count": 1,
+      "example": {
+        "title": "yes Brendan Donovan: 1+,no Colt Emerson: 1+,no Cal Raleigh: 1+,no Taylor Ward: 1+,yes Liam Hicks: 1+,no Victor Mesa: 2+,yes Logan Gilbert: 5+,yes Drew Rasmussen: 5+,no Over 8.5 runs scored",
+        "volume": 9.68,
+        "event_ticker": "KXMVECROSSCATEGORY-S20261D09BD508B9",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-08-08",
+      "topic": "Sports",
+      "volume1mo": "296012.79000000",
+      "share_pct": "78.65181887",
+      "event_count": "428"
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Unclassified",
+      "volume1mo": "75770.75000000",
+      "share_pct": "20.13260071",
+      "event_count": "94"
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Tech & Science",
+      "volume1mo": "3709.15000000",
+      "share_pct": "0.98553645",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Business/Economy",
+      "volume1mo": "856.11000000",
+      "share_pct": "0.22747196",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Geopolitics",
+      "volume1mo": "9.68000000",
+      "share_pct": "0.00257202",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-08",
+      "topic": "Total",
+      "volume1mo": "376358.48000000",
+      "share_pct": "100.00000000",
+      "event_count": "534"
+    }
+  ]
+}
