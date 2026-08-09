@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-08",
+  "as_of": "2026-08-09",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 534,
-  "sample_rows": 534,
-  "sum_volume1mo": 376358.4800000006,
-  "last_event_volume1mo": 0.56,
+  "positive_rows": 484,
+  "sample_rows": 484,
+  "sum_volume1mo": 371306.9499999998,
+  "last_event_volume1mo": 1.95,
   "topics": [
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Sports",
-      "volume1mo": 296012.7900000006,
-      "share_pct": 78.65181887226245,
-      "event_count": 428,
+      "volume1mo": 303265.04999999976,
+      "share_pct": 81.67502655148252,
+      "event_count": 372,
       "example": {
-        "title": "yes Houston,no Toronto wins by over 1.5 runs,no Atlanta wins by over 2.5 runs,no Houston wins by over 2.5 runs,yes Arizona wins by over 1.5 runs,yes San Francisco wins by over 1.5 runs,yes Over 8.5 runs scored,yes Over 10.5 runs scored,yes Over 5.5 runs scored,yes Over 5.5 runs scored,yes Golden State wins by over 6.5 points",
-        "volume": 18518.51,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026BF432DA6AB2",
+        "title": "yes Boston,yes New York Y,yes Philadelphia,yes Miami,yes Chicago C,yes Chicago WS,yes Milwaukee,yes St. Louis,yes Texas,yes San Francisco,yes Los Angeles D,yes Seattle,yes San Diego",
+        "volume": 45436.36,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026927A32964C5",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Unclassified",
-      "volume1mo": 75770.74999999999,
-      "share_pct": 20.132600705582576,
-      "event_count": 94,
+      "volume1mo": 66848.86000000002,
+      "share_pct": 18.00366516166747,
+      "event_count": 107,
       "example": {
-        "title": "yes Nuno Borges,yes Arthur Fils,yes Brandon Nakashima,yes Toronto,yes Houston,yes Arizona,yes Tampa Bay,yes San Francisco,yes Chicago C,yes Los Angeles D,yes Golden State,yes Indiana,yes Minnesota,yes Portland,yes Belinda Bencic,yes Alexandra Eala,yes Jessica Pegula,yes Aryna Sabalenka",
-        "volume": 38023.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265D500381180",
+        "title": "yes Cincinnati,yes Miami,yes Carolina,yes Seattle,yes Minnesota,yes Philadelphia,yes Mansur Abdul-Malik,yes Esteban Ribovics,yes Islam Makhachev,yes Myktybek Orolbay Uulu,yes Minnesota,yes Golden State",
+        "volume": 9415.25,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026892E8605E57",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Tech & Science",
-      "volume1mo": 3709.1500000000005,
-      "share_pct": 0.9855364491853603,
-      "event_count": 9,
+      "volume1mo": 829.4200000000001,
+      "share_pct": 0.22337852819614623,
+      "event_count": 3,
       "example": {
-        "title": "yes Tie,yes Tie,yes Tie,yes Tie,yes Inter,yes Leipzig,yes Leverkusen,yes Tie,yes Stade Rennais,yes Frankfurt,yes Tottenham",
-        "volume": 1333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261FECB7ED8C4",
+        "title": "yes Arizona,yes Tampa Bay,yes Yomiuri Giants,yes Saitama Seibu Lions",
+        "volume": 343.13,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026077F9CA8F15",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-08",
-      "topic": "Business/Economy",
-      "volume1mo": 856.11,
-      "share_pct": 0.2274719570554113,
+      "date": "2026-08-09",
+      "topic": "Geopolitics",
+      "volume1mo": 363.62,
+      "share_pct": 0.09792975865385774,
       "event_count": 2,
       "example": {
-        "title": "yes Minnesota,yes Tie,yes Universitario",
-        "volume": 465.11,
-        "event_ticker": "KXMVECROSSCATEGORY-S202628DDDB6A82A",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-08",
-      "topic": "Geopolitics",
-      "volume1mo": 9.68,
-      "share_pct": 0.002572015914189042,
-      "event_count": 1,
-      "example": {
-        "title": "yes Brendan Donovan: 1+,no Colt Emerson: 1+,no Cal Raleigh: 1+,no Taylor Ward: 1+,yes Liam Hicks: 1+,no Victor Mesa: 2+,yes Logan Gilbert: 5+,yes Drew Rasmussen: 5+,no Over 8.5 runs scored",
-        "volume": 9.68,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261D09BD508B9",
+        "title": "yes Fryderyk Lechno-Wasiutynski,yes Uisung Park,yes Mitsuki Wei Kang Leong,yes Ryan Nijboer,yes Daniil Ostapenkov,yes Erik Arutiunian,yes Alec Deckers,yes Sasikumar Mukund,yes Edward Winter,yes Arthur Fils,yes Los Angeles D,no Over 2.5 runs scored,no Over 6.5 runs scored,yes Alex Smalley,yes Beau Hossler,yes Elina Svitolina",
+        "volume": 181.81,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265FB1D491773",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Sports",
-      "volume1mo": "296012.79000000",
-      "share_pct": "78.65181887",
-      "event_count": "428"
+      "volume1mo": "303265.05000000",
+      "share_pct": "81.67502655",
+      "event_count": "372"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Unclassified",
-      "volume1mo": "75770.75000000",
-      "share_pct": "20.13260071",
-      "event_count": "94"
+      "volume1mo": "66848.86000000",
+      "share_pct": "18.00366516",
+      "event_count": "107"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Tech & Science",
-      "volume1mo": "3709.15000000",
-      "share_pct": "0.98553645",
-      "event_count": "9"
+      "volume1mo": "829.42000000",
+      "share_pct": "0.22337853",
+      "event_count": "3"
     },
     {
-      "date": "2026-08-08",
-      "topic": "Business/Economy",
-      "volume1mo": "856.11000000",
-      "share_pct": "0.22747196",
+      "date": "2026-08-09",
+      "topic": "Geopolitics",
+      "volume1mo": "363.62000000",
+      "share_pct": "0.09792976",
       "event_count": "2"
     },
     {
-      "date": "2026-08-08",
-      "topic": "Geopolitics",
-      "volume1mo": "9.68000000",
-      "share_pct": "0.00257202",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "topic": "Total",
-      "volume1mo": "376358.48000000",
+      "volume1mo": "371306.95000000",
       "share_pct": "100.00000000",
-      "event_count": "534"
+      "event_count": "484"
     }
   ]
 }
