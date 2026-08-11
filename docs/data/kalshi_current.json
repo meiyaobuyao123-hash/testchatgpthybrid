@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10",
+  "as_of": "2026-08-11",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 384,
-  "sample_rows": 384,
-  "sum_volume1mo": 260510.61999999988,
-  "last_event_volume1mo": 0.67,
+  "positive_rows": 446,
+  "sample_rows": 446,
+  "sum_volume1mo": 369267.6899999998,
+  "last_event_volume1mo": 0.44,
   "topics": [
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Sports",
-      "volume1mo": 174192.15999999986,
-      "share_pct": 66.86566559167528,
-      "event_count": 244,
+      "volume1mo": 202289.89999999985,
+      "share_pct": 54.78137012203801,
+      "event_count": 242,
       "example": {
-        "title": "yes Alec Deckers,yes Taisei Ichikawa,yes Kokoro Isomura,yes Erik Arutiunian,yes Hayato Matsuoka,yes Semen Pankin,yes Lucio Ratti,yes Shunsuke Mitsui,yes Khumoyun Sultanov,yes Target Price: $64,926.31,yes St. Lucia Kings,yes Target Price: $0.0696703,yes Target Price: $1,915.01,yes Josy Daems,yes Merel Hoedt,yes Team Vitality,yes G2 Esports,yes RED Canids,yes LOS,yes Afghanistan,yes Target Price: $76.4975,yes Target Price: $1.0298",
-        "volume": 12545.39,
-        "event_ticker": "KXMVECROSSCATEGORY-S202632FE3643A6A",
+        "title": "yes Arizona wins first 5 innings,yes Arizona,yes Milwaukee,yes A's,yes Houston,yes Texas wins by over 1.5 runs,yes Over 7.5 runs scored",
+        "volume": 44169.61,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20268C73EE17D1B",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Unclassified",
-      "volume1mo": 66880.21,
-      "share_pct": 25.67273840889866,
-      "event_count": 122,
+      "volume1mo": 131943.65999999997,
+      "share_pct": 35.73116835648416,
+      "event_count": 174,
       "example": {
-        "title": "yes Boston,yes Atlanta,yes Baltimore,yes Philadelphia,yes Texas,yes Arizona,yes Milwaukee,yes A's,yes Houston,yes Los Angeles D,yes Detroit,yes Chicago C",
-        "volume": 14286.36,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026942ACCF13E5",
+        "title": "yes Cincinnati,yes Columbus,yes Charlotte,yes Minnesota,yes Salt Lake,yes Tigres,yes Los Angeles F,yes Miami,yes Monterrey,yes Orlando,yes San Diego FC,yes Seattle,yes Toluca,yes America,yes Cruz Azul,yes Santos Laguna",
+        "volume": 30303.03,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265F2D6F6F492",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Tech & Science",
-      "volume1mo": 19438.249999999996,
-      "share_pct": 7.461595999426052,
-      "event_count": 18,
+      "volume1mo": 30328.46,
+      "share_pct": 8.21313665433334,
+      "event_count": 22,
       "example": {
-        "title": "yes Alec Deckers,yes Taisei Ichikawa,yes Erik Arutiunian,yes Hayato Matsuoka,yes Semen Pankin,yes Lucio Ratti,yes Shunsuke Mitsui,yes Khumoyun Sultanov,yes St. Lucia Kings,yes Josy Daems,yes Merel Hoedt,yes America,yes Afghanistan",
-        "volume": 5303.02,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263134BD2F192",
+        "title": "yes Daniel Milavsky,yes Seongwoo Cho,yes Jaesung Choe,yes Yun Seong Chung,yes Suk Ann,yes Ye Chen,yes Matthew Shearer,yes Mikalai Haliak,yes Mineros de Zacatecas,yes Correcaminos UAT Victoria,yes Dorados de Chihuahua,yes Diablos Rojos Del Mexico,yes El Calor de Cancun,yes Anyone's Legend,yes Texas,yes Arizona,yes Milwaukee,yes A's,yes San Francisco,yes Los Angeles D,yes Scottie Scheffler,yes Seattle,yes Las Vegas",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026D70908506F0",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Geopolitics",
+      "volume1mo": 2177.75,
+      "share_pct": 0.5897483205205419,
+      "event_count": 2,
+      "example": {
+        "title": "yes Daniel Milavsky,yes Ugo Blanchet,yes Petr Bar Biryukov,yes Seongwoo Cho,yes Jaesung Choe,yes Yun Seong Chung,yes Suk Ann,yes Yuquan Jin,yes Ye Chen,yes Matthew Shearer,yes Ruochen Gao,yes Mikalai Haliak,yes Shihomi Li Xuan Leong,yes Anna Siskova,yes Ha Yoon Son,yes Yuka Hosoki,yes Daria Kuznetsova,yes Yashaswini Panwar,yes eunchae Kim,yes Mineros de Zacatecas,yes Correcaminos UAT Victoria,yes Dorados de Chihuahua,yes Diablos Rojos Del Mexico,yes Arizona,yes Milwaukee,yes A's,yes San Francisco,yes Seattle,yes Coco Gauff",
+        "volume": 1818.18,
+        "event_ticker": "KXMVECROSSCATEGORY-S202620E9AD9DDCE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Business/Economy",
+      "volume1mo": 1885.29,
+      "share_pct": 0.5105483233585913,
+      "event_count": 3,
+      "example": {
+        "title": "yes Daniel Milavsky,yes Ugo Blanchet,yes Seongwoo Cho,yes Jaesung Choe,yes Yun Seong Chung,yes Ye Chen,yes Matthew Shearer,yes Los Angeles A,yes Arizona,yes Milwaukee,yes A's,yes San Francisco,yes Fukuoka Hawks,yes Hanshin Tigers,yes Hiroshima Toyo Carp",
+        "volume": 932.2,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026D9720DC6AEF",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Culture",
+      "volume1mo": 642.63,
+      "share_pct": 0.17402822326534995,
+      "event_count": 3,
+      "example": {
+        "title": "yes Arizona,yes A's,yes San Francisco,no Ezequiel Duran: 2+,no Corbin Carroll: 2+,yes Teoscar Hern\u00e1ndez: 1+,no Brandon Nimmo: 1+,no Jake Burger: 1+,no Ketel Marte: 1+,no Yandy D\u00edaz: 2+,no Christian Walker: 1+,no Reid Detmers: 8+,no MacKenzie Gore: 9+,no Michael Soroka: 6+,no Logan Henderson: 8+,no Freddy Peralta: 5+,yes Hayden Wesneski: 5+,no Blade Tidwell: 7+,no Noah Cameron: 5+,no Tarik Skubal: 7+,no Jose Siri: 1+,no Jackson Merrill: 2+,no Donovan Walton: 1+,yes Jonah Heim: 1+",
+        "volume": 447.76,
+        "event_ticker": "KXMVECROSSCATEGORY-S20261FCA9263B15",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Sports",
-      "volume1mo": "174192.16000000",
-      "share_pct": "66.86566559",
-      "event_count": "244"
+      "volume1mo": "202289.90000000",
+      "share_pct": "54.78137012",
+      "event_count": "242"
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Unclassified",
-      "volume1mo": "66880.21000000",
-      "share_pct": "25.67273841",
-      "event_count": "122"
+      "volume1mo": "131943.66000000",
+      "share_pct": "35.73116836",
+      "event_count": "174"
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "topic": "Tech & Science",
-      "volume1mo": "19438.25000000",
-      "share_pct": "7.46159600",
-      "event_count": "18"
+      "volume1mo": "30328.46000000",
+      "share_pct": "8.21313665",
+      "event_count": "22"
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
+      "topic": "Geopolitics",
+      "volume1mo": "2177.75000000",
+      "share_pct": "0.58974832",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Business/Economy",
+      "volume1mo": "1885.29000000",
+      "share_pct": "0.51054832",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Culture",
+      "volume1mo": "642.63000000",
+      "share_pct": "0.17402822",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-08-11",
       "topic": "Total",
-      "volume1mo": "260510.62000000",
+      "volume1mo": "369267.69000000",
       "share_pct": "100.00000000",
-      "event_count": "384"
+      "event_count": "446"
     }
   ]
 }
