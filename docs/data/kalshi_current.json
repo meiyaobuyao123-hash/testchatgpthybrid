@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12",
+  "as_of": "2026-08-13",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 429,
-  "sample_rows": 429,
-  "sum_volume1mo": 267352.6399999997,
-  "last_event_volume1mo": 0.31,
+  "positive_rows": 465,
+  "sample_rows": 465,
+  "sum_volume1mo": 441601.55000000005,
+  "last_event_volume1mo": 0.18,
   "topics": [
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Sports",
-      "volume1mo": 167439.29999999984,
-      "share_pct": 62.62863160805146,
-      "event_count": 255,
+      "volume1mo": 232354.9299999999,
+      "share_pct": 52.61642084363153,
+      "event_count": 233,
       "example": {
-        "title": "yes Spirit,yes Team Falcons,yes MOUZ,yes FURIA,yes Anyone's Legend,yes Top Esports,yes Bilibili Gaming,yes FURIA Esports,yes G2 Esports,yes Team Liquid,yes Mansur Abdul-Malik,yes Esteban Ribovics,yes Jose Ochoa,yes Islam Makhachev,yes Joel Alvarez,yes Lucas Fernando,yes Myktybek Orolbay Uulu,yes Los Angeles,yes Las Vegas,yes Golden State,yes Minnesota,yes Dallas,yes Atlanta,yes Las Vegas",
-        "volume": 18691.58,
-        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202612E96EB2816",
+        "title": "no Golden State wins by over 9.5 points,yes Minnesota wins by over 12.5 points,yes Atlanta wins by over 3.5 points,yes New York wins by over 1.5 points,no Over 166.5 points scored,no Over 171.5 points scored,no Over 174.5 points scored,no Over 194.5 points scored,no Over 178.5 points scored,no Over 191.5 points scored",
+        "volume": 58620.0,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202632C04D0DFFC",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Unclassified",
-      "volume1mo": 92453.31999999992,
-      "share_pct": 34.58103873595563,
-      "event_count": 165,
+      "volume1mo": 194477.52000000016,
+      "share_pct": 44.039138902478975,
+      "event_count": 212,
       "example": {
-        "title": "yes Jackson Merrill: 1+,yes Cedric Mullins: 1+,yes Willy Adames: 1+,yes Tommy Edman: 1+",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S202641A244EFFEC",
+        "title": "yes Tie,yes San Diego FC,yes Seattle,yes Toluca,yes America,yes Cruz Azul,yes New York City,yes Philadelphia,yes Tie",
+        "volume": 46363.63,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026AE2BE27D862",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Tech & Science",
-      "volume1mo": 7300.300000000001,
-      "share_pct": 2.7305883345681603,
+      "volume1mo": 11084.31,
+      "share_pct": 2.5100251572939447,
       "event_count": 7,
       "example": {
-        "title": "yes Hayato Matsuoka,yes Jacob Fearnley,yes Luca Van Assche,yes Shintaro Imai,yes Omar Jasika,yes Yun Seong Chung,yes Yuki Mochizuki,yes Joshua Charlton,yes Tsung-Hao Huang,yes Miles Jones,yes Mansur Abdul-Malik,yes Esteban Ribovics,yes Islam Makhachev,yes Myktybek Orolbay Uulu,yes Las Vegas,yes Golden State,yes Minnesota,yes Dallas,yes Atlanta,yes New York,yes Las Vegas,yes Over 169.5 points scored,yes Over 157.5 points scored,yes Over 170.5 points scored,yes Rebecca Sramkova",
-        "volume": 3050.84,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260CF8079E66E",
+        "title": "yes Nicolai Budkov Kjaer,yes Quentin Halys,yes Titouan Droguet,yes Jeffrey John Wolf,yes Michael Zheng,yes Texas,yes Los Angeles D wins by over 1.5 runs,no Golden State wins by over 6.5 points,no Minnesota wins by over 12.5 points",
+        "volume": 9997.67,
+        "event_ticker": "KXMVECROSSCATEGORY-S202623604F40174",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-12",
-      "topic": "Business/Economy",
-      "volume1mo": 101.72,
-      "share_pct": 0.03804712756904144,
-      "event_count": 1,
-      "example": {
-        "title": "no Colorado wins by over 2.5 runs,yes Tampa Bay wins by over 5.5 runs,no San Francisco wins by over 3.5 runs,no Los Angeles D wins by over 2.5 runs",
-        "volume": 101.72,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BACE12384F6",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Geopolitics",
-      "volume1mo": 58.0,
-      "share_pct": 0.021694193855725553,
-      "event_count": 1,
+      "volume1mo": 2209.05,
+      "share_pct": 0.5002360159288389,
+      "event_count": 11,
       "example": {
-        "title": "yes Marco Cecchinato,yes Niels McDonald,yes Juan Bautista Torres,yes Marcos Giron,yes Aleksandar Vukic,yes Grigor Dimitrov,yes Hubert Hurkacz,yes Cameron Norrie,yes Luca Van Assche,yes Xiyu Wang",
-        "volume": 58.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026242096EE37B",
+        "title": "yes Courtney Williams: 5+,yes Kayla McBride: 2+,yes Natasha Howard: 4+,yes Olivia Miles: 8+,yes Carla Leite: 7+,yes DiJonai Carrington: 10+,yes Janelle Sala\u00fcn: 15+,yes Veronica Burton: 15+,yes Courtney Williams: 10+,yes Kayla McBride: 15+,yes Nia Coffey: 15+,yes Napheesa Collier: 15+,yes Natasha Howard: 15+,yes Bridget Carleton: 10+,yes Emily Engstler: 10+,yes Megan DiLeo: 15+,yes Nia Coffey: 4+,yes Emily Engstler: 6+",
+        "volume": 909.09,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262BECE51EA91",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "topic": "Business/Economy",
+      "volume1mo": 1475.74,
+      "share_pct": 0.33417908066672314,
+      "event_count": 2,
+      "example": {
+        "title": "no Target Price: $63,508.44,yes Target Price: $0.0702752,yes Target Price: $1,881.47,yes Target Price: $76.1507,no Target Price: $1.0096",
+        "volume": 1470.58,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026FD6024A88EA",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Sports",
-      "volume1mo": "167439.30000000",
-      "share_pct": "62.62863161",
-      "event_count": "255"
+      "volume1mo": "232354.93000000",
+      "share_pct": "52.61642084",
+      "event_count": "233"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Unclassified",
-      "volume1mo": "92453.32000000",
-      "share_pct": "34.58103874",
-      "event_count": "165"
+      "volume1mo": "194477.52000000",
+      "share_pct": "44.03913890",
+      "event_count": "212"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Tech & Science",
-      "volume1mo": "7300.30000000",
-      "share_pct": "2.73058833",
+      "volume1mo": "11084.31000000",
+      "share_pct": "2.51002516",
       "event_count": "7"
     },
     {
-      "date": "2026-08-12",
-      "topic": "Business/Economy",
-      "volume1mo": "101.72000000",
-      "share_pct": "0.03804713",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "topic": "Geopolitics",
-      "volume1mo": "58.00000000",
-      "share_pct": "0.02169419",
-      "event_count": "1"
+      "volume1mo": "2209.05000000",
+      "share_pct": "0.50023602",
+      "event_count": "11"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
+      "topic": "Business/Economy",
+      "volume1mo": "1475.74000000",
+      "share_pct": "0.33417908",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-08-13",
       "topic": "Total",
-      "volume1mo": "267352.64000000",
+      "volume1mo": "441601.55000000",
       "share_pct": "100.00000000",
-      "event_count": "429"
+      "event_count": "465"
     }
   ]
 }
