@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-15",
+  "as_of": "2026-08-16",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 462,
-  "sample_rows": 462,
-  "sum_volume1mo": 341077.1399999996,
-  "last_event_volume1mo": 0.87,
+  "positive_rows": 491,
+  "sample_rows": 491,
+  "sum_volume1mo": 342231.1899999999,
+  "last_event_volume1mo": 0.06,
   "topics": [
     {
-      "date": "2026-08-15",
-      "topic": "Unclassified",
-      "volume1mo": 193052.3999999997,
-      "share_pct": 56.600802973778876,
-      "event_count": 231,
-      "example": {
-        "title": "yes Seattle,yes Texas,yes Los Angeles D,yes San Francisco,yes Eva Lys",
-        "volume": 36362.96,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026EAC02EA2714",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "topic": "Sports",
-      "volume1mo": 133738.4799999999,
-      "share_pct": 39.21062549076143,
-      "event_count": 212,
+      "volume1mo": 165616.95999999982,
+      "share_pct": 48.393298109386194,
+      "event_count": 194,
       "example": {
-        "title": "yes Hayato Matsuoka,yes Karen Khachanov,yes Winnipeg Blue Bombers,yes Matthew Dellavedova,yes Fuerza Regia,yes Ninjas in Pyjamas,yes Hanwha Life Esports,yes Baltimore,yes Houston,yes Kansas City,yes A's,yes Buffalo,yes Cleveland,yes Seattle,yes New Orleans,yes Kansas City,yes Minnesota,yes Philadelphia,yes Portland,yes New York",
-        "volume": 11363.63,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026552B44C6F41",
+        "title": "yes Kansas City,yes A's,yes Tampa Bay,yes Arizona,yes Pittsburgh,yes New York Y,yes Chicago WS,yes Miami,yes Cleveland,yes New York M,yes Philadelphia",
+        "volume": 18181.81,
+        "event_ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20265591C87C318",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
+      "topic": "Unclassified",
+      "volume1mo": 161886.22000000012,
+      "share_pct": 47.30317537685568,
+      "event_count": 274,
+      "example": {
+        "title": "yes Los Angeles A,yes Islam Makhachev,yes Jalin Turner",
+        "volume": 41666.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262614031AA5C",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-16",
       "topic": "Tech & Science",
-      "volume1mo": 9278.84,
-      "share_pct": 2.720452036158158,
-      "event_count": 9,
+      "volume1mo": 14589.849999999997,
+      "share_pct": 4.263156143073927,
+      "event_count": 20,
       "example": {
-        "title": "yes Liaoning Tieren,yes Shanghai Shenhua,yes Beijing Guoan,yes Aston Villa,yes Bayern Munich,yes Chelsea,yes Bolton,yes Seattle Reign,yes San Diego Wave FC,yes Utah Royals",
-        "volume": 2727.27,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F02703D0FF6",
+        "title": "yes Alexander Zverev,yes Jamaica Kingsmen,yes Vitality,yes Omar Jasika,yes KT Wiz,yes JD Gaming,yes Los Angeles A,yes A's,yes Tampa Bay,yes Atlanta,yes New York M,yes Dallas,yes Fukuoka Hawks,yes Scottie Scheffler,yes Mackenzie Dern,yes Islam Makhachev,yes Belinda Bencic,yes Peyton Stearns",
+        "volume": 2325.58,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20262726B9B8F89",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-15",
-      "topic": "Business/Economy",
-      "volume1mo": 2894.67,
-      "share_pct": 0.848684845897325,
-      "event_count": 4,
-      "example": {
-        "title": "no Over 5.5 runs in the first 5 innings,yes Los Angeles D,no Over 11.5 runs scored",
-        "volume": 2583.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026C98FED8B1E3",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "topic": "Culture",
-      "volume1mo": 2112.75,
-      "share_pct": 0.6194346534042131,
-      "event_count": 6,
+      "volume1mo": 138.16,
+      "share_pct": 0.04037037068421497,
+      "event_count": 3,
       "example": {
-        "title": "yes Houston,yes Kansas City,yes A's,yes Los Angeles D,yes San Francisco,yes Jac Caglianone: 2+,yes Michael Massey: 5+,yes Brandon Nimmo: 2+,yes Wyatt Langford: 2+,yes Andy Pages: 2+,yes Shohei Ohtani: 2+,yes Teoscar Hern\u00e1ndez: 2+,yes Jung Hoo Lee: 2+",
-        "volume": 925.92,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E14A651C1F0",
+        "title": "yes Luciano Emanuel Ambrogi,yes Norbert Gombos,yes Patrick Brady,yes Svyatoslav Gulin,yes Oscar Weightman,yes Javier Barranco Cosano,yes Radu Mihai Papoe,yes Luca Wiedenmann,yes Stefanos Tsitsipas,yes Brandon Nakashima,yes Casper Ruud,yes Juan Manuel Cerundolo",
+        "volume": 103.95,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202618482BEDCF4",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-15",
-      "topic": "Unclassified",
-      "volume1mo": "193052.40000000",
-      "share_pct": "56.60080297",
-      "event_count": "231"
-    },
-    {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "topic": "Sports",
-      "volume1mo": "133738.48000000",
-      "share_pct": "39.21062549",
-      "event_count": "212"
+      "volume1mo": "165616.96000000",
+      "share_pct": "48.39329811",
+      "event_count": "194"
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
+      "topic": "Unclassified",
+      "volume1mo": "161886.22000000",
+      "share_pct": "47.30317538",
+      "event_count": "274"
+    },
+    {
+      "date": "2026-08-16",
       "topic": "Tech & Science",
-      "volume1mo": "9278.84000000",
-      "share_pct": "2.72045204",
-      "event_count": "9"
+      "volume1mo": "14589.85000000",
+      "share_pct": "4.26315614",
+      "event_count": "20"
     },
     {
-      "date": "2026-08-15",
-      "topic": "Business/Economy",
-      "volume1mo": "2894.67000000",
-      "share_pct": "0.84868485",
-      "event_count": "4"
-    },
-    {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "topic": "Culture",
-      "volume1mo": "2112.75000000",
-      "share_pct": "0.61943465",
-      "event_count": "6"
+      "volume1mo": "138.16000000",
+      "share_pct": "0.04037037",
+      "event_count": "3"
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "topic": "Total",
-      "volume1mo": "341077.14000000",
+      "volume1mo": "342231.19000000",
       "share_pct": "100.00000000",
-      "event_count": "462"
+      "event_count": "491"
     }
   ]
 }
