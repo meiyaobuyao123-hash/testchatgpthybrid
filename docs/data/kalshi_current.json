@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-18",
+  "as_of": "2026-08-19",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 469,
-  "sample_rows": 469,
-  "sum_volume1mo": 291960.72999999975,
-  "last_event_volume1mo": 1.03,
+  "positive_rows": 410,
+  "sample_rows": 410,
+  "sum_volume1mo": 429160.30999999976,
+  "last_event_volume1mo": 0.48,
   "topics": [
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Unclassified",
-      "volume1mo": 231749.57999999978,
-      "share_pct": 79.37696963560819,
-      "event_count": 400,
+      "volume1mo": 261951.89999999985,
+      "share_pct": 61.03823999940722,
+      "event_count": 333,
       "example": {
-        "title": "yes Mendoza,yes Atletico,yes Real Madrid,yes Atletico,yes Barcelona,yes Leon,yes Pachuca,yes America,yes Tigres,yes Guadalajara,yes Cruz Azul,yes Monterrey,yes Detroit,yes Kansas City,yes Minnesota,yes Chicago C,yes Los Angeles D,yes Columbus,yes Seattle,yes Napoli,yes Inter",
-        "volume": 18181.81,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026987EF3B575C",
+        "title": "yes Cincinnati,yes Columbus,yes DC United,yes Atlanta,yes Nashville,yes Chicago Fire,yes Philadelphia,yes Dallas,yes Austin,yes Kansas City,yes Charlotte",
+        "volume": 45454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026D2A775A0617",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Tech & Science",
-      "volume1mo": 54421.46999999997,
-      "share_pct": 18.639996550220992,
-      "event_count": 65,
+      "volume1mo": 163136.26999999993,
+      "share_pct": 38.012897791037574,
+      "event_count": 54,
       "example": {
-        "title": "yes Mendoza,yes Shanghai Shenhua,yes Atletico,yes Leon,yes Pachuca,yes Over 1.5 goals scored,yes Dinamo Zagreb,yes Fenerbahce,yes Be`er Sheva,yes AEK Athens,yes Bodoe/Glimt,yes Slovan Bratislava,yes Celtic",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263477E67735C",
+        "title": "yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Cincinnati,yes Columbus,yes DC United,yes Minnesota,yes Nashville,yes Chicago Fire,yes Salt Lake,yes Saint Louis",
+        "volume": 92445.45,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20261F56600BC03",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-18",
-      "topic": "Sports",
-      "volume1mo": 4545.45,
-      "share_pct": 1.5568703366373975,
+      "date": "2026-08-19",
+      "topic": "Geopolitics",
+      "volume1mo": 3725.1600000000003,
+      "share_pct": 0.8680113032819838,
+      "event_count": 20,
+      "example": {
+        "title": "yes Jackie Young: 6+,yes Angel Reese: 20+,yes Chelsea Gray: 15+,yes Kamilla Cardoso: 15+,yes Sabrina Ionescu: 20+,yes Jordin Canada: 4+,yes Kamilla Cardoso: 10+,yes Breanna Stewart: 8+,yes Sabrina Ionescu: 6+",
+        "volume": 1212.12,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20265F7C54C35E3",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "topic": "Culture",
+      "volume1mo": 309.27,
+      "share_pct": 0.07206398000784373,
       "event_count": 1,
       "example": {
-        "title": "yes Rio Noguchi,yes Felix Balshaw,yes Lloyd Harris,yes Alan Magadan,yes Guyana Amazon Warriors,yes G2,yes FURIA,yes FUT Esports,yes MOUZ,yes Team Falcons,yes Spirit,yes Andrea Kimi Antonelli,yes Detroit,yes Kansas City,yes Minnesota,yes Chicago C,yes Los Angeles D,yes HOU Texans,yes LA Chargers,yes DEN Broncos,yes PIT Steelers,yes Dinamo Zagreb,yes Dallas",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20267AC1C565646",
+        "title": "yes Cole Carrigg: 2+,yes Jake McCarthy: 2+,yes Tommy Edman: 3+,yes Teoscar Hern\u00e1ndez: 3+,yes Cole Carrigg: 1+",
+        "volume": 309.27,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026438966664F3",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Business/Economy",
-      "volume1mo": 1244.2299999999998,
-      "share_pct": 0.4261634775334343,
-      "event_count": 3,
+      "volume1mo": 29.6,
+      "share_pct": 0.006897189537401541,
+      "event_count": 1,
       "example": {
-        "title": "yes Felix Balshaw,yes Jiri Lehecka,yes Adolfo Daniel Vallejo,yes Alexandra Eala",
-        "volume": 932.64,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026B25BCFEDF27",
+        "title": "yes Chicago WS,yes Los Angeles A,yes Los Angeles D,no Over 11.5 runs scored,no Over 8.5 runs scored,yes Atlanta,yes Chicago",
+        "volume": 29.6,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202669465D31833",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "topic": "Sports",
+      "volume1mo": 8.11,
+      "share_pct": 0.001889736727984003,
+      "event_count": 1,
+      "example": {
+        "title": "yes FUT Esports,yes Weibo Gaming,yes Gen.G,yes Anyone's Legend,yes Team WE,yes JD Gaming,yes Bilibili Gaming",
+        "volume": 8.11,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026BEF01E5B027",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Unclassified",
-      "volume1mo": "231749.58000000",
-      "share_pct": "79.37696964",
-      "event_count": "400"
+      "volume1mo": "261951.90000000",
+      "share_pct": "61.03824000",
+      "event_count": "333"
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Tech & Science",
-      "volume1mo": "54421.47000000",
-      "share_pct": "18.63999655",
-      "event_count": "65"
+      "volume1mo": "163136.27000000",
+      "share_pct": "38.01289779",
+      "event_count": "54"
     },
     {
-      "date": "2026-08-18",
-      "topic": "Sports",
-      "volume1mo": "4545.45000000",
-      "share_pct": "1.55687034",
+      "date": "2026-08-19",
+      "topic": "Geopolitics",
+      "volume1mo": "3725.16000000",
+      "share_pct": "0.86801130",
+      "event_count": "20"
+    },
+    {
+      "date": "2026-08-19",
+      "topic": "Culture",
+      "volume1mo": "309.27000000",
+      "share_pct": "0.07206398",
       "event_count": "1"
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "topic": "Business/Economy",
-      "volume1mo": "1244.23000000",
-      "share_pct": "0.42616348",
-      "event_count": "3"
+      "volume1mo": "29.60000000",
+      "share_pct": "0.00689719",
+      "event_count": "1"
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
+      "topic": "Sports",
+      "volume1mo": "8.11000000",
+      "share_pct": "0.00188974",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-19",
       "topic": "Total",
-      "volume1mo": "291960.73000000",
+      "volume1mo": "429160.31000000",
       "share_pct": "100.00000000",
-      "event_count": "469"
+      "event_count": "410"
     }
   ]
 }
