@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 489,
-  "sample_rows": 489,
-  "sum_volume1mo": 350597.70999999973,
-  "last_event_volume1mo": 0.07,
+  "positive_rows": 418,
+  "sample_rows": 418,
+  "sum_volume1mo": 371573.41000000027,
+  "last_event_volume1mo": 0.52,
   "topics": [
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Unclassified",
-      "volume1mo": 269065.1799999998,
-      "share_pct": 76.7447054916588,
-      "event_count": 387,
+      "volume1mo": 359752.57000000024,
+      "share_pct": 96.81870669916881,
+      "event_count": 400,
       "example": {
-        "title": "yes Arsenal,yes Manchester United,yes Manchester City,yes Tie,yes Tie,yes Real Madrid,yes Valencia,yes Barcelona,yes Tie,yes Correcaminos,yes Tepatitlan,yes Tigres,yes Marseille,yes Nice,yes Lens,yes Inter",
-        "volume": 18181.81,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026B0B23BBC4E5",
+        "title": "yes IND Colts,yes BUF Bills,yes TB Buccaneers,yes LA Rams,yes NE Patriots,yes SEA Seahawks",
+        "volume": 75590.06,
+        "event_ticker": "KXMVECROSSCATEGORY0-SHARD1-S2026835009562D1",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Tech & Science",
-      "volume1mo": 69940.19999999998,
-      "share_pct": 19.94884678510879,
-      "event_count": 65,
+      "volume1mo": 7627.33,
+      "share_pct": 2.0527114682398815,
+      "event_count": 7,
       "example": {
-        "title": "yes Taylor Fritz,yes Arsenal,yes Manchester United,yes Real Madrid,yes Atletico,yes Barcelona,yes Real Madrid,yes Barcelona,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 3.5 runs scored,yes Over 3.5 runs scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes LV Raiders,yes Inter,yes Juventus,yes Minnesota,yes Atlanta,yes Los Angeles,yes Las Vegas",
-        "volume": 9244.74,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264739932EA7A",
+        "title": "yes Manchester United,yes Manchester City,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,no Espanyol,no Villarreal,yes Barcelona,no Levante,no Real Sociedad,no Auxerre,no Stade Rennais,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Inter,no Frosinone,no Fiorentina,no Over 4.5 goals scored,yes Over 1.5 goals scored,no Over 3.5 goals scored,no Over 4.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Las Vegas,yes Dallas,yes Bridget Carleton: 15+,yes Megan DiLeo: 10+,yes Kiki Rice: 15+,yes Emily Engstler: 4+",
+        "volume": 4629.62,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269FE28989BC6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-21",
-      "topic": "Geopolitics",
-      "volume1mo": 9919.66,
-      "share_pct": 2.829356757635413,
-      "event_count": 33,
-      "example": {
-        "title": "yes Abejas de Leon,yes Freseros de Irapuato,yes HOU Texans,yes LA Chargers,yes Jackie Young: 3+,yes Connecticut,yes Allisha Gray: 15+,yes Angel Reese: 15+,yes Jordin Canada: 10+,yes Rhyne Howard: 15+,yes Dearica Hamby: 10+,yes Nneka Ogwumike: 10+,yes Rae Burrell: 10+,yes Diamond Miller: 15+,yes Jackie Young: 20+,yes Atlanta wins by over 20.5 points",
-        "volume": 2272.72,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026917F976B9BE",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Sports",
-      "volume1mo": 1385.01,
-      "share_pct": 0.3950425118292989,
-      "event_count": 2,
+      "volume1mo": 3342.1499999999996,
+      "share_pct": 0.8994588713977131,
+      "event_count": 6,
       "example": {
-        "title": "yes MOUZ,yes Team Falcons,yes Vitality,yes ThunderTalk Gaming,yes Team Secret Whales,yes Anyone's Legend,yes T1,yes Bilibili Gaming,yes SK Gaming,yes Team WE,yes Gen.G,yes Fnatic,yes Movistar KOI,yes FURIA Esports",
-        "volume": 925.92,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026718C278B637",
+        "title": "yes FUT Esports,yes Spirit,yes Ninjas in Pyjamas,yes DRX,yes Top Esports,yes New York M,yes Evil Geniuses",
+        "volume": 2325.58,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202632C106EA3B8",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Business/Economy",
-      "volume1mo": 287.65999999999997,
-      "share_pct": 0.08204845376771006,
-      "event_count": 2,
+      "volume1mo": 580.2,
+      "share_pct": 0.1561468028619162,
+      "event_count": 3,
       "example": {
-        "title": "yes Lion City Sailors,yes Isaac Becroft,yes SF 49ers",
-        "volume": 198.7,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026FEDBA57DB99",
+        "title": "yes Real Madrid,yes Barcelona,yes Leon,yes Lille,yes PSG,yes Houston,yes Kansas City,yes Cleveland,yes Arizona,yes San Diego,yes Chicago C,yes Inter",
+        "volume": 305.49,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026FE6836A4FED",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "topic": "Geopolitics",
+      "volume1mo": 172.72,
+      "share_pct": 0.04648341225492962,
+      "event_count": 1,
+      "example": {
+        "title": "yes Corbin Carroll: 1+,yes Sal Stewart: 1+,yes Michael Busch: 1+,yes Seiya Suzuki: 1+",
+        "volume": 172.72,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026B5F8A3A6E24",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "topic": "Culture",
+      "volume1mo": 98.44,
+      "share_pct": 0.02649274607674428,
+      "event_count": 1,
+      "example": {
+        "title": "yes Los Angeles D wins first 5 innings,yes San Diego,yes Chicago C,yes Mookie Betts: 2+,yes Teoscar Hern\u00e1ndez: 1+,no New York M wins by over 1.5 runs,yes Houston wins by over 1.5 runs,no Texas wins by over 1.5 runs,yes Los Angeles D wins by over 1.5 runs",
+        "volume": 98.44,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026C34A0F986DA",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Unclassified",
-      "volume1mo": "269065.18000000",
-      "share_pct": "76.74470549",
-      "event_count": "387"
+      "volume1mo": "359752.57000000",
+      "share_pct": "96.81870670",
+      "event_count": "400"
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Tech & Science",
-      "volume1mo": "69940.20000000",
-      "share_pct": "19.94884679",
-      "event_count": "65"
+      "volume1mo": "7627.33000000",
+      "share_pct": "2.05271147",
+      "event_count": "7"
     },
     {
-      "date": "2026-08-21",
-      "topic": "Geopolitics",
-      "volume1mo": "9919.66000000",
-      "share_pct": "2.82935676",
-      "event_count": "33"
-    },
-    {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Sports",
-      "volume1mo": "1385.01000000",
-      "share_pct": "0.39504251",
-      "event_count": "2"
+      "volume1mo": "3342.15000000",
+      "share_pct": "0.89945887",
+      "event_count": "6"
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "topic": "Business/Economy",
-      "volume1mo": "287.66000000",
-      "share_pct": "0.08204845",
-      "event_count": "2"
+      "volume1mo": "580.20000000",
+      "share_pct": "0.15614680",
+      "event_count": "3"
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
+      "topic": "Geopolitics",
+      "volume1mo": "172.72000000",
+      "share_pct": "0.04648341",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-22",
+      "topic": "Culture",
+      "volume1mo": "98.44000000",
+      "share_pct": "0.02649275",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-08-22",
       "topic": "Total",
-      "volume1mo": "350597.71000000",
+      "volume1mo": "371573.41000000",
       "share_pct": "100.00000000",
-      "event_count": "489"
+      "event_count": "418"
     }
   ]
 }
