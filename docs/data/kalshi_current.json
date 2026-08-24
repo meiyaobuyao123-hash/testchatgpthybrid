@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-23",
+  "as_of": "2026-08-24",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 379,
-  "sample_rows": 379,
-  "sum_volume1mo": 285815.94999999995,
-  "last_event_volume1mo": 0.18,
+  "positive_rows": 403,
+  "sample_rows": 403,
+  "sum_volume1mo": 667639.5800000005,
+  "last_event_volume1mo": 0.33,
   "topics": [
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Unclassified",
-      "volume1mo": 239054.2899999999,
-      "share_pct": 83.63924056722514,
-      "event_count": 305,
+      "volume1mo": 482598.55000000057,
+      "share_pct": 72.2842929713664,
+      "event_count": 337,
       "example": {
-        "title": "yes San Diego,yes Tampa Bay,yes Chicago C,yes San Jose",
-        "volume": 32278.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026BCA9FDC4224",
+        "title": "yes Kamil Majchrzak,yes Lorenzo Sonego,yes Adam Walton,yes Aleksandar Kovacevic,yes Stefanos Tsitsipas,yes Martin Damm Jr,yes Roman Safiullin,yes Marcos Giron,yes James Duckworth,yes Adam Walton,yes Marcos Giron,yes Chelsea,yes Osasuna,yes Tapatio,yes Necaxa,yes SEA Seahawks,yes Lazio,yes Kayla Day,yes Rebecca Sramkova,yes Qinwen Zheng",
+        "volume": 92727.27,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269873F967217",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Tech & Science",
-      "volume1mo": 36051.27000000002,
-      "share_pct": 12.613456316906046,
-      "event_count": 58,
+      "volume1mo": 158698.5099999999,
+      "share_pct": 23.770087147918908,
+      "event_count": 55,
       "example": {
-        "title": "yes Yoenli Hernandez,yes Teofimo Lopez,yes Leones Negros,yes Jaiba Brava,yes Cancun FC,yes Guadalajara,yes Cruz Azul,yes Puebla,yes Over 4.5 goals scored,yes Over 1.5 goals scored,yes Cincinnati,yes Cleveland,yes Minnesota,yes Los Angeles F,yes Tie,yes Vancouver,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 4.5 goals scored,yes Portland Thorns,yes Tulsa,yes Tie",
-        "volume": 9609.09,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269198AD9A55D",
+        "title": "yes Radu Albot,yes Max Basing,yes Matteo Martineau,yes Mika Brunold,yes Michele Ribecai,yes Benjamin Hassan,yes Andrej Nedic,yes Denis Yevseyev",
+        "volume": 89928.05,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260F701E3357D",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Sports",
-      "volume1mo": 10426.45,
-      "share_pct": 3.6479594648234306,
-      "event_count": 9,
+      "volume1mo": 23400.380000000005,
+      "share_pct": 3.5049419928039596,
+      "event_count": 7,
       "example": {
-        "title": "yes Chongqing Tonglianglong FC,yes Shanghai Port,yes FURIA,yes Spirit,yes Manchester City,yes Barcelona,yes Guadalajara,yes Cruz Azul,yes Puebla,yes LGD Gaming,yes JD Gaming,yes Team Secret Whales,yes Bilibili Gaming,yes GIANTX,yes Karmine Corp,yes LOS,yes Sentinels,yes FlyQuest,yes Los Angeles F,yes Vancouver,yes DAL Cowboys,yes Seattle wins by over 5.5 points,yes Over 36.5 points scored,yes Over 32.5 points scored,yes Juventus,yes T1,yes G2 Esports,yes Atlanta,yes Los Angeles,yes Indiana,yes Las Vegas,yes Dallas",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263D0EF42C389",
+        "title": "yes Martin Damm Jr,yes Marcos Giron,yes James Duckworth,yes Spirit,yes Natus Vincere,yes FURIA,yes Chelsea,yes G2 Esports,yes KT Rolster,yes Tampa Bay,yes Washington,yes Chicago WS,yes Cleveland,yes Chicago C,yes Cincinnati,yes Roma,yes Minnesota,yes Clara Burel,yes Kayla Day,yes Anouk Koevermans",
+        "volume": 22727.27,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026763ABDCFDB8",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-23",
-      "topic": "Geopolitics",
-      "volume1mo": 222.0,
-      "share_pct": 0.07767236223170891,
-      "event_count": 5,
-      "example": {
-        "title": "yes Allisha Gray: 15+,yes Angel Reese: 15+,yes Jordin Canada: 10+,yes Rhyne Howard: 15+,yes Alyssa Thomas: 15+,yes DeWanna Bonner: 15+,yes Kahleah Copper: 15+,yes Natasha Mack: 10+",
-        "volume": 106.42,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026558EC550065",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Business/Economy",
-      "volume1mo": 61.94,
-      "share_pct": 0.021671288813657884,
+      "volume1mo": 1971.96,
+      "share_pct": 0.2953629561626646,
       "event_count": 2,
       "example": {
-        "title": "yes Over 2.5 goals scored,yes Vancouver wins by more than 4.5 goals,yes Over 2.5 goals scored,yes Over 2.5 goals scored",
-        "volume": 32.98,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026A0AFED47998",
+        "title": "yes Aleksandar Kovacevic,yes Billy Harris,yes Liam Broady,yes Martin Damm Jr,yes Titouan Droguet,yes Jacob Fearnley,yes Federico Agustin Gomez,yes Kyrian Jacquet,yes Mark Lajal,yes Roman Safiullin,yes Marcos Giron,yes Otto Virtanen,yes Aleksandar Kovacevic,yes Liam Broady,yes Martin Damm Jr,yes Jacob Fearnley,yes Federico Agustin Gomez,yes Kyrian Jacquet,yes Mark Lajal,yes Elias Ymer,yes Roman Safiullin,yes Marcos Giron",
+        "volume": 1962.96,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264BBE2BA93E5",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "topic": "Geopolitics",
+      "volume1mo": 970.1800000000001,
+      "share_pct": 0.14531493174805474,
+      "event_count": 2,
+      "example": {
+        "title": "yes Daniel Altmaier,yes Martin Damm Jr,yes Roman Safiullin,yes Marcos Giron,yes James Duckworth,yes Kamil Majchrzak,yes Lorenzo Sonego,yes Hugo Grenier,yes Dhakshineswar Suresh,yes Quinn Vandecasteele,yes Lucrezia Stefanini,yes Lucia Bronzetti,yes Clara Burel,yes Kayla Day,yes Veronika Podrez,yes Lin Zhu,yes Polina Iatcenko,yes Robin Montgomery,yes Himeno Sakatsume,yes Elena Pridankina,yes Rebecca Sramkova,yes Bianca Andreescu,yes Qinwen Zheng,yes Mariam Bolkvadze,yes Yexin MA,yes Julieta Pareja,yes Ekaterine Gorgodze,yes Heather Watson",
+        "volume": 909.09,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263245DFF9788",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Unclassified",
-      "volume1mo": "239054.29000000",
-      "share_pct": "83.63924057",
-      "event_count": "305"
+      "volume1mo": "482598.55000000",
+      "share_pct": "72.28429297",
+      "event_count": "337"
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Tech & Science",
-      "volume1mo": "36051.27000000",
-      "share_pct": "12.61345632",
-      "event_count": "58"
+      "volume1mo": "158698.51000000",
+      "share_pct": "23.77008715",
+      "event_count": "55"
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Sports",
-      "volume1mo": "10426.45000000",
-      "share_pct": "3.64795946",
-      "event_count": "9"
+      "volume1mo": "23400.38000000",
+      "share_pct": "3.50494199",
+      "event_count": "7"
     },
     {
-      "date": "2026-08-23",
-      "topic": "Geopolitics",
-      "volume1mo": "222.00000000",
-      "share_pct": "0.07767236",
-      "event_count": "5"
-    },
-    {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "topic": "Business/Economy",
-      "volume1mo": "61.94000000",
-      "share_pct": "0.02167129",
+      "volume1mo": "1971.96000000",
+      "share_pct": "0.29536296",
       "event_count": "2"
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
+      "topic": "Geopolitics",
+      "volume1mo": "970.18000000",
+      "share_pct": "0.14531493",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-08-24",
       "topic": "Total",
-      "volume1mo": "285815.95000000",
+      "volume1mo": "667639.58000000",
       "share_pct": "100.00000000",
-      "event_count": "379"
+      "event_count": "403"
     }
   ]
 }
