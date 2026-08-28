@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-27",
+  "as_of": "2026-08-28",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 339,
-  "sample_rows": 339,
-  "sum_volume1mo": 497416.8999999999,
-  "last_event_volume1mo": 0.62,
+  "positive_rows": 371,
+  "sample_rows": 371,
+  "sum_volume1mo": 513970.43000000034,
+  "last_event_volume1mo": 2.46,
   "topics": [
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Unclassified",
-      "volume1mo": 441742.61999999994,
-      "share_pct": 88.80732037853961,
-      "event_count": 299,
+      "volume1mo": 423550.3600000004,
+      "share_pct": 82.40753461244844,
+      "event_count": 303,
       "example": {
-        "title": "yes Bayern Munich,yes Dortmund,yes Leverkusen,yes West Ham,yes Manchester City,yes Liverpool,yes Barcelona,yes Celta Vigo,yes Leon,yes Cruz Azul,yes Atlas,yes PSG,yes Milan,yes Fiorentina,yes Juventus",
-        "volume": 45454.54,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E1B20904C38",
+        "title": "yes Chicago C,yes Los Angeles D,yes Houston,yes Cleveland,yes Tampa Bay,yes Colorado,yes Milwaukee,yes Chicago WS,yes Pittsburgh,yes Philadelphia,yes Baltimore,yes Arizona",
+        "volume": 61818.18,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264C87C6F030F",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Tech & Science",
-      "volume1mo": 42522.52000000002,
-      "share_pct": 8.548668129289542,
-      "event_count": 27,
+      "volume1mo": 45623.94000000001,
+      "share_pct": 8.87676359124395,
+      "event_count": 39,
       "example": {
-        "title": "yes Barcelona,no Over 3.5 goals scored,yes Reg Time: Ajax,yes Reg Time: Monaco,yes Reg Time: Brighton,yes Reg Time: Copenhagen,yes Reg Time: Atalanta,yes Reg Time: Pafos,yes Reg Time: Qarabag,yes Reg Time: Riga FC,yes Reg Time: Freiburg,yes Reg Time: SL Benfica,yes Reg Time: Uni Craiova,yes Reg Time: Besiktas,yes Reg Time: Lillestroem,yes Reg Time: Salzburg,yes Reg Time: Anderlecht,yes Reg Time: Lech Poznan",
+        "title": "yes Bayern Munich,yes Shanghai Shenhua,yes Real Union de Tenerife,yes Viborg,yes Mushuc Runa,yes Wrexham,yes Manchester City,yes Leon,yes Cruz Azul,yes Tijuana de Caliente,yes PSG,yes Milan",
         "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264A739C17C75",
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E9A256651C6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-27",
-      "topic": "Sports",
-      "volume1mo": 13128.290000000003,
-      "share_pct": 2.639293116096378,
-      "event_count": 12,
+      "date": "2026-08-28",
+      "topic": "Geopolitics",
+      "volume1mo": 29796.300000000003,
+      "share_pct": 5.797279038017806,
+      "event_count": 21,
       "example": {
-        "title": "yes Marvin Moeller,yes Martin Krumich,yes Vilius Gaubas,yes MOUZ,yes FUT Esports,yes SSG Landers,yes Washington,yes New England,yes Las Vegas,yes VARREL,yes FURIA Esports,yes Washington",
-        "volume": 4663.63,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F76BC14BEAC",
+        "title": "yes Bayern Munich,yes Tie,yes Shanghai Port,yes Shanghai Shenhua,yes Al Qanah,yes Al Ahly (EGY),yes Legia Warszawa,yes Manchester City,yes Groningen,yes PSG,yes Al Nassr,yes Al Hilal,yes Milan,yes Genclerbirligi",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20267CFDB245DF1",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Business/Economy",
-      "volume1mo": 23.47,
-      "share_pct": 0.004718376074475958,
-      "event_count": 1,
+      "volume1mo": 14510.349999999999,
+      "share_pct": 2.8231877075107197,
+      "event_count": 6,
       "example": {
-        "title": "yes Facundo Mena,yes Colorado,yes St. Louis,yes Houston",
-        "volume": 23.47,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202671CD28FED03",
+        "title": "yes Lorenzo Gagliardo,yes Gerard Campana Lee,yes Lorenzo Carboni,yes Pierre Antoine Tailleu,yes Andrey Chepelev,yes Jannik Maute,yes Maximo Zeitune,yes Carlos Maria Zarate,yes Jack Anthrop,yes Oliver OKONKWO,yes Pedro Rodenas",
+        "volume": 8909.09,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026B9E7AC5119A",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "topic": "Sports",
+      "volume1mo": 489.48,
+      "share_pct": 0.09523505077908853,
+      "event_count": 2,
+      "example": {
+        "title": "yes Bayern Munich wins by more than 1.5 goals,yes ex-Zero Tenacity,yes Spirit,yes Natus Vincere,yes FURIA,yes Manchester City,no Manchester City wins by more than 2.5 goals,yes Jakub Filip,no Elche,yes PSG,yes Milan,yes NRG,yes Leviat\u00e1n Esports,yes Kristina Liutova",
+        "volume": 448.2,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202663265114A93",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Unclassified",
-      "volume1mo": "441742.62000000",
-      "share_pct": "88.80732038",
-      "event_count": "299"
+      "volume1mo": "423550.36000000",
+      "share_pct": "82.40753461",
+      "event_count": "303"
     },
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Tech & Science",
-      "volume1mo": "42522.52000000",
-      "share_pct": "8.54866813",
-      "event_count": "27"
+      "volume1mo": "45623.94000000",
+      "share_pct": "8.87676359",
+      "event_count": "39"
     },
     {
-      "date": "2026-08-27",
-      "topic": "Sports",
-      "volume1mo": "13128.29000000",
-      "share_pct": "2.63929312",
-      "event_count": "12"
+      "date": "2026-08-28",
+      "topic": "Geopolitics",
+      "volume1mo": "29796.30000000",
+      "share_pct": "5.79727904",
+      "event_count": "21"
     },
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "topic": "Business/Economy",
-      "volume1mo": "23.47000000",
-      "share_pct": "0.00471838",
-      "event_count": "1"
+      "volume1mo": "14510.35000000",
+      "share_pct": "2.82318771",
+      "event_count": "6"
     },
     {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
+      "topic": "Sports",
+      "volume1mo": "489.48000000",
+      "share_pct": "0.09523505",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-08-28",
       "topic": "Total",
-      "volume1mo": "497416.90000000",
+      "volume1mo": "513970.43000000",
       "share_pct": "100.00000000",
-      "event_count": "339"
+      "event_count": "371"
     }
   ]
 }
