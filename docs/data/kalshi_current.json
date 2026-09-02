@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-02",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 271,
-  "sample_rows": 271,
-  "sum_volume1mo": 368199.95999999973,
-  "last_event_volume1mo": 0.02,
+  "positive_rows": 331,
+  "sample_rows": 331,
+  "sum_volume1mo": 291997.68999999994,
+  "last_event_volume1mo": 0.17,
   "topics": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Unclassified",
-      "volume1mo": 251573.1499999997,
-      "share_pct": 68.32514321837512,
-      "event_count": 224,
+      "volume1mo": 268940.7899999999,
+      "share_pct": 92.10373890286597,
+      "event_count": 291,
       "example": {
-        "title": "yes Botic Van de Zandschulp,yes Flavio Cobolli,yes Ignacio Buse,yes Benjamin Bonzi,yes Corentin Moutet,yes Gael Monfils,yes Alexander Zverev,no Over 9.5 runs scored,yes Nikola Bartunkova,yes Madison Keys,yes Belinda Bencic,yes Elise Mertens,yes Coco Gauff,yes Yuliia Starodubtseva,yes Magda Linette,yes Alexandra Eala,yes Anastasia Potapova",
-        "volume": 30769.23,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E43B94791DC",
+        "title": "yes Liverpool,yes Brighton,yes Aston Villa,yes Manchester City,yes Newcastle,yes Tottenham,yes Manchester United,yes Real Madrid,yes Villarreal,yes Barcelona,yes Como,yes Fiorentina,yes Inter,yes Roma",
+        "volume": 18181.81,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202615F5572AD59",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Tech & Science",
-      "volume1mo": 54619.670000000006,
-      "share_pct": 14.834241155267927,
-      "event_count": 27,
+      "volume1mo": 14209.150000000001,
+      "share_pct": 4.8661857564695135,
+      "event_count": 30,
       "example": {
-        "title": "yes Henri Squire,yes Thiago Seyboth Wild,yes Kilian Feldbausch,yes Petr Bar Biryukov,yes Charles Broom,yes Mark Lajal,yes Koki Matsuda,yes Oleksandr Ovcharenko,yes Chun Hsin Tseng,yes Olle Wallin,yes Jaisinghani / Kamboj,yes Beamish / Shearer,yes Nakamura / Susanto,yes Blando / Hashimoto,yes Saitoh / Tanuma,yes Arjun Mehrotra,yes Xin Zhou,yes Moerani Bouzige,yes Marwan Ehab,yes Ignacio Monzon,yes Makar Krivoshchekov,yes Manish Sureshkumar,yes YeXin Ma,yes Eunyeong Park,yes Kristiana Sidorova,yes Himari Sato,yes Jiaqi Wang,yes Dabin Kim",
-        "volume": 22727.27,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202660CC6BD4337",
+        "title": "yes Botic Van de Zandschulp,yes Rafael Jodar,yes Alexander Bublik,yes Carlos Alcaraz,yes Stefanos Tsitsipas,yes Jiri Lehecka,yes Tommy Paul,yes Frances Tiafoe,yes Ben Shelton,yes Iva Jovic,yes Ekaterina Alexandrova,yes Karolina Muchova,yes Marta Kostyuk,yes Jasmine Paolini,yes Diana Shnaider,yes Leylah Fernandez,yes Linda Noskova,yes Taylor Townsend",
+        "volume": 2264.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20268149DE5EE5F",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Geopolitics",
-      "volume1mo": 53332.81000000001,
-      "share_pct": 14.484740845707874,
-      "event_count": 14,
+      "volume1mo": 7918.09,
+      "share_pct": 2.711696109650731,
+      "event_count": 8,
       "example": {
-        "title": "yes Raul Brancaccio,yes Henri Squire,yes Thiago Seyboth Wild,yes Kilian Feldbausch,yes Charles Broom,yes Marco Cecchinato,yes Mark Lajal,yes Pol Martin Tiffon,yes Nikita Mashtakov,yes Oleksandr Ovcharenko,yes Carl Emil Overbeck,yes Matheus Pucinelli de Almeida,yes Maxim Mrva,yes Nikolas Sanchez Izquierdo,yes Calvin Hemery,yes Olle Wallin,yes Matteo Sabbatini,yes Omar Kandil,yes Filip Pavic",
-        "volume": 27272.72,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260E74B43B2BE",
+        "title": "yes Elly De La Cruz: 1+,yes Sal Stewart: 1+,yes Fernando Tatis Jr.: 2+,yes Jackson Merrill: 1+,yes Drake Baldwin: 2+,yes Ronald Acu\u00f1a Jr.: 1+,yes CJ Abrams: 1+,yes Daylen Lile: 1+,yes Cal Raleigh: 1+,yes Julio Rodr\u00edguez: 1+,yes Randy Arozarena: 1+",
+        "volume": 2627.9,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026101E13EAD59",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-01",
-      "topic": "Sports",
-      "volume1mo": 5480.0199999999995,
-      "share_pct": 1.4883271578845374,
-      "event_count": 2,
-      "example": {
-        "title": "yes Kilian Feldbausch,yes Nishesh Basavareddy,yes Francisco Cerundolo,yes Corentin Moutet,yes Stuttgart,yes Trinbago Knight Riders,yes Portsmouth,yes Liverpool,yes Manchester City,yes Arsenal,yes Nakamura / Susanto,yes Arjun Mehrotra,yes Lyon,yes PSG,yes Gen.G,yes Hanwha Life Esports,yes Dplus KIA,yes Pittsburgh,yes Rutgers,yes Delaware,yes Kennesaw St.,yes Hanshin Tigers,yes Elena Rybakina,yes Belinda Bencic,yes Yuliia Starodubtseva",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026727D2E90808",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Business/Economy",
-      "volume1mo": 3194.31,
-      "share_pct": 0.867547622764544,
-      "event_count": 4,
+      "volume1mo": 892.0,
+      "share_pct": 0.3054818687093039,
+      "event_count": 1,
       "example": {
-        "title": "yes Tampa Bay,yes San Diego,yes Cleveland,yes Atlanta,yes Detroit,yes Texas,yes Baltimore,yes New York Y",
-        "volume": 1801.24,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202680E8FEDD71D",
+        "title": "yes San Diego,yes Atlanta,yes Texas,yes Philadelphia,yes Boston,yes New York M,yes Pittsburgh,yes Toronto",
+        "volume": 892.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20262356663FEDE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "topic": "Sports",
+      "volume1mo": 37.66,
+      "share_pct": 0.012897362304475767,
+      "event_count": 1,
+      "example": {
+        "title": "yes Koki Matsuda,yes Hanwha Life Esports",
+        "volume": 37.66,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026700679EA944",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Unclassified",
-      "volume1mo": "251573.15000000",
-      "share_pct": "68.32514322",
-      "event_count": "224"
+      "volume1mo": "268940.79000000",
+      "share_pct": "92.10373890",
+      "event_count": "291"
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Tech & Science",
-      "volume1mo": "54619.67000000",
-      "share_pct": "14.83424116",
-      "event_count": "27"
+      "volume1mo": "14209.15000000",
+      "share_pct": "4.86618576",
+      "event_count": "30"
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Geopolitics",
-      "volume1mo": "53332.81000000",
-      "share_pct": "14.48474085",
-      "event_count": "14"
+      "volume1mo": "7918.09000000",
+      "share_pct": "2.71169611",
+      "event_count": "8"
     },
     {
-      "date": "2026-09-01",
-      "topic": "Sports",
-      "volume1mo": "5480.02000000",
-      "share_pct": "1.48832716",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "topic": "Business/Economy",
-      "volume1mo": "3194.31000000",
-      "share_pct": "0.86754762",
-      "event_count": "4"
+      "volume1mo": "892.00000000",
+      "share_pct": "0.30548187",
+      "event_count": "1"
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
+      "topic": "Sports",
+      "volume1mo": "37.66000000",
+      "share_pct": "0.01289736",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-09-02",
       "topic": "Total",
-      "volume1mo": "368199.96000000",
+      "volume1mo": "291997.69000000",
       "share_pct": "100.00000000",
-      "event_count": "271"
+      "event_count": "331"
     }
   ]
 }
