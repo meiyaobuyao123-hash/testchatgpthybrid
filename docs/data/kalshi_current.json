@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 254,
-  "sample_rows": 254,
-  "sum_volume1mo": 314003.99000000005,
-  "last_event_volume1mo": 0.05,
+  "positive_rows": 201,
+  "sample_rows": 201,
+  "sum_volume1mo": 272890.9699999999,
+  "last_event_volume1mo": 0.38,
   "topics": [
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Unclassified",
-      "volume1mo": 255143.11000000007,
-      "share_pct": 81.25473501148825,
-      "event_count": 215,
+      "volume1mo": 180872.42999999993,
+      "share_pct": 66.28010813256297,
+      "event_count": 173,
       "example": {
-        "title": "yes Stuttgart,yes Bodoe/Glimt,yes Liverpool,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Lyon,yes PSG,yes New York M,yes Los Angeles D,yes Over 1.5 goals scored,yes Al-Ittifaq,yes Over 1.5 goals scored,yes Galatasaray",
-        "volume": 23255.81,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260F26A6C0617",
+        "title": "yes Philadelphia,yes Cleveland,yes Pittsburgh,yes Milwaukee,yes Boston,yes Texas,yes Chicago WS,yes Toronto,yes Houston,yes San Diego,yes St. Louis,yes Los Angeles D",
+        "volume": 18181.81,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026958CDC4D5B4",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Tech & Science",
-      "volume1mo": 54065.52,
-      "share_pct": 17.218099680835262,
-      "event_count": 30,
+      "volume1mo": 89030.30999999998,
+      "share_pct": 32.62486479490326,
+      "event_count": 27,
       "example": {
-        "title": "yes Stuttgart,yes Leverkusen,yes Bayern Munich,yes Leipzig,yes Dortmund,yes Liverpool,yes Manchester City,yes Real Madrid,yes Barcelona,yes Lyon,yes Nice,yes Lens,yes Stade Rennais,yes Marseille,yes Como,yes Fiorentina,yes Inter,yes Lazio",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260A3A228D6CE",
+        "title": "yes Wolfsburg,yes M\u00b4gladbach,yes Leverkusen,yes Bayern Munich,yes Leipzig,yes Dalian Yingbo FC,yes Shandong Taishan,yes Plzen,yes Slavia Prague,yes Aarhus,yes West Ham,yes Rosenborg,yes Manchester City,yes Villarreal,yes Barcelona,yes Reg Time: America,yes SL Benfica,yes Lens,yes Aberdeen,yes Rangers,yes Young Boys",
+        "volume": 24072.72,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E49D7953C3A",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Geopolitics",
-      "volume1mo": 1908.13,
-      "share_pct": 0.607676991620393,
-      "event_count": 3,
+      "volume1mo": 2988.23,
+      "share_pct": 1.0950270725337672,
+      "event_count": 1,
       "example": {
-        "title": "yes Sal Stewart: 1+,yes Kyle Schwarber: 1+,yes Pete Alonso: 1+,yes Wilyer Abreu: 1+,yes Pete Crow-Armstrong: 1+",
-        "volume": 909.09,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20260D8B15FA898",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "Sports",
-      "volume1mo": 1788.1,
-      "share_pct": 0.5694513627040215,
-      "event_count": 2,
-      "example": {
-        "title": "yes Team Falcons,yes Vitality,yes SSG Landers,yes Kia Tigers,yes NC Dinos,yes Dplus KIA,yes Anyone's Legend,yes Hokkaido Nippon-Ham Fighters,yes Fukuoka Hawks,yes Nongshim RedForce,yes TEC Esports,yes T1,yes Trace Esports,yes G2 Esports",
-        "volume": 1190.47,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026CF875604845",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "Business/Economy",
-      "volume1mo": 1099.13,
-      "share_pct": 0.35003695335208956,
-      "event_count": 4,
-      "example": {
-        "title": "yes Federico Iannaccone,yes Gustavo Heide,yes Juan Manuel La Serna,yes Thomas Faurel,yes Oleksandr Ovcharenko,yes Oriol Roca Batalla,yes Matej Dodig,yes Thiago Seyboth Wild,yes Chun Hsin Tseng,yes Alejandro Moro Canas",
-        "volume": 775.19,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026144659F495D",
+        "title": "yes Matt Olson: 2+,yes Kyle Schwarber: 2+,yes Jos\u00e9 Ram\u00edrez: 2+,yes Spencer Torkelson: 1+,yes Sal Stewart: 2+,yes Jackson Chourio: 2+,yes Pete Alonso: 2+,yes Junior Caminero: 2+,yes Bobby Witt Jr.: 2+,yes Vladimir Guerrero Jr.: 2+",
+        "volume": 2988.23,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202688825A5E543",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Unclassified",
-      "volume1mo": "255143.11000000",
-      "share_pct": "81.25473501",
-      "event_count": "215"
+      "volume1mo": "180872.43000000",
+      "share_pct": "66.28010813",
+      "event_count": "173"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Tech & Science",
-      "volume1mo": "54065.52000000",
-      "share_pct": "17.21809968",
-      "event_count": "30"
+      "volume1mo": "89030.31000000",
+      "share_pct": "32.62486479",
+      "event_count": "27"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Geopolitics",
-      "volume1mo": "1908.13000000",
-      "share_pct": "0.60767699",
-      "event_count": "3"
+      "volume1mo": "2988.23000000",
+      "share_pct": "1.09502707",
+      "event_count": "1"
     },
     {
-      "date": "2026-09-04",
-      "topic": "Sports",
-      "volume1mo": "1788.10000000",
-      "share_pct": "0.56945136",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "Business/Economy",
-      "volume1mo": "1099.13000000",
-      "share_pct": "0.35003695",
-      "event_count": "4"
-    },
-    {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "topic": "Total",
-      "volume1mo": "314003.99000000",
+      "volume1mo": "272890.97000000",
       "share_pct": "100.00000000",
-      "event_count": "254"
+      "event_count": "201"
     }
   ]
 }
