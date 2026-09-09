@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-08",
+  "as_of": "2026-09-09",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 246,
-  "sample_rows": 246,
-  "sum_volume1mo": 217729.49999999983,
-  "last_event_volume1mo": 0.02,
+  "positive_rows": 263,
+  "sample_rows": 263,
+  "sum_volume1mo": 433839.24999999977,
+  "last_event_volume1mo": 1.87,
   "topics": [
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Unclassified",
-      "volume1mo": 206169.76999999984,
-      "share_pct": 94.69078374772367,
-      "event_count": 219,
+      "volume1mo": 369070.93999999977,
+      "share_pct": 85.0708966512366,
+      "event_count": 218,
       "example": {
-        "title": "yes Matej Dodig,yes Jurij Rodionov,yes Ilia Simakin,yes Chun Hsin Tseng,yes Hugo Dellien,yes Yi Zhou,yes Edas Butvilas,yes Tom Gentzsch,yes Olle Wallin,yes Moise Kouame,yes Gauthier Onclin,yes Mathys Erhard,yes Juan Pablo Varillas,yes Dortmund,yes Manchester City,yes Barcelona,yes Liverpool,yes PSG,yes Bayern Munich,yes Manchester United",
-        "volume": 13461.53,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026FF3E0C09B59",
+        "title": "yes Hradec Kralove,yes Enppi,yes Wadi Degla SC,yes Al Ahly (EGY),yes Enschede,yes Al-Shabab,yes Napoli,yes Sporting CP,yes Viking",
+        "volume": 45454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026D8921504235",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-08",
-      "topic": "Tech & Science",
-      "volume1mo": 6938.86,
-      "share_pct": 3.1869177121152648,
-      "event_count": 14,
-      "example": {
-        "title": "yes Rajeev Ram / Joe Salisbury,yes Marcel Granollers / Horacio Zeballos,yes Marcelo Arevalo / Mate Pavic,yes Carlos Alcaraz,yes Frances Tiafoe,yes Karen Khachanov,yes Alexander Zverev,yes Beamish / Shearer,yes Jaisinghani / Kamboj,yes Gabriele Thomas Brancatelli,yes Prasad Ingale,yes Makar Elesin,yes Makar Krivoshchekov,yes Rahul Sachdev,yes Mark Kneiss,yes Ben Weintraub,yes Gabriela Dabrowski / Luisa Stefani,yes Katerina Siniakova / Taylor Townsend,yes Jessica Pegula,yes Aryna Sabalenka",
-        "volume": 3529.41,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269EBAC5CE0DB",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Business/Economy",
-      "volume1mo": 4414.119999999999,
-      "share_pct": 2.0273412651937393,
-      "event_count": 10,
+      "volume1mo": 45195.76,
+      "share_pct": 10.417628188320911,
+      "event_count": 6,
       "example": {
-        "title": "yes Daniel Masur,yes Ugo Blanchet,yes Sascha Gueymard Wayenburg,yes Pablo Perez Ramos,yes Wenze Li,yes Xin Zhou,yes Dmitry Bessonov,yes Chikaya Sato,yes Filippo Callerio,yes Ignacio Monzon,yes Julien De Cuyper,yes Tri Srisen,yes Katarzyna Kawa,yes Maria Carle,yes Julie Struplova,yes Federica Urgesi",
-        "volume": 1041.66,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20262445EC2AE56",
+        "title": "yes Stefanos Sakellaridis,yes Titouan Droguet,yes Pedro Martinez,yes Jurij Rodionov,yes magic,yes Legacy,yes G2,yes 3DMAX,yes Heroic,yes 100 Thieves,yes 1WIN,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Al Ahly (EGY),yes Enschede,yes Chang / Perez Ramos,yes Arcon / Bertran,yes Javia / Sumizawa,yes XIAOYIN YANG,yes Wishaya Trongcharoenchaikul,yes Niklas Guttau,yes Egor Pleshivtsev,yes Thijs Boogaard,yes Jaesung Choe,yes Corentin Denolly,yes Zichen Shao,yes Michal Krajci,yes Millen Hurrion,yes Shintaro Imai,yes Daniel Khazime,yes Nicolas Parizzia,yes Hiromasa Koyama,yes ARADHYA KSHITIJ,yes Aziz Ouakaa,yes Lilian Marmousez,yes Arjun Mehrotra,yes Yuta Tomida,yes Pawit Sornlaksup,yes Aaron Funk,yes Daniil Sarksian,yes Leo Deflandre,yes Muhammad Shoaib,yes James Van Herzeele,yes Kulikova / Shubladze,yes Darya Astakhova,yes Warda Ait el Bachir,yes Victoria Allen,yes Carolyn Ansari,yes Kamilla Bartone,yes Melinda Biro,yes Elina Nepliy,yes Marta Soriano Santiago,yes Alesia Breaz,yes Anna Dvorackova,yes Federica Sacco,yes Caijsa Wilda Hennemann,yes Andreea Prisacariu,yes Greta Nemcsek,yes Yuliya Perapekhina,yes Sarah Iliev,yes Carlota Martinez Cirez,yes Mio Mushika,yes Patricia Georgiana Goina,yes Zeel Desai,yes Anastasia Safta,yes Cristiana Nicoleta Todoni,yes Han Shi,yes Tanisha Kashyap,yes Amy Sucha,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes South Africa,yes United Arab Emirates,yes Nepal,yes South Africa,yes Over 0.5 goals scored,yes England,yes Barcelona,yes PSG,yes Stuttgart,yes KeepBest Gaming,yes Australia,yes China,yes Clara Burel,yes Elizara Yaneva",
+        "volume": 41266.66,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F4B7EFF207E",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Geopolitics",
-      "volume1mo": 206.75,
-      "share_pct": 0.09495727496733339,
-      "event_count": 3,
+      "volume1mo": 9882.6,
+      "share_pct": 2.277940504461043,
+      "event_count": 7,
       "example": {
-        "title": "yes Jo Adell: 1+,yes Zach Neto: 1+,yes Aaron Judge: 1+,yes Austin Riley: 1+,no Vladimir Guerrero Jr.: 3+,yes Sal Stewart: 1+",
-        "volume": 115.87,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20262C3C4932897",
+        "title": "yes Alexander Zverev,yes Dortmund,yes Bayern Munich,yes Al Ahly (EGY),yes Pyramids,yes Chelsea,yes Liverpool,yes Arsenal,yes Enschede,yes Barcelona,yes Real Madrid,yes Villarreal,yes Real Madrid,yes Vallecano,yes PSG,yes South Africa,yes Atalanta,yes Juventus,yes Como,yes Napoli,yes Roma,yes Inter,yes Barcelona,yes PSG,yes Stuttgart,yes Bayern Munich,yes Manchester United,yes Eindhoven,yes China,yes USA",
+        "volume": 5000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026DF108BD74E5",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "topic": "Tech & Science",
+      "volume1mo": 9384.76,
+      "share_pct": 2.1631883237858274,
+      "event_count": 30,
+      "example": {
+        "title": "yes Stefanos Sakellaridis,yes Titouan Droguet,yes Max Purcell,yes Cruz Hewitt,yes Pavel Kotov,yes Maks Kasnikowski,yes Francesco Maestrelli,yes Pedro Martinez,yes Jurij Rodionov,yes Dimitar Kuzmanov,yes Alexis Galarneau,yes Carlos Alcaraz,yes Cho / Seong Chung,yes Yan Cheng CHEN,yes XIAOYIN YANG,yes Chan-Yeong Oh,yes Jerry Roddick,yes Wishaya Trongcharoenchaikul,yes Corentin Denolly,yes Daniel Khazime,yes Arjun Mehrotra,yes Massimo Pizzigoni,yes Muhammad Shoaib,yes James Van Herzeele,yes Elizara Yaneva",
+        "volume": 1960.78,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202656796C87F18",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "topic": "Sports",
+      "volume1mo": 305.19,
+      "share_pct": 0.07034633219562318,
+      "event_count": 2,
+      "example": {
+        "title": "yes magic,yes Legacy,yes 9z,yes K27,yes HOTU,yes G2,yes TYLOO,yes 3DMAX,yes Heroic,yes BetBoom Team,yes FURIA,yes 100 Thieves,yes Team Nemesis,yes NIP,yes 1WIN,yes Hanshin Tigers,yes KeepBest Gaming,yes TEC Esports",
+        "volume": 227.27,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026242DC796AB7",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Unclassified",
-      "volume1mo": "206169.77000000",
-      "share_pct": "94.69078375",
-      "event_count": "219"
+      "volume1mo": "369070.94000000",
+      "share_pct": "85.07089665",
+      "event_count": "218"
     },
     {
-      "date": "2026-09-08",
-      "topic": "Tech & Science",
-      "volume1mo": "6938.86000000",
-      "share_pct": "3.18691771",
-      "event_count": "14"
-    },
-    {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Business/Economy",
-      "volume1mo": "4414.12000000",
-      "share_pct": "2.02734127",
-      "event_count": "10"
+      "volume1mo": "45195.76000000",
+      "share_pct": "10.41762819",
+      "event_count": "6"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "topic": "Geopolitics",
-      "volume1mo": "206.75000000",
-      "share_pct": "0.09495727",
-      "event_count": "3"
+      "volume1mo": "9882.60000000",
+      "share_pct": "2.27794050",
+      "event_count": "7"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
+      "topic": "Tech & Science",
+      "volume1mo": "9384.76000000",
+      "share_pct": "2.16318832",
+      "event_count": "30"
+    },
+    {
+      "date": "2026-09-09",
+      "topic": "Sports",
+      "volume1mo": "305.19000000",
+      "share_pct": "0.07034633",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-09-09",
       "topic": "Total",
-      "volume1mo": "217729.50000000",
+      "volume1mo": "433839.25000000",
       "share_pct": "100.00000000",
-      "event_count": "246"
+      "event_count": "263"
     }
   ]
 }
