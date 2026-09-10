@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-09",
+  "as_of": "2026-09-10",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 263,
-  "sample_rows": 263,
-  "sum_volume1mo": 433839.24999999977,
-  "last_event_volume1mo": 1.87,
+  "positive_rows": 241,
+  "sample_rows": 241,
+  "sum_volume1mo": 353076.6799999998,
+  "last_event_volume1mo": 0.04,
   "topics": [
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "topic": "Unclassified",
-      "volume1mo": 369070.93999999977,
-      "share_pct": 85.0708966512366,
-      "event_count": 218,
+      "volume1mo": 234809.8199999998,
+      "share_pct": 66.50391637306659,
+      "event_count": 183,
       "example": {
-        "title": "yes Hradec Kralove,yes Enppi,yes Wadi Degla SC,yes Al Ahly (EGY),yes Enschede,yes Al-Shabab,yes Napoli,yes Sporting CP,yes Viking",
-        "volume": 45454.54,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026D8921504235",
+        "title": "no Over 6.5 runs in the first 5 innings,no Over 6.5 runs in the first 5 innings,no Over 6.5 runs in the first 5 innings,yes Chicago C,yes Detroit,yes Los Angeles A,yes New York M,yes Toronto,yes Tampa Bay,yes Atlanta,yes Milwaukee,yes Cleveland,yes Seattle,yes San Francisco,no Texas wins by over 3.5 runs,yes Over 3.5 runs scored",
+        "volume": 53043.47,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202681F184526CC",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-09",
-      "topic": "Business/Economy",
-      "volume1mo": 45195.76,
-      "share_pct": 10.417628188320911,
-      "event_count": 6,
-      "example": {
-        "title": "yes Stefanos Sakellaridis,yes Titouan Droguet,yes Pedro Martinez,yes Jurij Rodionov,yes magic,yes Legacy,yes G2,yes 3DMAX,yes Heroic,yes 100 Thieves,yes 1WIN,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Al Ahly (EGY),yes Enschede,yes Chang / Perez Ramos,yes Arcon / Bertran,yes Javia / Sumizawa,yes XIAOYIN YANG,yes Wishaya Trongcharoenchaikul,yes Niklas Guttau,yes Egor Pleshivtsev,yes Thijs Boogaard,yes Jaesung Choe,yes Corentin Denolly,yes Zichen Shao,yes Michal Krajci,yes Millen Hurrion,yes Shintaro Imai,yes Daniel Khazime,yes Nicolas Parizzia,yes Hiromasa Koyama,yes ARADHYA KSHITIJ,yes Aziz Ouakaa,yes Lilian Marmousez,yes Arjun Mehrotra,yes Yuta Tomida,yes Pawit Sornlaksup,yes Aaron Funk,yes Daniil Sarksian,yes Leo Deflandre,yes Muhammad Shoaib,yes James Van Herzeele,yes Kulikova / Shubladze,yes Darya Astakhova,yes Warda Ait el Bachir,yes Victoria Allen,yes Carolyn Ansari,yes Kamilla Bartone,yes Melinda Biro,yes Elina Nepliy,yes Marta Soriano Santiago,yes Alesia Breaz,yes Anna Dvorackova,yes Federica Sacco,yes Caijsa Wilda Hennemann,yes Andreea Prisacariu,yes Greta Nemcsek,yes Yuliya Perapekhina,yes Sarah Iliev,yes Carlota Martinez Cirez,yes Mio Mushika,yes Patricia Georgiana Goina,yes Zeel Desai,yes Anastasia Safta,yes Cristiana Nicoleta Todoni,yes Han Shi,yes Tanisha Kashyap,yes Amy Sucha,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes South Africa,yes United Arab Emirates,yes Nepal,yes South Africa,yes Over 0.5 goals scored,yes England,yes Barcelona,yes PSG,yes Stuttgart,yes KeepBest Gaming,yes Australia,yes China,yes Clara Burel,yes Elizara Yaneva",
-        "volume": 41266.66,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F4B7EFF207E",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-09",
-      "topic": "Geopolitics",
-      "volume1mo": 9882.6,
-      "share_pct": 2.277940504461043,
-      "event_count": 7,
-      "example": {
-        "title": "yes Alexander Zverev,yes Dortmund,yes Bayern Munich,yes Al Ahly (EGY),yes Pyramids,yes Chelsea,yes Liverpool,yes Arsenal,yes Enschede,yes Barcelona,yes Real Madrid,yes Villarreal,yes Real Madrid,yes Vallecano,yes PSG,yes South Africa,yes Atalanta,yes Juventus,yes Como,yes Napoli,yes Roma,yes Inter,yes Barcelona,yes PSG,yes Stuttgart,yes Bayern Munich,yes Manchester United,yes Eindhoven,yes China,yes USA",
-        "volume": 5000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026DF108BD74E5",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "topic": "Tech & Science",
-      "volume1mo": 9384.76,
-      "share_pct": 2.1631883237858274,
-      "event_count": 30,
+      "volume1mo": 114879.27,
+      "share_pct": 32.5366348182497,
+      "event_count": 54,
       "example": {
-        "title": "yes Stefanos Sakellaridis,yes Titouan Droguet,yes Max Purcell,yes Cruz Hewitt,yes Pavel Kotov,yes Maks Kasnikowski,yes Francesco Maestrelli,yes Pedro Martinez,yes Jurij Rodionov,yes Dimitar Kuzmanov,yes Alexis Galarneau,yes Carlos Alcaraz,yes Cho / Seong Chung,yes Yan Cheng CHEN,yes XIAOYIN YANG,yes Chan-Yeong Oh,yes Jerry Roddick,yes Wishaya Trongcharoenchaikul,yes Corentin Denolly,yes Daniel Khazime,yes Arjun Mehrotra,yes Massimo Pizzigoni,yes Muhammad Shoaib,yes James Van Herzeele,yes Elizara Yaneva",
-        "volume": 1960.78,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202656796C87F18",
+        "title": "yes Chelsea,yes Liverpool,yes Pawit Sornlaksup,yes Wishaya Trongcharoenchaikul,yes Digvijay Pratap Singh,yes Yan Cheng CHEN,yes Boxiong Zhang,yes Zhao Zhao,yes Shintaro Imai,yes Paul Jubb,yes Dimitris Sakellaridis,yes Thasaporn Naklo,yes Daria KHOMUTSIANSKAYA,yes Yasmin Ezzat,yes Angelica Raggi,yes Barcelona,yes Real Madrid,yes Texas A&M,yes Central Michigan,yes Northern Iowa,yes Youngstown St.,yes South Dakota,yes Miami (OH),yes Virginia Tech,yes Ball St.,yes West Virginia,yes Georgia,yes Kent St.,yes Los Angeles R,yes Los Angeles C,yes Pittsburgh,yes Baltimore,yes Chicago,yes Jacksonville,yes Dallas,yes Las Vegas,yes Detroit,yes Cincinnati,yes Philadelphia,no Over 62.5 points scored,no Over 63.5 points scored,no Over 59.5 points scored,no Over 57.5 points scored,yes France",
+        "volume": 50000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026572DFC2DFD6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-09",
-      "topic": "Sports",
-      "volume1mo": 305.19,
-      "share_pct": 0.07034633219562318,
-      "event_count": 2,
+      "date": "2026-09-10",
+      "topic": "Geopolitics",
+      "volume1mo": 3000.0,
+      "share_pct": 0.8496737875749828,
+      "event_count": 3,
       "example": {
-        "title": "yes magic,yes Legacy,yes 9z,yes K27,yes HOTU,yes G2,yes TYLOO,yes 3DMAX,yes Heroic,yes BetBoom Team,yes FURIA,yes 100 Thieves,yes Team Nemesis,yes NIP,yes 1WIN,yes Hanshin Tigers,yes KeepBest Gaming,yes TEC Esports",
-        "volume": 227.27,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026242DC796AB7",
+        "title": "yes Junior Caminero: 2+,yes Kyle Schwarber: 2+",
+        "volume": 1000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E4A399AE5DE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "Business/Economy",
+      "volume1mo": 387.59,
+      "share_pct": 0.10977502110872918,
+      "event_count": 1,
+      "example": {
+        "title": "yes San Francisco,yes Puka Nacua: 1+,yes Christian McCaffrey: 1+,yes Jean Silva,yes Mauricio Ruffy,yes Alexandre Pantoja",
+        "volume": 387.59,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026CD149CAFE48",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "topic": "Unclassified",
-      "volume1mo": "369070.94000000",
-      "share_pct": "85.07089665",
-      "event_count": "218"
+      "volume1mo": "234809.82000000",
+      "share_pct": "66.50391637",
+      "event_count": "183"
     },
     {
-      "date": "2026-09-09",
-      "topic": "Business/Economy",
-      "volume1mo": "45195.76000000",
-      "share_pct": "10.41762819",
-      "event_count": "6"
-    },
-    {
-      "date": "2026-09-09",
-      "topic": "Geopolitics",
-      "volume1mo": "9882.60000000",
-      "share_pct": "2.27794050",
-      "event_count": "7"
-    },
-    {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "topic": "Tech & Science",
-      "volume1mo": "9384.76000000",
-      "share_pct": "2.16318832",
-      "event_count": "30"
+      "volume1mo": "114879.27000000",
+      "share_pct": "32.53663482",
+      "event_count": "54"
     },
     {
-      "date": "2026-09-09",
-      "topic": "Sports",
-      "volume1mo": "305.19000000",
-      "share_pct": "0.07034633",
-      "event_count": "2"
+      "date": "2026-09-10",
+      "topic": "Geopolitics",
+      "volume1mo": "3000.00000000",
+      "share_pct": "0.84967379",
+      "event_count": "3"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
+      "topic": "Business/Economy",
+      "volume1mo": "387.59000000",
+      "share_pct": "0.10977502",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-09-10",
       "topic": "Total",
-      "volume1mo": "433839.25000000",
+      "volume1mo": "353076.68000000",
       "share_pct": "100.00000000",
-      "event_count": "263"
+      "event_count": "241"
     }
   ]
 }
