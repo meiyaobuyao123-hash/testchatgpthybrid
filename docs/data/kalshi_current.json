@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-10",
+  "as_of": "2026-09-11",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 241,
-  "sample_rows": 241,
-  "sum_volume1mo": 353076.6799999998,
-  "last_event_volume1mo": 0.04,
+  "positive_rows": 211,
+  "sample_rows": 211,
+  "sum_volume1mo": 165885.86000000002,
+  "last_event_volume1mo": 1.29,
   "topics": [
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "topic": "Unclassified",
-      "volume1mo": 234809.8199999998,
-      "share_pct": 66.50391637306659,
-      "event_count": 183,
+      "volume1mo": 103897.60000000002,
+      "share_pct": 62.63198080897312,
+      "event_count": 162,
       "example": {
-        "title": "no Over 6.5 runs in the first 5 innings,no Over 6.5 runs in the first 5 innings,no Over 6.5 runs in the first 5 innings,yes Chicago C,yes Detroit,yes Los Angeles A,yes New York M,yes Toronto,yes Tampa Bay,yes Atlanta,yes Milwaukee,yes Cleveland,yes Seattle,yes San Francisco,no Texas wins by over 3.5 runs,yes Over 3.5 runs scored",
-        "volume": 53043.47,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202681F184526CC",
+        "title": "yes Becroft / Falck,yes Chanta / Charoenphon,yes Masabayashi / Suksumrarn,yes ARADHYA KSHITIJ,yes Cesar Bouchelaghem,yes Niklas Guttau,yes Conor Gannon,yes Millen Hurrion,yes Jan Kupcic,yes Lilian Marmousez,yes Hazem Naw,yes Aaron Funk,yes John Sperle,yes Bruno Fernandez",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202696E1A51A396",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "topic": "Tech & Science",
-      "volume1mo": 114879.27,
-      "share_pct": 32.5366348182497,
-      "event_count": 54,
+      "volume1mo": 51121.69999999999,
+      "share_pct": 30.81739456274331,
+      "event_count": 36,
       "example": {
-        "title": "yes Chelsea,yes Liverpool,yes Pawit Sornlaksup,yes Wishaya Trongcharoenchaikul,yes Digvijay Pratap Singh,yes Yan Cheng CHEN,yes Boxiong Zhang,yes Zhao Zhao,yes Shintaro Imai,yes Paul Jubb,yes Dimitris Sakellaridis,yes Thasaporn Naklo,yes Daria KHOMUTSIANSKAYA,yes Yasmin Ezzat,yes Angelica Raggi,yes Barcelona,yes Real Madrid,yes Texas A&M,yes Central Michigan,yes Northern Iowa,yes Youngstown St.,yes South Dakota,yes Miami (OH),yes Virginia Tech,yes Ball St.,yes West Virginia,yes Georgia,yes Kent St.,yes Los Angeles R,yes Los Angeles C,yes Pittsburgh,yes Baltimore,yes Chicago,yes Jacksonville,yes Dallas,yes Las Vegas,yes Detroit,yes Cincinnati,yes Philadelphia,no Over 62.5 points scored,no Over 63.5 points scored,no Over 59.5 points scored,no Over 57.5 points scored,yes France",
-        "volume": 50000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026572DFC2DFD6",
+        "title": "yes Alexander Zverev,no Paderborn,yes Chelsea,no Fulham,yes Real Madrid,yes LSU wins by over 10.5 points,yes Oregon wins by over 9.5 points,yes Penn St. wins by over 6.5 points,yes Regina Tarin,yes Yousri Belgaroui,yes Waldo Cortes-Acosta,yes Edgar Chairez,yes Thomas Gantt,yes David Martinez,yes Jean Silva",
+        "volume": 9960.15,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269710CFC2CF3",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
+      "topic": "Business/Economy",
+      "volume1mo": 8859.660000000002,
+      "share_pct": 5.340816872517043,
+      "event_count": 9,
+      "example": {
+        "title": "yes Edas Butvilas,yes Mark Lajal,yes Ugo Blanchet,yes Gustavo Heide,yes Nicolai Budkov Kjaer,yes Facundo Diaz Acosta,yes Laslo Djere,yes Titouan Droguet,yes Marat Sharipov,yes Harold Mayot,yes Pedro Martinez,yes Lukas Neumayer,yes Vitaliy Sachko,yes Ben Shelton,yes Alexander Zverev,yes Tanaka / TANGE,yes Charles Bertimon,yes Conor Gannon,yes Lilian Marmousez,yes Hazem Naw,yes John Sperle,yes Dmitry Popko,yes Carolyn Ansari,yes Astrid Cirotte,yes Yasmine Mansouri,yes Andre Lukosiute",
+        "volume": 5000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026382600611BF",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-11",
       "topic": "Geopolitics",
-      "volume1mo": 3000.0,
-      "share_pct": 0.8496737875749828,
+      "volume1mo": 1006.9,
+      "share_pct": 0.6069836211476975,
       "event_count": 3,
       "example": {
-        "title": "yes Junior Caminero: 2+,yes Kyle Schwarber: 2+",
-        "volume": 1000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026E4A399AE5DE",
+        "title": "yes Mark Lajal,yes Ugo Blanchet,yes Ben Shelton,yes Alexander Zverev,yes Los Angeles D,no Zach Neto: 1+,no James Wood: 1+,no Ben Rice: 1+,no Gunnar Henderson: 1+,no Kazuma Okamoto: 1+,no Caleb Durbin: 1+,no Roman Anthony: 1+,no Wilyer Abreu: 1+,no Bobby Witt Jr.: 1+,no Carter Jensen: 1+,no Jac Caglianone: 1+,no Salvador Perez: 1+,no Ronald Acu\u00f1a Jr.: 1+,no Kyle Schwarber: 1+,no Elly De La Cruz: 1+,no Sal Stewart: 1+,no Jackson Chourio: 1+,no Jos\u00e9 Ram\u00edrez: 1+,no Colson Montgomery: 1+,no Munetaka Murakami: 1+,no Miguel Vargas: 1+,no Ivan Herrera: 1+,no Jordan Walker: 1+,no Cole Young: 1+,yes Aryna Sabalenka",
+        "volume": 531.91,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026EE700F29449",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-10",
-      "topic": "Business/Economy",
-      "volume1mo": 387.59,
-      "share_pct": 0.10977502110872918,
+      "date": "2026-09-11",
+      "topic": "Sports",
+      "volume1mo": 1000.0,
+      "share_pct": 0.6028241346188277,
       "event_count": 1,
       "example": {
-        "title": "yes San Francisco,yes Puka Nacua: 1+,yes Christian McCaffrey: 1+,yes Jean Silva,yes Mauricio Ruffy,yes Alexandre Pantoja",
-        "volume": 387.59,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026CD149CAFE48",
+        "title": "yes Dortmund,yes Bayern Munich,yes MIBR,yes K27,yes FURIA,yes Team Nemesis,yes 3DMAX,yes Barcelona,yes Real Madrid,yes Real Madrid,yes Barcelona,yes Natus Vincere,yes Hanwha Life Esports,yes Invictus Gaming,yes LOS,yes Cloud9,yes LOUD,yes FlyQuest,yes Unsettled Resentment,yes FunPlus Phoenix",
+        "volume": 1000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026377A5240A72",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "topic": "Unclassified",
-      "volume1mo": "234809.82000000",
-      "share_pct": "66.50391637",
-      "event_count": "183"
+      "volume1mo": "103897.60000000",
+      "share_pct": "62.63198081",
+      "event_count": "162"
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "topic": "Tech & Science",
-      "volume1mo": "114879.27000000",
-      "share_pct": "32.53663482",
-      "event_count": "54"
+      "volume1mo": "51121.70000000",
+      "share_pct": "30.81739456",
+      "event_count": "36"
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
+      "topic": "Business/Economy",
+      "volume1mo": "8859.66000000",
+      "share_pct": "5.34081687",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-09-11",
       "topic": "Geopolitics",
-      "volume1mo": "3000.00000000",
-      "share_pct": "0.84967379",
+      "volume1mo": "1006.90000000",
+      "share_pct": "0.60698362",
       "event_count": "3"
     },
     {
-      "date": "2026-09-10",
-      "topic": "Business/Economy",
-      "volume1mo": "387.59000000",
-      "share_pct": "0.10977502",
+      "date": "2026-09-11",
+      "topic": "Sports",
+      "volume1mo": "1000.00000000",
+      "share_pct": "0.60282413",
       "event_count": "1"
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "topic": "Total",
-      "volume1mo": "353076.68000000",
+      "volume1mo": "165885.86000000",
       "share_pct": "100.00000000",
-      "event_count": "241"
+      "event_count": "211"
     }
   ]
 }
