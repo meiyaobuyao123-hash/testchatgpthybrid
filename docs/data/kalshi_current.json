@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-12",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 211,
-  "sample_rows": 211,
-  "sum_volume1mo": 165885.86000000002,
-  "last_event_volume1mo": 1.29,
+  "positive_rows": 162,
+  "sample_rows": 162,
+  "sum_volume1mo": 122278.91999999998,
+  "last_event_volume1mo": 0.12,
   "topics": [
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "topic": "Unclassified",
-      "volume1mo": 103897.60000000002,
-      "share_pct": 62.63198080897312,
-      "event_count": 162,
+      "volume1mo": 97834.25999999998,
+      "share_pct": 80.0090972344211,
+      "event_count": 142,
       "example": {
-        "title": "yes Becroft / Falck,yes Chanta / Charoenphon,yes Masabayashi / Suksumrarn,yes ARADHYA KSHITIJ,yes Cesar Bouchelaghem,yes Niklas Guttau,yes Conor Gannon,yes Millen Hurrion,yes Jan Kupcic,yes Lilian Marmousez,yes Hazem Naw,yes Aaron Funk,yes John Sperle,yes Bruno Fernandez",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202696E1A51A396",
+        "title": "yes Colorado,yes New York Y,yes Pittsburgh,yes Toronto,yes Los Angeles A,yes San Francisco,yes Minnesota,yes Kansas City,yes Los Angeles D,yes Houston",
+        "volume": 9090.9,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263F54B7B6B15",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "topic": "Tech & Science",
-      "volume1mo": 51121.69999999999,
-      "share_pct": 30.81739456274331,
-      "event_count": 36,
+      "volume1mo": 14869.63,
+      "share_pct": 12.160419800894546,
+      "event_count": 16,
       "example": {
-        "title": "yes Alexander Zverev,no Paderborn,yes Chelsea,no Fulham,yes Real Madrid,yes LSU wins by over 10.5 points,yes Oregon wins by over 9.5 points,yes Penn St. wins by over 6.5 points,yes Regina Tarin,yes Yousri Belgaroui,yes Waldo Cortes-Acosta,yes Edgar Chairez,yes Thomas Gantt,yes David Martinez,yes Jean Silva",
-        "volume": 9960.15,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20269710CFC2CF3",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-11",
-      "topic": "Business/Economy",
-      "volume1mo": 8859.660000000002,
-      "share_pct": 5.340816872517043,
-      "event_count": 9,
-      "example": {
-        "title": "yes Edas Butvilas,yes Mark Lajal,yes Ugo Blanchet,yes Gustavo Heide,yes Nicolai Budkov Kjaer,yes Facundo Diaz Acosta,yes Laslo Djere,yes Titouan Droguet,yes Marat Sharipov,yes Harold Mayot,yes Pedro Martinez,yes Lukas Neumayer,yes Vitaliy Sachko,yes Ben Shelton,yes Alexander Zverev,yes Tanaka / TANGE,yes Charles Bertimon,yes Conor Gannon,yes Lilian Marmousez,yes Hazem Naw,yes John Sperle,yes Dmitry Popko,yes Carolyn Ansari,yes Astrid Cirotte,yes Yasmine Mansouri,yes Andre Lukosiute",
+        "title": "yes Dortmund,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Chelsea,yes Liverpool,yes Arsenal,yes Tottenham,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Bilbao,yes Real Madrid,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Regina Tarin,yes Ignacio Bahamondes,yes Yousri Belgaroui,yes Waldo Cortes-Acosta,yes Edgar Chairez,yes Manon Fiorot,yes Thomas Gantt,yes David Martinez,yes Marwan Rahiki,yes Brandon Moreno,yes Jean Silva",
         "volume": 5000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026382600611BF",
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264EA1D7CB280",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-11",
-      "topic": "Geopolitics",
-      "volume1mo": 1006.9,
-      "share_pct": 0.6069836211476975,
-      "event_count": 3,
-      "example": {
-        "title": "yes Mark Lajal,yes Ugo Blanchet,yes Ben Shelton,yes Alexander Zverev,yes Los Angeles D,no Zach Neto: 1+,no James Wood: 1+,no Ben Rice: 1+,no Gunnar Henderson: 1+,no Kazuma Okamoto: 1+,no Caleb Durbin: 1+,no Roman Anthony: 1+,no Wilyer Abreu: 1+,no Bobby Witt Jr.: 1+,no Carter Jensen: 1+,no Jac Caglianone: 1+,no Salvador Perez: 1+,no Ronald Acu\u00f1a Jr.: 1+,no Kyle Schwarber: 1+,no Elly De La Cruz: 1+,no Sal Stewart: 1+,no Jackson Chourio: 1+,no Jos\u00e9 Ram\u00edrez: 1+,no Colson Montgomery: 1+,no Munetaka Murakami: 1+,no Miguel Vargas: 1+,no Ivan Herrera: 1+,no Jordan Walker: 1+,no Cole Young: 1+,yes Aryna Sabalenka",
-        "volume": 531.91,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026EE700F29449",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-11",
-      "topic": "Sports",
-      "volume1mo": 1000.0,
-      "share_pct": 0.6028241346188277,
+      "date": "2026-09-12",
+      "topic": "Business/Economy",
+      "volume1mo": 7692.3,
+      "share_pct": 6.290781763528826,
       "event_count": 1,
       "example": {
-        "title": "yes Dortmund,yes Bayern Munich,yes MIBR,yes K27,yes FURIA,yes Team Nemesis,yes 3DMAX,yes Barcelona,yes Real Madrid,yes Real Madrid,yes Barcelona,yes Natus Vincere,yes Hanwha Life Esports,yes Invictus Gaming,yes LOS,yes Cloud9,yes LOUD,yes FlyQuest,yes Unsettled Resentment,yes FunPlus Phoenix",
-        "volume": 1000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026377A5240A72",
+        "title": "yes Ilya Ivashka,yes Laslo Djere,yes Nicolai Budkov Kjaer,yes Maks Kasnikowski,yes Marat Sharipov,yes Mark Lajal,yes Harold Mayot,yes Mika Brunold,yes Kia Tigers,yes Samsung Lions,yes Kiwoom Heroes,yes Doosan Bears,yes Orix Buffaloes,yes Chunichi Dragons,yes Yokohama DeNA BayStars",
+        "volume": 7692.3,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263F0DCF2FC91",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "Sports",
+      "volume1mo": 1882.73,
+      "share_pct": 1.5397012011555224,
+      "event_count": 3,
+      "example": {
+        "title": "yes Mark Lajal,no Greuther Furth,yes Dortmund,yes Toronto Argonauts,yes Sashi Esport,yes Over 1.5 goals scored,yes Chelsea,yes Liverpool,yes Arsenal,yes Andorra,yes Real Madrid,yes Porto,yes Hanwha Life Esports,yes New York Y,yes Pittsburgh,yes San Diego,yes Los Angeles D,yes Texas A&M,yes Rhode Island,yes Indiana,yes Al Hilal,yes Como,no Tie,no Grasshopper,yes Ignacio Bahamondes,yes Yousri Belgaroui,yes Edgar Chairez,yes Sean King III,yes Thomas Gantt,yes Xiaodi You",
+        "volume": 1818.18,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F0147913173",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "topic": "Unclassified",
-      "volume1mo": "103897.60000000",
-      "share_pct": "62.63198081",
-      "event_count": "162"
+      "volume1mo": "97834.26000000",
+      "share_pct": "80.00909723",
+      "event_count": "142"
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "topic": "Tech & Science",
-      "volume1mo": "51121.70000000",
-      "share_pct": "30.81739456",
-      "event_count": "36"
+      "volume1mo": "14869.63000000",
+      "share_pct": "12.16041980",
+      "event_count": "16"
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "topic": "Business/Economy",
-      "volume1mo": "8859.66000000",
-      "share_pct": "5.34081687",
-      "event_count": "9"
-    },
-    {
-      "date": "2026-09-11",
-      "topic": "Geopolitics",
-      "volume1mo": "1006.90000000",
-      "share_pct": "0.60698362",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-09-11",
-      "topic": "Sports",
-      "volume1mo": "1000.00000000",
-      "share_pct": "0.60282413",
+      "volume1mo": "7692.30000000",
+      "share_pct": "6.29078176",
       "event_count": "1"
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
+      "topic": "Sports",
+      "volume1mo": "1882.73000000",
+      "share_pct": "1.53970120",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-09-12",
       "topic": "Total",
-      "volume1mo": "165885.86000000",
+      "volume1mo": "122278.92000000",
       "share_pct": "100.00000000",
-      "event_count": "211"
+      "event_count": "162"
     }
   ]
 }
