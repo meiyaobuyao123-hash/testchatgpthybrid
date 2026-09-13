@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-09-13",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 259,
+  "sample_rows": 259,
+  "sum_volume1mo": 259932.90999999997,
+  "last_event_volume1mo": 0.13,
+  "topics": [
+    {
+      "date": "2026-09-13",
+      "topic": "Unclassified",
+      "volume1mo": 185100.02999999997,
+      "share_pct": 71.21069432877891,
+      "event_count": 205,
+      "example": {
+        "title": "yes Club Brugge,yes Leipzig,yes Molde,yes Leeds United,yes Both Teams To Score,yes Both Teams To Score,yes Barcelona,yes SL Benfica,yes PSG,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Sporting Cristal,yes Como,yes Inter,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored",
+        "volume": 21578.94,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026508E0940605",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Tech & Science",
+      "volume1mo": 50871.54000000001,
+      "share_pct": 19.571027000774937,
+      "event_count": 35,
+      "example": {
+        "title": "yes Bayern Munich,yes Over 1.5 goals scored,yes Wolverhampton,yes Brighton,yes Manchester City,yes Barcelona,yes Over 1.5 goals scored,yes Guadalajara,yes Santos Laguna,yes SL Benfica,yes Lens,yes PSG,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Hawai'i,yes Pittsburgh,yes Baltimore,yes Buffalo,yes Jacksonville,yes Detroit,yes Como,yes Roma,yes Over 0.5 goals scored,yes Galatasaray",
+        "volume": 23000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20267F98EB47D72",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Geopolitics",
+      "volume1mo": 18435.53,
+      "share_pct": 7.092418578316997,
+      "event_count": 13,
+      "example": {
+        "title": "yes Pittsburgh,yes Detroit,yes Philadelphia,yes Josh Allen: 225+,yes Jared Goff: 250+,yes Cam Ward: 200+,yes Rashod Bateman: 25+,yes Nico Collins: 70+,yes Jahmyr Gibbs: 30+,yes Calvin Ridley: 25+,yes Bijan Robinson: 80+,yes David Montgomery: 55+,yes Tony Pollard: 50+",
+        "volume": 5500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20265EAD0358F7D",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Business/Economy",
+      "volume1mo": 3303.5899999999997,
+      "share_pct": 1.2709394897321775,
+      "event_count": 5,
+      "example": {
+        "title": "yes Egor Agafonov,yes Dimitris Sakellaridis,yes Max Basing,yes Federico Iannaccone,yes Maximilian Marterer,yes Juan Cruz Martin Manzano,yes New York Y,yes Pittsburgh,yes Baltimore,yes Buffalo,yes Chicago,yes Jacksonville,yes Detroit,yes Tennessee,yes Cincinnati,yes Cadence Brace,yes Chloe Paquet",
+        "volume": 2000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202657C9E2FEA71",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Sports",
+      "volume1mo": 2222.22,
+      "share_pct": 0.85492060239698,
+      "event_count": 1,
+      "example": {
+        "title": "yes Dimitris Sakellaridis,yes Gerard Campana Lee,yes Gianmarco Ferrari,yes Naoya Honda,yes Federico Iannaccone,yes Juan Cruz Martin Manzano,yes Tiago Pereira,yes Thomas Fancutt,yes Bayern Munich,yes HOTU,yes Nemiga,yes FOKUS,yes Color,yes Both Teams To Score,yes KT Wiz,yes Doosan Bears,yes Barcelona,yes PSG,yes Hanwha Life Esports,yes Bilibili Gaming,yes LOUD,yes Detroit,yes Fukuoka Hawks,yes Over 0.5 goals scored,yes FunPlus Phoenix,yes Fiona Ferro,yes Nao Hibino,yes Katrina Scott,yes Alycia Parks,yes Lois Boisson",
+        "volume": 2222.22,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20265740CC03277",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-09-13",
+      "topic": "Unclassified",
+      "volume1mo": "185100.03000000",
+      "share_pct": "71.21069433",
+      "event_count": "205"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Tech & Science",
+      "volume1mo": "50871.54000000",
+      "share_pct": "19.57102700",
+      "event_count": "35"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Geopolitics",
+      "volume1mo": "18435.53000000",
+      "share_pct": "7.09241858",
+      "event_count": "13"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Business/Economy",
+      "volume1mo": "3303.59000000",
+      "share_pct": "1.27093949",
+      "event_count": "5"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Sports",
+      "volume1mo": "2222.22000000",
+      "share_pct": "0.85492060",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Total",
+      "volume1mo": "259932.91000000",
+      "share_pct": "100.00000000",
+      "event_count": "259"
+    }
+  ]
+}
