@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-12",
+  "as_of": "2026-09-13",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 162,
-  "sample_rows": 162,
-  "sum_volume1mo": 122278.91999999998,
-  "last_event_volume1mo": 0.12,
+  "positive_rows": 259,
+  "sample_rows": 259,
+  "sum_volume1mo": 259932.90999999997,
+  "last_event_volume1mo": 0.13,
   "topics": [
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "topic": "Unclassified",
-      "volume1mo": 97834.25999999998,
-      "share_pct": 80.0090972344211,
-      "event_count": 142,
+      "volume1mo": 185100.02999999997,
+      "share_pct": 71.21069432877891,
+      "event_count": 205,
       "example": {
-        "title": "yes Colorado,yes New York Y,yes Pittsburgh,yes Toronto,yes Los Angeles A,yes San Francisco,yes Minnesota,yes Kansas City,yes Los Angeles D,yes Houston",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263F54B7B6B15",
+        "title": "yes Club Brugge,yes Leipzig,yes Molde,yes Leeds United,yes Both Teams To Score,yes Both Teams To Score,yes Barcelona,yes SL Benfica,yes PSG,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Sporting Cristal,yes Como,yes Inter,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored",
+        "volume": 21578.94,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026508E0940605",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "topic": "Tech & Science",
-      "volume1mo": 14869.63,
-      "share_pct": 12.160419800894546,
-      "event_count": 16,
+      "volume1mo": 50871.54000000001,
+      "share_pct": 19.571027000774937,
+      "event_count": 35,
       "example": {
-        "title": "yes Dortmund,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Chelsea,yes Liverpool,yes Arsenal,yes Tottenham,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Bilbao,yes Real Madrid,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Regina Tarin,yes Ignacio Bahamondes,yes Yousri Belgaroui,yes Waldo Cortes-Acosta,yes Edgar Chairez,yes Manon Fiorot,yes Thomas Gantt,yes David Martinez,yes Marwan Rahiki,yes Brandon Moreno,yes Jean Silva",
-        "volume": 5000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20264EA1D7CB280",
+        "title": "yes Bayern Munich,yes Over 1.5 goals scored,yes Wolverhampton,yes Brighton,yes Manchester City,yes Barcelona,yes Over 1.5 goals scored,yes Guadalajara,yes Santos Laguna,yes SL Benfica,yes Lens,yes PSG,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Hawai'i,yes Pittsburgh,yes Baltimore,yes Buffalo,yes Jacksonville,yes Detroit,yes Como,yes Roma,yes Over 0.5 goals scored,yes Galatasaray",
+        "volume": 23000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20267F98EB47D72",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
+      "topic": "Geopolitics",
+      "volume1mo": 18435.53,
+      "share_pct": 7.092418578316997,
+      "event_count": 13,
+      "example": {
+        "title": "yes Pittsburgh,yes Detroit,yes Philadelphia,yes Josh Allen: 225+,yes Jared Goff: 250+,yes Cam Ward: 200+,yes Rashod Bateman: 25+,yes Nico Collins: 70+,yes Jahmyr Gibbs: 30+,yes Calvin Ridley: 25+,yes Bijan Robinson: 80+,yes David Montgomery: 55+,yes Tony Pollard: 50+",
+        "volume": 5500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20265EAD0358F7D",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
       "topic": "Business/Economy",
-      "volume1mo": 7692.3,
-      "share_pct": 6.290781763528826,
+      "volume1mo": 3303.5899999999997,
+      "share_pct": 1.2709394897321775,
+      "event_count": 5,
+      "example": {
+        "title": "yes Egor Agafonov,yes Dimitris Sakellaridis,yes Max Basing,yes Federico Iannaccone,yes Maximilian Marterer,yes Juan Cruz Martin Manzano,yes New York Y,yes Pittsburgh,yes Baltimore,yes Buffalo,yes Chicago,yes Jacksonville,yes Detroit,yes Tennessee,yes Cincinnati,yes Cadence Brace,yes Chloe Paquet",
+        "volume": 2000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S202657C9E2FEA71",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Sports",
+      "volume1mo": 2222.22,
+      "share_pct": 0.85492060239698,
       "event_count": 1,
       "example": {
-        "title": "yes Ilya Ivashka,yes Laslo Djere,yes Nicolai Budkov Kjaer,yes Maks Kasnikowski,yes Marat Sharipov,yes Mark Lajal,yes Harold Mayot,yes Mika Brunold,yes Kia Tigers,yes Samsung Lions,yes Kiwoom Heroes,yes Doosan Bears,yes Orix Buffaloes,yes Chunichi Dragons,yes Yokohama DeNA BayStars",
-        "volume": 7692.3,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20263F0DCF2FC91",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-12",
-      "topic": "Sports",
-      "volume1mo": 1882.73,
-      "share_pct": 1.5397012011555224,
-      "event_count": 3,
-      "example": {
-        "title": "yes Mark Lajal,no Greuther Furth,yes Dortmund,yes Toronto Argonauts,yes Sashi Esport,yes Over 1.5 goals scored,yes Chelsea,yes Liverpool,yes Arsenal,yes Andorra,yes Real Madrid,yes Porto,yes Hanwha Life Esports,yes New York Y,yes Pittsburgh,yes San Diego,yes Los Angeles D,yes Texas A&M,yes Rhode Island,yes Indiana,yes Al Hilal,yes Como,no Tie,no Grasshopper,yes Ignacio Bahamondes,yes Yousri Belgaroui,yes Edgar Chairez,yes Sean King III,yes Thomas Gantt,yes Xiaodi You",
-        "volume": 1818.18,
-        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S2026F0147913173",
+        "title": "yes Dimitris Sakellaridis,yes Gerard Campana Lee,yes Gianmarco Ferrari,yes Naoya Honda,yes Federico Iannaccone,yes Juan Cruz Martin Manzano,yes Tiago Pereira,yes Thomas Fancutt,yes Bayern Munich,yes HOTU,yes Nemiga,yes FOKUS,yes Color,yes Both Teams To Score,yes KT Wiz,yes Doosan Bears,yes Barcelona,yes PSG,yes Hanwha Life Esports,yes Bilibili Gaming,yes LOUD,yes Detroit,yes Fukuoka Hawks,yes Over 0.5 goals scored,yes FunPlus Phoenix,yes Fiona Ferro,yes Nao Hibino,yes Katrina Scott,yes Alycia Parks,yes Lois Boisson",
+        "volume": 2222.22,
+        "event_ticker": "KXMVECROSSCATEGORY-SHARD1-S20265740CC03277",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "topic": "Unclassified",
-      "volume1mo": "97834.26000000",
-      "share_pct": "80.00909723",
-      "event_count": "142"
+      "volume1mo": "185100.03000000",
+      "share_pct": "71.21069433",
+      "event_count": "205"
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "topic": "Tech & Science",
-      "volume1mo": "14869.63000000",
-      "share_pct": "12.16041980",
-      "event_count": "16"
+      "volume1mo": "50871.54000000",
+      "share_pct": "19.57102700",
+      "event_count": "35"
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
+      "topic": "Geopolitics",
+      "volume1mo": "18435.53000000",
+      "share_pct": "7.09241858",
+      "event_count": "13"
+    },
+    {
+      "date": "2026-09-13",
       "topic": "Business/Economy",
-      "volume1mo": "7692.30000000",
-      "share_pct": "6.29078176",
+      "volume1mo": "3303.59000000",
+      "share_pct": "1.27093949",
+      "event_count": "5"
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Sports",
+      "volume1mo": "2222.22000000",
+      "share_pct": "0.85492060",
       "event_count": "1"
     },
     {
-      "date": "2026-09-12",
-      "topic": "Sports",
-      "volume1mo": "1882.73000000",
-      "share_pct": "1.53970120",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "topic": "Total",
-      "volume1mo": "122278.92000000",
+      "volume1mo": "259932.91000000",
       "share_pct": "100.00000000",
-      "event_count": "162"
+      "event_count": "259"
     }
   ]
 }
