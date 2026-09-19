@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-09-19",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 154,
+  "sample_rows": 154,
+  "sum_volume1mo": 172149.24,
+  "last_event_volume1mo": 0.31,
+  "topics": [
+    {
+      "date": "2026-09-19",
+      "topic": "Unclassified",
+      "volume1mo": 120566.81,
+      "share_pct": 70.03621392693921,
+      "event_count": 130,
+      "example": {
+        "title": "yes Augsburg,yes Arsenal,yes Everton,yes Bilbao,yes Celta Vigo,yes Barcelona,yes Lyon,yes Inter,yes Lazio",
+        "volume": 14634.14,
+        "event_ticker": "KXMVECROSSCATEGORY-S20261453C89B6CC",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Tech & Science",
+      "volume1mo": 42038.15,
+      "share_pct": 24.41959662441728,
+      "event_count": 15,
+      "example": {
+        "title": "yes Mainz,no Hamburg,no Frankfurt,no Stuttgart,yes Arsenal,yes Nottingham Forest,no Everton wins by more than 1.5 goals,no Newcastle wins by more than 1.5 goals,yes Paris FC,no Bologna,no Roma,no Udinese",
+        "volume": 16666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S20263F070191DBB",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Geopolitics",
+      "volume1mo": 6752.82,
+      "share_pct": 3.922654552526633,
+      "event_count": 6,
+      "example": {
+        "title": "yes Liberty,yes Penn St.,yes Delaware,yes Appalachian St.,yes Eastern Kentucky,yes Wisconsin,yes Alabama,yes Richmond,yes Norfolk St.,yes Ohio St.,yes Cincinnati,yes Oregon St.,yes South Carolina,yes Notre Dame,yes Gardner-Webb,yes South Alabama,yes Western Carolina,yes Louisiana-Monroe,yes Elon,yes Duke,yes Toledo,yes Missouri,yes Kansas St.,yes Texas A&M,yes Indiana St.,yes Tampa Bay,yes Kansas City,yes San Francisco,yes Chicago,yes Baltimore",
+        "volume": 5000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C0E451F7071",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Business/Economy",
+      "volume1mo": 2791.46,
+      "share_pct": 1.621534896116881,
+      "event_count": 3,
+      "example": {
+        "title": "yes Marat Sharipov,yes Millen Hurrion,yes Paul Jubb,yes Dmitry Popko,yes Kasra Rahmani,yes Max Hans Rehberg,yes Marko Topo,yes Benjamin Willwerth,yes Yekaterina Dmitrichenko,yes Lan Mi,yes Marta Lombardini,yes Alisa Oktiabreva,yes Clara Burel,yes Jeline Vandromme,yes Kyoka Okamura,yes Joanna Garland,yes Viktoria Morvayova,yes Mei Yamaguchi,yes Alevtina Ibragimova,yes Miho Kuramochi,yes En-Shuo Liang,yes Paula Badosa,yes Anna Blinkova,yes Iva Jovic,yes Priscilla Hon",
+        "volume": 2000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026595CB60A1A9",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-09-19",
+      "topic": "Unclassified",
+      "volume1mo": "120566.81000000",
+      "share_pct": "70.03621393",
+      "event_count": "130"
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Tech & Science",
+      "volume1mo": "42038.15000000",
+      "share_pct": "24.41959662",
+      "event_count": "15"
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Geopolitics",
+      "volume1mo": "6752.82000000",
+      "share_pct": "3.92265455",
+      "event_count": "6"
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Business/Economy",
+      "volume1mo": "2791.46000000",
+      "share_pct": "1.62153490",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "Total",
+      "volume1mo": "172149.24000000",
+      "share_pct": "100.00000000",
+      "event_count": "154"
+    }
+  ]
+}
