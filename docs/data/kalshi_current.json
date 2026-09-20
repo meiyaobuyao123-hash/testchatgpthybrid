@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-20",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 154,
-  "sample_rows": 154,
-  "sum_volume1mo": 172149.24,
-  "last_event_volume1mo": 0.31,
+  "positive_rows": 226,
+  "sample_rows": 226,
+  "sum_volume1mo": 260892.77000000008,
+  "last_event_volume1mo": 0.12,
   "topics": [
     {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "topic": "Unclassified",
-      "volume1mo": 120566.81,
-      "share_pct": 70.03621392693921,
-      "event_count": 130,
+      "volume1mo": 246387.68000000008,
+      "share_pct": 94.44021005258215,
+      "event_count": 208,
       "example": {
-        "title": "yes Augsburg,yes Arsenal,yes Everton,yes Bilbao,yes Celta Vigo,yes Barcelona,yes Lyon,yes Inter,yes Lazio",
-        "volume": 14634.14,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261453C89B6CC",
+        "title": "yes Manchester City,yes Real Madrid,yes Kansas City,yes Chicago,yes Seattle,yes Bryce Young: 175+,yes C.J. Stroud: 175+,yes Trevor Lawrence: 200+,yes Justin Herbert: 175+,yes Caleb Williams: 200+,yes Tyler Shough: 175+,yes Bucky Irving: 2+,yes Emeka Egbuka: 3+,yes Travis Etienne Jr.: 2+,yes Bijan Robinson: 25+,yes Emeka Egbuka: 40+,yes Justin Jefferson: 50+,yes Bijan Robinson: 60+,yes Breece Hall: 50+,yes Saquon Barkley: 60+,yes Tampa Bay wins by over 3.5 points,yes Over 38.5 points scored,no Over 50.5 points scored,yes Over 36.5 points scored",
+        "volume": 45909.09,
+        "event_ticker": "KXMVECROSSCATEGORY-S20264E2228484E8",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-19",
-      "topic": "Tech & Science",
-      "volume1mo": 42038.15,
-      "share_pct": 24.41959662441728,
-      "event_count": 15,
-      "example": {
-        "title": "yes Mainz,no Hamburg,no Frankfurt,no Stuttgart,yes Arsenal,yes Nottingham Forest,no Everton wins by more than 1.5 goals,no Newcastle wins by more than 1.5 goals,yes Paris FC,no Bologna,no Roma,no Udinese",
-        "volume": 16666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20263F070191DBB",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "topic": "Geopolitics",
-      "volume1mo": 6752.82,
-      "share_pct": 3.922654552526633,
-      "event_count": 6,
+      "volume1mo": 9364.210000000001,
+      "share_pct": 3.589294559600099,
+      "event_count": 8,
       "example": {
-        "title": "yes Liberty,yes Penn St.,yes Delaware,yes Appalachian St.,yes Eastern Kentucky,yes Wisconsin,yes Alabama,yes Richmond,yes Norfolk St.,yes Ohio St.,yes Cincinnati,yes Oregon St.,yes South Carolina,yes Notre Dame,yes Gardner-Webb,yes South Alabama,yes Western Carolina,yes Louisiana-Monroe,yes Elon,yes Duke,yes Toledo,yes Missouri,yes Kansas St.,yes Texas A&M,yes Indiana St.,yes Tampa Bay,yes Kansas City,yes San Francisco,yes Chicago,yes Baltimore",
-        "volume": 5000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C0E451F7071",
+        "title": "yes Cooper Rush: 125+,yes Bryce Young: 175+,yes Joe Burrow: 200+,yes C.J. Stroud: 150+,yes Deshaun Watson: 150+,yes Baker Mayfield: 200+,yes Jordan Love: 175+,yes Geno Smith: 150+,yes Patrick Mahomes: 200+,yes Bo Nix: 175+,yes Trevor Lawrence: 150+,yes Justin Herbert: 175+,yes Kirk Cousins: 150+,yes Malik Willis: 125+,yes Brock Purdy: 175+,yes Caleb Williams: 150+,yes Carson Wentz: 150+,yes Lamar Jackson: 175+,yes Tyler Shough: 175+,yes Jalen Hurts: 150+,yes Cam Ward: 125+,yes Aaron Rodgers: 175+,yes Jacoby Brissett: 150+,yes Drew Lock: 150+,yes Dak Prescott: 200+,yes Jayden Daniels: 150+,yes Matthew Stafford: 200+,yes Jaxson Dart: 200+",
+        "volume": 3057.69,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026A5C7F614B08",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-19",
-      "topic": "Business/Economy",
-      "volume1mo": 2791.46,
-      "share_pct": 1.621534896116881,
-      "event_count": 3,
+      "date": "2026-09-20",
+      "topic": "Tech & Science",
+      "volume1mo": 4780.88,
+      "share_pct": 1.8325076620559468,
+      "event_count": 9,
       "example": {
-        "title": "yes Marat Sharipov,yes Millen Hurrion,yes Paul Jubb,yes Dmitry Popko,yes Kasra Rahmani,yes Max Hans Rehberg,yes Marko Topo,yes Benjamin Willwerth,yes Yekaterina Dmitrichenko,yes Lan Mi,yes Marta Lombardini,yes Alisa Oktiabreva,yes Clara Burel,yes Jeline Vandromme,yes Kyoka Okamura,yes Joanna Garland,yes Viktoria Morvayova,yes Mei Yamaguchi,yes Alevtina Ibragimova,yes Miho Kuramochi,yes En-Shuo Liang,yes Paula Badosa,yes Anna Blinkova,yes Iva Jovic,yes Priscilla Hon",
-        "volume": 2000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026595CB60A1A9",
+        "title": "yes Both Teams To Score,no Over 3.5 goals scored,yes Bo Nix: 225+,yes Aaron Rodgers: 200+,yes Tucker Kraft: 4+,yes Tetairoa McMillan: 60+,yes Colston Loveland: 50+,yes MarShawn Lloyd: 1+",
+        "volume": 1162.79,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266653BA523D3",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "topic": "Business/Economy",
+      "volume1mo": 360.0,
+      "share_pct": 0.13798772576181392,
+      "event_count": 1,
+      "example": {
+        "title": "yes Baker Mayfield: 1+,yes Justin Herbert: 1+,yes Caleb Williams: 2+,yes Drew Lock: 1+,yes Drew Lock: 175+,yes Jayden Daniels: 150+,yes Rome Odunze: 15+,yes Jordan Addison: 15+,yes Derrick Henry: 1+",
+        "volume": 360.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20260D7A00844D6",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "topic": "Unclassified",
-      "volume1mo": "120566.81000000",
-      "share_pct": "70.03621393",
-      "event_count": "130"
+      "volume1mo": "246387.68000000",
+      "share_pct": "94.44021005",
+      "event_count": "208"
     },
     {
-      "date": "2026-09-19",
-      "topic": "Tech & Science",
-      "volume1mo": "42038.15000000",
-      "share_pct": "24.41959662",
-      "event_count": "15"
-    },
-    {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "topic": "Geopolitics",
-      "volume1mo": "6752.82000000",
-      "share_pct": "3.92265455",
-      "event_count": "6"
+      "volume1mo": "9364.21000000",
+      "share_pct": "3.58929456",
+      "event_count": "8"
     },
     {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
+      "topic": "Tech & Science",
+      "volume1mo": "4780.88000000",
+      "share_pct": "1.83250766",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-09-20",
       "topic": "Business/Economy",
-      "volume1mo": "2791.46000000",
-      "share_pct": "1.62153490",
-      "event_count": "3"
+      "volume1mo": "360.00000000",
+      "share_pct": "0.13798773",
+      "event_count": "1"
     },
     {
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "topic": "Total",
-      "volume1mo": "172149.24000000",
+      "volume1mo": "260892.77000000",
       "share_pct": "100.00000000",
-      "event_count": "154"
+      "event_count": "226"
     }
   ]
 }
