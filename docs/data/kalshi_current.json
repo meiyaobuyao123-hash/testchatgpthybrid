@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-23",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,159 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 277,
-  "sample_rows": 277,
-  "sum_volume1mo": 267095.09,
-  "last_event_volume1mo": 0.22,
+  "positive_rows": 262,
+  "sample_rows": 262,
+  "sum_volume1mo": 278524.8900000002,
+  "last_event_volume1mo": 0.61,
   "topics": [
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "topic": "Unclassified",
-      "volume1mo": 195571.31000000003,
-      "share_pct": 73.22160433574425,
-      "event_count": 205,
+      "volume1mo": 199428.6200000002,
+      "share_pct": 71.6017229196285,
+      "event_count": 216,
       "example": {
-        "title": "yes Matt Olson: 1+,yes Ronald Acu\u00f1a Jr.: 1+,yes Elly De La Cruz: 1+,yes Ketel Marte: 1+,yes Nolan Arenado: 1+",
-        "volume": 29090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026CBA85758F5B",
+        "title": "yes Toronto,yes Detroit,yes San Francisco,yes Toronto,yes Milwaukee,yes Pittsburgh,yes New York Y,yes Boston,yes Atlanta,yes Chicago WS,yes Chicago C,yes Arizona,yes Los Angeles D",
+        "volume": 45454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026F57446CBAF0",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-22",
-      "topic": "Geopolitics",
-      "volume1mo": 22548.18,
-      "share_pct": 8.442004680804876,
-      "event_count": 8,
-      "example": {
-        "title": "yes China PR,yes Brazil,yes Philadelphia,yes Florida St. wins 1st Half,yes Navy,yes NC St.,yes Arizona,yes Campbell,yes South Dakota St.,yes Houston,yes Texas St.,yes Eastern Michigan,yes Jacksonville St.,yes Alabama St.,yes Montana St.,yes Oregon St.,yes Fresno St.,yes Alabama,yes South Carolina St.,yes Southern Illinois,yes Arkansas,yes LSU,yes Louisiana,yes UNLV,yes Utah,yes Northern Colorado,yes West Florida,yes Louisville,yes Penn St.,yes Indiana wins by over 7.5 points,yes Notre Dame wins by over 9.5 points,yes Georgia wins by over 6.5 points,no Texas wins by over 10.5 points,yes Marcos Degli,yes Norbert Novenyi Jr,yes Yazmin Jauregui,yes Washington,yes Golden State,yes Las Vegas",
-        "volume": 9966.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S202698742FD0F20",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "topic": "Culture",
-      "volume1mo": 19175.479999999996,
-      "share_pct": 7.179270873156071,
-      "event_count": 26,
-      "example": {
-        "title": "yes Kachmazov / Palan,yes Stepan Baum,yes Pasquale De Giorgio,yes Alessio Basile,yes Gabriele Thomas Brancatelli,yes Oscar Brown,yes Karol Filar,yes Jonas GUNDACKER,yes Millen Hurrion,yes Jesse Flores,yes Tomas Lanik,yes Ewen Lumsden,yes Daniel Michalski,yes Gianmarco Ferrari,yes Andriy Poritskyy,yes Marc Majdandzic,yes Daniele Rapagnetta,yes Matteo Sciahbasi,yes Nicola Senn,yes Leonid Sheyngezikht,yes Nicolas Ulrich,yes Edouard Villoslada,yes Deney Wassermann,yes Tom Zeuch,yes Arystanbekova / Dyussebay,yes Nagata / Sato,yes Yi Chen / Wang,yes Natsumi Kawaguchi,yes Sae Noguchi,yes Asylzhan Arystanbekova,yes Shiyu Ye,yes Melinda Biro,yes Simona Cucu,yes Caijsa Wilda Hennemann,yes Anastasia Lizunova,yes Romane Longueville,yes Noemi Maines,yes Ipek Oz,yes Anna Petkovic,yes Leonie Rabl,yes Kseniia Ruchkina,yes Anja Wildgruber,yes Anna Kubareva",
-        "volume": 9090.9,
-        "event_ticker": "KXMVECROSSCATEGORY-S202684A817D9E7C",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "topic": "Business/Economy",
-      "volume1mo": 16523.23,
-      "share_pct": 6.18627246199097,
-      "event_count": 27,
-      "example": {
-        "title": "yes Francisco Comesana,yes Juan Pablo Varillas,yes Nicolas Kicker,yes Facundo Mena,yes Joaquin Aguilar Cardozo,yes Nuno Borges,yes Vit Kopriva,yes Hubert Hurkacz,yes Nikoloz Basilashvili,yes Lloyd Harris,yes Shintaro Mochizuki,yes Alexandre Muller,yes Dalibor Svrcina,yes Bernard Tomic,yes Federico Cina,yes Hayato Matsuoka,yes China PR,yes Guadalajara,yes Vancouver,yes Matilde Jorge,yes Veronika Podrez,yes Angelina Voloshchuk,yes Katie Swan,yes Ulrikke Eikeri / Quinn Gleason,yes Maria Sakkari,yes Yeon Woo Ku,yes Emerson Jones,yes Barbora Krejcikova,yes Alycia Parks,yes Mirra Andreeva,yes Alina Korneeva,yes Oleksandra Oliynykova",
-        "volume": 3921.56,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026EA40F79450D",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "topic": "Tech & Science",
-      "volume1mo": 9171.509999999998,
-      "share_pct": 3.433799550564556,
-      "event_count": 6,
+      "volume1mo": 30092.08,
+      "share_pct": 10.804090076114914,
+      "event_count": 17,
       "example": {
-        "title": "yes Francisco Cabral / James Tracy,yes Adolfo Daniel Vallejo,yes Michael Zheng,yes Pavel Kotov,yes Lloyd Harris,yes Rio Noguchi,yes Shintaro Mochizuki,yes Alexandre Muller,yes Fajing Sun,yes Doosan Bears,yes Samsung Lions,yes Over 7.5 runs scored,yes Over 6.5 runs scored,yes Hiroshima Toyo Carp,yes Hanshin Tigers,yes Hokkaido Nippon-Ham Fighters",
-        "volume": 4545.45,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026FB774747550",
+        "title": "yes Azerbaijan,yes Gibraltar,yes Baltimore,yes Detroit,yes San Francisco,yes Philadelphia,yes New York Y,yes Boston,yes Kansas City,yes Miami,yes Texas,yes A's,yes San Diego,yes Seattle,yes Anaheim,yes Dallas,yes Roma,yes Lyon,yes Birmingham Legion FC,yes New York,yes Dallas",
+        "volume": 16862.5,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C24938803DC",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-22",
-      "topic": "Sports",
-      "volume1mo": 3105.38,
-      "share_pct": 1.1626496016830559,
-      "event_count": 4,
+      "date": "2026-09-23",
+      "topic": "Business/Economy",
+      "volume1mo": 27350.510000000002,
+      "share_pct": 9.819772301139759,
+      "event_count": 24,
       "example": {
-        "title": "yes B8,yes Inner Circle Esports,yes GamerLegion,yes Aurora,yes Sasikumar Mukund,yes Semen Pankin,yes Ruien Zhang,yes Natsumi Kawaguchi,yes Asylzhan Arystanbekova,yes Mutsumi Uemura,yes Shiyu Ye,yes Manchester City,yes Inter Milano,yes Indiana,yes Chicago",
-        "volume": 1500.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20267D1CCC175ED",
+        "title": "yes Jenson Brooksby,yes Vit Kopriva,yes Lloyd Harris,yes Pavel Kotov,yes Dalibor Svrcina,yes Federico Cina,yes Alex Bolt,yes Taro Daniel,yes Alexandre Muller,yes Bernard Tomic,yes Baltimore,yes Detroit,yes Minnesota,yes Baltimore,yes Philadelphia,yes St. Louis,yes Tampa Bay,yes Boston,yes Alina Charaeva / Kamilla Rakhimova,yes Eudice Chong / Eri Hozumi,yes Maya Joint,yes Alina Korneeva",
+        "volume": 8333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266BBD6A6A3A6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-22",
-      "topic": "Crypto",
-      "volume1mo": 1000.0,
-      "share_pct": 0.3743984960562172,
-      "event_count": 1,
+      "date": "2026-09-23",
+      "topic": "Geopolitics",
+      "volume1mo": 21653.68,
+      "share_pct": 7.774414703116833,
+      "event_count": 5,
       "example": {
-        "title": "yes Stepan Baum,yes Alessio Basile,yes Karol Filar,yes Alejandro Garcia Carbajal,yes Jonas GUNDACKER,yes Millen Hurrion,yes Daniel Michalski,yes Gianmarco Ferrari,yes Marc Majdandzic,yes Daniele Rapagnetta,yes Matteo Sciahbasi,yes Leonid Sheyngezikht,yes Edouard Villoslada,yes Deney Wassermann,yes Tom Zeuch,yes Han Shi,yes Veronika Erjavec,yes Weronika Falkowska,yes Victoria Jimenez Kasintseva,yes Matilde Jorge,yes Mia Pohankova,yes Teodora Kostovic,yes Katarina Kuzmova,yes Julia Riera,yes Jessica Pieri,yes Veronika Podrez,yes Gabriela Knutson,yes Solana Sierra,yes Samira de Stefano,yes Carol Young Suh Lee,yes Anastasia Gasanova,yes Maria Timofeeva,yes Alice Tubello,yes Angelina Voloshchuk,yes Rebeka Masarova",
-        "volume": 1000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20260453AC45D93",
+        "title": "yes Tajikistan,yes Gibraltar,yes China PR,yes Japan,yes Ecuador,yes New Zealand,yes IR Iran,yes Brazil,yes Canada,yes Mexico,yes USA,yes Roma,yes Lyon",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202627093D92F8B",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "topic": "Unclassified",
-      "volume1mo": "195571.31000000",
-      "share_pct": "73.22160434",
-      "event_count": "205"
+      "volume1mo": "199428.62000000",
+      "share_pct": "71.60172292",
+      "event_count": "216"
     },
     {
-      "date": "2026-09-22",
-      "topic": "Geopolitics",
-      "volume1mo": "22548.18000000",
-      "share_pct": "8.44200468",
-      "event_count": "8"
-    },
-    {
-      "date": "2026-09-22",
-      "topic": "Culture",
-      "volume1mo": "19175.48000000",
-      "share_pct": "7.17927087",
-      "event_count": "26"
-    },
-    {
-      "date": "2026-09-22",
-      "topic": "Business/Economy",
-      "volume1mo": "16523.23000000",
-      "share_pct": "6.18627246",
-      "event_count": "27"
-    },
-    {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "topic": "Tech & Science",
-      "volume1mo": "9171.51000000",
-      "share_pct": "3.43379955",
-      "event_count": "6"
+      "volume1mo": "30092.08000000",
+      "share_pct": "10.80409008",
+      "event_count": "17"
     },
     {
-      "date": "2026-09-22",
-      "topic": "Sports",
-      "volume1mo": "3105.38000000",
-      "share_pct": "1.16264960",
-      "event_count": "4"
+      "date": "2026-09-23",
+      "topic": "Business/Economy",
+      "volume1mo": "27350.51000000",
+      "share_pct": "9.81977230",
+      "event_count": "24"
     },
     {
-      "date": "2026-09-22",
-      "topic": "Crypto",
-      "volume1mo": "1000.00000000",
-      "share_pct": "0.37439850",
-      "event_count": "1"
+      "date": "2026-09-23",
+      "topic": "Geopolitics",
+      "volume1mo": "21653.68000000",
+      "share_pct": "7.77441470",
+      "event_count": "5"
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "topic": "Total",
-      "volume1mo": "267095.09000000",
+      "volume1mo": "278524.89000000",
       "share_pct": "100.00000000",
-      "event_count": "277"
+      "event_count": "262"
     }
   ]
 }
