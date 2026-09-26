@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-26",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 285,
-  "sample_rows": 285,
-  "sum_volume1mo": 292888.99000000017,
-  "last_event_volume1mo": 0.36,
+  "positive_rows": 230,
+  "sample_rows": 230,
+  "sum_volume1mo": 294306.16000000015,
+  "last_event_volume1mo": 0.21,
   "topics": [
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Unclassified",
-      "volume1mo": 209907.32000000015,
-      "share_pct": 71.66787662451908,
-      "event_count": 243,
+      "volume1mo": 236819.16000000012,
+      "share_pct": 80.46693959786639,
+      "event_count": 190,
       "example": {
-        "title": "yes Brazil,yes Panama,yes Detroit,yes Tampa Bay,yes Washington,yes New York Y,yes Toronto,yes Atlanta,yes Boston,yes Kansas City,yes Chicago WS,yes Milwaukee,yes Texas,yes Arizona,yes Houston,yes Los Angeles A,yes San Francisco,yes Baltimore",
-        "volume": 23750.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262C919699741",
+        "title": "yes Valentin Vacherot,yes Detroit,yes Los Angeles D,yes New York M,yes Atlanta,yes Texas,yes Cleveland,yes Milwaukee,yes Houston,yes Dallas,yes Carolina,yes Houston,yes Buffalo,yes Denver,yes Minnesota,yes Luis Hernandez,yes Raul Rosas Jr,yes Rodolfo Vieira,yes Berfu Cengiz,yes Oksana Selekhmeteva,yes Anna Bondar",
+        "volume": 33333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S202690AE5467E90",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Tech & Science",
-      "volume1mo": 59465.090000000004,
-      "share_pct": 20.302944811957584,
-      "event_count": 34,
+      "volume1mo": 48724.48,
+      "share_pct": 16.555711915781842,
+      "event_count": 35,
       "example": {
-        "title": "yes Binda / Pankin,yes Krajci / Poritskyy,yes Beamish / Shearer,yes Hamza Reguig / Ouakaa,yes Sasikumar Mukund,yes Branko Djuric,yes Paul Jubb,yes Karan Singh,yes Robert Strombachs,yes Kharlanova / Zanolini,yes Luo / Xi Wu,yes Miyamoto / Yoshioka,yes Abe / Yamazaki,yes Yi Chen / Wang,yes Shiyu Ye,yes Maia Ilinca Burcescu,yes Yuliya Hatouka,yes Caijsa Wilda Hennemann,yes Maria Golovina,yes Alisa Oktiabreva,yes Marie Mettraux,yes Victoria Milovanova,yes Kristina Kroitor,yes Zuzanna Pawlikowska,yes Giulia Safina Popa,yes Andreea Prisacariu,yes Kseniia Ruchkina,yes Alesia Breaz,yes Elizara Yaneva",
-        "volume": 16666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20269B793E7D0A0",
+        "title": "yes Hawai'i,yes Kansas St.,yes Montana,yes Oklahoma St.,yes Oregon,yes San Diego St.,yes Texas,yes Maryland,no Washington wins by over 10.5 points,yes Over 59.5 points scored,yes Over 61.5 points scored",
+        "volume": 11111.11,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026714F21C4166",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-25",
-      "topic": "Geopolitics",
-      "volume1mo": 19747.53,
-      "share_pct": 6.742325821124238,
-      "event_count": 3,
-      "example": {
-        "title": "yes Josh Allen: 1+,yes Justin Herbert: 1+,yes Jared Goff: 1+,yes Jacoby Brissett: 150+,yes Brock Purdy: 175+,yes Lamar Jackson: 150+,yes Dak Prescott: 175+,yes Bryce Young: 200+,yes Deshaun Watson: 125+,yes Joe Burrow: 200+,yes C.J. Stroud: 200+,yes Daniel Jones: 150+,yes Patrick Mahomes: 200+,yes Josh Allen: 200+,yes Justin Herbert: 150+,yes Trevor Lawrence: 200+,yes Drake Maye: 150+,yes Jared Goff: 175+,yes Sam Darnold: 150+,yes Marcus Mariota: 125+,yes Cam Ward: 125+,yes Trey McBride: 50+,yes Rashod Bateman: 15+,yes CeeDee Lamb: 40+,yes Tetairoa McMillan: 25+,yes Denzel Boston: 25+,yes Ja'Marr Chase: 40+,yes Tee Higgins: 25+,yes Dalton Schultz: 50+,yes Travis Kelce: 25+,yes Dalton Kincaid: 25+,yes Parker Washington: 40+,yes Hunter Henry: 15+,yes Amon-Ra St. Brown: 40+,yes Sam LaPorta: 25+,yes Garrett Wilson: 40+,yes Jaxon Smith-Njigba: 50+,yes Isaiah Likely: 15+,yes Carnell Tate: 15+,yes Jeremiyah Love: 20+,yes Tyler Allgeier: 15+,yes Christian McCaffrey: 50+,yes Derrick Henry: 50+,yes Chuba Hubbard: 40+,yes Chase Brown: 40+,yes David Montgomery: 25+,yes Jonathan Taylor: 50+,yes Kenneth Walker III: 85+,yes James Cook III: 50+,yes Bhayshul Tuten: 30+,yes TreVeyon Henderson: 20+,yes Jahmyr Gibbs: 50+,yes Breece Hall: 30+,yes Cam Skattebo: 50+,yes Christian McCaffrey: 1+,yes Derrick Henry: 1+,yes Chuba Hubbard: 1+,yes Ja'Marr Chase: 1+,yes Kenneth Walker III: 1+,yes Josh Allen: 1+,yes Parker Washington: 1+,yes Amon-Ra St. Brown: 1+,yes Jahmyr Gibbs: 1+,yes Jaxon Smith-Njigba: 1+,yes Cam Skattebo: 1+",
-        "volume": 18518.51,
-        "event_ticker": "KXMVECROSSCATEGORY-S20264F76B1031DA",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Business/Economy",
-      "volume1mo": 3620.25,
-      "share_pct": 1.2360485110758168,
-      "event_count": 4,
+      "volume1mo": 6884.07,
+      "share_pct": 2.339084577774382,
+      "event_count": 2,
       "example": {
-        "title": "yes Fabian Marozsan,yes Botic Van de Zandschulp,yes Lorenzo Sonego,yes Federico Cina,yes Hubert Hurkacz,yes Denis Shapovalov,yes Daniil Medvedev,yes Valentin Vacherot,yes San Francisco,yes Cincinnati,yes Kansas City,yes Buffalo,yes Los Angeles R,yes Minnesota,yes Detroit,yes Seattle,yes Philadelphia,yes Maja Chwalinska,yes Lanlana Tararudee",
-        "volume": 1759.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026E1FFFFD994C",
+        "title": "yes Federico Cina,yes Martin Damm Jr,yes Daniil Medvedev,yes Lloyd Harris,yes Coleman Wong,yes Yunchaokete Bu,yes Matyas Cerny,yes Arvid Nordquist,yes Dmitry Popko,yes Dragos Nicolae Madaras,yes Laurent Lokoli,yes Sebastian Dominko,yes Digvijay Pratap Singh,yes Paul Jubb,yes Robert Strombachs,yes Maria Golovina,yes Alena Kovackova,yes Giulia Safina Popa,yes Alesia Breaz,yes Elizara Yaneva,yes Polina Iatcenko,yes Wushuang Zheng,yes Anastasia Tikhonova,yes Elena Micic,yes Kimberly Birrell,yes Leylah Fernandez",
+        "volume": 6666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S202604CB6F5A717",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
+      "topic": "Geopolitics",
+      "volume1mo": 1851.18,
+      "share_pct": 0.6289980474754586,
+      "event_count": 2,
+      "example": {
+        "title": "yes Japan,yes Korea Republic,yes Argentina,yes Canada,yes Brazil,yes Canada,yes Colombia,yes USA,yes Paraguay,yes China PR,yes Malta,yes Japan,yes Uruguay,yes Palestine,yes Brazil,yes Mexico,yes USA,yes Argentina,yes Guadalajara,yes Tigres,yes Leon,yes Finland,yes Austria,yes Germany,yes Norway,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored",
+        "volume": 1818.18,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262B1D4872F4F",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-26",
       "topic": "Sports",
-      "volume1mo": 148.8,
-      "share_pct": 0.050804231323273684,
+      "volume1mo": 27.27,
+      "share_pct": 0.009265861101921884,
       "event_count": 1,
       "example": {
-        "title": "yes magic,yes Liquid,yes DENDELE CS,yes Natus Vincere,yes 1win,yes Team Yandex,yes FlyQuest,yes FURIA Esports,yes India,yes England,yes Karmine Corp,yes FUT Esports",
-        "volume": 148.8,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DA9EA05B98F",
+        "title": "yes Leon,yes Pumas UNAM,yes FURIA Esports,yes T1 Academy,yes Chicago WS,yes Arizona,no Over 71.5 points scored,no Over 76.5 points scored,no Over 71.5 points scored,no Over 72.5 points scored,no Over 69.5 points scored,no Over 76.5 points scored,no Over 74.5 points scored,no Over 70.5 points scored,no Over 78.5 points scored,no Over 77.5 points scored,no Over 79.5 points scored,no Over 71.5 points scored,no Over 68.5 points scored,no Over 76.5 points scored,no Over 76.5 points scored,no Over 59.5 points scored,no Over 73.5 points scored,no Over 77.5 points scored,no Over 73.5 points scored,no Over 73.5 points scored,no Over 67.5 points scored,no Over 79.5 points scored,no Over 81.5 points scored,no Over 75.5 points scored,no Over 78.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 69.5 points scored,no Over 80.5 points scored,no Over 76.5 points scored,no Over 66.5 points scored,no Over 73.5 points scored,no Over 70.5 points scored,no Over 77.5 points scored,no Over 73.5 points scored,no Over 78.5 points scored,no Over 74.5 points scored,no Over 76.5 points scored,no Over 75.5 points scored,no Over 76.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 75.5 points scored,no Over 76.5 points scored,no Over 71.5 points scored,no Over 74.5 points scored,no Over 75.5 points scored,no Over 80.5 points scored,no Over 68.5 points,no Over 73.5 points,no Over 61.5 points,no Over 64.5 points,no Over 71.5 points,no Over 66.5 points,no Over 65.5 points,no Over 66.5 points,no Over 65.5 points,no Over 69.5 points,no Over 61.5 points,no Over 64.5 points,yes Germany,yes Raul Rosas Jr",
+        "volume": 27.27,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BA0CD4880A2",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Unclassified",
-      "volume1mo": "209907.32000000",
-      "share_pct": "71.66787662",
-      "event_count": "243"
+      "volume1mo": "236819.16000000",
+      "share_pct": "80.46693960",
+      "event_count": "190"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Tech & Science",
-      "volume1mo": "59465.09000000",
-      "share_pct": "20.30294481",
-      "event_count": "34"
+      "volume1mo": "48724.48000000",
+      "share_pct": "16.55571192",
+      "event_count": "35"
     },
     {
-      "date": "2026-09-25",
-      "topic": "Geopolitics",
-      "volume1mo": "19747.53000000",
-      "share_pct": "6.74232582",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Business/Economy",
-      "volume1mo": "3620.25000000",
-      "share_pct": "1.23604851",
-      "event_count": "4"
+      "volume1mo": "6884.07000000",
+      "share_pct": "2.33908458",
+      "event_count": "2"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
+      "topic": "Geopolitics",
+      "volume1mo": "1851.18000000",
+      "share_pct": "0.62899805",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-09-26",
       "topic": "Sports",
-      "volume1mo": "148.80000000",
-      "share_pct": "0.05080423",
+      "volume1mo": "27.27000000",
+      "share_pct": "0.00926586",
       "event_count": "1"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Total",
-      "volume1mo": "292888.99000000",
+      "volume1mo": "294306.16000000",
       "share_pct": "100.00000000",
-      "event_count": "285"
+      "event_count": "230"
     }
   ]
 }

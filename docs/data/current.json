@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-26",
   "platform": "Polymarket",
   "metric_label": "\u8fd1 30 \u5929\u6210\u4ea4\u91cf",
   "source": "https://gamma-api.polymarket.com/events",
@@ -10,15 +10,15 @@
     "offset": "0..1980"
   },
   "rows_fetched": 2000,
-  "sum_volume1mo": 17163329985.3943,
-  "last_event_volume1mo": 2242952.777599998,
+  "sum_volume1mo": 17147755311.620045,
+  "last_event_volume1mo": 2251816.4355170005,
   "topics": [
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Sports",
-      "volume1mo": 5842936308.639526,
-      "share_pct": 34.043139143812795,
-      "event_count": 1221,
+      "volume1mo": 5825561071.772702,
+      "share_pct": 33.972732674958664,
+      "event_count": 1219,
       "example": {
         "title": "Big Game Champion 2026",
         "volume1mo": 162843922.3865944,
@@ -51,10 +51,10 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Politics",
-      "volume1mo": 3767902769.6987343,
-      "share_pct": 21.95321521467661,
+      "volume1mo": 3763448842.4474835,
+      "share_pct": 21.94718068957522,
       "event_count": 228,
       "example": {
         "title": "New York City Mayoral Election",
@@ -96,11 +96,11 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Crypto",
-      "volume1mo": 2438173030.059599,
-      "share_pct": 14.205710850600916,
-      "event_count": 303,
+      "volume1mo": 2439903873.87885,
+      "share_pct": 14.22870707879455,
+      "event_count": 304,
       "example": {
         "title": "What price will Bitcoin hit in 2025?",
         "volume1mo": 118546584.85059871,
@@ -133,11 +133,11 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Business/Economy",
-      "volume1mo": 2133059869.2666686,
-      "share_pct": 12.428007100497782,
-      "event_count": 48,
+      "volume1mo": 2131875546.6546104,
+      "share_pct": 12.432388425848142,
+      "event_count": 47,
       "example": {
         "title": "Fed decision in January?",
         "volume1mo": 581627249.1208935,
@@ -178,11 +178,11 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Geopolitics",
-      "volume1mo": 1886449224.155439,
-      "share_pct": 10.991160956299126,
-      "event_count": 127,
+      "volume1mo": 1892796795.7247784,
+      "share_pct": 11.038160746568032,
+      "event_count": 129,
       "example": {
         "title": "US strikes Iran by...?",
         "volume1mo": 516640404.2881326,
@@ -219,10 +219,10 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Culture",
-      "volume1mo": 882248821.8179371,
-      "share_pct": 5.140312646605967,
+      "volume1mo": 882261450.0091442,
+      "share_pct": 5.145055046425153,
       "event_count": 44,
       "example": {
         "title": "Will Zelenskyy wear a suit before July?",
@@ -236,10 +236,10 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Tech & Science",
-      "volume1mo": 176324642.5035209,
-      "share_pct": 1.027333522420009,
+      "volume1mo": 175672411.8796019,
+      "share_pct": 1.0244630197198978,
       "event_count": 22,
       "example": {
         "title": "Which company has the best AI model end of January?",
@@ -273,10 +273,10 @@
       }
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Unclassified",
       "volume1mo": 36235319.252875,
-      "share_pct": 0.21112056508679047,
+      "share_pct": 0.2113123181103501,
       "event_count": 7,
       "example": {
         "title": "Next Prime Minister of the Netherlands",
@@ -308,65 +308,65 @@
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Sports",
-      "volume1mo": "5842936308.63952637",
-      "share_pct": "34.04313914",
-      "event_count": "1221"
+      "volume1mo": "5825561071.77270222",
+      "share_pct": "33.97273267",
+      "event_count": "1219"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Politics",
-      "volume1mo": "3767902769.69873428",
-      "share_pct": "21.95321521",
+      "volume1mo": "3763448842.44748354",
+      "share_pct": "21.94718069",
       "event_count": "228"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Crypto",
-      "volume1mo": "2438173030.05959892",
-      "share_pct": "14.20571085",
-      "event_count": "303"
+      "volume1mo": "2439903873.87884998",
+      "share_pct": "14.22870708",
+      "event_count": "304"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Business/Economy",
-      "volume1mo": "2133059869.26666856",
-      "share_pct": "12.42800710",
-      "event_count": "48"
+      "volume1mo": "2131875546.65461040",
+      "share_pct": "12.43238843",
+      "event_count": "47"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Geopolitics",
-      "volume1mo": "1886449224.15543890",
-      "share_pct": "10.99116096",
-      "event_count": "127"
+      "volume1mo": "1892796795.72477841",
+      "share_pct": "11.03816075",
+      "event_count": "129"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Culture",
-      "volume1mo": "882248821.81793714",
-      "share_pct": "5.14031265",
+      "volume1mo": "882261450.00914419",
+      "share_pct": "5.14505505",
       "event_count": "44"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Tech & Science",
-      "volume1mo": "176324642.50352091",
-      "share_pct": "1.02733352",
+      "volume1mo": "175672411.87960190",
+      "share_pct": "1.02446302",
       "event_count": "22"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Unclassified",
       "volume1mo": "36235319.25287500",
-      "share_pct": "0.21112057",
+      "share_pct": "0.21131232",
       "event_count": "7"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "topic": "Total",
-      "volume1mo": "17163329985.39430046",
+      "volume1mo": "17147755311.62004471",
       "share_pct": "100.00000000",
       "event_count": "2000"
     }
