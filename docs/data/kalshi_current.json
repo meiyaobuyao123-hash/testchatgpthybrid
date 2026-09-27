@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-26",
+  "as_of": "2026-09-27",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 230,
-  "sample_rows": 230,
-  "sum_volume1mo": 294306.16000000015,
-  "last_event_volume1mo": 0.21,
+  "positive_rows": 259,
+  "sample_rows": 259,
+  "sum_volume1mo": 306794.30999999994,
+  "last_event_volume1mo": 0.29,
   "topics": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Unclassified",
-      "volume1mo": 236819.16000000012,
-      "share_pct": 80.46693959786639,
-      "event_count": 190,
+      "volume1mo": 212632.81000000003,
+      "share_pct": 69.30793794708907,
+      "event_count": 206,
       "example": {
-        "title": "yes Valentin Vacherot,yes Detroit,yes Los Angeles D,yes New York M,yes Atlanta,yes Texas,yes Cleveland,yes Milwaukee,yes Houston,yes Dallas,yes Carolina,yes Houston,yes Buffalo,yes Denver,yes Minnesota,yes Luis Hernandez,yes Raul Rosas Jr,yes Rodolfo Vieira,yes Berfu Cengiz,yes Oksana Selekhmeteva,yes Anna Bondar",
-        "volume": 33333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S202690AE5467E90",
+        "title": "yes Kansas City,yes Brock Purdy: 200+,yes Dak Prescott: 225+,yes Patrick Mahomes: 200+,yes Malik Nabers: 50+,yes Derrick Henry: 50+,yes James Cook III: 50+,yes Kyren Williams: 60+,yes Jahmyr Gibbs: 50+",
+        "volume": 20790.02,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026F4D0798AC9D",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Tech & Science",
-      "volume1mo": 48724.48,
-      "share_pct": 16.555711915781842,
-      "event_count": 35,
+      "volume1mo": 47810.159999999996,
+      "share_pct": 15.583783154257327,
+      "event_count": 31,
       "example": {
-        "title": "yes Hawai'i,yes Kansas St.,yes Montana,yes Oklahoma St.,yes Oregon,yes San Diego St.,yes Texas,yes Maryland,no Washington wins by over 10.5 points,yes Over 59.5 points scored,yes Over 61.5 points scored",
-        "volume": 11111.11,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026714F21C4166",
+        "title": "yes Christian McCaffrey: 1+,yes CeeDee Lamb: 1+,yes Chuba Hubbard: 1+,no Tetairoa McMillan: 1+,no Pat Freiermuth: 1+,no Dalton Schultz: 1+,no Darius Slayton: 1+,no Josh Downs: 1+,no Laquon Treadwell: 1+,no Malik Willis: 1+,no Khalil Shakir: 1+,no Justin Herbert: 1+,no Oronde Gadsden: 1+,no Jordan Addison: 1+,no Jalen McMillan: 1+,no Kenny Gainwell: 1+,yes Jahmyr Gibbs: 2+,no Isaiah Williams: 1+,no Kenyon Sadiq: 1+,no Cooper Kupp: 1+,no Elijah Arroyo: 1+,yes Jaxon Smith-Njigba: 1+,no Darnell Mooney: 1+,no Malachi Fields: 1+,no Tyrone Tracy Jr.: 1+,no Carnell Tate: 1+,yes Saquon Barkley: 1+",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20264F8EB1DAC31",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-26",
-      "topic": "Business/Economy",
-      "volume1mo": 6884.07,
-      "share_pct": 2.339084577774382,
-      "event_count": 2,
-      "example": {
-        "title": "yes Federico Cina,yes Martin Damm Jr,yes Daniil Medvedev,yes Lloyd Harris,yes Coleman Wong,yes Yunchaokete Bu,yes Matyas Cerny,yes Arvid Nordquist,yes Dmitry Popko,yes Dragos Nicolae Madaras,yes Laurent Lokoli,yes Sebastian Dominko,yes Digvijay Pratap Singh,yes Paul Jubb,yes Robert Strombachs,yes Maria Golovina,yes Alena Kovackova,yes Giulia Safina Popa,yes Alesia Breaz,yes Elizara Yaneva,yes Polina Iatcenko,yes Wushuang Zheng,yes Anastasia Tikhonova,yes Elena Micic,yes Kimberly Birrell,yes Leylah Fernandez",
-        "volume": 6666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S202604CB6F5A717",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Geopolitics",
-      "volume1mo": 1851.18,
-      "share_pct": 0.6289980474754586,
-      "event_count": 2,
+      "volume1mo": 44200.329999999994,
+      "share_pct": 14.407154422127322,
+      "event_count": 15,
       "example": {
-        "title": "yes Japan,yes Korea Republic,yes Argentina,yes Canada,yes Brazil,yes Canada,yes Colombia,yes USA,yes Paraguay,yes China PR,yes Malta,yes Japan,yes Uruguay,yes Palestine,yes Brazil,yes Mexico,yes USA,yes Argentina,yes Guadalajara,yes Tigres,yes Leon,yes Finland,yes Austria,yes Germany,yes Norway,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored",
-        "volume": 1818.18,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262B1D4872F4F",
+        "title": "yes Malik Willis: 1+,yes Trevor Lawrence: 1+,yes Cam Ward: 1+",
+        "volume": 24878.04,
+        "event_ticker": "KXMVECROSSCATEGORY0-S202698A410E15A8",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-09-26",
-      "topic": "Sports",
-      "volume1mo": 27.27,
-      "share_pct": 0.009265861101921884,
-      "event_count": 1,
+      "date": "2026-09-27",
+      "topic": "Business/Economy",
+      "volume1mo": 1121.22,
+      "share_pct": 0.3654631013202299,
+      "event_count": 4,
       "example": {
-        "title": "yes Leon,yes Pumas UNAM,yes FURIA Esports,yes T1 Academy,yes Chicago WS,yes Arizona,no Over 71.5 points scored,no Over 76.5 points scored,no Over 71.5 points scored,no Over 72.5 points scored,no Over 69.5 points scored,no Over 76.5 points scored,no Over 74.5 points scored,no Over 70.5 points scored,no Over 78.5 points scored,no Over 77.5 points scored,no Over 79.5 points scored,no Over 71.5 points scored,no Over 68.5 points scored,no Over 76.5 points scored,no Over 76.5 points scored,no Over 59.5 points scored,no Over 73.5 points scored,no Over 77.5 points scored,no Over 73.5 points scored,no Over 73.5 points scored,no Over 67.5 points scored,no Over 79.5 points scored,no Over 81.5 points scored,no Over 75.5 points scored,no Over 78.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 69.5 points scored,no Over 80.5 points scored,no Over 76.5 points scored,no Over 66.5 points scored,no Over 73.5 points scored,no Over 70.5 points scored,no Over 77.5 points scored,no Over 73.5 points scored,no Over 78.5 points scored,no Over 74.5 points scored,no Over 76.5 points scored,no Over 75.5 points scored,no Over 76.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 73.5 points scored,no Over 76.5 points scored,no Over 75.5 points scored,no Over 76.5 points scored,no Over 71.5 points scored,no Over 74.5 points scored,no Over 75.5 points scored,no Over 80.5 points scored,no Over 68.5 points,no Over 73.5 points,no Over 61.5 points,no Over 64.5 points,no Over 71.5 points,no Over 66.5 points,no Over 65.5 points,no Over 66.5 points,no Over 65.5 points,no Over 69.5 points,no Over 61.5 points,no Over 64.5 points,yes Germany,yes Raul Rosas Jr",
-        "volume": 27.27,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BA0CD4880A2",
+        "title": "yes Federico Arnaboldi,yes Gianmarco Ferrari,yes Paraguay,yes NC Dinos,yes Toronto,yes Baltimore,yes Houston,yes New England",
+        "volume": 746.26,
+        "event_ticker": "KXMVECROSSCATEGORY-S202634877E75728",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Sports",
+      "volume1mo": 1029.79,
+      "share_pct": 0.3356613752060787,
+      "event_count": 3,
+      "example": {
+        "title": "yes Liquid,yes Team Liquid,yes San Francisco,yes Dallas,yes Kansas City,yes Buffalo,yes Detroit,yes Seattle,yes Tennessee,yes Deebo Samuel Sr.: 1+,yes Chuba Hubbard: 1+,yes Denzel Boston: 1+,yes Chris Olave: 1+,yes FUT Esports",
+        "volume": 1000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202674121498FAE",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Unclassified",
-      "volume1mo": "236819.16000000",
-      "share_pct": "80.46693960",
-      "event_count": "190"
+      "volume1mo": "212632.81000000",
+      "share_pct": "69.30793795",
+      "event_count": "206"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Tech & Science",
-      "volume1mo": "48724.48000000",
-      "share_pct": "16.55571192",
-      "event_count": "35"
+      "volume1mo": "47810.16000000",
+      "share_pct": "15.58378315",
+      "event_count": "31"
     },
     {
-      "date": "2026-09-26",
-      "topic": "Business/Economy",
-      "volume1mo": "6884.07000000",
-      "share_pct": "2.33908458",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Geopolitics",
-      "volume1mo": "1851.18000000",
-      "share_pct": "0.62899805",
-      "event_count": "2"
+      "volume1mo": "44200.33000000",
+      "share_pct": "14.40715442",
+      "event_count": "15"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
+      "topic": "Business/Economy",
+      "volume1mo": "1121.22000000",
+      "share_pct": "0.36546310",
+      "event_count": "4"
+    },
+    {
+      "date": "2026-09-27",
       "topic": "Sports",
-      "volume1mo": "27.27000000",
-      "share_pct": "0.00926586",
-      "event_count": "1"
+      "volume1mo": "1029.79000000",
+      "share_pct": "0.33566138",
+      "event_count": "3"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "topic": "Total",
-      "volume1mo": "294306.16000000",
+      "volume1mo": "306794.31000000",
       "share_pct": "100.00000000",
-      "event_count": "230"
+      "event_count": "259"
     }
   ]
 }
