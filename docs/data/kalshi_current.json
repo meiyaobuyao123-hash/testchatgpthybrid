@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,18 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 253,
-  "sample_rows": 253,
-  "sum_volume1mo": 479505.2000000001,
-  "last_event_volume1mo": 0.21,
-  "topics": [
-    {
-      "date": "2026-09-30",
-      "topic": "Unclassified",
-      "volume1mo": 271430.8100000001,
-      "share_pct": 56.6064372190333,
-      "event_count": 153,
-      "example": {
-        "title": "yes South Africa,yes Argentina,yes New Caledonia,yes Seychelles,yes Kansas City,yes Chicago Fire,yes New York RB",
-        "volume": 100000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261B5372A16B1",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Tech & Science",
-      "volume1mo": 131512.84999999998,
-      "share_pct": 27.42678285866346,
-      "event_count": 74,
-      "example": {
-        "title": "yes Edas Butvilas,yes Gianluca Cadenasso,yes Dane Sweeny,yes Harold Mayot,yes Evan Zhu,yes Novak Djokovic,yes Jiri Lehecka,yes Jan-Lennard Struff,yes Stefanos Tsitsipas,yes Arthur Fils,yes Arthur Gea,yes Reiya Komagata,yes Taisei Ichikawa,yes Arda Azkara,yes Dong Ju Kim,yes Corentin Denolly,yes John Echeverria,yes Max Houkes,yes Jack Loge,yes Nicolas Jadoun,yes Philip Sekulic,yes Yua Taka,yes Zaharije-Zak Talic,yes Alessandro Battiston,yes Haruna Arakawa,yes Albina Kakenova,yes Naiktha Bains,yes Tessa Johanna Brockmann,yes Esther Adeshina,yes Carolina Gasparini,yes Lois Boisson,yes Anna Blinkova,yes Sara Sorribes Tormo,yes Anna Bondar,yes Katie Boulter,yes Aliaksandra Sasnovich",
-        "volume": 40000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261C11C437616",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Geopolitics",
-      "volume1mo": 70012.2,
-      "share_pct": 14.600926121343413,
-      "event_count": 21,
-      "example": {
-        "title": "yes Matteo Arnaldi,yes Kyrian Jacquet,yes Thiago Agustin Tirante,yes Alex Molcan,yes Liam Delicata,yes Jordan Chiu",
-        "volume": 17864.28,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261CFA1A060ED",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Business/Economy",
-      "volume1mo": 6549.339999999999,
-      "share_pct": 1.3658538009598222,
-      "event_count": 5,
-      "example": {
-        "title": "yes BYU,yes Houston,yes West Virginia wins by over 3.5 points,yes Netherlands,yes Portugal wins by more than 1.5 goals,yes Austria wins by more than 1.5 goals,yes Norway wins by more than 1.5 goals",
-        "volume": 5740.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S202634DC14D62D8",
-        "category": "Exotics"
-      }
-    }
-  ],
+  "positive_rows": 0,
+  "sample_rows": 0,
+  "sum_volume1mo": 0,
+  "last_event_volume1mo": 0,
+  "topics": [],
   "topics_with_total": [
     {
-      "date": "2026-09-30",
-      "topic": "Unclassified",
-      "volume1mo": "271430.81000000",
-      "share_pct": "56.60643722",
-      "event_count": "153"
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Tech & Science",
-      "volume1mo": "131512.85000000",
-      "share_pct": "27.42678286",
-      "event_count": "74"
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Geopolitics",
-      "volume1mo": "70012.20000000",
-      "share_pct": "14.60092612",
-      "event_count": "21"
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "Business/Economy",
-      "volume1mo": "6549.34000000",
-      "share_pct": "1.36585380",
-      "event_count": "5"
-    },
-    {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "topic": "Total",
-      "volume1mo": "479505.20000000",
+      "volume1mo": "0.00000000",
       "share_pct": "100.00000000",
-      "event_count": "253"
+      "event_count": "0"
     }
   ]
 }
