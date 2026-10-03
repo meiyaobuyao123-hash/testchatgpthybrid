@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-10-03",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 173,
+  "sample_rows": 173,
+  "sum_volume1mo": 181727.56000000003,
+  "last_event_volume1mo": 1.57,
+  "topics": [
+    {
+      "date": "2026-10-03",
+      "topic": "Unclassified",
+      "volume1mo": 125391.41000000002,
+      "share_pct": 68.99966631368407,
+      "event_count": 135,
+      "example": {
+        "title": "yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score",
+        "volume": 12500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026EA5316D0630",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Geopolitics",
+      "volume1mo": 40317.430000000015,
+      "share_pct": 22.185644268816468,
+      "event_count": 17,
+      "example": {
+        "title": "yes Vitaliy Sachko,yes Austin Krajicek / Nikola Mektic,yes Sander Arends / David Pel,yes Alexander Zverev,yes Carlos Alcaraz,yes Daniil Medvedev,yes Andrey Rublev,yes Anas Messaoudi,yes Aaron Bowen,yes Ben Whittaker,yes Vitality,yes Spirit,yes Team Falcons,yes MOUZ,yes PARIVISION,yes Argentina,yes Brazil,yes Russia,yes Fiji,yes Millen Hurrion,yes Natus Vincere,yes KT Rolster,yes SMU,yes South Carolina St.,yes Lehigh,yes South Dakota,yes Memphis,yes Mercer,yes LIU,yes Yale,yes Kansas,yes North Dakota,yes Notre Dame,yes Prairie View A&M,yes UAB,yes Wake Forest,yes Toledo,yes Houston,yes St. Thomas,yes Georgia,yes Central Connecticut St.,yes Western Michigan,yes North Dakota St.,yes Payton Talbott,yes Marcus McGhee,yes Damian Pinas,yes Jacobe Smith,yes Anthony Wint,yes Lois Boisson,yes Belinda Bencic,yes Jelena Ostapenko,yes Leylah Fernandez,yes Elena Rybakina,yes Elina Svitolina,yes Iga Swiatek,yes Iva Jovic",
+        "volume": 25000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20263D2BE48090D",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Tech & Science",
+      "volume1mo": 15478.500000000004,
+      "share_pct": 8.517420252602301,
+      "event_count": 19,
+      "example": {
+        "title": "yes Alabama,yes Texas A&M,yes Tennessee,yes SMU,yes Miami (OH),yes Rhode Island,yes BYU,yes Tarleton St.,yes South Carolina St.,yes Harvard,yes Elon,yes UC Davis,yes Indiana,yes South Dakota,yes Stephen F. Austin,yes Louisville,yes LSU,yes Nebraska,yes Memphis,yes Mercer,yes Miami (FL),yes Michigan,yes Villanova,yes Yale,yes James Madison,yes Wisconsin,yes Kansas,yes North Dakota,yes Bryant,yes Notre Dame,yes Austin Peay,yes Lamar,yes Ohio St.,yes Prairie View A&M,yes UAB,yes Wake Forest,yes Western Illinois,yes Toledo,yes Monmouth,yes Texas Tech,yes Florida Atlantic,yes Houston,yes South Alabama,yes Montana,yes St. Thomas,yes Boise St.,yes New Mexico,yes UT Rio Grande Valley,yes UTSA,yes Georgia,yes Central Connecticut St.,yes USC,yes Western Michigan,yes North Dakota St.,yes Texas",
+        "volume": 4545.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026D15A7A07867",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Sports",
+      "volume1mo": 441.17,
+      "share_pct": 0.2427644986814328,
+      "event_count": 1,
+      "example": {
+        "title": "yes Vitality,yes Team Falcons,yes Aurora Gaming,yes PARIVISION,yes LGD Gaming,yes Team Yandex,yes Doosan Bears,yes Natus Vincere,yes LGD Gaming,yes KT Rolster,yes Hiroshima Toyo Carp,yes Yokohama DeNA BayStars,yes G2 Esports,yes Karmine Corp",
+        "volume": 441.17,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DA35D5071AA",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Business/Economy",
+      "volume1mo": 99.05,
+      "share_pct": 0.054504666215735235,
+      "event_count": 1,
+      "example": {
+        "title": "yes Over 5.5 points,yes Alabama,yes Florida,yes Michigan,yes Over 40.5 points scored",
+        "volume": 99.05,
+        "event_ticker": "KXMVECROSSCATEGORY-S202660DDD4A088F",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-10-03",
+      "topic": "Unclassified",
+      "volume1mo": "125391.41000000",
+      "share_pct": "68.99966631",
+      "event_count": "135"
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Geopolitics",
+      "volume1mo": "40317.43000000",
+      "share_pct": "22.18564427",
+      "event_count": "17"
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Tech & Science",
+      "volume1mo": "15478.50000000",
+      "share_pct": "8.51742025",
+      "event_count": "19"
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Sports",
+      "volume1mo": "441.17000000",
+      "share_pct": "0.24276450",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Business/Economy",
+      "volume1mo": "99.05000000",
+      "share_pct": "0.05450467",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Total",
+      "volume1mo": "181727.56000000",
+      "share_pct": "100.00000000",
+      "event_count": "173"
+    }
+  ]
+}
