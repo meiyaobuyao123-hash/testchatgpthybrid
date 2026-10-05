@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-04",
+  "as_of": "2026-10-05",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 244,
-  "sample_rows": 244,
-  "sum_volume1mo": 412217.66,
-  "last_event_volume1mo": 0.15,
+  "positive_rows": 311,
+  "sample_rows": 311,
+  "sum_volume1mo": 434525.8499999997,
+  "last_event_volume1mo": 0.02,
   "topics": [
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "topic": "Unclassified",
-      "volume1mo": 260836.1899999999,
-      "share_pct": 63.27632590995735,
-      "event_count": 174,
+      "volume1mo": 264762.7699999997,
+      "share_pct": 60.93141984533255,
+      "event_count": 227,
       "example": {
-        "title": "yes Joaquin Aguilar Cardozo,yes Sander Arends / David Pel,yes Alex de Minaur,yes Arthur Fils,yes Jiri Lehecka,yes Osleys Iglesias,yes Wilkens Mathieu,yes Legacy,yes Spirit,yes Senegal,yes Digvijay Pratap Singh,yes KT Rolster,yes Milwaukee,yes Los Angeles D,yes Cleveland,yes Golden State,yes Denver,yes New York R,yes Detroit,yes India A,yes LOUD,yes T1,yes Atlanta,yes Atlanta,yes Lois Boisson",
-        "volume": 125000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026E7329E58244",
+        "title": "yes Austin Krajicek / Nikola Mektic,yes Julian Cash / Lloyd Glasspool,yes Carlos Alcaraz,yes Bernard Tomic,yes Alex de Minaur,yes Luka Pavlovic,yes Michael Zheng,yes Liechtenstein,yes Rwanda,yes Congo DR,yes Cleveland,yes New York Y,yes Atlanta,yes New Orleans,yes Dallas,yes Cyprus,yes Sweden,yes Marie Bouzkova,yes Sonay Kartal,yes Iva Jovic",
+        "volume": 41666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BCDC9A1A0D1",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-04",
-      "topic": "Tech & Science",
-      "volume1mo": 131529.74000000008,
-      "share_pct": 31.90783723336843,
-      "event_count": 50,
-      "example": {
-        "title": "yes Huracan,yes Senegal,yes Egypt,yes Morocco,yes Gijon,yes Leones Negros,yes Azerbaijan,yes Germany,yes Ireland,yes Austria,yes Malta,yes Netherlands,yes Portugal,yes Denmark,yes Over 1.5 goals scored",
-        "volume": 27000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026AB16819A795",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-04",
-      "topic": "Geopolitics",
-      "volume1mo": 18773.200000000004,
-      "share_pct": 4.55419595560268,
-      "event_count": 16,
-      "example": {
-        "title": "yes Dak Prescott: 200+,yes C.J. Stroud: 175+,yes Bo Nix: 150+,yes Brock Purdy: 175+,yes Bryce Young: 150+,yes Jared Goff: 200+,yes Jordan Love: 150+,yes Daniel Jones: 150+,yes Marcus Mariota: 150+,yes Joe Burrow: 200+,yes Trevor Lawrence: 200+,yes Patrick Mahomes: 150+,yes Kirk Cousins: 150+,yes Matthew Stafford: 200+,yes Jalen Hurts: 125+,yes Josh Allen: 200+,yes Drake Maye: 175+,yes Lamar Jackson: 175+,yes Cam Skattebo: 3+,yes Tyler Warren: 3+,yes CeeDee Lamb: 40+,yes Stefon Diggs: 15+,yes Bucky Irving: 40+,yes Jonathan Taylor: 50+,yes Ashton Jeanty: 30+,yes Kyren Williams: 30+,yes James Cook III: 50+,yes TreVeyon Henderson: 20+,yes Derrick Henry: 60+,yes Jahmyr Gibbs: 1+,yes Jonathan Taylor: 1+,yes James Cook III: 1+,yes Derrick Henry: 1+",
-        "volume": 6785.71,
-        "event_ticker": "KXMVECROSSCATEGORY-S20261BC9AAA297D",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "topic": "Business/Economy",
-      "volume1mo": 1078.53,
-      "share_pct": 0.2616409010715358,
-      "event_count": 4,
+      "volume1mo": 101596.99999999999,
+      "share_pct": 23.381117602094342,
+      "event_count": 37,
       "example": {
-        "title": "yes Jahmyr Gibbs: 40+,yes GB Packers wins by over 2.5 points,yes BAL Ravens wins by over 6.5 points,yes Kenneth Walker III: 1+,yes Jaxon Smith-Njigba: 1+,yes LA Rams over 20.5 points",
-        "volume": 602.4,
-        "event_ticker": "KXMVECROSSCATEGORY0-S2026437A9F01EA2",
+        "title": "yes Ilia Simakin,yes Federico Agustin Gomez,yes Sonay Kartal,yes Xinran Sun",
+        "volume": 42040.81,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C6C6A0EAD52",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Tech & Science",
+      "volume1mo": 39974.479999999996,
+      "share_pct": 9.199563156023979,
+      "event_count": 37,
+      "example": {
+        "title": "no Bremen,no Augsburg,no Mainz,no Paderborn,no Hamburg,no Union Berlin,no Schalke,no Leeds United,no Aston Villa,no Bournemouth,no Ipswich Town,no Tottenham,no Sunderland,no Hull City,no Liverpool,no Uganda,no Malaga,no Alaves,no Getafe,no Vallecano,no Osasuna,no Deportivo De La Coruna,no Valencia,no Lyon,no Toulouse,no Le Havre,no Angers,no Auxerre,no Austin,no New York City,no Dallas,no Salt Lake,no Montreal,no Frosinone,no Monza,no Lecce,no Latvia,no Armenia,no Romania,no Hungary,no Belarus,no Croatia,no Slovenia",
+        "volume": 8333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S202675811A7F8C8",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Geopolitics",
+      "volume1mo": 28150.659999999996,
+      "share_pct": 6.478477632573531,
+      "event_count": 9,
+      "example": {
+        "title": "yes Liechtenstein,yes Rwanda,yes Congo DR,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Poland,yes Cyprus,yes France,yes Montenegro,yes Sweden,yes Ukraine",
+        "volume": 13350.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266214B2A2B72",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Sports",
+      "volume1mo": 40.94,
+      "share_pct": 0.009421763975606982,
+      "event_count": 1,
+      "example": {
+        "title": "yes G2,yes LG Twins,yes JD Gaming,yes Frites Esports Club,yes Inter",
+        "volume": 40.94,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026E007C059A24",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "topic": "Unclassified",
-      "volume1mo": "260836.19000000",
-      "share_pct": "63.27632591",
-      "event_count": "174"
+      "volume1mo": "264762.77000000",
+      "share_pct": "60.93141985",
+      "event_count": "227"
     },
     {
-      "date": "2026-10-04",
-      "topic": "Tech & Science",
-      "volume1mo": "131529.74000000",
-      "share_pct": "31.90783723",
-      "event_count": "50"
-    },
-    {
-      "date": "2026-10-04",
-      "topic": "Geopolitics",
-      "volume1mo": "18773.20000000",
-      "share_pct": "4.55419596",
-      "event_count": "16"
-    },
-    {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "topic": "Business/Economy",
-      "volume1mo": "1078.53000000",
-      "share_pct": "0.26164090",
-      "event_count": "4"
+      "volume1mo": "101597.00000000",
+      "share_pct": "23.38111760",
+      "event_count": "37"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
+      "topic": "Tech & Science",
+      "volume1mo": "39974.48000000",
+      "share_pct": "9.19956316",
+      "event_count": "37"
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Geopolitics",
+      "volume1mo": "28150.66000000",
+      "share_pct": "6.47847763",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Sports",
+      "volume1mo": "40.94000000",
+      "share_pct": "0.00942176",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-05",
       "topic": "Total",
-      "volume1mo": "412217.66000000",
+      "volume1mo": "434525.85000000",
       "share_pct": "100.00000000",
-      "event_count": "244"
+      "event_count": "311"
     }
   ]
 }
