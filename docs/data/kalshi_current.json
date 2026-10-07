@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 298,
-  "sample_rows": 298,
-  "sum_volume1mo": 364440.7700000001,
-  "last_event_volume1mo": 1.06,
+  "positive_rows": 250,
+  "sample_rows": 250,
+  "sum_volume1mo": 241147.5999999998,
+  "last_event_volume1mo": 1.93,
   "topics": [
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Unclassified",
-      "volume1mo": 173288.98000000004,
-      "share_pct": 47.549284894771795,
-      "event_count": 220,
+      "volume1mo": 142100.45999999982,
+      "share_pct": 58.926756890800455,
+      "event_count": 172,
       "example": {
-        "title": "yes Julian Cash / Lloyd Glasspool,yes Mattia Bellucci,yes Kyrian Jacquet,yes Pavel Kotov,yes Lloyd Harris,yes Carlos Alcaraz,yes Novak Djokovic,yes Dane Sweeny,yes Michael Zheng,yes Storm Hunter / Kristina Mladenovic,yes Cristina Bucsa / Nicole Melichar-Martinez,yes Nikola Bartunkova,yes Naomi Osaka",
-        "volume": 25000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026A322E6A0088",
+        "title": "yes Atlanta,yes Cleveland,yes Indianapolis,yes Las Vegas,yes New York G,yes San Francisco,yes Bijan Robinson: 1+,yes Derrick Henry: 1+,yes Ollie Gordon II: 1+,yes Jahmyr Gibbs: 1+,yes Woody Marks: 1+,yes Jonathan Taylor: 1+,yes Ashton Jeanty: 1+,yes Christian McCaffrey: 1+",
+        "volume": 18181.81,
+        "event_ticker": "KXMVECROSSCATEGORY-S202681D0A7F0C64",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Tech & Science",
-      "volume1mo": 121692.04000000002,
-      "share_pct": 33.3914451997234,
-      "event_count": 42,
+      "volume1mo": 52107.990000000005,
+      "share_pct": 21.608338627463034,
+      "event_count": 60,
       "example": {
-        "title": "yes Rei Sakamoto,yes Ethan Cook,yes Alberto Garcia Garcia,yes Kacper Knitter,yes Justas Trainauskas,yes Zen David Uehling,yes Kyoka Okamura,yes Tyra Caterina Grant,yes Katarina Zavatska,yes Naomi Osaka",
-        "volume": 41666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20264BACAF83687",
+        "title": "yes Zhizhen Zhang,yes Alex Molcan,yes Kamil Majchrzak,yes Rei Sakamoto,yes Dong Ju Kim,yes James Van Herzeele,yes Jan Kupcic,yes Daniel Michalski,yes Martin VAN DER MEERSCHEN,yes Anton Shepp,yes Ren / Tang,yes Yingqun Sun,yes Lamis Alhussein Abdel Aziz,yes Jinte Eve De boer,yes Kateryna Diatlova,yes Felitsata Dorofeeva-Rybas,yes Lisa Zaar,yes Joelle Lilly Sophie Steur,yes Sarafina Olivia Hansen,yes Mia Wainwright,yes Giorgia Pedone,yes Su-Wei Hsieh / Jelena Ostapenko,yes Katerina Siniakova / Shuai Zhang,yes Coco Gauff",
+        "volume": 11000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202622F4F4927DA",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Geopolitics",
-      "volume1mo": 65068.55,
-      "share_pct": 17.8543553181495,
-      "event_count": 30,
+      "volume1mo": 29163.770000000004,
+      "share_pct": 12.093742587527318,
+      "event_count": 9,
       "example": {
-        "title": "yes Angola,yes Argentina,yes China,yes Colombia,yes Algeria,yes Uruguay,yes Venezuela,yes Korea Republic,yes Mexico,yes USA,yes Albania,yes Finland,yes Spain,yes England,yes Iceland,yes Scotland,yes Switzerland,yes Over 0.5 goals scored",
-        "volume": 12733.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026FBE6717CC3E",
+        "title": "yes Toby Samuel,yes Marco Cecchinato,yes Matheus Pucinelli de Almeida,yes Thiago Seyboth Wild,yes Arthur Fery,yes Holger Rune,yes Mattia Bellucci,yes Roman Safiullin,yes Rei Sakamoto,yes Yibing Wu,yes Florent Bax,yes Benjamin Lock,yes Matisse Bobichon,yes Hugo Car,yes Kasra Rahmani,yes Nikita Belozertsev,yes Leonid Sheyngezikht,yes Romain Faucon,yes Amr Elsayed,yes Jelle Sels,yes Sebastian Gima,yes Yash Chaurasia,yes Calvin Hemery,yes Max Houkes,yes Marcus Walters,yes Tuncay Duran,yes Loann Massard,yes Iannis Miletich,yes George Lazarov,yes Benjamin Pietri,yes Niklas Waldner,yes Mathieu Scaglia,yes Stefan Seifert,yes Petr Bar Biryukov,yes John Sperle,yes Robert Strombachs,yes Sergio Callejon Hernando,yes Jade Groen,yes Sophia Ksandinov,yes Elena Jamshidi,yes Manon Favier,yes suzuna oigawa,yes Maria Pankratova,yes Wozuko Mdlulwa,yes Sevil Yuldasheva,yes Anastasiya Kuparev,yes Sofiia Suslova,yes Anja Wildgruber,yes Qinwen Zheng,yes Elina Svitolina",
+        "volume": 14566.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C8F5351C313",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Business/Economy",
-      "volume1mo": 4391.200000000001,
-      "share_pct": 1.204914587355306,
-      "event_count": 6,
+      "volume1mo": 17775.379999999997,
+      "share_pct": 7.371161894209195,
+      "event_count": 9,
       "example": {
-        "title": "yes Gianluca Cadenasso,yes Carlo Alberto Caniato,yes Alejandro Moro Canas,yes Zdenek Kolar,yes Luka Mikrut,yes Enrico Dalla Valle,yes Thiago Seyboth Wild,yes Miguel Tobon,yes Carlos Alcaraz,yes Nicolas Mejia,yes Spirit,yes G2,yes OKSavingsBank BRION,yes Team Vitality,yes Galions,yes TLN Pirates,yes Movistar KOI F\u00e9nix,yes Solary,yes Nikola Bartunkova",
-        "volume": 2086.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S20269F2335D7458",
+        "title": "yes Kamil Majchrzak,yes Zhizhen Zhang,yes Yi Zhou,yes Rinky Hijikata,yes Federico Cina,yes Marco Trungelliti,yes Irina Khromacheva / Liudmila Samsonova,yes Tereza Mihalikova / Olivia Nicholls,yes Elise Mertens",
+        "volume": 8333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026FC8B62CD0E0",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Unclassified",
-      "volume1mo": "173288.98000000",
-      "share_pct": "47.54928489",
-      "event_count": "220"
+      "volume1mo": "142100.46000000",
+      "share_pct": "58.92675689",
+      "event_count": "172"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Tech & Science",
-      "volume1mo": "121692.04000000",
-      "share_pct": "33.39144520",
-      "event_count": "42"
+      "volume1mo": "52107.99000000",
+      "share_pct": "21.60833863",
+      "event_count": "60"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Geopolitics",
-      "volume1mo": "65068.55000000",
-      "share_pct": "17.85435532",
-      "event_count": "30"
+      "volume1mo": "29163.77000000",
+      "share_pct": "12.09374259",
+      "event_count": "9"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Business/Economy",
-      "volume1mo": "4391.20000000",
-      "share_pct": "1.20491459",
-      "event_count": "6"
+      "volume1mo": "17775.38000000",
+      "share_pct": "7.37116189",
+      "event_count": "9"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "topic": "Total",
-      "volume1mo": "364440.77000000",
+      "volume1mo": "241147.60000000",
       "share_pct": "100.00000000",
-      "event_count": "298"
+      "event_count": "250"
     }
   ]
 }
