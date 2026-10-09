@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-08",
+  "as_of": "2026-10-09",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,18 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 0,
-  "sample_rows": 0,
-  "sum_volume1mo": 0,
-  "last_event_volume1mo": 0,
-  "topics": [],
+  "positive_rows": 257,
+  "sample_rows": 257,
+  "sum_volume1mo": 285617.5700000001,
+  "last_event_volume1mo": 0.02,
+  "topics": [
+    {
+      "date": "2026-10-09",
+      "topic": "Unclassified",
+      "volume1mo": 251254.30000000013,
+      "share_pct": 87.96878287284639,
+      "event_count": 223,
+      "example": {
+        "title": "yes Amon-Ra St. Brown: 1+,yes David Montgomery: 1+,yes Woody Marks: 1+,yes Pat Freiermuth: 1+,yes TreVeyon Henderson: 1+,yes Alvin Kamara: 1+,yes Jacory Croskey-Merritt: 1+,yes Bhayshul Tuten: 1+",
+        "volume": 22727.27,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026F38A7DD56D2",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Tech & Science",
+      "volume1mo": 19199.2,
+      "share_pct": 6.721995429062712,
+      "event_count": 26,
+      "example": {
+        "title": "yes Alejandro Davidovich Fokina,yes Brandon Nakashima,yes Alex Molcan,yes Quentin Halys,yes Frances Tiafoe,yes Karen Khachanov,yes Alexander Zverev,yes Kia Tigers,yes Lotte Giants,yes SSG Landers,yes Saitama Seibu Lions,yes Yokohama DeNA BayStars,yes Aliona Falei,yes Elina Svitolina",
+        "volume": 6620.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026E143F0CA1CE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Business/Economy",
+      "volume1mo": 10000.0,
+      "share_pct": 3.501185168685524,
+      "event_count": 1,
+      "example": {
+        "title": "yes Matej Dodig,yes Alexander Blockx,yes Frances Tiafoe,yes Alexander Zverev,yes Matei Florin Breazu,yes Jake Delaney,yes Amr Elsayed,yes Axel Garcian,yes Jordan Hasson,yes Max Houkes,yes Florent Bax,yes Emile Hudd,yes Peter Makk,yes Corentin Denolly,yes Romain Faucon,yes Mattia Nannelli,yes Brenda Fruhvirtova,yes Astrid Cirotte,yes Rositsa Dencheva,yes Kamonwan Yodpetch,yes Matilde Paoletti,yes Joelle Lilly Sophie Steur,yes Antonina Sushkova,yes Mariella Thamm,yes Yuliya Perapekhina,yes Sevil Yuldasheva,yes Alena Kovackova,yes Fiona Crawley,yes Rebecca Sramkova,yes Iga Swiatek",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202625B38FEFEDF",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Geopolitics",
+      "volume1mo": 4643.790000000001,
+      "share_pct": 1.6258768674490154,
+      "event_count": 5,
+      "example": {
+        "title": "yes Michael Penix Jr.: 150+,yes Jordan Love: 150+,yes Joe Burrow: 150+,yes Deshaun Watson: 125+,yes Geno Smith: 125+,yes Bo Nix: 150+,yes Jared Goff: 200+,yes C.J. Stroud: 150+,yes Cam Ward: 125+,yes Daniel Jones: 150+,yes Aaron Rodgers: 150+,yes Kirk Cousins: 150+,yes Drake Maye: 150+,yes Tyler Shough: 150+,yes Trevor Lawrence: 150+,yes Jalen Hurts: 125+,yes Sam Darnold: 150+,yes Brock Purdy: 150+,yes Bijan Robinson: 15+,yes Christian Watson: 25+,yes Matthew Golden: 25+,yes Denzel Boston: 15+,yes Harold Fannin Jr.: 15+,yes KC Concepcion Jr.: 15+,yes Garrett Wilson: 40+,yes Jahmyr Gibbs: 15+,yes Dalton Schultz: 15+,yes Jaylin Noel: 15+,yes Nico Collins: 40+,yes Carnell Tate: 25+,yes Wan'Dale Robinson: 15+,yes DK Metcalf: 25+,yes Roman Wilson: 15+,yes Ashton Jeanty: 15+,yes Brock Bowers: 40+,yes Michael Mayer: 15+,yes Hunter Henry: 15+,yes Chris Olave: 40+,yes Devaughn Vele: 15+,yes Juwan Johnson: 15+,yes Parker Washington: 25+,yes Jaxon Smith-Njigba: 50+,yes Christian McCaffrey: 15+,yes Deebo Samuel Sr.: 15+,yes George Kittle: 25+,yes Davante Adams: 25+,yes Puka Nacua: 50+,yes Brian Robinson: 20+,yes Chase Brown: 40+,yes Deshaun Watson: 10+,yes J.K. Dobbins: 25+,yes Ashton Jeanty: 30+,yes Cam Skattebo: 30+,yes Jayden Daniels: 15+,yes Brock Purdy: 10+,yes Kaelon Black: 10+",
+        "volume": 2777.77,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026316C023F532",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Sports",
+      "volume1mo": 520.28,
+      "share_pct": 0.18215966195637046,
+      "event_count": 2,
+      "example": {
+        "title": "yes Aurora Gaming,yes Vitality,yes Team Spirit,yes PARIVISION,yes Galions,yes Karmine Corp Blue,yes Solary,yes KT Rolster,yes 100 Thieves,yes Paper Rex,yes NRG,yes G2 Esports",
+        "volume": 261.19,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262853264CF2E",
+        "category": "Exotics"
+      }
+    }
+  ],
   "topics_with_total": [
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
+      "topic": "Unclassified",
+      "volume1mo": "251254.30000000",
+      "share_pct": "87.96878287",
+      "event_count": "223"
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Tech & Science",
+      "volume1mo": "19199.20000000",
+      "share_pct": "6.72199543",
+      "event_count": "26"
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Business/Economy",
+      "volume1mo": "10000.00000000",
+      "share_pct": "3.50118517",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Geopolitics",
+      "volume1mo": "4643.79000000",
+      "share_pct": "1.62587687",
+      "event_count": "5"
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Sports",
+      "volume1mo": "520.28000000",
+      "share_pct": "0.18215966",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-10-09",
       "topic": "Total",
-      "volume1mo": "0.00000000",
+      "volume1mo": "285617.57000000",
       "share_pct": "100.00000000",
-      "event_count": "0"
+      "event_count": "257"
     }
   ]
 }
