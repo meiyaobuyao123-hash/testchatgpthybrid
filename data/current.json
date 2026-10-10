@@ -1,0 +1,374 @@
+{
+  "as_of": "2026-10-10",
+  "platform": "Polymarket",
+  "metric_label": "\u8fd1 30 \u5929\u6210\u4ea4\u91cf",
+  "source": "https://gamma-api.polymarket.com/events",
+  "params": {
+    "order": "volume1mo",
+    "ascending": "false",
+    "limit": 20,
+    "offset": "0..1980"
+  },
+  "rows_fetched": 2000,
+  "sum_volume1mo": 17165062155.399317,
+  "last_event_volume1mo": 2242542.6062929984,
+  "topics": [
+    {
+      "date": "2026-10-10",
+      "topic": "Sports",
+      "volume1mo": 5832948313.670458,
+      "share_pct": 33.98151583060646,
+      "event_count": 1223,
+      "example": {
+        "title": "Big Game Champion 2026",
+        "volume1mo": 162843922.3865944,
+        "tags": [
+          [
+            "NFL Playoffs",
+            "nfl-playoffs"
+          ],
+          [
+            "Super Bowl",
+            "super-bowl"
+          ],
+          [
+            "Big Game",
+            "big-game"
+          ],
+          [
+            "Sports",
+            "sports"
+          ],
+          [
+            "NFL (All)",
+            "nfl"
+          ],
+          [
+            "Cowboys vs Eagles",
+            "cowboys-vs-eagles"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Politics",
+      "volume1mo": 3776591564.263817,
+      "share_pct": 22.001618928457418,
+      "event_count": 229,
+      "example": {
+        "title": "New York City Mayoral Election",
+        "volume1mo": 304055908.8795998,
+        "tags": [
+          [
+            "nyc",
+            "nyc"
+          ],
+          [
+            "NYC Mayor",
+            "nyc-mayor"
+          ],
+          [
+            "Macro Election 2",
+            "macro-election-2"
+          ],
+          [
+            "World Elections",
+            "world-elections"
+          ],
+          [
+            "mayor",
+            "mayor"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "US Election",
+            "us-presidential-election"
+          ],
+          [
+            "Mayoral Elections",
+            "mayoral-elections"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Crypto",
+      "volume1mo": 2423841548.457971,
+      "share_pct": 14.120785153670678,
+      "event_count": 302,
+      "example": {
+        "title": "What price will Bitcoin hit in 2025?",
+        "volume1mo": 118546584.85059871,
+        "tags": [
+          [
+            "Crypto",
+            "crypto"
+          ],
+          [
+            "Crypto Prices",
+            "crypto-prices"
+          ],
+          [
+            "Bitcoin",
+            "bitcoin"
+          ],
+          [
+            "Hit Price",
+            "hit-price"
+          ],
+          [
+            "Yearly",
+            "yearly"
+          ],
+          [
+            "Earn 3.25%",
+            "earn-4"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Business/Economy",
+      "volume1mo": 2145367095.0192957,
+      "share_pct": 12.49845223743897,
+      "event_count": 47,
+      "example": {
+        "title": "Fed decision in January?",
+        "volume1mo": 581627249.1208935,
+        "tags": [
+          [
+            "fomc",
+            "fomc"
+          ],
+          [
+            "Fed Rates",
+            "fed-rates"
+          ],
+          [
+            "Economy",
+            "economy"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "Economic Policy",
+            "economic-policy"
+          ],
+          [
+            "Jerome Powell",
+            "jerome-powell"
+          ],
+          [
+            "Fed",
+            "fed"
+          ],
+          [
+            "Finance",
+            "finance"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Geopolitics",
+      "volume1mo": 1894650625.5397,
+      "share_pct": 11.03783142983687,
+      "event_count": 127,
+      "example": {
+        "title": "US strikes Iran by...?",
+        "volume1mo": 516640404.2881326,
+        "tags": [
+          [
+            "Parent For Derivative",
+            "parent-for-derivative"
+          ],
+          [
+            "HFC",
+            "hfc"
+          ],
+          [
+            "Iran",
+            "iran"
+          ],
+          [
+            "Politics",
+            "politics"
+          ],
+          [
+            "Middle East",
+            "middle-east"
+          ],
+          [
+            "World",
+            "world"
+          ],
+          [
+            "Geopolitics",
+            "geopolitics"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Culture",
+      "volume1mo": 882253645.9823512,
+      "share_pct": 5.139822029160762,
+      "event_count": 44,
+      "example": {
+        "title": "Will Zelenskyy wear a suit before July?",
+        "volume1mo": 241831335.91530207,
+        "tags": [
+          [
+            "Celebrities",
+            "celebrities"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Tech & Science",
+      "volume1mo": 173174043.2128489,
+      "share_pct": 1.0088751304543138,
+      "event_count": 21,
+      "example": {
+        "title": "Which company has the best AI model end of January?",
+        "volume1mo": 28071074.73501301,
+        "tags": [
+          [
+            "Tech",
+            "tech"
+          ],
+          [
+            "Grok",
+            "grok"
+          ],
+          [
+            "AI",
+            "ai"
+          ],
+          [
+            "Gemini 3",
+            "gemini-3"
+          ],
+          [
+            "Big Tech",
+            "big-tech"
+          ],
+          [
+            "OpenAI",
+            "openai"
+          ]
+        ]
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Unclassified",
+      "volume1mo": 36235319.252875,
+      "share_pct": 0.21109926037452234,
+      "event_count": 7,
+      "example": {
+        "title": "Next Prime Minister of the Netherlands",
+        "volume1mo": 13385759.522293,
+        "tags": [
+          [
+            "Global Elections",
+            "global-elections"
+          ],
+          [
+            "world affairs",
+            "world-affairs"
+          ],
+          [
+            "World",
+            "world"
+          ],
+          [
+            "Netherlands",
+            "netherlands"
+          ],
+          [
+            "Dutch Election",
+            "dutch-election"
+          ]
+        ]
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-10-10",
+      "topic": "Sports",
+      "volume1mo": "5832948313.67045784",
+      "share_pct": "33.98151583",
+      "event_count": "1223"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Politics",
+      "volume1mo": "3776591564.26381683",
+      "share_pct": "22.00161893",
+      "event_count": "229"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Crypto",
+      "volume1mo": "2423841548.45797110",
+      "share_pct": "14.12078515",
+      "event_count": "302"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Business/Economy",
+      "volume1mo": "2145367095.01929569",
+      "share_pct": "12.49845224",
+      "event_count": "47"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Geopolitics",
+      "volume1mo": "1894650625.53970003",
+      "share_pct": "11.03783143",
+      "event_count": "127"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Culture",
+      "volume1mo": "882253645.98235118",
+      "share_pct": "5.13982203",
+      "event_count": "44"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Tech & Science",
+      "volume1mo": "173174043.21284890",
+      "share_pct": "1.00887513",
+      "event_count": "21"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Unclassified",
+      "volume1mo": "36235319.25287500",
+      "share_pct": "0.21109926",
+      "event_count": "7"
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Total",
+      "volume1mo": "17165062155.39931679",
+      "share_pct": "100.00000000",
+      "event_count": "2000"
+    }
+  ]
+}
