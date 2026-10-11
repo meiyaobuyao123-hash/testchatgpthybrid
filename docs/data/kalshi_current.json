@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-10",
+  "as_of": "2026-10-11",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 186,
-  "sample_rows": 186,
-  "sum_volume1mo": 209628.40999999995,
-  "last_event_volume1mo": 1.7,
+  "positive_rows": 192,
+  "sample_rows": 192,
+  "sum_volume1mo": 202093.30999999988,
+  "last_event_volume1mo": 0.33,
   "topics": [
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "topic": "Unclassified",
-      "volume1mo": 162348.2099999999,
-      "share_pct": 77.44570976806051,
-      "event_count": 159,
+      "volume1mo": 142029.21999999986,
+      "share_pct": 70.27903100800316,
+      "event_count": 142,
       "example": {
-        "title": "yes Arsenal,yes Brentford,yes Bournemouth,yes Manchester United,yes Sunderland,yes Avispa,yes Machida Z,yes Atletico,yes Barcelona,yes Real Madrid,yes Bilbao,yes Inter,yes Napoli",
-        "volume": 16666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S202687DD784B93B",
+        "title": "yes Atlanta,yes Chicago,yes Cincinnati,yes New York J,yes Los Angeles C,yes Detroit,yes Houston,yes Las Vegas,yes New Orleans,yes New York G,yes Philadelphia,yes Seattle,yes Los Angeles R",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY0-S2026BDB888FBDC6",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-10",
-      "topic": "Tech & Science",
-      "volume1mo": 41002.83000000001,
-      "share_pct": 19.559767686068895,
-      "event_count": 21,
-      "example": {
-        "title": "yes Arsenal,yes Barcelona,yes Real Madrid,yes Air Force,yes Drake,yes Harvard,yes Indiana,yes Minnesota,yes Appalachian St.,yes East Carolina,yes Bowling Green,yes Chattanooga,yes Florida,yes Missouri,yes Oklahoma St.,yes Wake Forest,yes Youngstown St.,no Kansas St. wins by over 3.5 points,yes Texas Southern wins by over 6.5 points,yes St. Thomas wins by over 6.5 points,yes Over 49.5 points",
-        "volume": 11904.76,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026B505F6215C5",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "topic": "Geopolitics",
-      "volume1mo": 3564.2,
-      "share_pct": 1.7002466411876143,
-      "event_count": 5,
+      "volume1mo": 42513.88000000001,
+      "share_pct": 21.036757723449647,
+      "event_count": 17,
       "example": {
-        "title": "yes Sander Arends / Luke Johnson,yes Francisco Cerundolo / Thiago Agustin Tirante,yes Francisco Cabral / James Tracy,yes Tomas Martin Etcheverry,yes Yunchaokete Bu,yes Pavel Kotov,yes Taylor Fritz,yes Alejandro Tabilo,yes Felix Auger-Aliassime",
-        "volume": 2173.91,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DFE0CA8C729",
+        "title": "yes Kaichi Uchida,yes Ilya Ivashka,yes Sebastian Gima,yes Dragos Nicolae Madaras,yes Luka Pavlovic,yes Lucas Poullain,yes Nuno Borges / Sadio Doumbia,yes Alex de Minaur,yes Hubert Hurkacz,yes Tim Hammes,yes Jakub Filip,yes Casey Hoole,yes Caheer Warik,yes Sebastian Grundtvig Jorgensen,yes George Lazarov,yes Daniel Michalski,yes Sandesh Dattatray Kurale,yes Abhishek Bastola,yes Robert Strombachs,yes Pierre Antoine Tailleu,yes Felitsata Dorofeeva-Rybas,yes Alisa Oktiabreva,yes Madhurima Sawant,yes Anna-Lena Friedsam,yes Maria Garcia Cid,yes Lea Boskovic,yes Rebecca Sramkova,yes Mananchaya Sawangkaew,yes Caty McNally",
+        "volume": 30000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C335CD777D9",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
+      "topic": "Tech & Science",
+      "volume1mo": 15613.89,
+      "share_pct": 7.726079601546439,
+      "event_count": 29,
+      "example": {
+        "title": "yes Union Gilloise,yes FC K\u00f6ln,yes Freiburg,no Al Qanah,no Liverpool,yes Over 0.5 goals scored,yes Frontale,no Shimizu,yes Hiroshima,yes Real Betis,no Deportivo De La Coruna,yes SL Benfica,no Troyes,yes Stade Rennais,yes Juventus,yes Lazio,yes Atalanta,yes Over 1.5 goals scored",
+        "volume": 3111.11,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C157E80D78E",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-11",
       "topic": "Business/Economy",
-      "volume1mo": 2713.17,
-      "share_pct": 1.2942759046829582,
+      "volume1mo": 1485.87,
+      "share_pct": 0.7352395781928658,
+      "event_count": 3,
+      "example": {
+        "title": "yes Francesco Passaro,yes Ilya Ivashka,yes Dragos Nicolae Madaras,yes Luka Pavlovic,yes Lucas Poullain,yes Marat Sharipov,yes Nuno Borges / Sadio Doumbia,yes Brandon Nakashima,yes Alex de Minaur,yes Hubert Hurkacz,yes Alexander Zverev,yes Eliakim Coulibaly,yes Jakub Filip,yes Casey Hoole,yes George Lazarov,yes Daniel Michalski,yes Sandesh Dattatray Kurale,yes Abhishek Bastola,yes Robert Strombachs,yes Maileen Nuudi,yes Felitsata Dorofeeva-Rybas,yes Kamonwan Yodpetch,yes Yuliya Perapekhina,yes Lucrezia Stefanini,yes Lea Boskovic,yes Rebecca Sramkova,yes Katerina Siniakova / Shuai Zhang,yes Mananchaya Sawangkaew,yes Caty McNally,yes Mirra Andreeva",
+        "volume": 1428.57,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026046796A4514",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Sports",
+      "volume1mo": 450.45,
+      "share_pct": 0.2228920888078879,
       "event_count": 1,
       "example": {
-        "title": "yes Indiana,yes Pittsburgh,yes Wake Forest,yes Utah wins by over 13.5 points,yes Ole Miss wins by over 5.5 points,yes Notre Dame wins by over 27.5 points,yes Cleveland,yes Denver,yes Pittsburgh,yes Jacksonville",
-        "volume": 2713.17,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026D1733B1E11C",
+        "title": "yes BNK FEARX,yes KT Rolster,yes Team WE,yes Cincinnati,yes Detroit,yes Houston,yes Jacksonville,yes G2 Esports,yes 100 Thieves",
+        "volume": 450.45,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262A5AF1FA37D",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "topic": "Unclassified",
-      "volume1mo": "162348.21000000",
-      "share_pct": "77.44570977",
-      "event_count": "159"
+      "volume1mo": "142029.22000000",
+      "share_pct": "70.27903101",
+      "event_count": "142"
     },
     {
-      "date": "2026-10-10",
-      "topic": "Tech & Science",
-      "volume1mo": "41002.83000000",
-      "share_pct": "19.55976769",
-      "event_count": "21"
-    },
-    {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "topic": "Geopolitics",
-      "volume1mo": "3564.20000000",
-      "share_pct": "1.70024664",
-      "event_count": "5"
+      "volume1mo": "42513.88000000",
+      "share_pct": "21.03675772",
+      "event_count": "17"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
+      "topic": "Tech & Science",
+      "volume1mo": "15613.89000000",
+      "share_pct": "7.72607960",
+      "event_count": "29"
+    },
+    {
+      "date": "2026-10-11",
       "topic": "Business/Economy",
-      "volume1mo": "2713.17000000",
-      "share_pct": "1.29427590",
+      "volume1mo": "1485.87000000",
+      "share_pct": "0.73523958",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Sports",
+      "volume1mo": "450.45000000",
+      "share_pct": "0.22289209",
       "event_count": "1"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "topic": "Total",
-      "volume1mo": "209628.41000000",
+      "volume1mo": "202093.31000000",
       "share_pct": "100.00000000",
-      "event_count": "186"
+      "event_count": "192"
     }
   ]
 }
