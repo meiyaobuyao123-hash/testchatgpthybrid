@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 282,
-  "sample_rows": 282,
-  "sum_volume1mo": 266177.36999999994,
-  "last_event_volume1mo": 0.03,
+  "positive_rows": 252,
+  "sample_rows": 252,
+  "sum_volume1mo": 313186.1600000001,
+  "last_event_volume1mo": 0.2,
   "topics": [
     {
-      "date": "2026-10-12",
-      "topic": "Unclassified",
-      "volume1mo": 158088.33999999997,
-      "share_pct": 59.39210384413972,
-      "event_count": 193,
-      "example": {
-        "title": "yes Tampa Bay,yes Yoshinobu Yamamoto: 7+,yes Drew Rasmussen: 6+,yes Buffalo,yes Davante Adams: 5+,yes Keon Coleman: 25+,yes Tyler Higbee: 25+,yes Josh Allen: 30+",
-        "volume": 20612.24,
-        "event_ticker": "KXMVECROSSCATEGORY-S20260E31D7F5AC1",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "topic": "Tech & Science",
-      "volume1mo": 40536.37999999999,
-      "share_pct": 15.229085778404079,
-      "event_count": 36,
+      "volume1mo": 158704.71000000002,
+      "share_pct": 50.67424116059278,
+      "event_count": 71,
       "example": {
-        "title": "yes Sean Cuenin,yes Pedro Vives Marcos,yes Pavel Lagutin,yes Felix Gill,yes Daniel Siniakov,yes Robert Galloway / Andre Goransson,yes Kevin Krawietz / Tim Putz,yes Carlos Alcaraz,yes Arthur Fils,yes Daniil Medvedev,yes Jiri Lehecka,yes Taylor Fritz,yes Hokkaido Nippon-Ham Fighters,yes Clara Burel,yes Loes Ebeling Koning,yes Elise Mertens / Diana Shnaider,yes Hanyu Guo / Kristina Mladenovic,yes Diana Shnaider,yes Alexandra Eala,yes Caty McNally,yes Jasmine Paolini,yes Maria Sakkari,yes Magdalena Frech,yes Maja Chwalinska,yes Elise Mertens,yes Nikola Bartunkova",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026C2417A328C1",
+        "title": "yes Max Alcala Gurri,yes Ugo Blanchet,yes Valentin Royer,yes Zsombor Piros,yes Miomir Kecmanovic,yes Nikolas Sanchez Izquierdo,yes Andrej Nedic,yes Nicolai Budkov Kjaer,yes Andrea Pellegrino,yes Luka Mikrut,yes Daniel Rincon,yes Raul Brancaccio,yes Mattia Bellucci,yes Alexander Zverev,yes Francesca Jones,yes Dalma Galfi,yes Alina Charaeva,yes Polona Hercog,yes Antonia Ruzic,yes Jil Teichmann,yes Fiona Ferro,yes Tamara Zidansek,yes Diana Shnaider,yes Yulia Putintseva,yes Elise Mertens,yes Nikola Bartunkova,yes Xiyu Wang,yes Marta Kostyuk",
+        "volume": 83766.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S20267FA3177E434",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-12",
-      "topic": "Business/Economy",
-      "volume1mo": 35429.86,
-      "share_pct": 13.310620658698374,
-      "event_count": 22,
+      "date": "2026-10-13",
+      "topic": "Unclassified",
+      "volume1mo": 120794.19000000006,
+      "share_pct": 38.569453388361744,
+      "event_count": 154,
       "example": {
-        "title": "yes Henry Bernet,yes Ugo Blanchet,yes Mika Brunold,yes Mackenzie McDonald,yes Liam Draxl,yes Pedro Vives Marcos,yes Norbert Gombos,yes Maks Kasnikowski,yes Dimitar Kuzmanov,yes Lucas Poullain,yes Patrick Schoen,yes Marat Sharipov,yes Yosuke Watanuki,yes Robert Galloway / Andre Goransson,yes Carlos Alcaraz,yes Arthur Fils,yes Daniil Medvedev,yes Jiri Lehecka,yes Taylor Fritz,yes Tobia Costanzo Baragiola Mordini,yes Madhwin Kamath,yes Guelord Kayombo,yes Dimitar Kisimov,yes Alex Kobelt,yes Radovan Michalik,yes Pavel Skvortcov,yes Caheer Warik,yes Mac Visser,yes Aurora Corvi,yes Simona Cucu,yes Valeria Garnevska,yes Alexia-Shara Iancu,yes Alina Nesmianovych,yes Gala Ivanovic,yes Alexa Karatancheva,yes Eliz Maloney,yes Ingrid Ioana Sanduleasa,yes Krystyna Pochtovyk,yes Madhurima Sawant,yes Marie Weckerle,yes Sonja Zhenikhova,yes Hokkaido Nippon-Ham Fighters,yes Erika Andreeva,yes Clara Burel,yes Elsa Jacquemot,yes Loes Ebeling Koning,yes Laura Samson,yes Ida Wobker,yes Alexandra Eala,yes Magdalena Frech",
-        "volume": 8062.5,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026970B0242309",
-        "category": ""
+        "title": "yes Both Teams To Score,yes Both Teams To Score,yes Birmingham,yes Bristol City,yes Swansea,yes Tie,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Arsenal,yes Atletico,yes Barcelona",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026B69B95E3CB6",
+        "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-12",
-      "topic": "Geopolitics",
-      "volume1mo": 32122.79,
-      "share_pct": 12.068189718757838,
-      "event_count": 31,
+      "date": "2026-10-13",
+      "topic": "Business/Economy",
+      "volume1mo": 18675.560000000012,
+      "share_pct": 5.963085980555465,
+      "event_count": 16,
       "example": {
-        "title": "yes Yosuke Watanuki,yes Robert Galloway / Andre Goransson,yes Jiri Lehecka,yes Taylor Fritz,yes Madhwin Kamath,yes Matthew Shearer,yes Caheer Warik,yes Wishaya Trongcharoenchaikul,yes KT Rolster,yes Hokkaido Nippon-Ham Fighters,yes Hanyu Guo / Kristina Mladenovic,yes Sara Bejlek,yes Maria Sakkari,yes Magdalena Frech",
-        "volume": 7194.24,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262DCA7A64C56",
+        "title": "yes Max Alcala Gurri,yes Henry Bernet,yes Vilius Gaubas,yes Shintaro Mochizuki,yes Valentin Royer,yes Pavel Lagutin,yes Tom Gentzsch,yes Massimo Giunta,yes Zsombor Piros,yes Federico Iannaccone,yes Edas Butvilas,yes Tomas Machac,yes Luka Mikrut,yes Radu Mihai Papoe,yes Marvin Moeller,yes Mattia Bellucci,yes Alejandro Davidovich Fokina,yes Jelena Ostapenko,yes Ann Li,yes Xiyu Wang,yes Marta Kostyuk",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S202627B661E4F13",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "topic": "Geopolitics",
+      "volume1mo": 15011.7,
+      "share_pct": 4.79321947049001,
+      "event_count": 11,
+      "example": {
+        "title": "yes Birmingham,yes Burnley,yes Cardiff,yes Millwall,yes Middlesbrough,yes Wolverhampton,yes Abo Qair Semads,yes Al Ittihad,yes National Bank Egypt,yes Reg Time: Austria,yes Reg Time: Finland,yes Reg Time: Slovenia,yes Reg Time: Ukraine,yes Arsenal,yes Atletico,yes Barcelona,yes Inter,yes Leipzig,yes Slavia Prague,yes Bayern Munich",
+        "volume": 8333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026EC5A098B31E",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-12",
-      "topic": "Unclassified",
-      "volume1mo": "158088.34000000",
-      "share_pct": "59.39210384",
-      "event_count": "193"
-    },
-    {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "topic": "Tech & Science",
-      "volume1mo": "40536.38000000",
-      "share_pct": "15.22908578",
-      "event_count": "36"
+      "volume1mo": "158704.71000000",
+      "share_pct": "50.67424116",
+      "event_count": "71"
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
+      "topic": "Unclassified",
+      "volume1mo": "120794.19000000",
+      "share_pct": "38.56945339",
+      "event_count": "154"
+    },
+    {
+      "date": "2026-10-13",
       "topic": "Business/Economy",
-      "volume1mo": "35429.86000000",
-      "share_pct": "13.31062066",
-      "event_count": "22"
+      "volume1mo": "18675.56000000",
+      "share_pct": "5.96308598",
+      "event_count": "16"
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "topic": "Geopolitics",
-      "volume1mo": "32122.79000000",
-      "share_pct": "12.06818972",
-      "event_count": "31"
+      "volume1mo": "15011.70000000",
+      "share_pct": "4.79321947",
+      "event_count": "11"
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "topic": "Total",
-      "volume1mo": "266177.37000000",
+      "volume1mo": "313186.16000000",
       "share_pct": "100.00000000",
-      "event_count": "282"
+      "event_count": "252"
     }
   ]
 }
