@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 252,
-  "sample_rows": 252,
-  "sum_volume1mo": 313186.1600000001,
-  "last_event_volume1mo": 0.2,
+  "positive_rows": 262,
+  "sample_rows": 262,
+  "sum_volume1mo": 309956.32,
+  "last_event_volume1mo": 0.35,
   "topics": [
     {
-      "date": "2026-10-13",
-      "topic": "Tech & Science",
-      "volume1mo": 158704.71000000002,
-      "share_pct": 50.67424116059278,
-      "event_count": 71,
-      "example": {
-        "title": "yes Max Alcala Gurri,yes Ugo Blanchet,yes Valentin Royer,yes Zsombor Piros,yes Miomir Kecmanovic,yes Nikolas Sanchez Izquierdo,yes Andrej Nedic,yes Nicolai Budkov Kjaer,yes Andrea Pellegrino,yes Luka Mikrut,yes Daniel Rincon,yes Raul Brancaccio,yes Mattia Bellucci,yes Alexander Zverev,yes Francesca Jones,yes Dalma Galfi,yes Alina Charaeva,yes Polona Hercog,yes Antonia Ruzic,yes Jil Teichmann,yes Fiona Ferro,yes Tamara Zidansek,yes Diana Shnaider,yes Yulia Putintseva,yes Elise Mertens,yes Nikola Bartunkova,yes Xiyu Wang,yes Marta Kostyuk",
-        "volume": 83766.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20267FA3177E434",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "topic": "Unclassified",
-      "volume1mo": 120794.19000000006,
-      "share_pct": 38.569453388361744,
-      "event_count": 154,
+      "volume1mo": 209165.12000000005,
+      "share_pct": 67.48212780433064,
+      "event_count": 189,
       "example": {
-        "title": "yes Both Teams To Score,yes Both Teams To Score,yes Birmingham,yes Bristol City,yes Swansea,yes Tie,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Arsenal,yes Atletico,yes Barcelona",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026B69B95E3CB6",
+        "title": "yes Benjamin Bonzi,yes Vit Kopriva,yes Zizou Bergs,yes Daniil Medvedev,yes Casper Ruud,yes Botic Van de Zandschulp,yes Both Teams To Score,yes Real Madrid,yes Leylah Fernandez,yes Janice Tjen",
+        "volume": 26875.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026CION35GWEDNOMGQJ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-13",
-      "topic": "Business/Economy",
-      "volume1mo": 18675.560000000012,
-      "share_pct": 5.963085980555465,
-      "event_count": 16,
+      "date": "2026-10-14",
+      "topic": "Tech & Science",
+      "volume1mo": 97008.50999999992,
+      "share_pct": 31.297477657497,
+      "event_count": 68,
       "example": {
-        "title": "yes Max Alcala Gurri,yes Henry Bernet,yes Vilius Gaubas,yes Shintaro Mochizuki,yes Valentin Royer,yes Pavel Lagutin,yes Tom Gentzsch,yes Massimo Giunta,yes Zsombor Piros,yes Federico Iannaccone,yes Edas Butvilas,yes Tomas Machac,yes Luka Mikrut,yes Radu Mihai Papoe,yes Marvin Moeller,yes Mattia Bellucci,yes Alejandro Davidovich Fokina,yes Jelena Ostapenko,yes Ann Li,yes Xiyu Wang,yes Marta Kostyuk",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S202627B661E4F13",
+        "title": "yes Otto Virtanen,yes Valentin Royer,yes Over 17.5 games,yes Tommy Paul,yes Daniil Medvedev,yes Casper Ruud,yes Rafael Jodar,yes Bayern Munich,yes Barcelona,yes Real Madrid,yes PSG,yes Bo Nix: 1+,yes Sam Darnold: 1+,yes AJ Barner: 3+,yes Cooper Kupp: 3+,yes Emanuel Wilson: 2+,yes George Holani: 2+,yes Iva Jovic,yes Karolina Muchova,yes Jessica Pegula,yes Diana Shnaider",
+        "volume": 16666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DRZIXCK2N2VBOLEU",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "topic": "Geopolitics",
-      "volume1mo": 15011.7,
-      "share_pct": 4.79321947049001,
-      "event_count": 11,
+      "volume1mo": 2850.15,
+      "share_pct": 0.9195327909429303,
+      "event_count": 3,
       "example": {
-        "title": "yes Birmingham,yes Burnley,yes Cardiff,yes Millwall,yes Middlesbrough,yes Wolverhampton,yes Abo Qair Semads,yes Al Ittihad,yes National Bank Egypt,yes Reg Time: Austria,yes Reg Time: Finland,yes Reg Time: Slovenia,yes Reg Time: Ukraine,yes Arsenal,yes Atletico,yes Barcelona,yes Inter,yes Leipzig,yes Slavia Prague,yes Bayern Munich",
-        "volume": 8333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026EC5A098B31E",
+        "title": "yes Martin Landaluce,yes Luka Pavlovic,yes Rafael Jodar,yes Evan Zhu,yes Andrey Chepelev,yes Cruz Hewitt,yes Isaac Becroft,yes S D Prajwal Dev,yes Jakub Filip,yes Tsung-Hao Huang,yes Sidharth Rawat,yes Samir Banerjee,yes Dhakshineswar Suresh,yes Pawit Sornlaksup,yes Arthur Weber,yes Yaojie ZENG,yes Anchisa Chanta,yes Junhan Zhang,yes Luisina Giovannini,yes Zuzanna Bednarz,yes Astrid Cirotte,yes Anita Tu,yes Angela Fita Boluda,yes Denislava Glushkova,yes Cristiana Nicoleta Todoni,yes Miriam Bianca Bulgaru,yes Dunja Maric,yes Andrea Obradovic,yes Alisa Oktiabreva,yes Ksenia Laskutova,yes Eliska Tichackova,yes Lucia Natal,yes Franziska Sziedat,yes Alessandra Mazzola,yes Yuliya Perapekhina,yes Radka Zelnickova,yes Fiona Ferro,yes Iva Jovic,yes Caty McNally,yes Nikola Bartunkova,yes Diana Shnaider",
+        "volume": 2500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026QBWX7VD43GQ262P5",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Business/Economy",
+      "volume1mo": 925.92,
+      "share_pct": 0.29872596241947896,
+      "event_count": 1,
+      "example": {
+        "title": "yes Both Teams To Score,no West Ham wins by more than 1.5 goals,yes Over 1.5 goals scored,no Over 3.5 goals scored,no Over 3.5 goals scored,no Over 3.5 goals scored,yes Over 0.5 goals scored,yes 8+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored",
+        "volume": 925.92,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026RYLYIHI2KQ6KIEY7",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Sports",
+      "volume1mo": 6.62,
+      "share_pct": 0.0021357848099370904,
+      "event_count": 1,
+      "example": {
+        "title": "yes BNK FEARX,yes OKSavingsBank BRION,yes FURIA Esports",
+        "volume": 6.62,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ZKHLHYPLNHFP7RUP",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-13",
-      "topic": "Tech & Science",
-      "volume1mo": "158704.71000000",
-      "share_pct": "50.67424116",
-      "event_count": "71"
-    },
-    {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "topic": "Unclassified",
-      "volume1mo": "120794.19000000",
-      "share_pct": "38.56945339",
-      "event_count": "154"
+      "volume1mo": "209165.12000000",
+      "share_pct": "67.48212780",
+      "event_count": "189"
     },
     {
-      "date": "2026-10-13",
-      "topic": "Business/Economy",
-      "volume1mo": "18675.56000000",
-      "share_pct": "5.96308598",
-      "event_count": "16"
+      "date": "2026-10-14",
+      "topic": "Tech & Science",
+      "volume1mo": "97008.51000000",
+      "share_pct": "31.29747766",
+      "event_count": "68"
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "topic": "Geopolitics",
-      "volume1mo": "15011.70000000",
-      "share_pct": "4.79321947",
-      "event_count": "11"
+      "volume1mo": "2850.15000000",
+      "share_pct": "0.91953279",
+      "event_count": "3"
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
+      "topic": "Business/Economy",
+      "volume1mo": "925.92000000",
+      "share_pct": "0.29872596",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Sports",
+      "volume1mo": "6.62000000",
+      "share_pct": "0.00213578",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-14",
       "topic": "Total",
-      "volume1mo": "313186.16000000",
+      "volume1mo": "309956.32000000",
       "share_pct": "100.00000000",
-      "event_count": "252"
+      "event_count": "262"
     }
   ]
 }
