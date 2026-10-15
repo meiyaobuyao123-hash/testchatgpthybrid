@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 262,
-  "sample_rows": 262,
-  "sum_volume1mo": 309956.32,
-  "last_event_volume1mo": 0.35,
+  "positive_rows": 199,
+  "sample_rows": 199,
+  "sum_volume1mo": 554121.8900000002,
+  "last_event_volume1mo": 0.46,
   "topics": [
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "topic": "Unclassified",
-      "volume1mo": 209165.12000000005,
-      "share_pct": 67.48212780433064,
-      "event_count": 189,
+      "volume1mo": 434509.40000000014,
+      "share_pct": 78.41404713320385,
+      "event_count": 166,
       "example": {
-        "title": "yes Benjamin Bonzi,yes Vit Kopriva,yes Zizou Bergs,yes Daniil Medvedev,yes Casper Ruud,yes Botic Van de Zandschulp,yes Both Teams To Score,yes Real Madrid,yes Leylah Fernandez,yes Janice Tjen",
-        "volume": 26875.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026CION35GWEDNOMGQJ",
+        "title": "yes Honori Koyama,yes aoyi li,yes Chengyiyi Yuan,yes Hanyu Guo",
+        "volume": 331666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026WYT7COVODOSSVQBG",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
+      "topic": "Sports",
+      "volume1mo": 68317.38,
+      "share_pct": 12.328944449388198,
+      "event_count": 5,
+      "example": {
+        "title": "yes Mattia Bellucci,yes Alejandro Davidovich Fokina,yes Alexander Zverev,yes Cruz Hewitt,yes Samir Banerjee,yes Carles Cordoba,yes Amr Elsayed,yes Sergey Fomin,yes Sidharth Rawat,yes Oskari Paldanius,yes Nikita Mashtakov,yes Lukas Pokorny,yes Karan Singh,yes Dhakshineswar Suresh,yes Luisina Giovannini,yes Rositsa Dencheva,yes Angela Fita Boluda,yes Thea Frodin,yes Sijia Wei,yes Malaika Rapolu,yes Gala Ivanovic,yes Karla Popovic,yes Kateryna Diatlova,yes Kamonwan Yodpetch,yes Matilde Paoletti,yes Natalija Senic,yes Eliska Tichackova,yes Anna Petkovic,yes Nina Radovanovic,yes Federica Sacco,yes Lamis Alhussein Abdel Aziz,yes Ru Xi Wu,yes Radka Zelnickova,yes Beatrise Zeltina,yes Laura Samson,yes Dalma Galfi,yes Francesca Jones,yes Clara Burel,yes Iva Jovic,yes Sonay Kartal,yes Maria Sakkari,yes Jelena Ostapenko,yes Elina Svitolina",
+        "volume": 50000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ANHLZUNQA3VFYIHM",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-15",
       "topic": "Tech & Science",
-      "volume1mo": 97008.50999999992,
-      "share_pct": 31.297477657497,
-      "event_count": 68,
+      "volume1mo": 36483.28000000001,
+      "share_pct": 6.583981008221855,
+      "event_count": 20,
       "example": {
-        "title": "yes Otto Virtanen,yes Valentin Royer,yes Over 17.5 games,yes Tommy Paul,yes Daniil Medvedev,yes Casper Ruud,yes Rafael Jodar,yes Bayern Munich,yes Barcelona,yes Real Madrid,yes PSG,yes Bo Nix: 1+,yes Sam Darnold: 1+,yes AJ Barner: 3+,yes Cooper Kupp: 3+,yes Emanuel Wilson: 2+,yes George Holani: 2+,yes Iva Jovic,yes Karolina Muchova,yes Jessica Pegula,yes Diana Shnaider",
-        "volume": 16666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DRZIXCK2N2VBOLEU",
+        "title": "yes Over 0.5 goals scored,yes Monaco,no Uni Craiova,yes Ajax,yes Trabzonspor,no Lugano,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Alkmaar,yes Leverkusen,yes Crystal Palace,yes Milan,yes Sparta Prague,yes Sunderland,yes Real Sociedad,yes Over 0.5 goals scored",
+        "volume": 11644.44,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026IO2RXLGJPUSC4TIV",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "topic": "Geopolitics",
-      "volume1mo": 2850.15,
-      "share_pct": 0.9195327909429303,
+      "volume1mo": 13257.43,
+      "share_pct": 2.3925115104187626,
+      "event_count": 5,
+      "example": {
+        "title": "yes Shao / Song,yes Adhithya Ganesan,yes Egor Pleshivtsev,yes Cruz Hewitt,yes Samir Banerjee,yes Alan Wazny,yes Kristijan Juhas,yes Carles Cordoba,yes Sergey Fomin,yes Jonas GUNDACKER,yes Sidharth Rawat,yes Nikita Mashtakov,yes Leo Borg,yes Karan Singh,yes Dhakshineswar Suresh,yes Jamie Mackenzie,yes Luca Wiedenmann,yes HAN / Yi Cody Wong,yes Luisina Giovannini,yes Rositsa Dencheva,yes Angela Fita Boluda,yes Thea Frodin,yes Sijia Wei,yes Malaika Rapolu,yes Gala Ivanovic,yes Karla Popovic,yes Yuliya Perapekhina,yes Kateryna Diatlova,yes Kamonwan Yodpetch,yes Matilde Paoletti,yes Kristina Kroitor,yes Tiphanie Lemaitre,yes Natalija Senic,yes Eliska Tichackova,yes Anna Petkovic,yes Nina Radovanovic,yes Ru Xi Wu,yes Beatrise Zeltina",
+        "volume": 8695.65,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BDQ6YPEIWXJZOBXI",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Business/Economy",
+      "volume1mo": 1554.4,
+      "share_pct": 0.2805158987673271,
       "event_count": 3,
       "example": {
-        "title": "yes Martin Landaluce,yes Luka Pavlovic,yes Rafael Jodar,yes Evan Zhu,yes Andrey Chepelev,yes Cruz Hewitt,yes Isaac Becroft,yes S D Prajwal Dev,yes Jakub Filip,yes Tsung-Hao Huang,yes Sidharth Rawat,yes Samir Banerjee,yes Dhakshineswar Suresh,yes Pawit Sornlaksup,yes Arthur Weber,yes Yaojie ZENG,yes Anchisa Chanta,yes Junhan Zhang,yes Luisina Giovannini,yes Zuzanna Bednarz,yes Astrid Cirotte,yes Anita Tu,yes Angela Fita Boluda,yes Denislava Glushkova,yes Cristiana Nicoleta Todoni,yes Miriam Bianca Bulgaru,yes Dunja Maric,yes Andrea Obradovic,yes Alisa Oktiabreva,yes Ksenia Laskutova,yes Eliska Tichackova,yes Lucia Natal,yes Franziska Sziedat,yes Alessandra Mazzola,yes Yuliya Perapekhina,yes Radka Zelnickova,yes Fiona Ferro,yes Iva Jovic,yes Caty McNally,yes Nikola Bartunkova,yes Diana Shnaider",
-        "volume": 2500.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026QBWX7VD43GQ262P5",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-14",
-      "topic": "Business/Economy",
-      "volume1mo": 925.92,
-      "share_pct": 0.29872596241947896,
-      "event_count": 1,
-      "example": {
-        "title": "yes Both Teams To Score,no West Ham wins by more than 1.5 goals,yes Over 1.5 goals scored,no Over 3.5 goals scored,no Over 3.5 goals scored,no Over 3.5 goals scored,yes Over 0.5 goals scored,yes 8+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes 7+ corners,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored",
-        "volume": 925.92,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026RYLYIHI2KQ6KIEY7",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-14",
-      "topic": "Sports",
-      "volume1mo": 6.62,
-      "share_pct": 0.0021357848099370904,
-      "event_count": 1,
-      "example": {
-        "title": "yes BNK FEARX,yes OKSavingsBank BRION,yes FURIA Esports",
-        "volume": 6.62,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ZKHLHYPLNHFP7RUP",
+        "title": "yes Adhithya Ganesan,yes Cruz Hewitt,yes Samir Banerjee,yes Carles Cordoba,yes Amr Elsayed,yes Sergey Fomin,yes Pietro Orlando Fellin,yes Sidharth Rawat,yes Oskari Paldanius,yes Nikita Mashtakov,yes Anton Arzhankin,yes Lukas Pokorny,yes Karan Singh,yes Dhakshineswar Suresh,yes Li / Yi Liu,yes HAN / Yi Cody Wong,yes Luisina Giovannini,yes Rositsa Dencheva,yes Angela Fita Boluda,yes Thea Frodin,yes Sijia Wei,yes Malaika Rapolu,yes Gala Ivanovic,yes Karla Popovic,yes Yuliya Perapekhina,yes Kateryna Diatlova,yes Felitsata Dorofeeva-Rybas,yes Kamonwan Yodpetch,yes Matilde Paoletti,yes Natalija Senic,yes Eliska Tichackova,yes Anna Petkovic,yes Nellie Taraba Wallberg,yes Nina Radovanovic,yes Federica Sacco,yes Lamis Alhussein Abdel Aziz,yes Ru Xi Wu,yes Radka Zelnickova,yes Beatrise Zeltina",
+        "volume": 775.19,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026LSOFZA3SQJ6ZIFLN",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "topic": "Unclassified",
-      "volume1mo": "209165.12000000",
-      "share_pct": "67.48212780",
-      "event_count": "189"
+      "volume1mo": "434509.40000000",
+      "share_pct": "78.41404713",
+      "event_count": "166"
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
+      "topic": "Sports",
+      "volume1mo": "68317.38000000",
+      "share_pct": "12.32894445",
+      "event_count": "5"
+    },
+    {
+      "date": "2026-10-15",
       "topic": "Tech & Science",
-      "volume1mo": "97008.51000000",
-      "share_pct": "31.29747766",
-      "event_count": "68"
+      "volume1mo": "36483.28000000",
+      "share_pct": "6.58398101",
+      "event_count": "20"
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "topic": "Geopolitics",
-      "volume1mo": "2850.15000000",
-      "share_pct": "0.91953279",
+      "volume1mo": "13257.43000000",
+      "share_pct": "2.39251151",
+      "event_count": "5"
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Business/Economy",
+      "volume1mo": "1554.40000000",
+      "share_pct": "0.28051590",
       "event_count": "3"
     },
     {
-      "date": "2026-10-14",
-      "topic": "Business/Economy",
-      "volume1mo": "925.92000000",
-      "share_pct": "0.29872596",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-10-14",
-      "topic": "Sports",
-      "volume1mo": "6.62000000",
-      "share_pct": "0.00213578",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "topic": "Total",
-      "volume1mo": "309956.32000000",
+      "volume1mo": "554121.89000000",
       "share_pct": "100.00000000",
-      "event_count": "262"
+      "event_count": "199"
     }
   ]
 }
