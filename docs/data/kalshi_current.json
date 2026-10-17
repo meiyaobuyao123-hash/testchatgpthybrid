@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 229,
-  "sample_rows": 229,
-  "sum_volume1mo": 331181.3099999997,
-  "last_event_volume1mo": 0.4,
+  "positive_rows": 182,
+  "sample_rows": 182,
+  "sum_volume1mo": 239996.53999999998,
+  "last_event_volume1mo": 0.08,
   "topics": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "topic": "Unclassified",
-      "volume1mo": 215229.16999999972,
-      "share_pct": 64.98832014403226,
-      "event_count": 192,
+      "volume1mo": 203124.98,
+      "share_pct": 84.63662851139439,
+      "event_count": 149,
       "example": {
-        "title": "yes Casper Ruud,yes Anastasija Cvetkovic,yes Gala Ivanovic,yes Iva Ivanova,yes Cristiana Nicoleta Todoni,yes Anja Stankovic,yes Luisina Giovannini,yes Maja Chwalinska,yes Sonay Kartal",
-        "volume": 30000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026XXI3ERI3S3FXA2UX",
+        "title": "yes Bremen,yes Dortmund,yes Dalian Yingbo FC,yes Yunnan Yukun,yes Slavia Prague,yes Bristol City,yes Middlesbrough,yes Millwall,yes Norwich,yes Southampton,yes West Ham,yes Wrexham,yes Bodoe/Glimt,yes Viking,yes Brentford,yes Everton,yes Fulham,yes Eindhoven,yes Atletico,yes Barcelona,yes Bilbao,yes Villarreal,yes Lens,yes Lille,yes PSG,yes Hibernian,yes Inter,yes Roma,yes Napoli,yes Fenerbahce,yes Galatasaray",
+        "volume": 25000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026NJICNYHVWOK7H6NP",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
+      "topic": "Tech & Science",
+      "volume1mo": 25240.280000000002,
+      "share_pct": 10.5169349524789,
+      "event_count": 24,
+      "example": {
+        "title": "yes Rina Saigo,yes Aoi Ito,yes Sinja Kraus,yes Polina Kudermetova,yes Yihan Qu",
+        "volume": 5180.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026IRFM4URKQBQKLZTN",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-17",
       "topic": "Business/Economy",
-      "volume1mo": 84045.97000000002,
-      "share_pct": 25.377630760624776,
+      "volume1mo": 6028.33,
+      "share_pct": 2.5118403790321313,
       "event_count": 5,
       "example": {
-        "title": "yes Jacob Fearnley,yes Felix Gill,yes Zsombor Piros,yes Maks Kasnikowski,yes Martin Landaluce,yes Tomas Machac,yes Shintaro Mochizuki,yes Luka Mikrut,yes Massimo Giunta,yes Daniil Medvedev,yes Martin Borisiouk,yes Thanapet Chanta,yes Cruz Hewitt,yes Pietro Orlando Fellin,yes Romain Faucon,yes Nikita Mashtakov,yes Samir Banerjee,yes Astrid Cirotte,yes Federica Urgesi,yes Kamonwan Yodpetch,yes Jessica Bouzas Maneiro,yes Clara Burel,yes Dominika Salkova,yes Sonay Kartal,yes Iga Swiatek",
-        "volume": 56555.55,
-        "event_ticker": "KXMVECROSSCATEGORY-S202636KFFJSN6ADDOULM",
+        "title": "yes Mattia Bellucci,yes Felix Gill,yes Gianluca Cadenasso,yes Martin Landaluce,yes Gabriel Diallo,yes Rei Sakamoto,yes Federico Cina,yes Adam Walton,yes Alexander Zverev,no Tie,yes Kashima,yes Hiroshima,yes Shimizu,yes Tokyo,yes Gabriela Dabrowski / Luisa Stefani,yes Harriet Dart,yes Aoi Ito,yes Sinja Kraus,yes Polina Kudermetova,yes Claire Liu,yes Jeline Vandromme,yes Yulia Putintseva,yes Iga Swiatek,yes Sofia Kenin",
+        "volume": 3000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026FNIJR5ZJOPJYDKXI",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-16",
-      "topic": "Tech & Science",
-      "volume1mo": 26688.170000000002,
-      "share_pct": 8.05847709220065,
-      "event_count": 22,
-      "example": {
-        "title": "yes Besiktas JK,yes BC Zalgiris Kaunas,yes KK Crvena zvezda Belgrade,yes Panathinaikos BC,yes Virtus Bologna,yes Atletico,yes Villarreal,yes Lille,yes PSG,yes Philadelphia,yes Indiana,yes Detroit,yes Atlanta,yes Over 152.5 points",
-        "volume": 11428.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026HEJQ3QM3IBVQFG7F",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-16",
-      "topic": "Geopolitics",
-      "volume1mo": 3679.54,
-      "share_pct": 1.1110349192108708,
-      "event_count": 9,
-      "example": {
-        "title": "yes Kyren Williams: 1+,yes Derrick Henry: 1+,yes Josh Allen: 1+,yes Tetairoa McMillan: 1+,yes Christian Watson: 1+,yes Bhayshul Tuten: 1+,yes Kenneth Walker III: 1+,yes Rhamondre Stevenson: 1+,yes Jaylen Warren: 1+",
-        "volume": 909.09,
-        "event_ticker": "KXMVECROSSCATEGORY0-S2026643ROLOQ7MUKCDGB",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-16",
-      "topic": "Sports",
-      "volume1mo": 1538.46,
-      "share_pct": 0.4645370839314578,
+      "date": "2026-10-17",
+      "topic": "Crypto",
+      "volume1mo": 3112.84,
+      "share_pct": 1.2970353655931874,
       "event_count": 1,
       "example": {
-        "title": "yes Martin Landaluce,yes Tomas Machac,yes Shintaro Mochizuki,yes Rafael Jodar,yes Daniil Medvedev,yes Alexander Zverev,yes Liquid,yes 100 Thieves,yes Memphis,yes Los Angeles R,yes Carolina,yes New England,yes Pittsburgh,yes San Francisco,no Pittsburgh wins by over 2.5 goals,yes LOUD,yes G2 Esports",
-        "volume": 1538.46,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026TH7AEN2DMSO6W7O5",
-        "category": ""
+        "title": "yes Stefanos Sakellaridis,yes Nikoloz Basilashvili,yes Alexander Zverev,yes Bianca Andreescu,yes Jeline Vandromme,yes Anna Bondar,yes Sonay Kartal,yes Iga Swiatek",
+        "volume": 3112.84,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026AQZSCKLIJXRPFPCO",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "topic": "Sports",
+      "volume1mo": 2022.83,
+      "share_pct": 0.8428579845359437,
+      "event_count": 2,
+      "example": {
+        "title": "yes Stuttgart,yes Dortmund,yes Liverpool,yes Chelsea,yes Manchester City,yes Atletico,yes Barcelona,yes PSG,yes Philadelphia,yes Inter,yes Napoli",
+        "volume": 1471.87,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026IUL2JTKNXZEAT3KV",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "topic": "Geopolitics",
+      "volume1mo": 467.28,
+      "share_pct": 0.1947028069654671,
+      "event_count": 1,
+      "example": {
+        "title": "yes Trey McBride: 4+,yes Puka Nacua: 5+,yes Zay Flowers: 4+,yes Brock Bowers: 5+,yes Jalen Coker: 3+,yes Tetairoa McMillan: 3+,yes Drake London: 5+,yes Luther Burden III: 3+,yes Christian Watson: 3+,yes Matthew Golden: 3+,yes Tucker Kraft: 3+,yes Nico Collins: 4+,yes Parker Washington: 3+,yes Travis Kelce: 3+,yes Isaiah Likely: 4+,yes Rhamondre Stevenson: 2+,yes Garrett Wilson: 4+,yes Jaylen Warren: 3+,yes Emeka Egbuka: 3+,yes Tyler Warren: 4+",
+        "volume": 467.28,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026J5DHRS5XGL4RIC4Y",
+        "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "topic": "Unclassified",
-      "volume1mo": "215229.17000000",
-      "share_pct": "64.98832014",
-      "event_count": "192"
+      "volume1mo": "203124.98000000",
+      "share_pct": "84.63662851",
+      "event_count": "149"
     },
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
+      "topic": "Tech & Science",
+      "volume1mo": "25240.28000000",
+      "share_pct": "10.51693495",
+      "event_count": "24"
+    },
+    {
+      "date": "2026-10-17",
       "topic": "Business/Economy",
-      "volume1mo": "84045.97000000",
-      "share_pct": "25.37763076",
+      "volume1mo": "6028.33000000",
+      "share_pct": "2.51184038",
       "event_count": "5"
     },
     {
-      "date": "2026-10-16",
-      "topic": "Tech & Science",
-      "volume1mo": "26688.17000000",
-      "share_pct": "8.05847709",
-      "event_count": "22"
-    },
-    {
-      "date": "2026-10-16",
-      "topic": "Geopolitics",
-      "volume1mo": "3679.54000000",
-      "share_pct": "1.11103492",
-      "event_count": "9"
-    },
-    {
-      "date": "2026-10-16",
-      "topic": "Sports",
-      "volume1mo": "1538.46000000",
-      "share_pct": "0.46453708",
+      "date": "2026-10-17",
+      "topic": "Crypto",
+      "volume1mo": "3112.84000000",
+      "share_pct": "1.29703537",
       "event_count": "1"
     },
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
+      "topic": "Sports",
+      "volume1mo": "2022.83000000",
+      "share_pct": "0.84285798",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-10-17",
+      "topic": "Geopolitics",
+      "volume1mo": "467.28000000",
+      "share_pct": "0.19470281",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-10-17",
       "topic": "Total",
-      "volume1mo": "331181.31000000",
+      "volume1mo": "239996.54000000",
       "share_pct": "100.00000000",
-      "event_count": "229"
+      "event_count": "182"
     }
   ]
 }
