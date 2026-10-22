@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-22",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 230,
-  "sample_rows": 230,
-  "sum_volume1mo": 315726.16999999987,
-  "last_event_volume1mo": 0.43,
+  "positive_rows": 170,
+  "sample_rows": 170,
+  "sum_volume1mo": 225702.88000000003,
+  "last_event_volume1mo": 0.01,
   "topics": [
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Unclassified",
-      "volume1mo": 240538.17999999982,
-      "share_pct": 76.18569597825861,
-      "event_count": 182,
+      "volume1mo": 158577.73000000004,
+      "share_pct": 70.25950665760224,
+      "event_count": 114,
       "example": {
-        "title": "yes Mattia Bellucci,yes James Duckworth,yes Atlanta,yes Brooklyn,yes Indiana,yes Minnesota,no Over 237.5 points,yes Buffalo wins by over 1.5 goals",
-        "volume": 114285.71,
-        "event_ticker": "KXMVECROSSCATEGORY-S202626YLMOWO3M5WBEAY",
+        "title": "yes Philadelphia,yes Oklahoma City wins by over 7.5 points,yes Caleb Williams: 1+,yes DeMario Douglas: 1+,yes Drake Maye: 1+,no Over 51.5 points",
+        "volume": 32142.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026IPFBZVIO6AMXAODG",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Tech & Science",
-      "volume1mo": 69638.26,
-      "share_pct": 22.056537156866035,
-      "event_count": 38,
+      "volume1mo": 44798.68000000001,
+      "share_pct": 19.848519434045325,
+      "event_count": 40,
       "example": {
-        "title": "yes Oriol Roca Batalla,yes Coleman Wong,yes Theo Arribage / Albano Olivetti,yes Andrey Rublev,yes Naoki Nakagawa,yes Blake Ellis,yes Kosuke Ogura,yes Corban Crowther,yes Samir Banerjee,yes Fausto Tabacco,yes Alan Wazny,yes Matyas Fuele,yes Thanapet Chanta,yes Digvijay Pratap Singh,yes James Van Herzeele,yes Ergi Kirkin,yes Sergey Petrov,yes Hosoki / Tse,yes Lamis Alhussein Abdel Aziz,yes Priska Madelyn Nugroho,yes Daria KHOMUTSIANSKAYA,yes Anna Petkovic,yes Aurora Nosei,yes Despina Papamichail,yes Lidia Podgorichani,yes Viktoria Varga,yes Storm Hunter / Janice Tjen",
-        "volume": 25510.2,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026WQGAYWCDUUU4C3VH",
+        "title": "yes Kairat,yes Copenhagen,yes Brighton,yes Getafe,yes Kauno,yes Trabzonspor,yes Dinamo Zagreb,yes Ferencvarosi,yes Juventus,yes Leverkusen,yes Marseille",
+        "volume": 14285.71,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026WDM4FYRXKNWGMBUX",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-21",
-      "topic": "Geopolitics",
-      "volume1mo": 5137.53,
-      "share_pct": 1.627210693367611,
-      "event_count": 7,
-      "example": {
-        "title": "yes Target Price: $82,620.33,yes Target Price: $2,438.11,yes Milwaukee,yes Tampa Bay,yes Anthony Edwards: 3+,yes LaMelo Ball: 3+,yes Jalen Johnson: 15+,yes Nickeil Alexander-Walker: 10+,yes Nikola Vu\u010devi\u0107: 10+,yes Paolo Banchero: 15+,yes Michael Porter Jr.: 15+,yes Norman Powell: 15+,yes Kawhi Leonard: 20+,yes RJ Barrett: 15+,yes Daniel Gafford: 10+,yes P.J. Washington: 15+,yes Amen Thompson: 15+,yes Kevin Durant: 20+,yes Saddiq Bey: 10+,yes Bam Adebayo: 15+,yes Anthony Edwards: 20+,yes LaMelo Ball: 15+,yes Moussa Diabat\u00e9: 6+,yes Anthony Edwards: 1+,no Atlanta over 116.5 points,yes Sam Houston,yes Appalachian St.,yes Kennesaw St.,yes New England,yes Miami,yes Pittsburgh,yes Target Price: $1.3339",
-        "volume": 2000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026YIXN57JEYNZP4IXE",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "topic": "Sports",
-      "volume1mo": 387.7,
-      "share_pct": 0.12279628261414001,
-      "event_count": 2,
-      "example": {
-        "title": "yes D'Andre Swift: 4+,yes Sam LaPorta: 1+,yes Kenneth Walker III: 1+,yes Malik Nabers: 1+,yes Christian McCaffrey: 1+",
-        "volume": 359.71,
-        "event_ticker": "KXMVECROSSCATEGORY0-S20265PATPBR5WWZ6D2JU",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Business/Economy",
-      "volume1mo": 24.5,
-      "share_pct": 0.007759888893594094,
+      "volume1mo": 11292.409999999998,
+      "share_pct": 5.003219276599393,
+      "event_count": 6,
+      "example": {
+        "title": "yes Cook / Walkin,yes Chang / Wright,yes Fukuda / Noguchi,yes Brown / Connel,yes Blake Ellis,yes Adhithya Ganesan,yes Garrett Johns,yes Li Tu,yes Yue Xia,yes Samir Banerjee,yes Constantin Bittoun Kouzmine,yes Robin Bertrand,yes Jakub Filip,yes Daniel Masur,yes Benjamin Pietri,yes Oskari Paldanius,yes Ergi Kirkin,yes Arthur Nagel,yes Sidharth Rawat,yes Kasra Rahmani,yes Thantub Suksumrarn,yes Dhakshineswar Suresh,yes An Lin / Lu,yes Bista / Thapa,yes Charyyeva / Ponyatova,yes Chanta / Naklo,yes Feng / Li,yes Huang / Wei,yes Shin / Yuldasheva,yes Jin Elliott / Isabel Gvan Heras,yes Sagandykova / Yodpetch,yes Tran Tchouassi Louise / KHANH VU,yes Sapfo Sakellaridi,yes Jiangxue HAN,yes Alexandra Malova,yes Varvara Panshina,yes Tara Wuerth,yes Yidi Yang,yes Federica Sacco,yes Lamis Alhussein Abdel Aziz,yes Karla Popovic,yes Charo Esquiva Banuls,yes Victoria Milovanova,yes Maaya Rajeshwaran Revathi,yes Neus Torner Sensano,yes Elena Milovanovic,yes Sandra Samir,yes Marie Vogt,yes Radka Zelnickova",
+        "volume": 4285.71,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SHKWY6DTW7Y5CKEC",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Geopolitics",
+      "volume1mo": 5806.789999999999,
+      "share_pct": 2.572758486732645,
+      "event_count": 9,
+      "example": {
+        "title": "yes Memphis,yes Liberty,yes BYU,yes SMU,yes Oklahoma St.,yes UConn,yes UCLA,yes Delaware St.,yes Oregon,yes Florida Atlantic,yes Northwestern,yes Texas Tech,yes Virginia Tech,yes West Virginia,yes Boise St.,yes Butler,yes Campbell,yes Lamar,yes Indiana,yes LSU,yes Central Connecticut St.,yes Tennessee Tech,yes Alabama,yes Dayton",
+        "volume": 2010.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ZCW5HIYXWXUNEI7K",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Sports",
+      "volume1mo": 5227.27,
+      "share_pct": 2.3159961450203914,
       "event_count": 1,
       "example": {
-        "title": "no Target Price: $742.59,no Target Price: $80.6030,yes Target Price: $105.6115,no Target Price: $1,253.1366",
-        "volume": 24.5,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026PHQZ2BD6SLGSGQ7D",
-        "category": ""
+        "title": "yes New Jersey,yes Carolina,yes Detroit,yes Pittsburgh,yes Los Angeles,yes Minnesota,yes Boston,yes New York R,yes Ottawa,yes Seattle,yes St. Louis,yes Dallas",
+        "volume": 5227.27,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026GVBJGB4PIOZMNNHL",
+        "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Unclassified",
-      "volume1mo": "240538.18000000",
-      "share_pct": "76.18569598",
-      "event_count": "182"
+      "volume1mo": "158577.73000000",
+      "share_pct": "70.25950666",
+      "event_count": "114"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Tech & Science",
-      "volume1mo": "69638.26000000",
-      "share_pct": "22.05653716",
-      "event_count": "38"
+      "volume1mo": "44798.68000000",
+      "share_pct": "19.84851943",
+      "event_count": "40"
     },
     {
-      "date": "2026-10-21",
-      "topic": "Geopolitics",
-      "volume1mo": "5137.53000000",
-      "share_pct": "1.62721069",
-      "event_count": "7"
-    },
-    {
-      "date": "2026-10-21",
-      "topic": "Sports",
-      "volume1mo": "387.70000000",
-      "share_pct": "0.12279628",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Business/Economy",
-      "volume1mo": "24.50000000",
-      "share_pct": "0.00775989",
+      "volume1mo": "11292.41000000",
+      "share_pct": "5.00321928",
+      "event_count": "6"
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Geopolitics",
+      "volume1mo": "5806.79000000",
+      "share_pct": "2.57275849",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Sports",
+      "volume1mo": "5227.27000000",
+      "share_pct": "2.31599615",
       "event_count": "1"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "topic": "Total",
-      "volume1mo": "315726.17000000",
+      "volume1mo": "225702.88000000",
       "share_pct": "100.00000000",
-      "event_count": "230"
+      "event_count": "170"
     }
   ]
 }
