@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-30",
+  "as_of": "2026-10-31",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 178,
-  "sample_rows": 178,
-  "sum_volume1mo": 176072.78,
-  "last_event_volume1mo": 0.08,
+  "positive_rows": 137,
+  "sample_rows": 137,
+  "sum_volume1mo": 240377.99000000005,
+  "last_event_volume1mo": 1.23,
   "topics": [
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Unclassified",
-      "volume1mo": 141354.61,
-      "share_pct": 80.28192091929257,
-      "event_count": 143,
+      "volume1mo": 174195.15000000005,
+      "share_pct": 72.46717971142034,
+      "event_count": 110,
       "example": {
-        "title": "yes Bayern Munich,yes West Ham,yes Real Madrid,yes Villarreal,yes Barcelona,yes Real Betis,yes Guadalajara,yes Lyon,no Toulouse wins by more than 1.5 goals,yes Denver,yes Detroit,yes Miami,yes New York,yes Dallas,yes Kansas City,yes New England,yes Washington,yes Cincinnati,yes Utah,yes Florida,yes Dallas,yes Colorado,no Minnesota wins by over 2.5 goals,yes Como,yes Inter",
-        "volume": 12500.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026FTIKGQQ3GS77XISE",
+        "title": "yes Sydney FC,yes Standard,yes Wolfsburg,yes Middlesbrough,yes Millwall,yes Norwich,yes Stoke,yes Swansea,yes West Ham,yes Wolverhampton,yes Rosenborg,yes Feyenoord,yes Eindhoven,yes Kashima,yes Al Hilal,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 2.5 goals scored,yes Hibernian,yes Rangers,yes Olympiacos,yes Fenerbahce,yes Bursa,yes Karagumruk,yes Racing Club",
+        "volume": 28333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026W2B7DX6OVVK6URQ2",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Tech & Science",
-      "volume1mo": 29126.64,
-      "share_pct": 16.54238661989661,
-      "event_count": 32,
+      "volume1mo": 44381.0,
+      "share_pct": 18.463004869955018,
+      "event_count": 17,
       "example": {
-        "title": "yes Dallas wins by over 7.5 points,yes Atlanta wins by over 3.5 points,no Buffalo wins by over 6.5 points,yes Pittsburgh wins by over 3.5 points,yes Jacksonville wins by over 6.5 points,yes Kansas City wins by over 2.5 points,yes Los Angeles R wins by over 6.5 points,yes Las Vegas wins by over 2.5 points,yes Detroit wins by over 6.5 points,yes New England wins by over 7.5 points,yes Cincinnati wins by over 13.5 points",
-        "volume": 18863.63,
-        "event_ticker": "KXMVECROSSCATEGORY0-S2026EAIXO2TUH462GHFX",
+        "title": "yes Aston Villa,yes Bournemouth,yes Nottingham Forest,yes Manchester United,yes Coventry,yes Ipswich Town,yes Brighton,yes Crystal Palace",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026VYBUMSIGQAIBRANE",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Geopolitics",
-      "volume1mo": 2884.61,
-      "share_pct": 1.6383054779960877,
-      "event_count": 1,
+      "volume1mo": 21801.84,
+      "share_pct": 9.06981541862464,
+      "event_count": 10,
       "example": {
-        "title": "yes George Pickens: 30+,yes Kyle Pitts Sr.: 15+,yes Chris Godwin Jr.: 30+,yes Rashod Bateman: 25+,yes Dalton Kincaid: 30+,yes KC Concepcion Jr.: 30+,yes Keenan Allen: 20+,yes Brenton Strange: 25+,yes Kyren Williams: 15+,yes Brock Bowers: 40+,yes Tre Tucker: 30+,yes Garrett Wilson: 40+,yes Sam LaPorta: 25+,yes T.J. Hockenson: 25+,yes A.J. Brown: 30+,yes Tee Higgins: 40+,yes Carnell Tate: 30+,yes Jaylen Warren: 90+",
-        "volume": 2884.61,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026SX6JASQST3TXUDLE",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-30",
-      "topic": "Business/Economy",
-      "volume1mo": 2631.57,
-      "share_pct": 1.4945921794385255,
-      "event_count": 1,
-      "example": {
-        "title": "yes Federico Cina,yes Jie Cui,yes Jake Delaney,yes Alexandra Eala,yes Jil Teichmann,yes Xinran Sun,yes Han Shi",
-        "volume": 2631.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265WHO3C3ERSR2F2XS",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-30",
-      "topic": "Crypto",
-      "volume1mo": 75.35,
-      "share_pct": 0.04279480337619477,
-      "event_count": 1,
-      "example": {
-        "title": "yes Washington,yes New York,no Los Angeles L wins by over 4.5 points",
-        "volume": 75.35,
-        "event_ticker": "KXMVECROSSCATEGORY-S20266KMXRPHCNEYCONSB",
+        "title": "yes Trey McBride: 1+,yes Bijan Robinson: 1+,yes Derrick Henry: 1+,yes James Cook III: 1+,yes Jaylen Warren: 1+,yes Jonathan Taylor: 1+,yes Kenneth Walker III: 1+,yes Kyren Williams: 1+,yes Ashton Jeanty: 1+,yes Rhamondre Stevenson: 1+,yes Saquon Barkley: 1+,yes Chase Brown: 1+,yes Jaxon Smith-Njigba: 1+",
+        "volume": 7142.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026O5NEIU4IKPD7AII6",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Unclassified",
-      "volume1mo": "141354.61000000",
-      "share_pct": "80.28192092",
-      "event_count": "143"
+      "volume1mo": "174195.15000000",
+      "share_pct": "72.46717971",
+      "event_count": "110"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Tech & Science",
-      "volume1mo": "29126.64000000",
-      "share_pct": "16.54238662",
-      "event_count": "32"
+      "volume1mo": "44381.00000000",
+      "share_pct": "18.46300487",
+      "event_count": "17"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Geopolitics",
-      "volume1mo": "2884.61000000",
-      "share_pct": "1.63830548",
-      "event_count": "1"
+      "volume1mo": "21801.84000000",
+      "share_pct": "9.06981542",
+      "event_count": "10"
     },
     {
-      "date": "2026-10-30",
-      "topic": "Business/Economy",
-      "volume1mo": "2631.57000000",
-      "share_pct": "1.49459218",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-10-30",
-      "topic": "Crypto",
-      "volume1mo": "75.35000000",
-      "share_pct": "0.04279480",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "topic": "Total",
-      "volume1mo": "176072.78000000",
+      "volume1mo": "240377.99000000",
       "share_pct": "100.00000000",
-      "event_count": "178"
+      "event_count": "137"
     }
   ]
 }
