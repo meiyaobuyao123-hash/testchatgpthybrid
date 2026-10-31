@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-10-31",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 137,
+  "sample_rows": 137,
+  "sum_volume1mo": 240377.99000000005,
+  "last_event_volume1mo": 1.23,
+  "topics": [
+    {
+      "date": "2026-10-31",
+      "topic": "Unclassified",
+      "volume1mo": 174195.15000000005,
+      "share_pct": 72.46717971142034,
+      "event_count": 110,
+      "example": {
+        "title": "yes Sydney FC,yes Standard,yes Wolfsburg,yes Middlesbrough,yes Millwall,yes Norwich,yes Stoke,yes Swansea,yes West Ham,yes Wolverhampton,yes Rosenborg,yes Feyenoord,yes Eindhoven,yes Kashima,yes Al Hilal,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 2.5 goals scored,yes Hibernian,yes Rangers,yes Olympiacos,yes Fenerbahce,yes Bursa,yes Karagumruk,yes Racing Club",
+        "volume": 28333.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026W2B7DX6OVVK6URQ2",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Tech & Science",
+      "volume1mo": 44381.0,
+      "share_pct": 18.463004869955018,
+      "event_count": 17,
+      "example": {
+        "title": "yes Aston Villa,yes Bournemouth,yes Nottingham Forest,yes Manchester United,yes Coventry,yes Ipswich Town,yes Brighton,yes Crystal Palace",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026VYBUMSIGQAIBRANE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Geopolitics",
+      "volume1mo": 21801.84,
+      "share_pct": 9.06981541862464,
+      "event_count": 10,
+      "example": {
+        "title": "yes Trey McBride: 1+,yes Bijan Robinson: 1+,yes Derrick Henry: 1+,yes James Cook III: 1+,yes Jaylen Warren: 1+,yes Jonathan Taylor: 1+,yes Kenneth Walker III: 1+,yes Kyren Williams: 1+,yes Ashton Jeanty: 1+,yes Rhamondre Stevenson: 1+,yes Saquon Barkley: 1+,yes Chase Brown: 1+,yes Jaxon Smith-Njigba: 1+",
+        "volume": 7142.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026O5NEIU4IKPD7AII6",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-10-31",
+      "topic": "Unclassified",
+      "volume1mo": "174195.15000000",
+      "share_pct": "72.46717971",
+      "event_count": "110"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Tech & Science",
+      "volume1mo": "44381.00000000",
+      "share_pct": "18.46300487",
+      "event_count": "17"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Geopolitics",
+      "volume1mo": "21801.84000000",
+      "share_pct": "9.06981542",
+      "event_count": "10"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Total",
+      "volume1mo": "240377.99000000",
+      "share_pct": "100.00000000",
+      "event_count": "137"
+    }
+  ]
+}
