@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 137,
-  "sample_rows": 137,
-  "sum_volume1mo": 240377.99000000005,
-  "last_event_volume1mo": 1.23,
+  "positive_rows": 183,
+  "sample_rows": 183,
+  "sum_volume1mo": 469061.3100000001,
+  "last_event_volume1mo": 0.03,
   "topics": [
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "topic": "Unclassified",
-      "volume1mo": 174195.15000000005,
-      "share_pct": 72.46717971142034,
-      "event_count": 110,
+      "volume1mo": 423285.84000000014,
+      "share_pct": 90.2410475935438,
+      "event_count": 156,
       "example": {
-        "title": "yes Sydney FC,yes Standard,yes Wolfsburg,yes Middlesbrough,yes Millwall,yes Norwich,yes Stoke,yes Swansea,yes West Ham,yes Wolverhampton,yes Rosenborg,yes Feyenoord,yes Eindhoven,yes Kashima,yes Al Hilal,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 2.5 goals scored,yes Hibernian,yes Rangers,yes Olympiacos,yes Fenerbahce,yes Bursa,yes Karagumruk,yes Racing Club",
-        "volume": 28333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026W2B7DX6OVVK6URQ2",
+        "title": "yes Baker Mayfield: 200+,yes Deshaun Watson: 200+,yes Kendrick Bourne: 40+,yes Omar Cooper Jr.: 40+,yes Amon-Ra St. Brown: 80+,yes Jeremiyah Love: 1+,yes CeeDee Lamb: 1+,yes Derrick Henry: 1+,yes James Cook III: 1+,yes Omar Cooper Jr.: 1+",
+        "volume": 121951.21,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026KEDSETCCPGJUJGDD",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-10-31",
-      "topic": "Tech & Science",
-      "volume1mo": 44381.0,
-      "share_pct": 18.463004869955018,
-      "event_count": 17,
-      "example": {
-        "title": "yes Aston Villa,yes Bournemouth,yes Nottingham Forest,yes Manchester United,yes Coventry,yes Ipswich Town,yes Brighton,yes Crystal Palace",
-        "volume": 20000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026VYBUMSIGQAIBRANE",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "topic": "Geopolitics",
-      "volume1mo": 21801.84,
-      "share_pct": 9.06981541862464,
-      "event_count": 10,
+      "volume1mo": 27217.53,
+      "share_pct": 5.802552762239118,
+      "event_count": 15,
       "example": {
-        "title": "yes Trey McBride: 1+,yes Bijan Robinson: 1+,yes Derrick Henry: 1+,yes James Cook III: 1+,yes Jaylen Warren: 1+,yes Jonathan Taylor: 1+,yes Kenneth Walker III: 1+,yes Kyren Williams: 1+,yes Ashton Jeanty: 1+,yes Rhamondre Stevenson: 1+,yes Saquon Barkley: 1+,yes Chase Brown: 1+,yes Jaxon Smith-Njigba: 1+",
-        "volume": 7142.85,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026O5NEIU4IKPD7AII6",
+        "title": "yes Kendrick Bourne: 2+,yes Michael Wilson: 3+,yes Trey McBride: 4+,yes CeeDee Lamb: 4+,yes Ryan Flournoy: 2+,yes Austin Hooper: 1+,yes Bijan Robinson: 2+,yes Drake London: 3+,yes Jahan Dotson: 2+,yes Kyle Pitts Sr.: 3+,yes Chris Godwin Jr.: 2+,yes Cade Otton: 2+,yes Mark Andrews: 2+,yes Keon Coleman: 2+,yes Harold Fannin Jr.: 2+,yes KC Concepcion Jr.: 2+,yes DK Metcalf: 2+,yes Germie Bernard: 2+,yes Jaylen Warren: 2+,yes Keenan Allen: 3+,yes Laquon Treadwell: 2+,yes Brenton Strange: 2+,yes Parker Washington: 3+,yes Ashton Jeanty: 2+,yes Brock Bowers: 3+,yes Tre Tucker: 2+,yes Adonai Mitchell: 2+,yes Garrett Wilson: 3+,yes Kenyon Sadiq: 2+,yes Omar Cooper Jr.: 2+,yes Amon-Ra St. Brown: 4+,yes Jahmyr Gibbs: 2+,yes Jameson Williams: 2+,yes Justin Jefferson: 3+,yes T.J. Hockenson: 3+,yes Chase Brown: 2+,yes Dohnte Meyers: 2+,yes Tee Higgins: 3+,yes Bijan Robinson: 50+,yes Bucky Irving: 40+,yes Jahmyr Gibbs: 50+",
+        "volume": 16666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SHTGV3ETSHYW6Y2K",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Tech & Science",
+      "volume1mo": 13292.16,
+      "share_pct": 2.8337788081477018,
+      "event_count": 11,
+      "example": {
+        "title": "yes Bucky Irving: 1+,yes Derrick Henry: 1+,yes Zay Flowers: 1+,yes Dalton Kincaid: 1+,yes Bhayshul Tuten: 1+,yes Parker Washington: 1+,yes Brock Bowers: 1+,yes Garrett Wilson: 1+,yes Amon-Ra St. Brown: 1+,yes Jahmyr Gibbs: 1+,yes Justin Jefferson: 1+",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026J5JNBVIUORTAA2RE",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Business/Economy",
+      "volume1mo": 5265.78,
+      "share_pct": 1.1226208360693826,
+      "event_count": 1,
+      "example": {
+        "title": "yes Hugo Dellien,yes Peter Makk,yes Matthew William Donald,yes Mika Brunold,yes Sebastian Sorger,yes Mitsuki Wei Kang Leong,yes Adrian Andreev,yes Manas Dhamne,yes Santiago De la Fuente,yes Jonas Forejtek,yes Lorenzo Gagliardo,yes Max Houkes,yes Giles Hussey,yes Ziga Sesko,yes Alibek Kachmazov,yes Vadym Ursu,yes Daniel Milavsky,yes Giovanni Mpetshi Perricard,yes Federico Aguilar Cardozo,yes Tiago Pereira,yes Lucas Poullain,yes Franco Ribero,yes Leonardo Rossi,yes Justin Boulais,yes Ryo Tabata,yes Denys Klok,yes Niels Visker",
+        "volume": 5265.78,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266XODRTFMLKXEQEEG",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "topic": "Unclassified",
-      "volume1mo": "174195.15000000",
-      "share_pct": "72.46717971",
-      "event_count": "110"
+      "volume1mo": "423285.84000000",
+      "share_pct": "90.24104759",
+      "event_count": "156"
     },
     {
-      "date": "2026-10-31",
-      "topic": "Tech & Science",
-      "volume1mo": "44381.00000000",
-      "share_pct": "18.46300487",
-      "event_count": "17"
-    },
-    {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "topic": "Geopolitics",
-      "volume1mo": "21801.84000000",
-      "share_pct": "9.06981542",
-      "event_count": "10"
+      "volume1mo": "27217.53000000",
+      "share_pct": "5.80255276",
+      "event_count": "15"
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
+      "topic": "Tech & Science",
+      "volume1mo": "13292.16000000",
+      "share_pct": "2.83377881",
+      "event_count": "11"
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Business/Economy",
+      "volume1mo": "5265.78000000",
+      "share_pct": "1.12262084",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-01",
       "topic": "Total",
-      "volume1mo": "240377.99000000",
+      "volume1mo": "469061.31000000",
       "share_pct": "100.00000000",
-      "event_count": "137"
+      "event_count": "183"
     }
   ]
 }
