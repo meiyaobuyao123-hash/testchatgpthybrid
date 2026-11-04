@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,139 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 228,
-  "sample_rows": 228,
-  "sum_volume1mo": 356304.8399999998,
-  "last_event_volume1mo": 1.48,
+  "positive_rows": 208,
+  "sample_rows": 208,
+  "sum_volume1mo": 281229.7599999999,
+  "last_event_volume1mo": 0.07,
   "topics": [
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Unclassified",
-      "volume1mo": 292991.24999999977,
-      "share_pct": 82.230499591305,
-      "event_count": 191,
+      "volume1mo": 207938.4199999999,
+      "share_pct": 73.93898142216527,
+      "event_count": 163,
       "example": {
-        "title": "no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,no Tie,yes Barcelona,yes PSG,yes Real Madrid,no Tie,no Tie,yes Manchester City,yes Como,yes Arsenal",
-        "volume": 33333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026NTFWMD5TLRW2KYID",
+        "title": "yes Dortmund,yes Bayern Munich,yes Leipzig,yes Stuttgart,yes Everton,yes Arsenal,yes Fulham,yes Manchester City,yes Brighton,yes Bournemouth,yes Manchester United,yes Espanyol,yes Real Madrid,yes Barcelona,yes Roma,yes Inter",
+        "volume": 22222.22,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026WNUUPDKYRAEFC6FA",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Tech & Science",
-      "volume1mo": 58203.07000000001,
-      "share_pct": 16.335189272197383,
-      "event_count": 33,
+      "volume1mo": 71774.49,
+      "share_pct": 25.52165531841297,
+      "event_count": 44,
       "example": {
-        "title": "yes Shanghai Port,yes LASK,yes Tie,yes Barcelona,yes Tie,yes Tie,yes Tie,yes Tie,yes Tie,yes Arsenal,yes Viking",
-        "volume": 25000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026EAIGDAZYTLD7T74J",
+        "title": "yes Yuta Kikuchi,yes Filip Peliwo,yes Alessio Basile,yes Oleg Kolninov,yes Muzammil Murtaza,yes Sara Saito,yes Jia-Jing Lu,yes Theresa Stabauer,yes Aoi Ito,yes Antonia Ruzic,yes Mika Stojsavljevic",
+        "volume": 21428.57,
+        "event_ticker": "KXMVECROSSCATEGORY-S20264LKK5OQRFTBGBLOY",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-03",
-      "topic": "Sports",
-      "volume1mo": 3421.51,
-      "share_pct": 0.9602760377883169,
-      "event_count": 1,
-      "example": {
-        "title": "yes Target Price: $76,715.24,yes FaZe,yes Natus Vincere,yes Top Esports",
-        "volume": 3421.51,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ZD65PJOZLT3C2IEV",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "topic": "Crypto",
-      "volume1mo": 1271.18,
-      "share_pct": 0.3567675364724209,
-      "event_count": 1,
-      "example": {
-        "title": "yes LASK,yes Bayern Munich,yes Barcelona,yes Inter,yes Roma,yes PSG,yes Over 2.5 goals scored,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored",
-        "volume": 1271.18,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026TICXRPH3BJKZSV2B",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Business/Economy",
-      "volume1mo": 409.83,
-      "share_pct": 0.11502229383131596,
+      "volume1mo": 1516.85,
+      "share_pct": 0.5393632594217627,
       "event_count": 1,
       "example": {
-        "title": "yes Kasidit Samrej,yes Kyoka Okamura,yes Anastasia Zakharova,yes Weronika Falkowska",
-        "volume": 409.83,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026YYPNJ3RJGDPBESBT",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "topic": "Geopolitics",
-      "volume1mo": 8.0,
-      "share_pct": 0.00224526840555969,
-      "event_count": 1,
-      "example": {
-        "title": "yes Bayern Munich,yes Maya Joint,yes Alexandra Eala,yes Maaya Rajeshwaran Revathi,yes Janice Tjen,yes Simona Waltert",
-        "volume": 8.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026THQFC42BO2ZS24LG",
+        "title": "yes India,yes United Arab Emirates,yes Both Teams To Score,yes Real Madrid,yes Liverpool,yes Manchester City,yes Como,yes Over 1.5 goals scored,yes Bengal Women",
+        "volume": 1516.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SEAD5TNISJ2VNVES",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Unclassified",
-      "volume1mo": "292991.25000000",
-      "share_pct": "82.23049959",
-      "event_count": "191"
+      "volume1mo": "207938.42000000",
+      "share_pct": "73.93898142",
+      "event_count": "163"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Tech & Science",
-      "volume1mo": "58203.07000000",
-      "share_pct": "16.33518927",
-      "event_count": "33"
+      "volume1mo": "71774.49000000",
+      "share_pct": "25.52165532",
+      "event_count": "44"
     },
     {
-      "date": "2026-11-03",
-      "topic": "Sports",
-      "volume1mo": "3421.51000000",
-      "share_pct": "0.96027604",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-03",
-      "topic": "Crypto",
-      "volume1mo": "1271.18000000",
-      "share_pct": "0.35676754",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Business/Economy",
-      "volume1mo": "409.83000000",
-      "share_pct": "0.11502229",
+      "volume1mo": "1516.85000000",
+      "share_pct": "0.53936326",
       "event_count": "1"
     },
     {
-      "date": "2026-11-03",
-      "topic": "Geopolitics",
-      "volume1mo": "8.00000000",
-      "share_pct": "0.00224527",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "topic": "Total",
-      "volume1mo": "356304.84000000",
+      "volume1mo": "281229.76000000",
       "share_pct": "100.00000000",
-      "event_count": "228"
+      "event_count": "208"
     }
   ]
 }
