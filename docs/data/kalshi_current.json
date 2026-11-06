@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 177,
-  "sample_rows": 177,
-  "sum_volume1mo": 353556.4599999998,
-  "last_event_volume1mo": 0.71,
+  "positive_rows": 185,
+  "sample_rows": 185,
+  "sum_volume1mo": 217453.66999999984,
+  "last_event_volume1mo": 1.0,
   "topics": [
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Unclassified",
-      "volume1mo": 280680.5299999998,
-      "share_pct": 79.38775323183177,
-      "event_count": 156,
+      "volume1mo": 209733.94999999984,
+      "share_pct": 96.4499472462341,
+      "event_count": 167,
       "example": {
-        "title": "no Target Price: $80,349.96,no Target Price: $2,414.36,yes LSU,yes Kennesaw St.,yes Florida St.,yes Northwestern,yes Baylor,yes Georgia Southern,yes Michigan,yes Coastal Carolina,yes Oklahoma St.,yes Tennessee,yes North Carolina,no Arizona wins by over 14.5 points,yes Notre Dame wins by over 2.5 points,no Washington wins by over 7.5 points,yes New Orleans,yes Detroit,yes San Francisco,yes Kansas City",
-        "volume": 71428.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026VGYNRDOMTLLFOBUG",
+        "title": "yes Nebraska,yes Arizona,yes New Mexico,yes Tarleton St.,yes Auburn,yes Boise St.,yes UAB,yes Harvard,yes Duke,yes Appalachian St.,yes Baylor,yes Liberty,yes Louisville,yes Louisiana Tech,yes Marist,yes Florida International,yes Georgia Southern,yes Montana St.,yes Monmouth,yes San Jose St.,yes Coastal Carolina,yes Oklahoma St.,yes Ohio St.,yes North Texas,yes Wisconsin,yes South Dakota St.,yes Jacksonville St.,yes Oregon St.,yes UCLA,yes Arkansas St.,yes North Carolina,yes Louisiana,yes UC Davis,yes Dayton,yes Texas Tech,yes UNLV",
+        "volume": 30000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BKQMSABHSKJLQUDZ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Tech & Science",
-      "volume1mo": 52165.43,
-      "share_pct": 14.754483626179546,
-      "event_count": 15,
+      "volume1mo": 6271.149999999999,
+      "share_pct": 2.883901660523827,
+      "event_count": 16,
       "example": {
-        "title": "yes Carlos Alcaraz,yes Tommy Paul,yes Ben Shelton,yes Golden State,yes James Madison,yes South Carolina St.,yes UTSA,yes Arizona,yes New Mexico,yes Auburn,yes Harvard,yes Baylor,yes Jackson St.,yes Monmouth,yes Montana,yes North Carolina,yes Tennessee Tech,yes Youngstown St.,yes Indiana,yes Pittsburgh,yes Syracuse,yes Penn St.,yes Texas Tech,yes Arizona,yes Charlotte,yes Cincinnati,yes Seton Hall,yes Virginia Tech,yes Notre Dame,yes Tulsa,yes Mississippi St.,yes Illinois,yes Michigan St.,yes Utah,yes Loyola Chicago,yes SMU,yes Vanderbilt,yes Boston College,yes Alabama,yes Texas Tech,yes SMU,yes Miami (FL),yes Miami (OH),yes Jacksonville,yes Seattle,yes Dallas,yes Detroit,yes Kansas City,yes Tampa Bay,yes Anna Blinkova,yes Noma Noha Akugue,yes Anastasia Zakharova,yes Sorana Cirstea,yes Mai Hontama,yes Zeynep Sonmez",
-        "volume": 37500.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026DHW4YRPDFFJXRAGS",
+        "title": "yes Everton,yes Tottenham,yes Sevilla,yes New Orleans,yes Oklahoma City,yes Philadelphia,yes Los Angeles L,yes San Antonio,yes Toronto,yes Dallas,yes Atlanta,yes Ayo Dosunmu: 10+,yes Jaden McDaniels: 10+,yes Saddiq Bey: 10+,yes Zion Williamson: 10+,yes Donovan Mitchell: 15+,yes Evan Mobley: 10+,yes James Harden: 10+,yes Jaylen Brown: 10+,yes LeBron James: 10+,yes Jaime Jaquez Jr.: 10+,yes Tyler Herro: 15+,yes Scottie Barnes: 15+,yes Cooper Flagg: 20+",
+        "volume": 1111.11,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026E6NYHFYHFX32VBEF",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Culture",
-      "volume1mo": 20710.5,
-      "share_pct": 5.8577631419886975,
-      "event_count": 6,
+      "volume1mo": 1448.57,
+      "share_pct": 0.666151093242069,
+      "event_count": 2,
       "example": {
-        "title": "yes Chepelev / Fufygin,yes Khotchenkov / Yazdani,yes Duje Ajdukovic,yes Stefan Adrian Andreescu,yes Amir Omarkhanov,yes John Echeverria,yes Alessio Basile,yes Dmitry Bessonov,yes Lorenzo Bocchi,yes Chirag Duhan,yes Tuncay Duran,yes Pablo Perez Ramos,yes Nino Ehrenschneider,yes Robin Bertrand,yes Xirui Han,yes Millen Hurrion,yes Filip Cristian Jianu,yes Saba Purtseladze,yes Andrey Chepelev,yes Dragos Nicolae Madaras,yes David Eichenseher,yes Adrian Oetzbach,yes Alejandro Moro Canas,yes Calvin Mueller,yes Andrej Nedic,yes Aziz Dougaz,yes Cezar Cretu,yes Cesar Bouchelaghem,yes Aristarkh Safonov,yes Giulio Perego,yes Sergi Perez Contri,yes Alan Wazny,yes Digvijay Pratap Singh,yes Rigele Te,yes Pierre Yves Bailly,yes Antoni Fabre,yes Oscar Weightman,yes Ioannis Xilas,yes Tianhui Zhang,yes Madelyn Nugroho / Sidorova,yes Iushchenko / Turkmen,yes BoYoung Jeong,yes Valeriia Iushchenko",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026MB4PZBUWPDD5DAOF",
+        "title": "yes Hrazdil / Lakshmanan,yes Duhan / Murtaza,yes Basile / Van Der Meerschen,yes Jeong / Yang,yes Chepelev / Fufygin,yes Anavatan / Mert Ozdemir,yes Samuele Pieri,yes Sergi Perez Contri,yes Duje Ajdukovic,yes Robin Bertrand,yes Aleksandre Bakshi,yes Cezar Cretu,yes Gianmarco Ferrari,yes Filip Cristian Jianu,yes Artur Kukasian,yes Aziz Dougaz,yes Michele Mecarelli,yes Alejandro Moro Canas,yes Dragos Nicolae Madaras,yes Martin Van Der Meerschen,yes Oscar Weightman",
+        "volume": 980.39,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026X4GWTPDWGBAE6MOC",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Unclassified",
-      "volume1mo": "280680.53000000",
-      "share_pct": "79.38775323",
-      "event_count": "156"
+      "volume1mo": "209733.95000000",
+      "share_pct": "96.44994725",
+      "event_count": "167"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Tech & Science",
-      "volume1mo": "52165.43000000",
-      "share_pct": "14.75448363",
-      "event_count": "15"
+      "volume1mo": "6271.15000000",
+      "share_pct": "2.88390166",
+      "event_count": "16"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Culture",
-      "volume1mo": "20710.50000000",
-      "share_pct": "5.85776314",
-      "event_count": "6"
+      "volume1mo": "1448.57000000",
+      "share_pct": "0.66615109",
+      "event_count": "2"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "topic": "Total",
-      "volume1mo": "353556.46000000",
+      "volume1mo": "217453.67000000",
       "share_pct": "100.00000000",
-      "event_count": "177"
+      "event_count": "185"
     }
   ]
 }
