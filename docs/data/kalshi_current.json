@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,119 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 185,
-  "sample_rows": 185,
-  "sum_volume1mo": 217453.66999999984,
-  "last_event_volume1mo": 1.0,
+  "positive_rows": 146,
+  "sample_rows": 146,
+  "sum_volume1mo": 177806.98000000007,
+  "last_event_volume1mo": 1.03,
   "topics": [
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "topic": "Unclassified",
-      "volume1mo": 209733.94999999984,
-      "share_pct": 96.4499472462341,
-      "event_count": 167,
+      "volume1mo": 133504.29000000007,
+      "share_pct": 75.08382966742926,
+      "event_count": 126,
       "example": {
-        "title": "yes Nebraska,yes Arizona,yes New Mexico,yes Tarleton St.,yes Auburn,yes Boise St.,yes UAB,yes Harvard,yes Duke,yes Appalachian St.,yes Baylor,yes Liberty,yes Louisville,yes Louisiana Tech,yes Marist,yes Florida International,yes Georgia Southern,yes Montana St.,yes Monmouth,yes San Jose St.,yes Coastal Carolina,yes Oklahoma St.,yes Ohio St.,yes North Texas,yes Wisconsin,yes South Dakota St.,yes Jacksonville St.,yes Oregon St.,yes UCLA,yes Arkansas St.,yes North Carolina,yes Louisiana,yes UC Davis,yes Dayton,yes Texas Tech,yes UNLV",
-        "volume": 30000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BKQMSABHSKJLQUDZ",
+        "title": "yes Dortmund,yes Bayern Munich,yes Leipzig,yes Arsenal,yes Manchester City,yes Liverpool,yes Chelsea,yes Real Madrid,yes PSG,yes Roma,yes Milan,yes Inter",
+        "volume": 11111.11,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265IXPM5HAZWSWMAE2",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "topic": "Tech & Science",
-      "volume1mo": 6271.149999999999,
-      "share_pct": 2.883901660523827,
-      "event_count": 16,
+      "volume1mo": 42787.549999999996,
+      "share_pct": 24.06404405496341,
+      "event_count": 17,
       "example": {
-        "title": "yes Everton,yes Tottenham,yes Sevilla,yes New Orleans,yes Oklahoma City,yes Philadelphia,yes Los Angeles L,yes San Antonio,yes Toronto,yes Dallas,yes Atlanta,yes Ayo Dosunmu: 10+,yes Jaden McDaniels: 10+,yes Saddiq Bey: 10+,yes Zion Williamson: 10+,yes Donovan Mitchell: 15+,yes Evan Mobley: 10+,yes James Harden: 10+,yes Jaylen Brown: 10+,yes LeBron James: 10+,yes Jaime Jaquez Jr.: 10+,yes Tyler Herro: 15+,yes Scottie Barnes: 15+,yes Cooper Flagg: 20+",
-        "volume": 1111.11,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026E6NYHFYHFX32VBEF",
+        "title": "yes Target Price: $75,944.19,yes Target Price: $2,243.72,no Target Price: $79.0969,yes Han Shi,yes TCU,yes Target Price: $3.7411,yes Adelaide Strikers Women,yes Namibia Women",
+        "volume": 27272.72,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026V5CY2D5OY7JZX4LX",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-06",
-      "topic": "Culture",
-      "volume1mo": 1448.57,
-      "share_pct": 0.666151093242069,
-      "event_count": 2,
+      "date": "2026-11-07",
+      "topic": "Crypto",
+      "volume1mo": 757.57,
+      "share_pct": 0.4260631388036621,
+      "event_count": 1,
       "example": {
-        "title": "yes Hrazdil / Lakshmanan,yes Duhan / Murtaza,yes Basile / Van Der Meerschen,yes Jeong / Yang,yes Chepelev / Fufygin,yes Anavatan / Mert Ozdemir,yes Samuele Pieri,yes Sergi Perez Contri,yes Duje Ajdukovic,yes Robin Bertrand,yes Aleksandre Bakshi,yes Cezar Cretu,yes Gianmarco Ferrari,yes Filip Cristian Jianu,yes Artur Kukasian,yes Aziz Dougaz,yes Michele Mecarelli,yes Alejandro Moro Canas,yes Dragos Nicolae Madaras,yes Martin Van Der Meerschen,yes Oscar Weightman",
-        "volume": 980.39,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026X4GWTPDWGBAE6MOC",
+        "title": "yes Dortmund,yes Bayern Munich,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Arsenal,yes Manchester City,yes Liverpool,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 2.5 goals scored,yes Real Madrid,yes Barcelona,yes Over 2.5 goals scored,yes Over 2.5 goals scored,yes PSG,yes Over 2.5 goals scored",
+        "volume": 757.57,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SXRPIUBCQPKXLIWJ",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Geopolitics",
+      "volume1mo": 454.54,
+      "share_pct": 0.25563675846696227,
+      "event_count": 1,
+      "example": {
+        "title": "yes Auburn,yes Utah,yes Clemson,yes Duke,yes Baylor,yes LIU,yes Purdue,yes Delaware St.,yes North Carolina Central,yes Coastal Carolina,yes Cornell,yes Villanova,yes Texas,yes UCLA,yes San Diego",
+        "volume": 454.54,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026RLWK4YPJY7IHRFV7",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Sports",
+      "volume1mo": 303.03,
+      "share_pct": 0.17042638033669988,
+      "event_count": 1,
+      "example": {
+        "title": "yes TCU,yes LSU,yes Duke,yes Florida St.,yes Oklahoma St.,yes UCLA,yes North Texas wins by over 9.5 points,yes Emmett Johnson: 15+,yes Braelon Allen: 10+,yes Breece Hall: 10+",
+        "volume": 303.03,
+        "event_ticker": "KXMVECROSSCATEGORY-S20266FDYJCKSJLH5PZCS",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "topic": "Unclassified",
-      "volume1mo": "209733.95000000",
-      "share_pct": "96.44994725",
-      "event_count": "167"
+      "volume1mo": "133504.29000000",
+      "share_pct": "75.08382967",
+      "event_count": "126"
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "topic": "Tech & Science",
-      "volume1mo": "6271.15000000",
-      "share_pct": "2.88390166",
-      "event_count": "16"
+      "volume1mo": "42787.55000000",
+      "share_pct": "24.06404405",
+      "event_count": "17"
     },
     {
-      "date": "2026-11-06",
-      "topic": "Culture",
-      "volume1mo": "1448.57000000",
-      "share_pct": "0.66615109",
-      "event_count": "2"
+      "date": "2026-11-07",
+      "topic": "Crypto",
+      "volume1mo": "757.57000000",
+      "share_pct": "0.42606314",
+      "event_count": "1"
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
+      "topic": "Geopolitics",
+      "volume1mo": "454.54000000",
+      "share_pct": "0.25563676",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Sports",
+      "volume1mo": "303.03000000",
+      "share_pct": "0.17042638",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-07",
       "topic": "Total",
-      "volume1mo": "217453.67000000",
+      "volume1mo": "177806.98000000",
       "share_pct": "100.00000000",
-      "event_count": "185"
+      "event_count": "146"
     }
   ]
 }
