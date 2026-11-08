@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 146,
-  "sample_rows": 146,
-  "sum_volume1mo": 177806.98000000007,
-  "last_event_volume1mo": 1.03,
+  "positive_rows": 114,
+  "sample_rows": 114,
+  "sum_volume1mo": 88406.07000000002,
+  "last_event_volume1mo": 5.78,
   "topics": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "topic": "Unclassified",
-      "volume1mo": 133504.29000000007,
-      "share_pct": 75.08382966742926,
-      "event_count": 126,
+      "volume1mo": 70182.78000000003,
+      "share_pct": 79.386833958347,
+      "event_count": 96,
       "example": {
-        "title": "yes Dortmund,yes Bayern Munich,yes Leipzig,yes Arsenal,yes Manchester City,yes Liverpool,yes Chelsea,yes Real Madrid,yes PSG,yes Roma,yes Milan,yes Inter",
-        "volume": 11111.11,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265IXPM5HAZWSWMAE2",
+        "title": "yes Jaxon Smith-Njigba: 1+,yes Ja'Marr Chase: 1+,yes Harold Fannin Jr.: 1+,yes Jonah Coleman: 1+,yes Luther Burden III: 1+",
+        "volume": 7196.4,
+        "event_ticker": "KXMVECROSSCATEGORY0-S2026DP225YTZ54XA5N5A",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "topic": "Tech & Science",
-      "volume1mo": 42787.549999999996,
-      "share_pct": 24.06404405496341,
+      "volume1mo": 17881.96,
+      "share_pct": 20.227072643315097,
       "event_count": 17,
       "example": {
-        "title": "yes Target Price: $75,944.19,yes Target Price: $2,243.72,no Target Price: $79.0969,yes Han Shi,yes TCU,yes Target Price: $3.7411,yes Adelaide Strikers Women,yes Namibia Women",
-        "volume": 27272.72,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026V5CY2D5OY7JZX4LX",
+        "title": "yes Zach Charbonnet: 1+,yes Kyle Pitts Sr.: 1+,yes Jonathan Taylor: 1+,yes Jonah Coleman: 1+,yes Malik Washington: 1+,yes Marvin Harrison Jr.: 1+",
+        "volume": 4347.82,
+        "event_ticker": "KXMVECROSSCATEGORY0-S2026AIVYUVV2QDGPMNOZ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-07",
-      "topic": "Crypto",
-      "volume1mo": 757.57,
-      "share_pct": 0.4260631388036621,
+      "date": "2026-11-08",
+      "topic": "Business/Economy",
+      "volume1mo": 341.33,
+      "share_pct": 0.38609339833791945,
       "event_count": 1,
       "example": {
-        "title": "yes Dortmund,yes Bayern Munich,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Arsenal,yes Manchester City,yes Liverpool,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 2.5 goals scored,yes Real Madrid,yes Barcelona,yes Over 2.5 goals scored,yes Over 2.5 goals scored,yes PSG,yes Over 2.5 goals scored",
-        "volume": 757.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026SXRPIUBCQPKXLIWJ",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-07",
-      "topic": "Geopolitics",
-      "volume1mo": 454.54,
-      "share_pct": 0.25563675846696227,
-      "event_count": 1,
-      "example": {
-        "title": "yes Auburn,yes Utah,yes Clemson,yes Duke,yes Baylor,yes LIU,yes Purdue,yes Delaware St.,yes North Carolina Central,yes Coastal Carolina,yes Cornell,yes Villanova,yes Texas,yes UCLA,yes San Diego",
-        "volume": 454.54,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026RLWK4YPJY7IHRFV7",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-07",
-      "topic": "Sports",
-      "volume1mo": 303.03,
-      "share_pct": 0.17042638033669988,
-      "event_count": 1,
-      "example": {
-        "title": "yes TCU,yes LSU,yes Duke,yes Florida St.,yes Oklahoma St.,yes UCLA,yes North Texas wins by over 9.5 points,yes Emmett Johnson: 15+,yes Braelon Allen: 10+,yes Breece Hall: 10+",
-        "volume": 303.03,
-        "event_ticker": "KXMVECROSSCATEGORY-S20266FDYJCKSJLH5PZCS",
+        "title": "yes Carlos Alcaraz,no Tie 1st Half,yes Barcelona,yes Real Sociedad,yes Both Teams To Score,yes Over 0.5 goals scored,yes San Francisco,yes Milan,yes Atalanta",
+        "volume": 341.33,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ELKBYZEXQ4FEDKKW",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "topic": "Unclassified",
-      "volume1mo": "133504.29000000",
-      "share_pct": "75.08382967",
-      "event_count": "126"
+      "volume1mo": "70182.78000000",
+      "share_pct": "79.38683396",
+      "event_count": "96"
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "topic": "Tech & Science",
-      "volume1mo": "42787.55000000",
-      "share_pct": "24.06404405",
+      "volume1mo": "17881.96000000",
+      "share_pct": "20.22707264",
       "event_count": "17"
     },
     {
-      "date": "2026-11-07",
-      "topic": "Crypto",
-      "volume1mo": "757.57000000",
-      "share_pct": "0.42606314",
+      "date": "2026-11-08",
+      "topic": "Business/Economy",
+      "volume1mo": "341.33000000",
+      "share_pct": "0.38609340",
       "event_count": "1"
     },
     {
-      "date": "2026-11-07",
-      "topic": "Geopolitics",
-      "volume1mo": "454.54000000",
-      "share_pct": "0.25563676",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-07",
-      "topic": "Sports",
-      "volume1mo": "303.03000000",
-      "share_pct": "0.17042638",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "topic": "Total",
-      "volume1mo": "177806.98000000",
+      "volume1mo": "88406.07000000",
       "share_pct": "100.00000000",
-      "event_count": "146"
+      "event_count": "114"
     }
   ]
 }
