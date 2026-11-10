@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,139 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 186,
-  "sample_rows": 186,
-  "sum_volume1mo": 213390.00000000006,
-  "last_event_volume1mo": 0.13,
+  "positive_rows": 162,
+  "sample_rows": 162,
+  "sum_volume1mo": 117837.19999999994,
+  "last_event_volume1mo": 0.36,
   "topics": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Unclassified",
-      "volume1mo": 162431.92000000004,
-      "share_pct": 76.1197431932143,
-      "event_count": 159,
+      "volume1mo": 91738.47999999994,
+      "share_pct": 77.85188378542598,
+      "event_count": 136,
       "example": {
-        "title": "yes Billy Harris,yes Mutsumi Uemura,yes Priska Madelyn Nugroho,yes Sae Noguchi,yes Houston,yes Toronto,yes Golden State,yes Detroit,no Cleveland wins by over 16.5 points,no Dallas wins by over 10.5 points,no Los Angeles L wins by over 10.5 points,no San Antonio wins by over 19.5 points,yes Over 200.5 points,yes Buffalo,yes Edmonton,no San Jose wins by over 1.5 goals,no Philadelphia wins by over 2.5 goals",
-        "volume": 49333.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262SG6UOBAMDTMMCJ5",
+        "title": "yes Dong / Yang,yes Huang / Lu,yes Eichenseher / Mueller,yes Bunyarit / Kamput,yes Vito Dell'elba,yes Alessandro Bellifemine,yes Ruben Hartig,yes Andrea Paolini,yes Zhao Zhao,yes Nazar Oliynykov,yes Mac Visser,yes Alexander Wagner,yes Alexandra Malova",
+        "volume": 15000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026U262VCRF6CLO2GSQ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Tech & Science",
-      "volume1mo": 43502.350000000006,
-      "share_pct": 20.386311448521482,
-      "event_count": 21,
+      "volume1mo": 26070.149999999998,
+      "share_pct": 22.12387089985167,
+      "event_count": 25,
       "example": {
-        "title": "yes Billy Harris,yes Ugo Blanchet,yes Adrien Gobat,yes Oleksii Krutykh,yes Jack Loge,yes Adrian Andreev,yes Lorenzo Angelini,yes Benjamin Pietri,yes Lorenzo Carboni,yes Jayson Blando,yes Mayuka Aikawa,yes Kamonwan Yodpetch,yes Jiangxue Han,yes Yuno Kitahara,yes Priska Madelyn Nugroho,yes Nagi Hanatani,yes Ena Shibahara,yes Hanna Bougouffa,yes Amelie Brooks,yes Alina Nesmianovych,yes Francesca Parcelli,yes Anna Burchak,yes Capucine Cedillo- Vayson de Pradenne",
-        "volume": 25125.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026O2J3IP3K4WBNFC3F",
+        "title": "yes Phoenix,yes Miami,yes New York,yes Orlando,yes Jayson Tatum: 20+,yes LeBron James: 10+,yes Jalen Brunson: 20+,yes Shai Gilgeous-Alexander: 25+,yes Buffalo,yes Houston,yes Jacksonville,yes Kansas City,yes Los Angeles R,yes Green Bay,yes Detroit,yes Cincinnati,yes Seattle,yes San Francisco,yes Baltimore,yes Chelsea,yes Manchester City,yes Bayern,yes Real Madrid,yes Roma,yes Spain,yes England,yes France,yes Belgium",
+        "volume": 7142.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026UW6QAODU2XOF3X6B",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Geopolitics",
-      "volume1mo": 7363.51,
-      "share_pct": 3.450728712685692,
-      "event_count": 3,
-      "example": {
-        "title": "yes Thiago Seyboth Wild,yes Marco Cecchinato,yes Branko Djuric,yes Liam Draxl,yes John Echeverria,yes Ugo Blanchet,yes Stefan Kozlov,yes Marcos Giron,yes Luka Mikrut,yes Timo Legout,yes Aidan Mayo,yes Braden Shick,yes Clement Tabur,yes Cameron Norrie,yes Tomas Martin Etcheverry,yes Tomas Machac,yes Alex Michelsen,yes Mirra Andreeva,yes Aryna Sabalenka",
-        "volume": 5000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20267P4WJGFPIUDCDMMD",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-09",
-      "topic": "Business/Economy",
-      "volume1mo": 64.32,
-      "share_pct": 0.030141993532967794,
+      "volume1mo": 28.57,
+      "share_pct": 0.024245314722345757,
       "event_count": 1,
       "example": {
-        "title": "no Target Price: $675.43,no Target Price: $6.38348,no Target Price: $0.0682106,no Target Price: $4,091.44,no Target Price: $73.1815,no Target Price: $3.4786,no Target Price: $52.161,no Target Price: $85.4920,yes Target Price: $89.32,no Target Price: $1.0857",
-        "volume": 64.32,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026SGBMYOFRPLZJCBGE",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-09",
-      "topic": "Crypto",
-      "volume1mo": 20.49,
-      "share_pct": 0.009602136932377334,
-      "event_count": 1,
-      "example": {
-        "title": "yes Dalton Kincaid: 4+,yes T.J. Hockenson: 4+,yes Dalton Kincaid: 40+,yes T.J. Hockenson: 50+",
-        "volume": 20.49,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ZQYQNQW7QAJLDFAI",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-09",
-      "topic": "Sports",
-      "volume1mo": 7.41,
-      "share_pct": 0.0034725151131730627,
-      "event_count": 1,
-      "example": {
-        "title": "yes Josh Allen: 250+,no Justin Jefferson: 50+",
-        "volume": 7.41,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026VYN3YQH4DWCMLB6B",
+        "title": "yes Robin Bertrand,yes Gilles Arnaud Bailly,yes Michael Geerts,yes Alex Bolt,yes Andrej Nedic,yes Oskari Paldanius,yes Radu Mihai Papoe,yes Ioannis Xilas,yes Thiago Agustin Tirante,yes Aleksandr Shevchenko,yes Alex Michelsen,yes Lorenzo Musetti,yes Lorenzo Sonego,yes Over 22.5 games,yes Over 21.5 games,yes Coco Gauff,yes Jessica Pegula,yes Jessica Pegula",
+        "volume": 28.57,
+        "event_ticker": "KXMVECROSSCATEGORY-S202636H6T7VGXR4GJTES",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Unclassified",
-      "volume1mo": "162431.92000000",
-      "share_pct": "76.11974319",
-      "event_count": "159"
+      "volume1mo": "91738.48000000",
+      "share_pct": "77.85188379",
+      "event_count": "136"
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Tech & Science",
-      "volume1mo": "43502.35000000",
-      "share_pct": "20.38631145",
-      "event_count": "21"
+      "volume1mo": "26070.15000000",
+      "share_pct": "22.12387090",
+      "event_count": "25"
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Geopolitics",
-      "volume1mo": "7363.51000000",
-      "share_pct": "3.45072871",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-11-09",
-      "topic": "Business/Economy",
-      "volume1mo": "64.32000000",
-      "share_pct": "0.03014199",
+      "volume1mo": "28.57000000",
+      "share_pct": "0.02424531",
       "event_count": "1"
     },
     {
-      "date": "2026-11-09",
-      "topic": "Crypto",
-      "volume1mo": "20.49000000",
-      "share_pct": "0.00960214",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-09",
-      "topic": "Sports",
-      "volume1mo": "7.41000000",
-      "share_pct": "0.00347252",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "topic": "Total",
-      "volume1mo": "213390.00000000",
+      "volume1mo": "117837.20000000",
       "share_pct": "100.00000000",
-      "event_count": "186"
+      "event_count": "162"
     }
   ]
 }

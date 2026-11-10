@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-09T07:55:43.815784+00:00",
-  "as_of": "2026-11-09",
+  "updated_at": "2026-11-10T08:23:46.204152+00:00",
+  "as_of": "2026-11-10",
   "rows_fetched": 5000,
-  "positive_rows": 186,
-  "sample_rows": 186,
-  "sum_volume1mo": 213390.00000000006,
-  "last_event_volume1mo": 0.13,
+  "positive_rows": 162,
+  "sample_rows": 162,
+  "sum_volume1mo": 117837.19999999994,
+  "last_event_volume1mo": 0.36,
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf"
 }
