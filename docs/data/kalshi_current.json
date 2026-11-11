@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 162,
-  "sample_rows": 162,
-  "sum_volume1mo": 117837.19999999994,
-  "last_event_volume1mo": 0.36,
+  "positive_rows": 183,
+  "sample_rows": 183,
+  "sum_volume1mo": 196162.42999999996,
+  "last_event_volume1mo": 0.06,
   "topics": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "topic": "Unclassified",
-      "volume1mo": 91738.47999999994,
-      "share_pct": 77.85188378542598,
-      "event_count": 136,
+      "volume1mo": 117895.76999999996,
+      "share_pct": 60.10109581126212,
+      "event_count": 138,
       "example": {
-        "title": "yes Dong / Yang,yes Huang / Lu,yes Eichenseher / Mueller,yes Bunyarit / Kamput,yes Vito Dell'elba,yes Alessandro Bellifemine,yes Ruben Hartig,yes Andrea Paolini,yes Zhao Zhao,yes Nazar Oliynykov,yes Mac Visser,yes Alexander Wagner,yes Alexandra Malova",
-        "volume": 15000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026U262VCRF6CLO2GSQ",
+        "title": "yes Alex Bolt,yes Taylor Fritz,yes Holger Rune,yes Casper Ruud,yes Team Falcons,yes Bahcesehir Koleji,yes CB 1939 Canarias,yes KK Partizan Belgrade,yes Boston,yes New York,yes Los Angeles L,yes San Antonio,yes Toledo,yes Central Michigan,yes Louisiana,yes Houston,yes UCLA,yes Southern Utah,yes Butler,yes Central Connecticut St.,yes The Citadel,yes Dayton,yes East Carolina,yes Clemson,yes Harvard,yes Houston Christian,yes University at Albany,yes Duquesne,yes Monmouth,yes Montana St.,yes North Carolina A&T,yes Nebraska,yes North Alabama,yes East Texas A&M,yes Kansas City,yes UTSA,yes Buffalo,yes Jacksonville,yes Los Angeles R,yes Kansas City,yes Buffalo,yes Carolina,yes Carolina,yes Nashville,yes Vegas,yes England Lions,yes Sri Lanka,yes Democratic party,yes Scott Colom",
+        "volume": 14285.71,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026QU2KHRTXDMNW7JZF",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "topic": "Tech & Science",
-      "volume1mo": 26070.149999999998,
-      "share_pct": 22.12387089985167,
-      "event_count": 25,
+      "volume1mo": 72016.66,
+      "share_pct": 36.71276910670408,
+      "event_count": 44,
       "example": {
-        "title": "yes Phoenix,yes Miami,yes New York,yes Orlando,yes Jayson Tatum: 20+,yes LeBron James: 10+,yes Jalen Brunson: 20+,yes Shai Gilgeous-Alexander: 25+,yes Buffalo,yes Houston,yes Jacksonville,yes Kansas City,yes Los Angeles R,yes Green Bay,yes Detroit,yes Cincinnati,yes Seattle,yes San Francisco,yes Baltimore,yes Chelsea,yes Manchester City,yes Bayern,yes Real Madrid,yes Roma,yes Spain,yes England,yes France,yes Belgium",
-        "volume": 7142.85,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026UW6QAODU2XOF3X6B",
+        "title": "yes August Holmgren,yes Alex Bolt,yes Mattia Bellucci,yes Henry Searle,yes Kilian Feldbausch,yes Daniel Altmaier,yes Sumit Nagal,yes Jurij Rodionov,yes Taylor Fritz,yes Casper Ruud,yes New Orleans wins by over 2.5 points,yes Over 222.5 points,yes USC,no Pittsburgh wins by over 2.5 goals,yes Over 3.5 goals scored",
+        "volume": 35119.04,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ZZGLOIVNRRR6HR4C",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-10",
-      "topic": "Geopolitics",
-      "volume1mo": 28.57,
-      "share_pct": 0.024245314722345757,
+      "date": "2026-11-11",
+      "topic": "Sports",
+      "volume1mo": 6250.0,
+      "share_pct": 3.186135082033803,
       "event_count": 1,
       "example": {
-        "title": "yes Robin Bertrand,yes Gilles Arnaud Bailly,yes Michael Geerts,yes Alex Bolt,yes Andrej Nedic,yes Oskari Paldanius,yes Radu Mihai Papoe,yes Ioannis Xilas,yes Thiago Agustin Tirante,yes Aleksandr Shevchenko,yes Alex Michelsen,yes Lorenzo Musetti,yes Lorenzo Sonego,yes Over 22.5 games,yes Over 21.5 games,yes Coco Gauff,yes Jessica Pegula,yes Jessica Pegula",
-        "volume": 28.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S202636H6T7VGXR4GJTES",
+        "title": "yes Bahcesehir Koleji,yes CB 1939 Canarias,yes KK Partizan Belgrade,yes Fenerbahce Istanbul,yes Hapoel Tel-Aviv,yes Boston,yes New York,yes Washington,yes Toledo,yes Central Michigan,yes East Texas A&M,yes Kansas City,yes New York G,yes Jacksonville,yes Detroit,yes Koege",
+        "volume": 6250.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026NBABZBU6DJH2FS2E",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "topic": "Unclassified",
-      "volume1mo": "91738.48000000",
-      "share_pct": "77.85188379",
-      "event_count": "136"
+      "volume1mo": "117895.77000000",
+      "share_pct": "60.10109581",
+      "event_count": "138"
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "topic": "Tech & Science",
-      "volume1mo": "26070.15000000",
-      "share_pct": "22.12387090",
-      "event_count": "25"
+      "volume1mo": "72016.66000000",
+      "share_pct": "36.71276911",
+      "event_count": "44"
     },
     {
-      "date": "2026-11-10",
-      "topic": "Geopolitics",
-      "volume1mo": "28.57000000",
-      "share_pct": "0.02424531",
+      "date": "2026-11-11",
+      "topic": "Sports",
+      "volume1mo": "6250.00000000",
+      "share_pct": "3.18613508",
       "event_count": "1"
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "topic": "Total",
-      "volume1mo": "117837.20000000",
+      "volume1mo": "196162.43000000",
       "share_pct": "100.00000000",
-      "event_count": "162"
+      "event_count": "183"
     }
   ]
 }
