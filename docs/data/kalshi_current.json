@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,18 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 183,
-  "sample_rows": 183,
-  "sum_volume1mo": 196162.42999999996,
-  "last_event_volume1mo": 0.06,
-  "topics": [
-    {
-      "date": "2026-11-11",
-      "topic": "Unclassified",
-      "volume1mo": 117895.76999999996,
-      "share_pct": 60.10109581126212,
-      "event_count": 138,
-      "example": {
-        "title": "yes Alex Bolt,yes Taylor Fritz,yes Holger Rune,yes Casper Ruud,yes Team Falcons,yes Bahcesehir Koleji,yes CB 1939 Canarias,yes KK Partizan Belgrade,yes Boston,yes New York,yes Los Angeles L,yes San Antonio,yes Toledo,yes Central Michigan,yes Louisiana,yes Houston,yes UCLA,yes Southern Utah,yes Butler,yes Central Connecticut St.,yes The Citadel,yes Dayton,yes East Carolina,yes Clemson,yes Harvard,yes Houston Christian,yes University at Albany,yes Duquesne,yes Monmouth,yes Montana St.,yes North Carolina A&T,yes Nebraska,yes North Alabama,yes East Texas A&M,yes Kansas City,yes UTSA,yes Buffalo,yes Jacksonville,yes Los Angeles R,yes Kansas City,yes Buffalo,yes Carolina,yes Carolina,yes Nashville,yes Vegas,yes England Lions,yes Sri Lanka,yes Democratic party,yes Scott Colom",
-        "volume": 14285.71,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026QU2KHRTXDMNW7JZF",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-11",
-      "topic": "Tech & Science",
-      "volume1mo": 72016.66,
-      "share_pct": 36.71276910670408,
-      "event_count": 44,
-      "example": {
-        "title": "yes August Holmgren,yes Alex Bolt,yes Mattia Bellucci,yes Henry Searle,yes Kilian Feldbausch,yes Daniel Altmaier,yes Sumit Nagal,yes Jurij Rodionov,yes Taylor Fritz,yes Casper Ruud,yes New Orleans wins by over 2.5 points,yes Over 222.5 points,yes USC,no Pittsburgh wins by over 2.5 goals,yes Over 3.5 goals scored",
-        "volume": 35119.04,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ZZGLOIVNRRR6HR4C",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-11",
-      "topic": "Sports",
-      "volume1mo": 6250.0,
-      "share_pct": 3.186135082033803,
-      "event_count": 1,
-      "example": {
-        "title": "yes Bahcesehir Koleji,yes CB 1939 Canarias,yes KK Partizan Belgrade,yes Fenerbahce Istanbul,yes Hapoel Tel-Aviv,yes Boston,yes New York,yes Washington,yes Toledo,yes Central Michigan,yes East Texas A&M,yes Kansas City,yes New York G,yes Jacksonville,yes Detroit,yes Koege",
-        "volume": 6250.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026NBABZBU6DJH2FS2E",
-        "category": "Exotics"
-      }
-    }
-  ],
+  "positive_rows": 0,
+  "sample_rows": 0,
+  "sum_volume1mo": 0,
+  "last_event_volume1mo": 0,
+  "topics": [],
   "topics_with_total": [
     {
-      "date": "2026-11-11",
-      "topic": "Unclassified",
-      "volume1mo": "117895.77000000",
-      "share_pct": "60.10109581",
-      "event_count": "138"
-    },
-    {
-      "date": "2026-11-11",
-      "topic": "Tech & Science",
-      "volume1mo": "72016.66000000",
-      "share_pct": "36.71276911",
-      "event_count": "44"
-    },
-    {
-      "date": "2026-11-11",
-      "topic": "Sports",
-      "volume1mo": "6250.00000000",
-      "share_pct": "3.18613508",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "topic": "Total",
-      "volume1mo": "196162.43000000",
+      "volume1mo": "0.00000000",
       "share_pct": "100.00000000",
-      "event_count": "183"
+      "event_count": "0"
     }
   ]
 }
