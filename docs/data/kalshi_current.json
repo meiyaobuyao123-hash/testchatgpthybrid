@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,18 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 0,
-  "sample_rows": 0,
-  "sum_volume1mo": 0,
-  "last_event_volume1mo": 0,
-  "topics": [],
+  "positive_rows": 147,
+  "sample_rows": 147,
+  "sum_volume1mo": 168408.52,
+  "last_event_volume1mo": 0.08,
+  "topics": [
+    {
+      "date": "2026-11-13",
+      "topic": "Unclassified",
+      "volume1mo": 86627.41999999997,
+      "share_pct": 51.438858319044655,
+      "event_count": 105,
+      "example": {
+        "title": "yes Braelon Allen: 30+,yes Jordan Mason: 45+,yes Zach Charbonnet: 60+,yes Derrick Henry: 70+,yes Chuba Hubbard: 1+,yes Bijan Robinson: 1+,yes Kenneth Walker III: 1+,yes Jonathan Taylor: 1+,yes Jahmyr Gibbs: 1+,yes Drake Maye: 1+,yes Aaron Rodgers: 1+,yes Jaxon Smith-Njigba: 1+,yes Derrick Henry: 1+",
+        "volume": 12500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026C7OMLYZHB4KSYNLO",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Tech & Science",
+      "volume1mo": 74872.93000000002,
+      "share_pct": 44.45911050106018,
+      "event_count": 35,
+      "example": {
+        "title": "yes Cape Verde,yes Egypt,yes Nigeria,yes Cleveland,yes New York,yes Portland,yes Houston,yes Pittsburgh,yes Houston,yes UCLA,yes Arizona,yes DePaul,yes UConn,yes Saint Mary's,yes Virginia,yes Vegas,yes New York R,yes Carolina,yes Azerbaijan,yes Netherlands,yes Scotland,yes Germany,yes Slovakia,no Kazakhstan wins by more than 1.5 goals,yes Mirra Andreeva",
+        "volume": 25000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026AV7763Q63PMH7PF7",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Geopolitics",
+      "volume1mo": 6908.170000000001,
+      "share_pct": 4.1020311798951745,
+      "event_count": 7,
+      "example": {
+        "title": "yes Houston,yes Austin Peay,yes Alabama,yes Notre Dame,yes Butler,yes Dayton,yes St. Thomas,yes Delaware St.,yes Lamar,yes Clemson,yes Jacksonville St.,yes Lehigh,yes University at Albany,yes Oregon,yes Georgia,yes Monmouth,yes Montana St.,yes Liberty,yes South Carolina St.,yes Nevada,yes Incarnate Word,yes Iowa,yes South Carolina,yes South Dakota St.,yes Stephen F. Austin,yes Tarleton St.,yes Tennessee,yes North Alabama,yes New Mexico,yes Wyoming",
+        "volume": 5681.81,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026KQC27QRTQYU5UF5F",
+        "category": "Exotics"
+      }
+    }
+  ],
   "topics_with_total": [
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
+      "topic": "Unclassified",
+      "volume1mo": "86627.42000000",
+      "share_pct": "51.43885832",
+      "event_count": "105"
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Tech & Science",
+      "volume1mo": "74872.93000000",
+      "share_pct": "44.45911050",
+      "event_count": "35"
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Geopolitics",
+      "volume1mo": "6908.17000000",
+      "share_pct": "4.10203118",
+      "event_count": "7"
+    },
+    {
+      "date": "2026-11-13",
       "topic": "Total",
-      "volume1mo": "0.00000000",
+      "volume1mo": "168408.52000000",
       "share_pct": "100.00000000",
-      "event_count": "0"
+      "event_count": "147"
     }
   ]
 }
