@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-11-14",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 131,
+  "sample_rows": 131,
+  "sum_volume1mo": 234791.91999999995,
+  "last_event_volume1mo": 0.42,
+  "topics": [
+    {
+      "date": "2026-11-14",
+      "topic": "Unclassified",
+      "volume1mo": 155413.9699999999,
+      "share_pct": 66.19221393990047,
+      "event_count": 94,
+      "example": {
+        "title": "yes Alabama,yes Butler,yes Central Connecticut St.,yes The Citadel,yes Brown,yes Dayton,yes Miami (FL),yes Clemson,yes Harvard,yes Colgate,yes University at Albany,yes Duquesne,yes Monmouth,yes North Carolina A&T,yes Nebraska,yes Ohio St.,yes Villanova,yes Wisconsin,yes Buffalo,yes New Orleans,yes Houston,yes Jacksonville,yes Kansas City,yes Los Angeles R,yes Indianapolis,yes Green Bay,yes Cincinnati,yes Seattle,yes San Francisco",
+        "volume": 28571.42,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BLSC6IASDSRQ2WQQ",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Geopolitics",
+      "volume1mo": 49816.54000000002,
+      "share_pct": 21.217314462950867,
+      "event_count": 19,
+      "example": {
+        "title": "yes China,yes Brazil,yes Iran,yes Almeria,yes Mallorca,yes Gijon,yes Valladolid,yes Washington,yes Austria,yes Kosovo,yes Northern Ireland,yes Norway,yes Portugal,yes Sweden",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026XCE7L5R6Y46NII5E",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Tech & Science",
+      "volume1mo": 29561.41,
+      "share_pct": 12.590471597148662,
+      "event_count": 18,
+      "example": {
+        "title": "yes Austin Peay,yes Alabama,yes Notre Dame,yes Butler,yes Campbell,yes Central Connecticut St.,yes Dayton,yes East Carolina,yes Lamar,yes Clemson,yes Harvard,yes Houston Christian,yes James Madison,yes Jacksonville St.,yes University at Albany,yes Duquesne,yes Monmouth,yes Montana St.,yes Liberty,yes South Carolina St.,yes North Dakota St.,yes Nevada,yes Boise St.,yes Iowa,yes South Dakota St.,yes Stephen F. Austin,yes Tarleton St.,yes Tennessee,yes Tulane,yes Alabama A&M,yes North Alabama,yes New Mexico,yes Louisiana Tech,yes Valparaiso,yes Wyoming",
+        "volume": 10000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026Q24D2IIS6J7YNJLQ",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-11-14",
+      "topic": "Unclassified",
+      "volume1mo": "155413.97000000",
+      "share_pct": "66.19221394",
+      "event_count": "94"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Geopolitics",
+      "volume1mo": "49816.54000000",
+      "share_pct": "21.21731446",
+      "event_count": "19"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Tech & Science",
+      "volume1mo": "29561.41000000",
+      "share_pct": "12.59047160",
+      "event_count": "18"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Total",
+      "volume1mo": "234791.92000000",
+      "share_pct": "100.00000000",
+      "event_count": "131"
+    }
+  ]
+}
