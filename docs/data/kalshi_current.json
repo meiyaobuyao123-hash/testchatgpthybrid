@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,79 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 131,
-  "sample_rows": 131,
-  "sum_volume1mo": 234791.91999999995,
-  "last_event_volume1mo": 0.42,
+  "positive_rows": 160,
+  "sample_rows": 160,
+  "sum_volume1mo": 268531.70999999996,
+  "last_event_volume1mo": 0.49,
   "topics": [
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Unclassified",
-      "volume1mo": 155413.9699999999,
-      "share_pct": 66.19221393990047,
-      "event_count": 94,
+      "volume1mo": 209278.93,
+      "share_pct": 77.93453145626638,
+      "event_count": 125,
       "example": {
-        "title": "yes Alabama,yes Butler,yes Central Connecticut St.,yes The Citadel,yes Brown,yes Dayton,yes Miami (FL),yes Clemson,yes Harvard,yes Colgate,yes University at Albany,yes Duquesne,yes Monmouth,yes North Carolina A&T,yes Nebraska,yes Ohio St.,yes Villanova,yes Wisconsin,yes Buffalo,yes New Orleans,yes Houston,yes Jacksonville,yes Kansas City,yes Los Angeles R,yes Indianapolis,yes Green Bay,yes Cincinnati,yes Seattle,yes San Francisco",
-        "volume": 28571.42,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BLSC6IASDSRQ2WQQ",
+        "title": "no Houston wins by over 3.5 points,yes Green Bay,no Jared Goff: 1+,yes Drake Maye: 1+,yes Kansas City wins by over 3.5 points,no Christian McCaffrey: 2+,yes Chuba Hubbard: 1+",
+        "volume": 56657.22,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026PHV6BWBYO4MYPJCB",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Geopolitics",
-      "volume1mo": 49816.54000000002,
-      "share_pct": 21.217314462950867,
-      "event_count": 19,
+      "volume1mo": 31051.649999999998,
+      "share_pct": 11.56349468001377,
+      "event_count": 14,
       "example": {
-        "title": "yes China,yes Brazil,yes Iran,yes Almeria,yes Mallorca,yes Gijon,yes Valladolid,yes Washington,yes Austria,yes Kosovo,yes Northern Ireland,yes Norway,yes Portugal,yes Sweden",
-        "volume": 20000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026XCE7L5R6Y46NII5E",
+        "title": "no LeBron James: 5+,yes Tyrese Maxey: 1+,yes Luka Don\u010di\u0107: 3+,yes Jalen Brunson: 1+,no Kentavious Caldwell-Pope: 15+,no Dillon Brooks: 25+,yes Pascal Siakam: 15+,yes LeBron James: 10+,yes Devin Booker: 15+,no Tyrese Maxey: 8+,yes Ivica Zubac: 6+,yes VJ Edgecombe: 2+,no Breece Hall,no Jalen Coker,no Woody Marks,no Travis Kelce,no Tyler Allgeier,no Tyler Warren,no Hunter Henry,no Ashton Jeanty,no Josh Allen: 25+,no Fernando Mendoza: 3+,no Fernando Mendoza: 3+,yes Josh Allen: 1+,yes Bryce Young: 1+,yes Patrick Mahomes: 1+,yes Josh Allen: 150+,yes Geno Smith: 150+,yes Bryce Young: 175+,yes Tyler Shough: 175+,yes Deshaun Watson: 150+,yes C.J. Stroud: 150+,yes Trevor Lawrence: 150+,yes Cam Ward: 125+,yes Michael Penix Jr.: 150+,yes Patrick Mahomes: 150+,yes Carson Beck: 100+,yes Matthew Stafford: 125+,yes Daniel Jones: 100+,yes Kyle McCord: 100+,yes Jordan Love: 175+,yes Kirk Cousins: 150+,yes Jared Goff: 175+,yes Drake Maye: 175+,yes Joe Burrow: 200+,yes Fernando Mendoza: 125+,yes Drew Lock: 125+,yes Brock Purdy: 175+,no CJ Daniels: 5+,no Kyren Williams: 6+,yes Jaxon Smith-Njigba: 4+,yes Dalton Kincaid: 15+,yes Adonai Mitchell: 10+,yes Omar Cooper Jr.: 15+,yes Denzel Boston: 15+,yes Nico Collins: 25+,yes Tank Dell: 10+,yes Brenton Strange: 10+,yes Jakobi Meyers: 15+,yes Parker Washington: 25+,yes Rashee Rice: 25+,yes Travis Kelce: 20+,yes Trey McBride: 30+,yes Tyler Warren: 20+,yes Caleb Douglas: 15+,yes Malik Washington: 10+,yes Christian Watson: 30+,yes Matthew Golden: 30+,yes Justin Jefferson: 40+,yes Amon-Ra St. Brown: 40+,yes Jameson Williams: 20+,yes Sam LaPorta: 15+,yes George Pickens: 25+,yes Deebo Samuel Sr.: 10+,yes George Kittle: 25+,no Jadarian Price: 110+,no Zach Charbonnet: 130+,no Justice Hill: 55+,no Mike Washington Jr.: 12+,no Ashton Jeanty: 90+,no Fernando Mendoza: 40+,no Mike Washington Jr.: 70+,no Jadarian Price: 100+,no Zach Charbonnet: 120+,no Jackson Hawes: 1+,no Keleki Latu: 1+,no Ray Davis: 1+,no Geno Smith: 1+,no John Metchie III: 1+,no Trevor Etienne: 1+,no Bryce Lance: 1+,no Denzel Boston: 2+,no Quinshon Judkins: 2+,no Nico Collins: 2+,no Woody Marks: 2+,no Bhayshul Tuten: 3+,no Parker Washington: 3+,no Austin Hooper: 1+,no Charlie Woerner: 1+,no Michael Penix Jr.: 1+,no Olamide Zaccheaus: 1+,no Andrew Armstrong: 1+,no Cyrus Allen: 1+,no Jalen Royals: 1+,no Noah Gray: 1+,no ARI Cardinals D/ST: 1+,no Carson Beck: 1+,no Devin Duvernay: 1+,no Elijah Higgins: 1+,no Evan Hull: 1+,no Simi Fehoko: 1+,no Teagan Quitoriano: 1+,no Matthew Stafford: 1+,no Xavier Smith: 1+,no Jonathan Taylor: 3+,no Ollie Gordon II: 2+,no Amon-Ra St. Brown: 2+,no Jahmyr Gibbs: 3+,no Jameson Williams: 3+,no Drake Maye: 2+,no Jack Bech: 1+,no Eric Saubert: 1+,no Emanuel Wilson: 1+,no George Holani: 1+,no Tory Horton: 1+,no George Kittle: 3+",
+        "volume": 8341.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026Q57JXU3YIOUHB57W",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Tech & Science",
-      "volume1mo": 29561.41,
-      "share_pct": 12.590471597148662,
-      "event_count": 18,
+      "volume1mo": 28201.12999999999,
+      "share_pct": 10.501973863719854,
+      "event_count": 21,
       "example": {
-        "title": "yes Austin Peay,yes Alabama,yes Notre Dame,yes Butler,yes Campbell,yes Central Connecticut St.,yes Dayton,yes East Carolina,yes Lamar,yes Clemson,yes Harvard,yes Houston Christian,yes James Madison,yes Jacksonville St.,yes University at Albany,yes Duquesne,yes Monmouth,yes Montana St.,yes Liberty,yes South Carolina St.,yes North Dakota St.,yes Nevada,yes Boise St.,yes Iowa,yes South Dakota St.,yes Stephen F. Austin,yes Tarleton St.,yes Tennessee,yes Tulane,yes Alabama A&M,yes North Alabama,yes New Mexico,yes Louisiana Tech,yes Valparaiso,yes Wyoming",
-        "volume": 10000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026Q24D2IIS6J7YNJLQ",
+        "title": "yes Belarus,yes Croatia,yes Spain,yes Tie,yes France,yes Tie,yes Over 1.5 goals scored",
+        "volume": 7142.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026OXEGJOLZ5POTIGOX",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Unclassified",
-      "volume1mo": "155413.97000000",
-      "share_pct": "66.19221394",
-      "event_count": "94"
+      "volume1mo": "209278.93000000",
+      "share_pct": "77.93453146",
+      "event_count": "125"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Geopolitics",
-      "volume1mo": "49816.54000000",
-      "share_pct": "21.21731446",
-      "event_count": "19"
+      "volume1mo": "31051.65000000",
+      "share_pct": "11.56349468",
+      "event_count": "14"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Tech & Science",
-      "volume1mo": "29561.41000000",
-      "share_pct": "12.59047160",
-      "event_count": "18"
+      "volume1mo": "28201.13000000",
+      "share_pct": "10.50197386",
+      "event_count": "21"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "topic": "Total",
-      "volume1mo": "234791.92000000",
+      "volume1mo": "268531.71000000",
       "share_pct": "100.00000000",
-      "event_count": "131"
+      "event_count": "160"
     }
   ]
 }
