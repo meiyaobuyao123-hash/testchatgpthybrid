@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 160,
-  "sample_rows": 160,
-  "sum_volume1mo": 268531.70999999996,
-  "last_event_volume1mo": 0.49,
+  "positive_rows": 186,
+  "sample_rows": 186,
+  "sum_volume1mo": 213114.6600000001,
+  "last_event_volume1mo": 1.03,
   "topics": [
     {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "topic": "Unclassified",
-      "volume1mo": 209278.93,
-      "share_pct": 77.93453145626638,
-      "event_count": 125,
+      "volume1mo": 153290.52000000008,
+      "share_pct": 71.92866037465467,
+      "event_count": 161,
       "example": {
-        "title": "no Houston wins by over 3.5 points,yes Green Bay,no Jared Goff: 1+,yes Drake Maye: 1+,yes Kansas City wins by over 3.5 points,no Christian McCaffrey: 2+,yes Chuba Hubbard: 1+",
-        "volume": 56657.22,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026PHV6BWBYO4MYPJCB",
+        "title": "yes Carlos Alcaraz,yes Daniil Medvedev,yes Carlos Alcaraz,yes Carlos Alcaraz,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score",
+        "volume": 28571.42,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026OQZGLTL5WIKYT54H",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-15",
-      "topic": "Geopolitics",
-      "volume1mo": 31051.649999999998,
-      "share_pct": 11.56349468001377,
-      "event_count": 14,
-      "example": {
-        "title": "no LeBron James: 5+,yes Tyrese Maxey: 1+,yes Luka Don\u010di\u0107: 3+,yes Jalen Brunson: 1+,no Kentavious Caldwell-Pope: 15+,no Dillon Brooks: 25+,yes Pascal Siakam: 15+,yes LeBron James: 10+,yes Devin Booker: 15+,no Tyrese Maxey: 8+,yes Ivica Zubac: 6+,yes VJ Edgecombe: 2+,no Breece Hall,no Jalen Coker,no Woody Marks,no Travis Kelce,no Tyler Allgeier,no Tyler Warren,no Hunter Henry,no Ashton Jeanty,no Josh Allen: 25+,no Fernando Mendoza: 3+,no Fernando Mendoza: 3+,yes Josh Allen: 1+,yes Bryce Young: 1+,yes Patrick Mahomes: 1+,yes Josh Allen: 150+,yes Geno Smith: 150+,yes Bryce Young: 175+,yes Tyler Shough: 175+,yes Deshaun Watson: 150+,yes C.J. Stroud: 150+,yes Trevor Lawrence: 150+,yes Cam Ward: 125+,yes Michael Penix Jr.: 150+,yes Patrick Mahomes: 150+,yes Carson Beck: 100+,yes Matthew Stafford: 125+,yes Daniel Jones: 100+,yes Kyle McCord: 100+,yes Jordan Love: 175+,yes Kirk Cousins: 150+,yes Jared Goff: 175+,yes Drake Maye: 175+,yes Joe Burrow: 200+,yes Fernando Mendoza: 125+,yes Drew Lock: 125+,yes Brock Purdy: 175+,no CJ Daniels: 5+,no Kyren Williams: 6+,yes Jaxon Smith-Njigba: 4+,yes Dalton Kincaid: 15+,yes Adonai Mitchell: 10+,yes Omar Cooper Jr.: 15+,yes Denzel Boston: 15+,yes Nico Collins: 25+,yes Tank Dell: 10+,yes Brenton Strange: 10+,yes Jakobi Meyers: 15+,yes Parker Washington: 25+,yes Rashee Rice: 25+,yes Travis Kelce: 20+,yes Trey McBride: 30+,yes Tyler Warren: 20+,yes Caleb Douglas: 15+,yes Malik Washington: 10+,yes Christian Watson: 30+,yes Matthew Golden: 30+,yes Justin Jefferson: 40+,yes Amon-Ra St. Brown: 40+,yes Jameson Williams: 20+,yes Sam LaPorta: 15+,yes George Pickens: 25+,yes Deebo Samuel Sr.: 10+,yes George Kittle: 25+,no Jadarian Price: 110+,no Zach Charbonnet: 130+,no Justice Hill: 55+,no Mike Washington Jr.: 12+,no Ashton Jeanty: 90+,no Fernando Mendoza: 40+,no Mike Washington Jr.: 70+,no Jadarian Price: 100+,no Zach Charbonnet: 120+,no Jackson Hawes: 1+,no Keleki Latu: 1+,no Ray Davis: 1+,no Geno Smith: 1+,no John Metchie III: 1+,no Trevor Etienne: 1+,no Bryce Lance: 1+,no Denzel Boston: 2+,no Quinshon Judkins: 2+,no Nico Collins: 2+,no Woody Marks: 2+,no Bhayshul Tuten: 3+,no Parker Washington: 3+,no Austin Hooper: 1+,no Charlie Woerner: 1+,no Michael Penix Jr.: 1+,no Olamide Zaccheaus: 1+,no Andrew Armstrong: 1+,no Cyrus Allen: 1+,no Jalen Royals: 1+,no Noah Gray: 1+,no ARI Cardinals D/ST: 1+,no Carson Beck: 1+,no Devin Duvernay: 1+,no Elijah Higgins: 1+,no Evan Hull: 1+,no Simi Fehoko: 1+,no Teagan Quitoriano: 1+,no Matthew Stafford: 1+,no Xavier Smith: 1+,no Jonathan Taylor: 3+,no Ollie Gordon II: 2+,no Amon-Ra St. Brown: 2+,no Jahmyr Gibbs: 3+,no Jameson Williams: 3+,no Drake Maye: 2+,no Jack Bech: 1+,no Eric Saubert: 1+,no Emanuel Wilson: 1+,no George Holani: 1+,no Tory Horton: 1+,no George Kittle: 3+",
-        "volume": 8341.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026Q57JXU3YIOUHB57W",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "topic": "Tech & Science",
-      "volume1mo": 28201.12999999999,
-      "share_pct": 10.501973863719854,
-      "event_count": 21,
+      "volume1mo": 30268.070000000003,
+      "share_pct": 14.202716040276156,
+      "event_count": 18,
       "example": {
-        "title": "yes Belarus,yes Croatia,yes Spain,yes Tie,yes France,yes Tie,yes Over 1.5 goals scored",
-        "volume": 7142.85,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026OXEGJOLZ5POTIGOX",
+        "title": "yes Christopher O'Connell,yes Jake Delaney,yes Inaki Montes-de la Torre,yes Nikoloz Basilashvili,yes Nicolai Budkov Kjaer,yes Jacob Fearnley,yes Jonas Forejtek,yes Kimmer Coppejans,yes Cezar Cretu (b. 2001),yes Dino Prizmic,yes Clement Tabur,yes Ugo Blanchet,yes Hugo Grenier,yes Andrea Guerrieri,yes Calvin Hemery,yes Toby Samuel,yes Luka Mikrut,yes Shintaro Mochizuki,yes Sumit Nagal,yes Luca Nardi,yes Svyatoslav Gulin,yes Alexander Ritschard,yes Carlos Taberner,yes Carlos Alcaraz",
+        "volume": 25000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026QRJMGUXSRAPQLKY7",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Business/Economy",
+      "volume1mo": 20500.0,
+      "share_pct": 9.619235016492995,
+      "event_count": 2,
+      "example": {
+        "title": "yes Christopher O'Connell,yes Akira Santillan,yes Marat Sharipov,yes Nikoloz Basilashvili,yes Jonas Forejtek,yes Moez Echargui,yes Dino Prizmic,yes Matej Dodig,yes Sebastian Dominko,yes Ugo Blanchet,yes Hugo Grenier,yes Hunter Heck,yes Calvin Hemery,yes Giles Hussey,yes Nicolas Kicker,yes Lui Maxted,yes Felipe Meligeni Alves,yes Luka Mikrut,yes Bryce Nakashima,yes Luca Nardi,yes Svyatoslav Gulin,yes Alexander Ritschard,yes Oriol Roca Batalla,yes Carlos Sanchez Jover,yes Carlos Taberner,yes Gonzalo Villanueva,yes Marcel Granollers / Horacio Zeballos,yes Christian Harrison / Neal Skupski,yes Carlos Alcaraz,yes Daniil Medvedev,yes Cuba,yes Guadeloupe,yes Guyana,yes Azerbaijan,yes Bozo Barun,yes Ammar Elamin,yes Allan Gatoto,yes Jack Karlsson Wistrand,yes Phil Dungs,yes Josh Manuel,yes Aashravya Mehra,yes Taymur Muhammad,yes Jules Fabre,yes Priyanshu Choudhary,yes Chengyiyi Yuan,yes Bianca Elena Barbulescu,yes Michaela Bayerlova,yes Sophie Bekker,yes Jade Bornay,yes Anna Burchak,yes Alexandra Biot,yes Maria Garcia Cid,yes Ella Haavisto,yes Sarina Schnyder,yes Mariia Lazarenko,yes Briana Szabo,yes Anna Petkovic,yes Giulia Safina Popa,yes Amelia Rajecki,yes Pia Lovric,yes Tina Nadine Smith,yes Laura Svatikova,yes Jana Otzipka,yes Ida Wobker,yes Tijuana,yes Toluca,yes Santos Laguna,yes America,yes Guadalajara,yes Queretaro,yes Dallas,yes Miami,yes Philadelphia,yes Chicago Fire,yes Golden State,yes Houston,yes Memphis,yes Boston,yes Philadelphia,yes Denver,yes Minnesota,yes Clemson,yes St. Thomas,yes Tulsa,yes Rutgers,yes Arkansas,yes Louisiana-Monroe,yes Bryant,yes Xavier,yes Colgate,yes High Point,yes Southern Miss,yes Tulane,yes Duquesne,yes Middle Tennessee,yes Northern Colorado,yes UTSA,yes Kansas City,yes UNC Wilmington,yes Yale,yes Baltimore wins by over 3.5 points,yes Baltimore,yes Baltimore,no Zay Flowers: 10+,no Omarion Hampton: 50+,yes Montreal,yes Utah,yes England Lions,yes Madhya Pradesh,yes Uttarakhand,yes Tamil Nadu,yes Uttar Pradesh,yes Mumbai,yes Estonia,yes Faroe Islands,yes Germany,yes Malta,yes Greece,yes Iceland,yes Slovakia,yes Lithuania,yes Slovenia,yes Switzerland,yes Bangladesh,yes Maharashtra Women,yes Sydney Thunder Women,yes Ireland,yes Sri Lanka,yes Ireland,yes United Arab Emirates,yes Nuria Brancaccio,yes Guiomar Maristany Zuleta de Reales,yes Rebeka Masarova",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026JPKLLEQTOV7LSM3N",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Culture",
+      "volume1mo": 8264.46,
+      "share_pct": 3.877940635336863,
+      "event_count": 1,
+      "example": {
+        "title": "yes Nikoloz Basilashvili,yes Kaylan Bigun,yes Pedro Boscardin Dias,yes Jacob Fearnley,yes Dino Prizmic,yes Sebastian Dominko,yes Hunter Heck,yes Giles Hussey,yes Lui Maxted,yes Felipe Meligeni Alves,yes Luca Nardi,yes Alexander Ritschard,yes Carlos Sanchez Jover,yes Carlos Alcaraz,yes Carlos Alcaraz,yes Carlos Alcaraz,yes Daniil Medvedev,yes Bozo Barun,yes Aashravya Mehra,yes Jade Bornay,yes Anna Petkovic,yes Aneta Kucmova,yes Tina Nadine Smith,yes Mika Stojsavljevic,yes Laura Svatikova,yes Rebeka Masarova",
+        "volume": 8264.46,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026VHTBMLTBOFYYDXVC",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Geopolitics",
+      "volume1mo": 768.72,
+      "share_pct": 0.3607072361891949,
+      "event_count": 3,
+      "example": {
+        "title": "yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Boston,yes Philadelphia,yes Over 213.5 points,yes Over 197.5 points,yes Over 202.5 points,yes Over 204.5 points,yes Over 189.5 points,yes Over 202.5 points,yes Over 202.5 points,yes Over 204.5 points,yes Oklahoma St.,yes Clemson,yes Eastern Kentucky,yes Oregon St.,yes Georgia,yes Virginia Tech,yes Delaware,yes Over 0.5 goals scored,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored,yes Over 0.5 goals scored",
+        "volume": 584.43,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026BXHXIZCTXJR3VD6L",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Sports",
+      "volume1mo": 22.89,
+      "share_pct": 0.010740697050123154,
+      "event_count": 1,
+      "example": {
+        "title": "yes Target Price: $64,869.84,no Target Price: $6.12150,yes Target Price: $0.0588186,yes Target Price: $1,818.92,yes Target Price: $3,854.11,yes Target Price: $66.4767,no Target Price: $3.51831,yes Cleveland,yes Boston,yes Philadelphia,yes Denver,yes Target Price: $3.1878,no Target Price: $47.452,yes Target Price: $0.9578",
+        "volume": 22.89,
+        "event_ticker": "KXMVECROSSCATEGORY-S20264NRX7WLGUVTJOSOQ",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "topic": "Unclassified",
-      "volume1mo": "209278.93000000",
-      "share_pct": "77.93453146",
-      "event_count": "125"
+      "volume1mo": "153290.52000000",
+      "share_pct": "71.92866037",
+      "event_count": "161"
     },
     {
-      "date": "2026-11-15",
-      "topic": "Geopolitics",
-      "volume1mo": "31051.65000000",
-      "share_pct": "11.56349468",
-      "event_count": "14"
-    },
-    {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "topic": "Tech & Science",
-      "volume1mo": "28201.13000000",
-      "share_pct": "10.50197386",
-      "event_count": "21"
+      "volume1mo": "30268.07000000",
+      "share_pct": "14.20271604",
+      "event_count": "18"
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
+      "topic": "Business/Economy",
+      "volume1mo": "20500.00000000",
+      "share_pct": "9.61923502",
+      "event_count": "2"
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Culture",
+      "volume1mo": "8264.46000000",
+      "share_pct": "3.87794064",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Geopolitics",
+      "volume1mo": "768.72000000",
+      "share_pct": "0.36070724",
+      "event_count": "3"
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Sports",
+      "volume1mo": "22.89000000",
+      "share_pct": "0.01074070",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-16",
       "topic": "Total",
-      "volume1mo": "268531.71000000",
+      "volume1mo": "213114.66000000",
       "share_pct": "100.00000000",
-      "event_count": "160"
+      "event_count": "186"
     }
   ]
 }
