@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,18 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 204,
-  "sample_rows": 204,
-  "sum_volume1mo": 160035.14,
-  "last_event_volume1mo": 0.04,
-  "topics": [
-    {
-      "date": "2026-11-18",
-      "topic": "Unclassified",
-      "volume1mo": 94536.72000000002,
-      "share_pct": 59.07247620741295,
-      "event_count": 129,
-      "example": {
-        "title": "yes Sebastian Dominko,yes Spencer Johnson,yes Ozan Baris,yes Carlos Alcaraz,yes Flavio Cobolli,yes Ben Shelton,yes PARIVISION,yes KK Cedevita Olimpija Ljubljana,yes Real Madrid,yes John Hallquist Lithen,yes Josip Simundza,yes Luka Talan Lopatic,yes Houston,yes Miami,yes Los Angeles L,yes Toronto,yes UMass,yes Florida,yes Notre Dame,yes Houston,yes Real Madrid,yes Over 1.5 goals scored,yes Guiomar Maristany Zuleta de Reales,yes Polona Hercog",
-        "volume": 20360.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026VKIJJFP3TFB6DLM2",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Tech & Science",
-      "volume1mo": 45704.35000000001,
-      "share_pct": 28.558946491376837,
-      "event_count": 62,
-      "example": {
-        "title": "yes Clement Chidekh,yes Jacob Fearnley,yes Svyatoslav Gulin,yes Toby Samuel,yes Spencer Johnson,yes Jack Kennedy,yes Cannon Kingsley,yes Michele Ribecai,yes Ozan Baris",
-        "volume": 21739.13,
-        "event_ticker": "KXMVECROSSCATEGORY-S20264SON5KWGSQF5APLA",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Business/Economy",
-      "volume1mo": 16434.46,
-      "share_pct": 10.269282108916828,
-      "event_count": 7,
-      "example": {
-        "title": "yes Gabriel Debru,yes Anton Arzhankin,yes Pierre Yves Bailly,yes Amr Elsayed,yes Jannik Maute,yes Federico Bondioli,yes Lorenzo Carboni,yes Nikita Mashtakov,yes Damien Salvestre,yes Cem Christopher Kucukhuseyin,yes Fares Zakaria,yes Julio Cesar Porras,yes Semen Pankin,yes Dmitry Popko,yes Ali Yazdani,yes Aleksandra Pozarenko",
-        "volume": 11666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20267WRCRGRFAP6CPGH6",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Geopolitics",
-      "volume1mo": 3359.61,
-      "share_pct": 2.0992951922933925,
-      "event_count": 6,
-      "example": {
-        "title": "yes Hong-Lin Fu,yes Dmitry Popko,yes Chicago,yes Houston,yes Kansas City,yes Carolina,yes Jacksonville,yes Denver,yes Buffalo,yes San Francisco,yes Chicago,yes Los Angeles C,yes Pittsburgh,yes Detroit,yes Dallas,yes Cincinnati,yes C.J. Stroud: 2+,yes C.J. Stroud: 200+,yes Josh Allen: 150+,yes Caleb Williams: 225+,yes Cam Ward: 200+,yes Dalton Schultz: 2+,yes Nico Collins: 4+,yes Jonathan Taylor: 13+,yes Jonathan Taylor: 50+,yes Seth McGowan: 30+,yes James Cook III: 60+,yes Ollie Gordon II: 60+,yes Tyler Shough: 15+,yes Emmett Johnson: 1+,yes Chuba Hubbard: 1+,yes Jaylen Warren: 1+,yes Jahmyr Gibbs: 1+",
-        "volume": 1428.57,
-        "event_ticker": "KXMVECROSSCATEGORY-S20266O5XGNOEB5ES2OF3",
-        "category": "Exotics"
-      }
-    }
-  ],
+  "positive_rows": 0,
+  "sample_rows": 0,
+  "sum_volume1mo": 0,
+  "last_event_volume1mo": 0,
+  "topics": [],
   "topics_with_total": [
     {
-      "date": "2026-11-18",
-      "topic": "Unclassified",
-      "volume1mo": "94536.72000000",
-      "share_pct": "59.07247621",
-      "event_count": "129"
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Tech & Science",
-      "volume1mo": "45704.35000000",
-      "share_pct": "28.55894649",
-      "event_count": "62"
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Business/Economy",
-      "volume1mo": "16434.46000000",
-      "share_pct": "10.26928211",
-      "event_count": "7"
-    },
-    {
-      "date": "2026-11-18",
-      "topic": "Geopolitics",
-      "volume1mo": "3359.61000000",
-      "share_pct": "2.09929519",
-      "event_count": "6"
-    },
-    {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "topic": "Total",
-      "volume1mo": "160035.14000000",
+      "volume1mo": "0.00000000",
       "share_pct": "100.00000000",
-      "event_count": "204"
+      "event_count": "0"
     }
   ]
 }
