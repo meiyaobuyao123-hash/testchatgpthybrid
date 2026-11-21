@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,99 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 169,
-  "sample_rows": 169,
-  "sum_volume1mo": 244714.28999999995,
-  "last_event_volume1mo": 0.2,
+  "positive_rows": 146,
+  "sample_rows": 146,
+  "sum_volume1mo": 167087.67000000004,
+  "last_event_volume1mo": 0.18,
   "topics": [
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Unclassified",
-      "volume1mo": 166524.89999999994,
-      "share_pct": 68.0487028362749,
-      "event_count": 134,
+      "volume1mo": 155531.35000000003,
+      "share_pct": 93.0836787657641,
+      "event_count": 135,
       "example": {
-        "title": "yes Utah,yes Florida,yes Toronto,yes Calgary,yes Carolina,yes Ottawa,yes Minnesota,yes New Jersey,yes New York I,yes Montreal,yes Pittsburgh,yes Seattle,yes Vegas,yes Boston",
-        "volume": 40000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026D26Y3QNERSYVKDPY",
+        "title": "yes Dortmund,yes Leverkusen,yes Leipzig,yes West Ham,yes Aston Villa,yes Chelsea,yes Manchester City,yes Arsenal,yes Real Madrid,yes Real Betis,yes PSG,yes BYU,yes Indiana,yes Memphis,yes Tennessee Tech,yes Texas Tech,yes UCLA,yes UNC Greensboro,yes Florida St.,yes Como,yes Lazio,yes Roma",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026MLW6WCQCECB2VZXY",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Tech & Science",
-      "volume1mo": 77247.99,
-      "share_pct": 31.566603650322183,
-      "event_count": 31,
+      "volume1mo": 10489.469999999998,
+      "share_pct": 6.27782409079018,
+      "event_count": 9,
       "example": {
-        "title": "yes Alabama wins by over 13.5 points,yes Wake Forest wins by over 6.5 points,yes Ole Miss wins by over 20.5 points,yes Toledo,yes Air Force,yes BYU,yes Army,yes Furman,yes Houston,yes Indiana,yes Texas Tech,yes UNLV,yes North Texas,yes Florida,yes Texas St.,no Duke wins by over 27.5 points,no UCF wins by over 10.5 points,no New Mexico wins by over 21.5 points,no Kansas St. wins by over 3.5 points,no Tulsa wins by over 38.5 points,no Colorado wins by over 7.5 points,no New Mexico St. wins by over 7.5 points,no LSU wins by over 10.5 points,no Navy wins by over 7.5 points,no Northwestern wins by over 14.5 points,no Nebraska wins by over 7.5 points,no Texas A&M wins by over 3.5 points,no Michigan wins by over 7.5 points,no Georgia wins by over 35.5 points,no Kentucky wins by over 7.5 points,no Virginia wins by over 10.5 points,no Purdue wins by over 3.5 points,yes Over 45.5 points,yes Over 48.5 points,yes Florida St.,no Oklahoma St. wins by over 10.5 points,no Temple wins by over 15.5 points,yes Aleksandre Topuria",
-        "volume": 35000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BE4VZBK6JB3GDZ33",
+        "title": "yes Gilles Arnaud Bailly,yes Thilo Behrmann,yes Duje Ajdukovic,yes Dev Javia,yes Marek Gengel,yes Sasikumar Mukund,yes Hazem Naw,yes Aziz Ouakaa,yes Dmitry Popko,yes Henry Searle,yes Fausto Tabacco,yes Grammatikopoulou / Matoula,yes Mara Guth,yes Doga Turkmen,yes Giorgia Pedone,yes Diana-Ioana Simionescu",
+        "volume": 4444.44,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026JOAJCCP54RXKJNCI",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Geopolitics",
-      "volume1mo": 608.34,
-      "share_pct": 0.24859193960434436,
-      "event_count": 2,
+      "volume1mo": 1040.0,
+      "share_pct": 0.6224277350926013,
+      "event_count": 1,
       "example": {
-        "title": "yes Chuba Hubbard: 100+,yes James Cook III: 110+,yes D'Andre Swift: 80+,yes Saquon Barkley: 80+,yes Jaylen Warren: 90+,yes Jahmyr Gibbs: 130+,yes Bucky Irving: 90+",
-        "volume": 574.71,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026VZEBCOA4YSDOZ5GI",
+        "title": "yes Dak Prescott: 2+,yes Geno Smith: 200+,yes Jared Goff: 250+,yes Dak Prescott: 275+,yes Joe Burrow: 275+,yes Adonai Mitchell: 40+,yes Garrett Wilson: 50+,yes Amon-Ra St. Brown: 70+,yes Jameson Williams: 40+,yes CeeDee Lamb: 80+,yes George Pickens: 60+,yes Ja'Marr Chase: 90+,yes Tee Higgins: 70+,yes Chuba Hubbard: 14+,yes Bhayshul Tuten: 15+,yes Cam Skattebo: 13+,yes Jonah Coleman: 14+,yes James Cook III: 21+,yes Aaron Jones Sr.: 6+,yes Jordan Mason: 10+,yes Christian McCaffrey: 11+,yes Kaelon Black: 5+,yes D'Andre Swift: 15+,yes Kyle Monangai: 11+,yes Saquon Barkley: 16+,yes Jaylen Warren: 12+,yes Rico Dowdle: 7+,yes Emmett Johnson: 50+,yes Derrick Henry: 40+,yes Bhayshul Tuten: 60+,yes Jonah Coleman: 60+,yes Fernando Mendoza: 10+,yes Josh Allen: 25+,yes James Cook III: 80+,yes D'Andre Swift: 50+,yes Kyle Monangai: 40+,yes Jaylen Warren: 50+,yes Rico Dowdle: 25+,yes Jahmyr Gibbs: 80+",
+        "volume": 1040.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026LRLHNBVQLZYSCO7W",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Business/Economy",
-      "volume1mo": 333.06,
-      "share_pct": 0.1361015737985714,
-      "event_count": 2,
+      "volume1mo": 26.85,
+      "share_pct": 0.01606940835311187,
+      "event_count": 1,
       "example": {
-        "title": "yes Hitesh Chauhan,yes Duje Ajdukovic,yes Giulio Perego,yes Bernardo Munk Mesa,yes Aziz Ouakaa,yes Federico Iannaccone,yes Filippo Romano,yes Gabriel Debru",
-        "volume": 290.69,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026NEBCCYZ6XRI33HBT",
+        "title": "yes Over 1.5 goals scored,yes Aston Villa,yes Bournemouth,yes PSG",
+        "volume": 26.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S202675OC3XRKIPOITTRM",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Unclassified",
-      "volume1mo": "166524.90000000",
-      "share_pct": "68.04870284",
-      "event_count": "134"
+      "volume1mo": "155531.35000000",
+      "share_pct": "93.08367877",
+      "event_count": "135"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Tech & Science",
-      "volume1mo": "77247.99000000",
-      "share_pct": "31.56660365",
-      "event_count": "31"
+      "volume1mo": "10489.47000000",
+      "share_pct": "6.27782409",
+      "event_count": "9"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Geopolitics",
-      "volume1mo": "608.34000000",
-      "share_pct": "0.24859194",
-      "event_count": "2"
+      "volume1mo": "1040.00000000",
+      "share_pct": "0.62242774",
+      "event_count": "1"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Business/Economy",
-      "volume1mo": "333.06000000",
-      "share_pct": "0.13610157",
-      "event_count": "2"
+      "volume1mo": "26.85000000",
+      "share_pct": "0.01606941",
+      "event_count": "1"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "topic": "Total",
-      "volume1mo": "244714.29000000",
+      "volume1mo": "167087.67000000",
       "share_pct": "100.00000000",
-      "event_count": "169"
+      "event_count": "146"
     }
   ]
 }
