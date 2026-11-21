@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-11-21",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 146,
+  "sample_rows": 146,
+  "sum_volume1mo": 167087.67000000004,
+  "last_event_volume1mo": 0.18,
+  "topics": [
+    {
+      "date": "2026-11-21",
+      "topic": "Unclassified",
+      "volume1mo": 155531.35000000003,
+      "share_pct": 93.0836787657641,
+      "event_count": 135,
+      "example": {
+        "title": "yes Dortmund,yes Leverkusen,yes Leipzig,yes West Ham,yes Aston Villa,yes Chelsea,yes Manchester City,yes Arsenal,yes Real Madrid,yes Real Betis,yes PSG,yes BYU,yes Indiana,yes Memphis,yes Tennessee Tech,yes Texas Tech,yes UCLA,yes UNC Greensboro,yes Florida St.,yes Como,yes Lazio,yes Roma",
+        "volume": 20000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026MLW6WCQCECB2VZXY",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Tech & Science",
+      "volume1mo": 10489.469999999998,
+      "share_pct": 6.27782409079018,
+      "event_count": 9,
+      "example": {
+        "title": "yes Gilles Arnaud Bailly,yes Thilo Behrmann,yes Duje Ajdukovic,yes Dev Javia,yes Marek Gengel,yes Sasikumar Mukund,yes Hazem Naw,yes Aziz Ouakaa,yes Dmitry Popko,yes Henry Searle,yes Fausto Tabacco,yes Grammatikopoulou / Matoula,yes Mara Guth,yes Doga Turkmen,yes Giorgia Pedone,yes Diana-Ioana Simionescu",
+        "volume": 4444.44,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026JOAJCCP54RXKJNCI",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Geopolitics",
+      "volume1mo": 1040.0,
+      "share_pct": 0.6224277350926013,
+      "event_count": 1,
+      "example": {
+        "title": "yes Dak Prescott: 2+,yes Geno Smith: 200+,yes Jared Goff: 250+,yes Dak Prescott: 275+,yes Joe Burrow: 275+,yes Adonai Mitchell: 40+,yes Garrett Wilson: 50+,yes Amon-Ra St. Brown: 70+,yes Jameson Williams: 40+,yes CeeDee Lamb: 80+,yes George Pickens: 60+,yes Ja'Marr Chase: 90+,yes Tee Higgins: 70+,yes Chuba Hubbard: 14+,yes Bhayshul Tuten: 15+,yes Cam Skattebo: 13+,yes Jonah Coleman: 14+,yes James Cook III: 21+,yes Aaron Jones Sr.: 6+,yes Jordan Mason: 10+,yes Christian McCaffrey: 11+,yes Kaelon Black: 5+,yes D'Andre Swift: 15+,yes Kyle Monangai: 11+,yes Saquon Barkley: 16+,yes Jaylen Warren: 12+,yes Rico Dowdle: 7+,yes Emmett Johnson: 50+,yes Derrick Henry: 40+,yes Bhayshul Tuten: 60+,yes Jonah Coleman: 60+,yes Fernando Mendoza: 10+,yes Josh Allen: 25+,yes James Cook III: 80+,yes D'Andre Swift: 50+,yes Kyle Monangai: 40+,yes Jaylen Warren: 50+,yes Rico Dowdle: 25+,yes Jahmyr Gibbs: 80+",
+        "volume": 1040.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026LRLHNBVQLZYSCO7W",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Business/Economy",
+      "volume1mo": 26.85,
+      "share_pct": 0.01606940835311187,
+      "event_count": 1,
+      "example": {
+        "title": "yes Over 1.5 goals scored,yes Aston Villa,yes Bournemouth,yes PSG",
+        "volume": 26.85,
+        "event_ticker": "KXMVECROSSCATEGORY-S202675OC3XRKIPOITTRM",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-11-21",
+      "topic": "Unclassified",
+      "volume1mo": "155531.35000000",
+      "share_pct": "93.08367877",
+      "event_count": "135"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Tech & Science",
+      "volume1mo": "10489.47000000",
+      "share_pct": "6.27782409",
+      "event_count": "9"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Geopolitics",
+      "volume1mo": "1040.00000000",
+      "share_pct": "0.62242774",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Business/Economy",
+      "volume1mo": "26.85000000",
+      "share_pct": "0.01606941",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Total",
+      "volume1mo": "167087.67000000",
+      "share_pct": "100.00000000",
+      "event_count": "146"
+    }
+  ]
+}
