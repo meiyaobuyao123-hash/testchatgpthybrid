@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,79 +9,139 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 130,
-  "sample_rows": 130,
-  "sum_volume1mo": 378348.30000000005,
-  "last_event_volume1mo": 0.75,
+  "positive_rows": 228,
+  "sample_rows": 228,
+  "sum_volume1mo": 385349.85,
+  "last_event_volume1mo": 0.13,
   "topics": [
     {
-      "date": "2026-11-22",
-      "topic": "Unclassified",
-      "volume1mo": 244577.24000000005,
-      "share_pct": 64.64340926072617,
-      "event_count": 100,
-      "example": {
-        "title": "no Brighton,no Liverpool,yes Barcelona,yes Atletico,no Osasuna,yes Real Sociedad,yes Over 2.5 goals scored,yes Milan,yes Inter,yes Tie,yes Juventus,yes Sassuolo",
-        "volume": 142857.14,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026TWUVE4TFUVYGNUUA",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "topic": "Tech & Science",
-      "volume1mo": 126168.49,
-      "share_pct": 33.34718036264468,
-      "event_count": 23,
+      "volume1mo": 249669.36999999997,
+      "share_pct": 64.79031197235446,
+      "event_count": 30,
       "example": {
-        "title": "yes Bayern Munich,yes Mainz,yes Wolverhampton,no Swansea wins by more than 1.5 goals,no Hull City,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Ajax,yes Barcelona,yes Atletico,yes Real Betis,yes Real Madrid,yes Over 2.5 goals scored,yes Marseille,yes Paris FC,yes PSG,yes Nashville,yes Milan,yes Juventus,yes Inter,yes Como,yes Manchester City,yes Real Madrid,yes Real Betis,yes Atletico,yes Inter,yes Bayern Munich,yes PSG,yes Barcelona",
-        "volume": 97000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026ZG6UUC6MXKJISQPN",
+        "title": "yes Al Ain,yes Al-Ittihad,yes Al Hilal,yes Hammarby,yes Middlesbrough,yes Almeria,yes Donovan Mitchell: 20+,yes Alperen Sengun: 15+,yes Kevin Durant: 15+,yes Brandon Ingram: 10+,yes Scottie Barnes: 15+,yes Devin Booker: 20+,yes Jaylen Brown: 15+,yes Tyrese Maxey: 20+,yes Deni Avdija: 15+,yes Darius Acuff Jr.: 15+,yes Victor Wembanyama: 20+,yes Minnesota wins by over 1.5 points,yes Houston wins by over 7.5 points,yes Memphis wins by over 1.5 points,yes Toronto wins by over 1.5 points,yes Oklahoma City wins by over 1.5 points,yes Philadelphia wins by over 1.5 points,yes San Antonio wins by over 5.5 points,yes Los Angeles L wins by over 9.5 points,yes Wichita St.,yes Santa Clara,yes Florida International,yes North Carolina,yes Oregon St.,yes BYU,yes Belmont,yes Cincinnati wins by over 2.5 points,yes Aris Thessaloniki",
+        "volume": 226222.22,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026OI2KZD5BFBIEB2HQ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-22",
-      "topic": "Geopolitics",
-      "volume1mo": 7602.57,
-      "share_pct": 2.009410376629153,
-      "event_count": 7,
+      "date": "2026-11-23",
+      "topic": "Unclassified",
+      "volume1mo": 108088.92000000003,
+      "share_pct": 28.049555488343913,
+      "event_count": 169,
       "example": {
-        "title": "yes Tyler Allgeier: 20+,yes Derrick Henry: 40+,yes Justice Hill: 10+,yes Chuba Hubbard: 60+,yes Bhayshul Tuten: 50+,yes Cam Skattebo: 30+,yes Josh Allen: 15+,yes James Cook III: 100+,yes Ollie Gordon II: 40+,yes Aaron Jones Sr.: 20+,yes Christian McCaffrey: 25+,yes D'Andre Swift: 40+,yes Omarion Hampton: 30+,yes Braelon Allen: 15+,yes Joe Milton III: 30+,yes Jaylen Warren: 50+,yes Jahmyr Gibbs: 70+,yes Bucky Irving: 50+,yes Javonte Williams: 60+,yes Tony Pollard: 50+,yes Chase Brown: 25+,yes Jayden Daniels: 15+",
-        "volume": 4615.38,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026FKYHOCIYMC7KPWZE",
+        "title": "no Target Price: $558.60,no Target Price: $61,397.03,yes Target Price: $0.0555882,no Target Price: $1,722.04,yes Target Price: $63.4772,yes Target Price: $2.9986,yes Target Price: $72.3485,yes Target Price: $0.9391,no Target Price: $793.6397",
+        "volume": 14314.28,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026QX2L7CZAZCAJ6YXW",
+        "category": ""
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Business/Economy",
+      "volume1mo": 20854.430000000004,
+      "share_pct": 5.411817339490337,
+      "event_count": 15,
+      "example": {
+        "title": "yes Ryo Tabata,yes Javier Barranco Cosano,yes Santiago De la Fuente,yes Thiago Cigarran,yes Jose Pereira,yes Oscar Jose Gutierrez,yes Connor Huertas Del Pino,yes Franco Ribero,yes Nicolas Zanellato,yes Federico Arnaboldi,yes Gilles Arnaud Bailly,yes Alberto Barroso Campos,yes Gianluca Cadenasso,yes Anton Chekhov,yes Matthew William Donald,yes Calvin Hemery,yes Federico Iannaccone,yes Oliver Okonkwo,yes Jacopo Vasami,yes Imanol Lopez Morillo,yes Vardan Manukyan,yes Oleksandr Ovcharenko,yes Mert Naci Turker,yes Joshua Sheehy",
+        "volume": 10605.76,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026T4KM7BZOPG3R7VGG",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Geopolitics",
+      "volume1mo": 5932.52,
+      "share_pct": 1.5395153261380536,
+      "event_count": 9,
+      "example": {
+        "title": "yes Al-Ittihad,yes Al Hilal,yes Hammarby,no Brentford wins by more than 2.5 goals,yes Over 1.5 goals scored,no Elche wins by more than 2.5 goals,yes Over 1.5 goals scored,no Saint Louis wins by more than 2.5 goals,yes Over 1.5 goals scored,no Brandon Miller: 5+,no Coby White: 4+,no Naz Reid: 4+,no Sion James: 4+,no Cedric Coward: 4+,no Cam Spencer: 4+,no Toumani Camara: 5+,no Cam Spencer: 8+,no Immanuel Quickley: 10+,no Scottie Barnes: 8+,no Anfernee Simons: 4+,no Joel Embiid: 8+,no VJ Edgecombe: 8+,no Brandon Miller: 30+,no Naz Reid: 25+,no Cedric Coward: 25+,no Ty Jerome: 30+,no Immanuel Quickley: 30+,no Devin Booker: 35+,no Dillon Brooks: 20+,no Jaylen Brown: 30+,no Joel Embiid: 30+,no LeBron James: 25+,no Damian Lillard: 30+,no Royce O'Neale: 8+,no Sion James: 8+,no Cedric Coward: 10+,no Isaiah Stewart: 8+,no Zach Edey: 10+,no Collin Murray-Boyles: 10+,no Joel Embiid: 12+,no Deni Avdija: 10+,no Donovan Clingan: 16+,no Damian Lillard: 8+,no Sidy Cissoko: 8+,no Indiana wins by over 14.5 points,no Portland wins by over 12.5 points,no Monza wins by more than 1.5 goals,yes Over 1.5 goals scored",
+        "volume": 2500.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026EJQCIGMGJK6CFA7L",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Culture",
+      "volume1mo": 572.0600000000001,
+      "share_pct": 0.14845211435790104,
+      "event_count": 4,
+      "example": {
+        "title": "yes Ryo Tabata,yes Santiago De la Fuente,yes Oscar Jose Gutierrez,yes Gabi Adrian Boitan,yes Anton Chekhov,yes Matthew William Donald,yes Miles Jones,yes Oliver Okonkwo,yes Anas Mazdrashki,yes Vardan Manukyan,yes Robert Guna,yes Mert Naci Turker,yes Melih Anavatan",
+        "volume": 300.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026UHCTVLMJGK4B5HQQ",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Crypto",
+      "volume1mo": 232.55,
+      "share_pct": 0.06034775931533386,
+      "event_count": 1,
+      "example": {
+        "title": "yes Darius Cooper,yes Joe Milton III: 150+,yes DeVonta Smith: 70+,yes Joe Milton III: 30+,yes CeeDee Lamb: 1+,yes Dak Prescott: 1+,yes George Pickens: 1+,yes DeVonta Smith: 1+,yes Will Shipley: 1+",
+        "volume": 232.55,
+        "event_ticker": "KXMVECROSSCATEGORY-S20262KEZ7WDFBXRP4BMW",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-22",
-      "topic": "Unclassified",
-      "volume1mo": "244577.24000000",
-      "share_pct": "64.64340926",
-      "event_count": "100"
-    },
-    {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "topic": "Tech & Science",
-      "volume1mo": "126168.49000000",
-      "share_pct": "33.34718036",
-      "event_count": "23"
+      "volume1mo": "249669.37000000",
+      "share_pct": "64.79031197",
+      "event_count": "30"
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
+      "topic": "Unclassified",
+      "volume1mo": "108088.92000000",
+      "share_pct": "28.04955549",
+      "event_count": "169"
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Business/Economy",
+      "volume1mo": "20854.43000000",
+      "share_pct": "5.41181734",
+      "event_count": "15"
+    },
+    {
+      "date": "2026-11-23",
       "topic": "Geopolitics",
-      "volume1mo": "7602.57000000",
-      "share_pct": "2.00941038",
-      "event_count": "7"
+      "volume1mo": "5932.52000000",
+      "share_pct": "1.53951533",
+      "event_count": "9"
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
+      "topic": "Culture",
+      "volume1mo": "572.06000000",
+      "share_pct": "0.14845211",
+      "event_count": "4"
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Crypto",
+      "volume1mo": "232.55000000",
+      "share_pct": "0.06034776",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-23",
       "topic": "Total",
-      "volume1mo": "378348.30000000",
+      "volume1mo": "385349.85000000",
       "share_pct": "100.00000000",
-      "event_count": "130"
+      "event_count": "228"
     }
   ]
 }
