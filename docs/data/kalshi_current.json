@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,119 +9,18 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 197,
-  "sample_rows": 197,
-  "sum_volume1mo": 170277.69999999998,
-  "last_event_volume1mo": 0.93,
-  "topics": [
-    {
-      "date": "2026-11-25",
-      "topic": "Unclassified",
-      "volume1mo": 121369.06,
-      "share_pct": 71.2771314153292,
-      "event_count": 158,
-      "example": {
-        "title": "yes Both Teams To Score,yes Stoke,yes Over 1.5 goals scored,yes Over 0.5 goals scored,yes Atletico,yes Real Betis,yes Real Madrid,yes Over 1.5 goals scored,yes Frosinone,yes Inter,yes Over 1.5 goals scored,yes Both Teams To Score,yes Both Teams To Score,yes Both Teams To Score,yes Inter,yes Bayern Munich,yes Barcelona wins by more than 2.5 goals,yes Roma: 3+,yes Inter over 1.5 goals,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored",
-        "volume": 11111.11,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026AOVGAVXHGC3I3S4T",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Tech & Science",
-      "volume1mo": 46431.99999999999,
-      "share_pct": 27.26839744722885,
-      "event_count": 33,
-      "example": {
-        "title": "yes Gamba,yes Kashima,yes Dubai Basketball,yes BC Olympiakos Piraeus,yes Tegevajaro,yes Iwaki FC,yes Shonan,yes Tosu,yes Urawa,yes Frontale,yes Toluca,yes Memphis,yes Houston,yes Golden State,yes St. Bonaventure,yes Charlotte,yes Dallas,yes Pittsburgh,yes Liverpool,yes Inter,yes Bayern Munich,yes PSG,yes Fenerbahce,yes Villarreal,yes Julia Riera",
-        "volume": 16666.66,
-        "event_ticker": "KXMVECROSSCATEGORY-S20265A5AOAP2OSVMHXJA",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Culture",
-      "volume1mo": 1743.65,
-      "share_pct": 1.024003730376908,
-      "event_count": 3,
-      "example": {
-        "title": "yes Leonardo Storck Franca,yes Pedro Boscardin Dias,yes Diego Dedura,yes Matthew William Donald,yes Menelaos Efstathiou,yes Ergi Kirkin,yes Andres Martin,yes Diogo Morais,yes Leonardo Borrelli,yes Matthias Ujvary,yes Vlad Cristian Breazu,yes Samuel Garcia Hernandez,yes Jiri Cizek,yes Gian Luca Tanner",
-        "volume": 833.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026CKYH6TVWFX2WIU2P",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Sports",
-      "volume1mo": 503.59,
-      "share_pct": 0.2957463014828131,
-      "event_count": 1,
-      "example": {
-        "title": "yes Davion Mitchell: 4+,yes LaMelo Ball: 4+,yes Julius Randle: 15+,yes Tyler Herro: 15+,yes Brandon Miller: 15+,yes Coby White: 10+,yes Naz Reid: 10+,yes James Harden: 10+,yes Jalen Brunson: 20+,yes Karl-Anthony Towns: 15+,yes Darius Garland: 10+,yes Rui Hachimura: 10+,yes Ty Jerome: 15+,yes Bam Adebayo: 10+,yes Jaylen Brown: 15+,yes LeBron James: 10+,yes Jaden McDaniels: 10+,yes Shai Gilgeous-Alexander: 30+,yes Alperen Sengun: 15+,yes Jabari Smith Jr.: 10+,yes Kevin Durant: 20+,yes Brandin Podziemski: 10+,yes Darius Acuff Jr.: 15+,yes Domantas Sabonis: 10+,yes Zach LaVine: 10+",
-        "volume": 503.59,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026NBABL56SDBG3LPZY",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Geopolitics",
-      "volume1mo": 229.4,
-      "share_pct": 0.1347211055822342,
-      "event_count": 2,
-      "example": {
-        "title": "yes James Harden: 1+,yes Jalen Brunson: 1+,yes Rui Hachimura: 1+,yes Ty Jerome: 1+,yes Tyrese Maxey: 1+,yes Fred VanVleet: 1+,yes Devin Booker: 1+,yes Darius Acuff Jr.: 1+,yes Zach LaVine: 1+,yes Josh Giddey: 6+,yes Davion Mitchell: 4+,yes Tyrese Maxey: 4+,yes Alperen Sengun: 4+,yes Cedric Coward: 10+,yes Cam Spencer: 5+,yes Devin Booker: 15+,yes Darius Acuff Jr.: 15+,yes Zach LaVine: 10+,yes Bam Adebayo: 4+,yes Giannis Antetokounmpo: 10+,yes VJ Edgecombe: 2+,yes Jonathan Kuminga: 2+,yes Jaden McDaniels: 4+,yes Isaiah Hartenstein: 8+,yes Shai Gilgeous-Alexander: 2+,yes Alperen Sengun: 6+,yes Amen Thompson: 4+,yes Kevin Durant: 2+",
-        "volume": 164.47,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026NVZXBTXGPZOFEOGG",
-        "category": "Exotics"
-      }
-    }
-  ],
+  "positive_rows": 0,
+  "sample_rows": 0,
+  "sum_volume1mo": 0,
+  "last_event_volume1mo": 0,
+  "topics": [],
   "topics_with_total": [
     {
-      "date": "2026-11-25",
-      "topic": "Unclassified",
-      "volume1mo": "121369.06000000",
-      "share_pct": "71.27713142",
-      "event_count": "158"
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Tech & Science",
-      "volume1mo": "46432.00000000",
-      "share_pct": "27.26839745",
-      "event_count": "33"
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Culture",
-      "volume1mo": "1743.65000000",
-      "share_pct": "1.02400373",
-      "event_count": "3"
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Sports",
-      "volume1mo": "503.59000000",
-      "share_pct": "0.29574630",
-      "event_count": "1"
-    },
-    {
-      "date": "2026-11-25",
-      "topic": "Geopolitics",
-      "volume1mo": "229.40000000",
-      "share_pct": "0.13472111",
-      "event_count": "2"
-    },
-    {
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "topic": "Total",
-      "volume1mo": "170277.70000000",
+      "volume1mo": "0.00000000",
       "share_pct": "100.00000000",
-      "event_count": "197"
+      "event_count": "0"
     }
   ]
 }
