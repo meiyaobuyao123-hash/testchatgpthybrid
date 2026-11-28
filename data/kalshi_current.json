@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-11-28",
+  "platform": "Kalshi",
+  "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "params": {
+    "limit": 500,
+    "cursor": "paginated",
+    "metric": "volume_fp"
+  },
+  "rows_fetched": 5000,
+  "positive_rows": 154,
+  "sample_rows": 154,
+  "sum_volume1mo": 209509.42000000004,
+  "last_event_volume1mo": 2.45,
+  "topics": [
+    {
+      "date": "2026-11-28",
+      "topic": "Unclassified",
+      "volume1mo": 177399.39000000004,
+      "share_pct": 84.67370584100705,
+      "event_count": 139,
+      "example": {
+        "title": "yes Bayern Munich,yes Aston Villa,yes Leeds United,yes Brighton,yes Liverpool,yes Bournemouth,yes Over 2.5 goals scored,yes Atletico,yes Real Madrid,yes Barcelona,yes Over 1.5 goals scored,no Over 4.5 goals scored,yes Lens,yes PSG,yes Over 2.5 goals scored,yes Oklahoma City,yes Orlando,yes Inter,yes Lazio,yes Napoli",
+        "volume": 30000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SZ7P4OF5WQLMIBFQ",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Tech & Science",
+      "volume1mo": 32082.75,
+      "share_pct": 15.313273264753438,
+      "event_count": 13,
+      "example": {
+        "title": "yes Lehigh,yes Army,yes Alabama,yes Miami (FL),yes Boise St.,yes BYU,yes Central Michigan,yes UConn,yes Tennessee Tech,yes Wake Forest,yes Georgia,yes Harvard,yes North Dakota,yes Northwestern,yes Liberty,yes Northern Arizona,yes Louisville,yes LSU,yes Louisiana Tech,yes Ohio St.,yes Marshall,yes Navy,yes North Carolina,yes Notre Dame,yes Penn St.,yes Indiana,yes Hawai'i,yes Florida International,yes Tennessee,yes Old Dominion",
+        "volume": 16666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265EQSHKY5RPG6AQVH",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Business/Economy",
+      "volume1mo": 21.03,
+      "share_pct": 0.010037734818797169,
+      "event_count": 1,
+      "example": {
+        "title": "yes UCLA over 16.5 points,yes USC over 20.5 points",
+        "volume": 21.03,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DXYFJZCJKBMBREVS",
+        "category": "Exotics"
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Geopolitics",
+      "volume1mo": 6.25,
+      "share_pct": 0.0029831594207076696,
+      "event_count": 1,
+      "example": {
+        "title": "yes Paardekooper / Torcq,yes Kamath / Warik,yes Anton Arzhankin,yes Rihards Neimanis,yes Karan Singh,yes Kris van Wyk",
+        "volume": 6.25,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ST4US7ZCJ6R2APIP",
+        "category": "Exotics"
+      }
+    }
+  ],
+  "topics_with_total": [
+    {
+      "date": "2026-11-28",
+      "topic": "Unclassified",
+      "volume1mo": "177399.39000000",
+      "share_pct": "84.67370584",
+      "event_count": "139"
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Tech & Science",
+      "volume1mo": "32082.75000000",
+      "share_pct": "15.31327326",
+      "event_count": "13"
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Business/Economy",
+      "volume1mo": "21.03000000",
+      "share_pct": "0.01003773",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Geopolitics",
+      "volume1mo": "6.25000000",
+      "share_pct": "0.00298316",
+      "event_count": "1"
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Total",
+      "volume1mo": "209509.42000000",
+      "share_pct": "100.00000000",
+      "event_count": "154"
+    }
+  ]
+}
