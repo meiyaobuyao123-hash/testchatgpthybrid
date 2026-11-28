@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "platform": "Kalshi",
   "metric_label": "\u7d2f\u8ba1\u6210\u4ea4\u91cf",
   "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
@@ -9,139 +9,99 @@
     "metric": "volume_fp"
   },
   "rows_fetched": 5000,
-  "positive_rows": 247,
-  "sample_rows": 247,
-  "sum_volume1mo": 213240.4999999999,
-  "last_event_volume1mo": 0.28,
+  "positive_rows": 154,
+  "sample_rows": 154,
+  "sum_volume1mo": 209509.42000000004,
+  "last_event_volume1mo": 2.45,
   "topics": [
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Unclassified",
-      "volume1mo": 184450.6599999999,
-      "share_pct": 86.49888740647296,
-      "event_count": 203,
+      "volume1mo": 177399.39000000004,
+      "share_pct": 84.67370584100705,
+      "event_count": 139,
       "example": {
-        "title": "yes Minnesota,yes Mississippi St.,yes Nebraska,yes Illinois,yes Kentucky,yes Arkansas,yes Michigan",
-        "volume": 20000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20262FQR2SIQVUNKQ65S",
+        "title": "yes Bayern Munich,yes Aston Villa,yes Leeds United,yes Brighton,yes Liverpool,yes Bournemouth,yes Over 2.5 goals scored,yes Atletico,yes Real Madrid,yes Barcelona,yes Over 1.5 goals scored,no Over 4.5 goals scored,yes Lens,yes PSG,yes Over 2.5 goals scored,yes Oklahoma City,yes Orlando,yes Inter,yes Lazio,yes Napoli",
+        "volume": 30000.0,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026SZ7P4OF5WQLMIBFQ",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Tech & Science",
-      "volume1mo": 14695.57,
-      "share_pct": 6.891547337396041,
+      "volume1mo": 32082.75,
+      "share_pct": 15.313273264753438,
       "event_count": 13,
       "example": {
-        "title": "yes Macarthur,yes Bremen,yes Bayern Munich,yes Mainz,yes Stuttgart,yes Birmingham,yes Wolverhampton,yes Liverpool,yes Manchester City,yes Leeds United,yes Brighton,yes PSG,yes Toronto,yes Detroit,yes Philadelphia,yes Minnesota,yes Cleveland,yes Cincinnati,yes San Francisco,yes Jacksonville,yes New Jersey,yes Boston,yes Frosinone,yes Inter,yes Roma",
-        "volume": 4285.71,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026BWMBEOCXFC45LIG3",
+        "title": "yes Lehigh,yes Army,yes Alabama,yes Miami (FL),yes Boise St.,yes BYU,yes Central Michigan,yes UConn,yes Tennessee Tech,yes Wake Forest,yes Georgia,yes Harvard,yes North Dakota,yes Northwestern,yes Liberty,yes Northern Arizona,yes Louisville,yes LSU,yes Louisiana Tech,yes Ohio St.,yes Marshall,yes Navy,yes North Carolina,yes Notre Dame,yes Penn St.,yes Indiana,yes Hawai'i,yes Florida International,yes Tennessee,yes Old Dominion",
+        "volume": 16666.66,
+        "event_ticker": "KXMVECROSSCATEGORY-S20265EQSHKY5RPG6AQVH",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-27",
-      "topic": "Geopolitics",
-      "volume1mo": 5690.849999999999,
-      "share_pct": 2.668747259549664,
-      "event_count": 12,
-      "example": {
-        "title": "yes Pittsburgh,yes Bo Nix: 2+,yes Mason Rudolph: 2+,yes Bo Nix: 175+,yes Mason Rudolph: 175+,yes Jaylen Waddle: 30+,yes Jaylen Warren: 20+,yes Max Hurleman: 10+,yes Pat Freiermuth: 20+,yes Jaylen Warren: 30+,yes Jaylen Warren: 1+,yes Over 31.5 points",
-        "volume": 2460.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S20264IKW2HQB4QTFKPP5",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Business/Economy",
-      "volume1mo": 5664.95,
-      "share_pct": 2.6566013491808556,
-      "event_count": 11,
+      "volume1mo": 21.03,
+      "share_pct": 0.010037734818797169,
+      "event_count": 1,
       "example": {
-        "title": "yes Gilles Arnaud Bailly,yes Federico Bondioli,yes Thomas Faurel,yes Andres Martin,yes Kesharwani / Sureshkumar,yes Anton Arzhankin,yes Daniel Siniakov,yes Rafael Giotis,yes Mickael Kaouk,yes Peter Makk,yes Rihards Neimanis,yes Andrea Paolini,yes William Rejchtman Vinciguerra,yes Conor Gannon,yes Kris van Wyk,yes Sebastian Sorger,yes Manish Sureshkumar,yes Alejandro Garcia Carbajal,yes Gavrila / Sakellaridi,yes Korokozidi / Matoula,yes An Lin / Yodpetch,yes Esther Adeshina,yes Kristina Dmitruk,yes Aliona Falei,yes Anna Petkovic,yes Anna Kubareva,yes Suzan Lamens,yes Giorgia Pedone,yes Greet Minnen,yes Karla Popovic,yes Sandra Samir,yes Nellie Taraba Wallberg,yes Amelia Honer,yes Elizara Yaneva",
-        "volume": 2083.33,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026M5OLQRVVL3K2CSTF",
+        "title": "yes UCLA over 16.5 points,yes USC over 20.5 points",
+        "volume": 21.03,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026DXYFJZCJKBMBREVS",
         "category": "Exotics"
       }
     },
     {
-      "date": "2026-11-27",
-      "topic": "Sports",
-      "volume1mo": 2175.67,
-      "share_pct": 1.0202892977647309,
-      "event_count": 3,
+      "date": "2026-11-28",
+      "topic": "Geopolitics",
+      "volume1mo": 6.25,
+      "share_pct": 0.0029831594207076696,
+      "event_count": 1,
       "example": {
-        "title": "yes Binghamton,yes Texas St.,yes DePaul,yes Southern Miss,yes Bucknell,yes BYU,yes Clemson,yes Missouri,yes Buffalo,yes Northern Illinois,yes Oklahoma St.,yes Loyola Marymount,yes St. John's,yes TCU,yes Tennessee Tech,yes Louisiana,yes UIC,yes UTSA,yes UT Arlington",
-        "volume": 1000.0,
-        "event_ticker": "KXMVECROSSCATEGORY-S2026D65O3JNHLAJ2ALQ2",
-        "category": "Exotics"
-      }
-    },
-    {
-      "date": "2026-11-27",
-      "topic": "Crypto",
-      "volume1mo": 562.8000000000001,
-      "share_pct": 0.26392734963574005,
-      "event_count": 5,
-      "example": {
-        "title": "yes Denver,yes Minnesota,yes Houston,yes Cincinnati,yes New York G,yes New York J,yes San Francisco,yes Washington,yes Tampa Bay,no Las Vegas wins by over 3.5 points,no Los Angeles C wins by over 3.5 points,no Jacksonville wins by over 20.5 points",
-        "volume": 537.88,
-        "event_ticker": "KXMVECROSSCATEGORY0-S20263LK6XO5ENT4THXRP",
+        "title": "yes Paardekooper / Torcq,yes Kamath / Warik,yes Anton Arzhankin,yes Rihards Neimanis,yes Karan Singh,yes Kris van Wyk",
+        "volume": 6.25,
+        "event_ticker": "KXMVECROSSCATEGORY-S2026ST4US7ZCJ6R2APIP",
         "category": "Exotics"
       }
     }
   ],
   "topics_with_total": [
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Unclassified",
-      "volume1mo": "184450.66000000",
-      "share_pct": "86.49888741",
-      "event_count": "203"
+      "volume1mo": "177399.39000000",
+      "share_pct": "84.67370584",
+      "event_count": "139"
     },
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Tech & Science",
-      "volume1mo": "14695.57000000",
-      "share_pct": "6.89154734",
+      "volume1mo": "32082.75000000",
+      "share_pct": "15.31327326",
       "event_count": "13"
     },
     {
-      "date": "2026-11-27",
-      "topic": "Geopolitics",
-      "volume1mo": "5690.85000000",
-      "share_pct": "2.66874726",
-      "event_count": "12"
-    },
-    {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Business/Economy",
-      "volume1mo": "5664.95000000",
-      "share_pct": "2.65660135",
-      "event_count": "11"
+      "volume1mo": "21.03000000",
+      "share_pct": "0.01003773",
+      "event_count": "1"
     },
     {
-      "date": "2026-11-27",
-      "topic": "Sports",
-      "volume1mo": "2175.67000000",
-      "share_pct": "1.02028930",
-      "event_count": "3"
+      "date": "2026-11-28",
+      "topic": "Geopolitics",
+      "volume1mo": "6.25000000",
+      "share_pct": "0.00298316",
+      "event_count": "1"
     },
     {
-      "date": "2026-11-27",
-      "topic": "Crypto",
-      "volume1mo": "562.80000000",
-      "share_pct": "0.26392735",
-      "event_count": "5"
-    },
-    {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "topic": "Total",
-      "volume1mo": "213240.50000000",
+      "volume1mo": "209509.42000000",
       "share_pct": "100.00000000",
-      "event_count": "247"
+      "event_count": "154"
     }
   ]
 }
